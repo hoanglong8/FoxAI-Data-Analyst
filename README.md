@@ -1,5 +1,9 @@
 # FoxAI-Data-Analyst
-Quản lý công việc và nhân sự của phòng Data Analyst - Công ty FoxAI
+Quản lý công việc và nhân sự của phòng Data Analyst - Công ty FoxAI:
+* Công tác phát triển đội ngũ
+* Công tác nghiên cứu và phát triển sản phẩm AI
+* Công tác hỗ trợ và nghiệm thu sản phẩm Power BI
+* Công tác nghiên cứu và phát triển sản phẩm "Hợp nhất báo cáo tài chính"
 
 ## 1.Công tác phát triển đội ngũ
 * Chiến lược nhân sự 5 năm 2025-2030 (căn cứ vào chiến lược phát triển của công ty).
@@ -10,7 +14,7 @@ Quản lý công việc và nhân sự của phòng Data Analyst - Công ty FoxA
 * Quản lý chi phí phát sinh của bộ phận (lương, R&D...)
 
 ## 2. Công tác nghiên cứu và phát triển sản phẩm AI
-* Chatbot AI cho FoxAI => chuẩn để đóng gói, đem đi demo
+* Chatbot AI cho FoxAI (Mục tiêu chuẩn hóa để đóng gói, sử dụng khi demo)
 * Chatbot AI cho khách hàng
 * Xây dựng mô hình machine learning cho khối data của FoxAI
 
