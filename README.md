@@ -12,8 +12,10 @@ Quản lý công việc và nhân sự của phòng Data Analyst - Công ty FoxA
 ## 2. Công tác nghiên cứu và phát triển sản phẩm AI
 * Chatbot AI cho FoxAI => chuẩn để đóng gói, đem đi demo
 * Chatbot AI cho khách hàng
-* 
+* Xây dựng mô hình machine learning cho khối data của FoxAI
 
 ## 3. Công tác hỗ trợ và nghiệm thu sản phẩm Power BI
 * Power BI cho FoxAI => chuẩn để đóng gói, đem đi demo
 * Power BI cho khách hàng (2 dự án là: Thuốc lá Thăng Long, APFCO)
+
+## 4. Công tác nghiên cứu và phát triển sản phẩm "Hợp nhất báo cáo tài chính"
