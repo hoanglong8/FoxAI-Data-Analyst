@@ -9,10 +9,10 @@
 ## **1. Định hướng nhân sự**
 - **Tăng trưởng nhân sự:** Tăng số lượng nhân sự tương ứng với quy mô khách hàng mỗi năm (~20-40%).
 - **Phân bổ nhân sự:** Chia thành 4 bộ phận chính:
-  - **Tư vấn triển khai:** Tư vấn khảo sát, đánh giá và triển khai các giải pháp AI.
-  - **Data Analyst:** Phân tích dữ liệu, xây dựng mô hình và hỗ trợ triển khai AI.
+  - **Tư vấn triển khai (Consultant):** Tư vấn khảo sát, đánh giá và triển khai các giải pháp AI.
+  - **Phân tích dữ liệu (Data Analyst):** Phân tích dữ liệu, xây dựng mô hình và hỗ trợ triển khai AI.
   - **Phát triển sản phẩm (AI Engineers):** Tùy chỉnh và phát triển các hệ thống AI theo yêu cầu.
-  - **Hỗ trợ và đào tạo:** Đào tạo khách hàng, hỗ trợ kỹ thuật sau bán hàng.
+  - **Hỗ trợ và đào tạo (Support & Service):** Đào tạo khách hàng, hỗ trợ kỹ thuật sau bán hàng.
 
 ---
 
