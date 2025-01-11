@@ -1,11 +1,21 @@
-<img src="https://fox.ai.vn/wp-content/uploads/2024/07/Logo_Original-1.png" alt="Hình ảnh" width="50%" />
-
 ## Công ty cổ phần công nghệ FoxAI
 
-## Chiến lược phát triển sản phẩm AI (tầm nhìn 2025-2029) và kế hoạch phát triển nguồn nhân lực năm 2025
+<img src="https://fox.ai.vn/wp-content/uploads/2024/07/Logo_Original-1.png" alt="Hình ảnh" width="50%" />
 
 ![Language](https://img.shields.io/badge/Language-Python-orange.svg?logo=Python&logoColor=yellow) ![Update](https://img.shields.io/badge/Update-Weekly-green.svg) ![Progress](https://img.shields.io/badge/progress-N%2F1049-brightgreen.svg) ![Sponsors](https://img.shields.io/badge/Sponsor-0-lightgrey.svg)
 
+# Chiến lược phát triển sản phẩm AI (tầm nhìn 2025-2029) và kế hoạch phát triển nguồn nhân lực năm 2025
+
+![Language](https://img.shields.io/badge/Language-Python-orange.svg?logo=Python&logoColor=yellow) ![Update](https://img.shields.io/badge/Update-Weekly-green.svg) ![Progress](https://img.shields.io/badge/progress-N%2F1049-brightgreen.svg) ![Sponsors](https://img.shields.io/badge/Sponsor-0-lightgrey.svg)
+
+## A.Về chiến lược phát triển tầm nhìn 2025-2029:
+Là sự tổng hòa và phối hợp của 3 chiến lược:
+* Chiến lược phát triển sản phẩm
+* Chiến lược phát triển đội ngũ
+* Chiến lược phát triển kinh doanh (có sự phối hợp)
+
+
+## B.Về kế hoạch chỉ tiêu KPI của trưởng phòng Data Analyst năm 2025:
 Quản lý công việc và nhân sự của phòng Data Analyst - Công ty FoxAI:
 * Công tác phát triển đội ngũ
 * Công tác nghiên cứu và phát triển sản phẩm AI
