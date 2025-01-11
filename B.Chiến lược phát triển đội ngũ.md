@@ -31,12 +31,12 @@
 ## **3. Định biên nhân sự chi tiết (2025)**
 
 ### **3.1. Bộ phận tư vấn triển khai**
-- **Số lượng nhân sự:** 5 người.
+- **Số lượng nhân sự:** 4 người.
 - **Vị trí cần tuyển:**
   - **AI Consultant (3 người):**
     - Nhiệm vụ: Tư vấn khảo sát và đánh giá nhu cầu AI của khách hàng.
     - Yêu cầu: Có kinh nghiệm trong tư vấn giải pháp công nghệ, kỹ năng giao tiếp và trình bày tốt.
-  - **Project Manager (2 người):**
+  - **Project Manager (1 người):**
     - Nhiệm vụ: Quản lý tiến độ triển khai các dự án AI.
     - Yêu cầu: Có kinh nghiệm quản lý dự án công nghệ, am hiểu về AI là lợi thế.
 
@@ -48,9 +48,9 @@
 ---
 
 ### **3.2. Bộ phận Data Analyst**
-- **Số lượng nhân sự:** 4 người.
+- **Số lượng nhân sự:** 3 người.
 - **Vị trí cần tuyển:**
-  - **Data Analyst (3 người):**
+  - **Data Analyst (2 người):**
     - Nhiệm vụ: Thu thập, phân tích dữ liệu khách hàng, xây dựng báo cáo và đưa ra insight.
     - Yêu cầu: Thành thạo SQL, Python hoặc R; có kinh nghiệm với các công cụ phân tích dữ liệu (Tableau, Power BI).
   - **Data Engineer (1 người):**
@@ -65,9 +65,9 @@
 ---
 
 ### **3.3. Bộ phận phát triển sản phẩm (AI Engineers)**
-- **Số lượng nhân sự:** 6 người.
+- **Số lượng nhân sự:** 5 người.
 - **Vị trí cần tuyển:**
-  - **AI/ML Engineer (4 người):**
+  - **AI/ML Engineer (3 người):**
     - Nhiệm vụ: Phát triển và tối ưu hóa mô hình AI (như NLP, Computer Vision).
     - Yêu cầu: Thành thạo TensorFlow, PyTorch, hoặc các framework tương tự.
   - **Full-stack Developer (2 người):**
@@ -143,13 +143,13 @@
 
 | **Danh mục**               | **Số lượng/Chi phí dự kiến** |
 |-----------------------------|-----------------------------|
-| Nhân sự tổng               | 18                         |
-| Chi phí lương và phúc lợi  | 5 tỷ VNĐ                   |
+| Nhân sự tổng               | 15                         |
+| Chi phí lương và phúc lợi  | 2,5 tỷ VNĐ                   |
 | Hạ tầng (Cloud, phần mềm)  | 400 triệu VNĐ              |
 | Công cụ AI (ChatGPT, Gemini, Claude) | 350 triệu VNĐ              |
 | Đào tạo nội bộ             | 200 triệu VNĐ              |
 | Marketing và tuyển dụng    | 500 triệu VNĐ              |
-| **Tổng chi phí 2025**      | 6,45 tỷ VNĐ                |
+| **Tổng chi phí 2025**      | 3,95 tỷ VNĐ                |
 
 ---
 
