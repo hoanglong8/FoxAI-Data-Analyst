@@ -11,7 +11,7 @@ Dịch vụ cung cấp các giải pháp AI chuyên biệt được thiết kế
 - **Ngành tài chính-ngân hàng tại Việt Nam** đang chứng kiến sự phát triển mạnh mẽ trong việc áp dụng công nghệ số hóa, đặc biệt là AI.
 - **Thị trường AI tại Việt Nam:**
   - Quy mô ước tính: **400 triệu USD năm 2023**, với tốc độ tăng trưởng CAGR khoảng **25-30%/năm**.
-  - Đến năm **2028**, thị trường AI tại Việt Nam có thể đạt **1,5 tỷ USD**, trong đó ngành tài chính-ngân hàng chiếm khoảng **30%**.
+  - Đến năm **2028**, thị trường AI tại Việt Nam có thể đạt **1-1,5 tỷ USD**, trong đó ngành tài chính-ngân hàng chiếm khoảng **30%**.
 
 ### 1.2. Nhu cầu doanh nghiệp
 - **Khách hàng tiềm năng:**
