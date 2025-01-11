@@ -2,7 +2,7 @@
 
 ## Công ty cổ phần công nghệ FoxAI
 
-## Chiến lược phát triển sản phẩm AI (tầm nhìn 2025-2030) và kế hoạch phát triển bộ phận Data Analyst năm 2025
+## Chiến lược phát triển sản phẩm AI (tầm nhìn 2025-2029) và kế hoạch phát triển nguồn nhân lực năm 2025
 
 ![Language](https://img.shields.io/badge/Language-Python-orange.svg?logo=Python&logoColor=yellow) ![Update](https://img.shields.io/badge/Update-Weekly-green.svg) ![Progress](https://img.shields.io/badge/progress-N%2F1049-brightgreen.svg) ![Sponsors](https://img.shields.io/badge/Sponsor-0-lightgrey.svg)
 
