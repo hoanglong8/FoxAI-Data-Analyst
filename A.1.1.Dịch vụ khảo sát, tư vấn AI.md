@@ -7,7 +7,28 @@ Dịch vụ này cung cấp các giải pháp tùy chỉnh nhằm đánh giá ti
 
 ## Đối tượng khách hàng
 1. **Khách hàng hiện tại của FoxAI**: Các doanh nghiệp đã có sản phẩm AI nhưng muốn mở rộng ứng dụng vào các lĩnh vực khác hoặc tối ưu hóa hệ thống hiện tại.
-2. **Khách hàng tiềm năng**: Các doanh nghiệp chưa triển khai AI nhưng có nhu cầu số hóa hoặc cải tiến hoạt động kinh doanh.
+2. **Khách hàng tiềm năng**: Các doanh nghiệp chưa triển khai SAP, ERP của FoxAI nhưng có nhu cầu số hóa hoặc cải tiến hoạt động kinh doanh.
+
+---
+
+## Dung lượng thị trường và tiềm năng nhu cầu (5 năm tới)
+
+### **1. Dung lượng thị trường**
+- **Thị trường AI tại Việt Nam** dự kiến đạt tốc độ tăng trưởng hàng năm kép (CAGR) khoảng **22-25%** từ năm 2023 đến 2030, theo các báo cáo thị trường.
+- Quy mô thị trường AI Việt Nam năm 2023 ước tính đạt khoảng **400 triệu USD**, và dự kiến đạt **1 tỷ USD vào năm 2028**.
+- Phân khúc khách hàng tiềm năng:
+  - Các doanh nghiệp trong lĩnh vực sản xuất, logistics, ngân hàng, tài chính, và bán lẻ chiếm **70% nhu cầu ứng dụng AI**.
+
+### **2. Nhu cầu doanh nghiệp**
+- Theo khảo sát từ McKinsey và PwC, **56% doanh nghiệp tại Việt Nam** có kế hoạch tích hợp AI vào hoạt động trong 3 năm tới.
+- **Tiềm năng khách hàng**:
+  - Doanh nghiệp vừa và lớn (chiếm 20% tổng số doanh nghiệp Việt Nam): khoảng **170.000 doanh nghiệp**.
+  - Doanh nghiệp nhỏ và vừa: là thị trường tăng trưởng nhanh với nhu cầu khám phá và thử nghiệm AI.
+
+### **Dự báo doanh thu (5 năm):**
+- Với mức tăng trưởng trung bình hàng năm **25%**, doanh thu từ dịch vụ này có thể đạt:
+  - Năm 1: **10 tỷ VNĐ** (100 khách hàng với giá trung bình 100 triệu VNĐ/dự án).
+  - Năm 5: **30-50 tỷ VNĐ/năm**, nhờ mở rộng quy mô và danh mục dịch vụ.
 
 ---
 
@@ -41,27 +62,6 @@ Dịch vụ này cung cấp các giải pháp tùy chỉnh nhằm đánh giá ti
 
 7. **Theo dõi và cải tiến**:
    - Phân tích dữ liệu sau triển khai, tối ưu hóa giải pháp và đề xuất mở rộng nếu cần.
-
----
-
-## Dung lượng thị trường và tiềm năng nhu cầu (5 năm tới)
-
-### **1. Dung lượng thị trường**
-- **Thị trường AI tại Việt Nam** dự kiến đạt tốc độ tăng trưởng hàng năm kép (CAGR) khoảng **22-25%** từ năm 2023 đến 2030, theo các báo cáo thị trường.
-- Quy mô thị trường AI Việt Nam năm 2023 ước tính đạt khoảng **400 triệu USD**, và dự kiến đạt **1 tỷ USD vào năm 2028**.
-- Phân khúc khách hàng tiềm năng:
-  - Các doanh nghiệp trong lĩnh vực sản xuất, logistics, ngân hàng, tài chính, và bán lẻ chiếm **70% nhu cầu ứng dụng AI**.
-
-### **2. Nhu cầu doanh nghiệp**
-- Theo khảo sát từ McKinsey và PwC, **56% doanh nghiệp tại Việt Nam** có kế hoạch tích hợp AI vào hoạt động trong 3 năm tới.
-- **Tiềm năng khách hàng**:
-  - Doanh nghiệp vừa và lớn (chiếm 20% tổng số doanh nghiệp Việt Nam): khoảng **170.000 doanh nghiệp**.
-  - Doanh nghiệp nhỏ và vừa: là thị trường tăng trưởng nhanh với nhu cầu khám phá và thử nghiệm AI.
-
-### **Dự báo doanh thu (5 năm):**
-- Với mức tăng trưởng trung bình hàng năm **25%**, doanh thu từ dịch vụ này có thể đạt:
-  - Năm 1: **10 tỷ VNĐ** (100 khách hàng với giá trung bình 100 triệu VNĐ/dự án).
-  - Năm 5: **30-50 tỷ VNĐ/năm**, nhờ mở rộng quy mô và danh mục dịch vụ.
 
 ---
 
