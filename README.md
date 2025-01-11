@@ -1,4 +1,11 @@
-# FoxAI-Data-Analyst
+<img src="https://fox.ai.vn/wp-content/uploads/2024/07/Logo_Original-1.png" alt="Hình ảnh" width="50%" />
+
+## Công ty cổ phần công nghệ FoxAI
+
+## Chiến lược phát triển sản phẩm AI (tầm nhìn 2025-2030) và kế hoạch phát triển phòng Data Analyst 2025
+
+![Language](https://img.shields.io/badge/Language-Python-orange.svg?logo=Python&logoColor=yellow) ![Update](https://img.shields.io/badge/Update-Weekly-green.svg) ![Progress](https://img.shields.io/badge/progress-N%2F1049-brightgreen.svg) ![Sponsors](https://img.shields.io/badge/Sponsor-0-lightgrey.svg)
+
 Quản lý công việc và nhân sự của phòng Data Analyst - Công ty FoxAI:
 * Công tác phát triển đội ngũ
 * Công tác nghiên cứu và phát triển sản phẩm AI
