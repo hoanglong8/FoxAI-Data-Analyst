@@ -1,6 +1,10 @@
+## Công ty cổ phần công nghệ FoxAI
+
 <img src="https://fox.ai.vn/wp-content/uploads/2024/07/Logo_Original-1.png" alt="Hình ảnh" width="50%" />
 
-## Công ty cổ phần công nghệ FoxAI
+![Language](https://img.shields.io/badge/Language-Python-orange.svg?logo=Python&logoColor=yellow) ![Update](https://img.shields.io/badge/Update-Weekly-green.svg) ![Progress](https://img.shields.io/badge/progress-N%2F1049-brightgreen.svg) ![Sponsors](https://img.shields.io/badge/Sponsor-0-lightgrey.svg)
+
+# Kế hoạch phát triển đội ngũ
 
 ## Kế hoạch nhân sự bộ phận Data Analyst năm 2025
 
