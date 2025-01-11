@@ -10,7 +10,7 @@ Dịch vụ cung cấp giải pháp tích hợp công nghệ AI vào các phần
 ### **2.1. Dung lượng thị trường**
 - **Quy mô thị trường:**  
   - Thị trường AI tại Việt Nam dự kiến đạt tốc độ tăng trưởng CAGR khoảng **25-30%** từ năm 2023 đến năm 2028.
-  - Quy mô thị trường ERP, HRM, CRM tại Việt Nam năm 2023 ước tính **500 triệu USD** và dự kiến vượt **1 tỷ USD** vào năm 2028.
+  - Quy mô thị trường ERP, HRM, CRM tại Việt Nam năm 2023 ước tính **500 triệu USD** và dự kiến đạt **1-1,5 tỷ USD** vào năm 2028.
   - Phân khúc tự động hóa quy trình (RPA + AI) dự kiến tăng trưởng mạnh, chiếm **20-25% thị phần**.
 
 - **Tiềm năng:**  
