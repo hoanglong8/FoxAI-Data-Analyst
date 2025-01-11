@@ -15,7 +15,7 @@ Dịch vụ này cung cấp các giải pháp tùy chỉnh nhằm đánh giá ti
 
 ### **1. Dung lượng thị trường**
 - **Thị trường AI tại Việt Nam** dự kiến đạt tốc độ tăng trưởng hàng năm kép (CAGR) khoảng **22-25%** từ năm 2023 đến 2030, theo các báo cáo thị trường.
-- Quy mô thị trường AI Việt Nam năm 2023 ước tính đạt khoảng **400 triệu USD**, và dự kiến đạt **1 tỷ USD vào năm 2028**.
+- Quy mô thị trường AI Việt Nam năm 2023 ước tính đạt khoảng **400 triệu USD**, và dự kiến đạt **1-1,5 tỷ USD vào năm 2028**.
 - Phân khúc khách hàng tiềm năng:
   - Các doanh nghiệp trong lĩnh vực sản xuất, logistics, ngân hàng, tài chính, và bán lẻ chiếm **70% nhu cầu ứng dụng AI**.
 
