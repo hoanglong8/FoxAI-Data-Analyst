@@ -102,7 +102,7 @@
 ```plaintext
 Kinh doanh --> Tư vấn triển khai --> Data Analyst --> Data Engineer --> Hỗ trợ & đào tạo
          ↳ (Phản hồi khách hàng) ↵
-
+```
 
 ## **4. Các công việc cần thực hiện trong năm 2025**
 
