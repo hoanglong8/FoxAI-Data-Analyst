@@ -6,13 +6,11 @@
 
 # Chiến lược phát triển sản phẩm AI (tầm nhìn 2025-2029) và kế hoạch phát triển nguồn nhân lực năm 2025
 
-![Language](https://img.shields.io/badge/Language-Python-orange.svg?logo=Python&logoColor=yellow) ![Update](https://img.shields.io/badge/Update-Weekly-green.svg) ![Progress](https://img.shields.io/badge/progress-N%2F1049-brightgreen.svg) ![Sponsors](https://img.shields.io/badge/Sponsor-0-lightgrey.svg)
-
-## A.Về chiến lược phát triển tầm nhìn 2025-2029:
+## A.Về chiến lược phát triển trong giai đoạn 2025-2029:
 Là sự tổng hòa và phối hợp của 3 chiến lược:
-* Chiến lược phát triển sản phẩm
-* Chiến lược phát triển đội ngũ
-* Chiến lược phát triển kinh doanh (có sự phối hợp)
+* [Chiến lược phát triển khối sản phẩm AI](https://github.com/hoanglong8/FoxAI-Data-Analyst/blob/main/A.Chi%E1%BA%BFn%20l%C6%B0%E1%BB%A3c%20ph%C3%A1t%20tri%E1%BB%83n%20s%E1%BA%A3n%20ph%E1%BA%A9m%20AI.md)
+* [Chiến lược phát triển đội ngũ nhân sự](https://github.com/hoanglong8/FoxAI-Data-Analyst/blob/main/B.Chi%E1%BA%BFn%20l%C6%B0%E1%BB%A3c%20ph%C3%A1t%20tri%E1%BB%83n%20%C4%91%E1%BB%99i%20ng%C5%A9.md)
+* [Chiến lược phát triển kinh doanh](https://github.com/hoanglong8/FoxAI-Data-Analyst/blob/main/C.Chi%E1%BA%BFn%20l%C6%B0%E1%BB%A3c%20ph%E1%BB%91i%20h%E1%BB%A3p%20v%E1%BB%9Bi%20b%E1%BB%99%20ph%E1%BA%ADn%20kinh%20doanh.md) (có sự phối hợp giữa R&D và bộ phận kinh doanh)
 
 
 ## B.Về kế hoạch chỉ tiêu KPI của trưởng phòng Data Analyst năm 2025:
