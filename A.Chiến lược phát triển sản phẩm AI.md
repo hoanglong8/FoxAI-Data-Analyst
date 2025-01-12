@@ -25,7 +25,9 @@
 
 * [Đào tạo đội ngũ ban lãnh đạo, quản lý và nhân viên của khách hàng sử dụng công cụ AI để ứng dụng hiệu quả.](https://github.com/hoanglong8/FoxAI-Data-Analyst/blob/main/A.1.4.D%E1%BB%8Bch%20v%E1%BB%A5:%20%C4%90%C3%A0o%20t%E1%BA%A1o%20kh%C3%A1ch%20h%C3%A0ng%20s%E1%BB%AD%20d%E1%BB%A5ng%20AI.md)
 
-## 2.Một số sản phẩm AI chuyên biệt cho từng lĩnh vực sản xuất, nông nghiệp, thương mại, ngân hàng và y tế
+## 2.Một số sản phẩm AI chuyên biệt cho từng lĩnh vực/ngành
+
+![Hình ảnh](https://github.com/hoanglong8/FoxAI-Data-Analyst/blob/main/A.1.2.png?raw=true)
 
 ## 2.1. Lĩnh vực sản xuất
 ### Case-study ứng dụng AI thành công
