@@ -1,6 +1,6 @@
 # **Kế hoạch nhân sự năm 2025**
 
-## Quy trình tuyển dụng
+## A.Quy trình tuyển dụng
 
 ### Xác định yêu cầu công việc:
 * Xây dựng JD (Job Description) chi tiết cho từng vị trí.
@@ -21,7 +21,7 @@
 * Vòng 3: Phỏng vấn văn hóa với đội ngũ.
 Tổng thời gian hoàn thành: ~2 tháng.
 
-## **1. Tổng quan kế hoạch tuyển dụng**
+## B.Tổng quan kế hoạch tuyển dụng
 - **Số lượng nhân sự cần tuyển:** 15 người
   - **Tư vấn triển khai:** 4 người
   - **Data Analyst:** 3 người
@@ -34,7 +34,7 @@ Tổng thời gian hoàn thành: ~2 tháng.
 
 ---
 
-## **2. Mô tả công việc cho 4 vị trí**
+## C.Mô tả công việc cho 4 vị trí
 
 ### **2.1. Vị trí: Tư vấn triển khai (AI Consultant)**
 - **Số lượng cần tuyển:** 4 người
