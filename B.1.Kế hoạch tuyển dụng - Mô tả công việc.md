@@ -1,5 +1,26 @@
 # **Kế hoạch nhân sự năm 2025**
 
+## Quy trình tuyển dụng
+
+### Xác định yêu cầu công việc:
+* Xây dựng JD (Job Description) chi tiết cho từng vị trí.
+* Lên danh sách các kỹ năng và chứng chỉ bắt buộc.
+
+### Kênh tuyển dụng:
+* LinkedIn, VietnamWorks, ITviec cho Tech Lead SAP và AI Engineer.
+* Facebook Group, CareerBuilder cho Data Analyst.
+
+### Tiêu chí sàng lọc ứng viên:
+* Tech Lead SAP: Kiến thức về SAP Fiori, HANA, tích hợp API.
+* AI Engineer: Thành thạo Python, TensorFlow, tích hợp ChatGPT hoặc các AI model.
+* Data Analyst: Kinh nghiệm làm việc với SQL, Power BI, hoặc Tableau.
+
+### Quy trình phỏng vấn:
+* Vòng 1: Sàng lọc CV.
+* Vòng 2: Phỏng vấn chuyên môn (Test case thực tế).
+* Vòng 3: Phỏng vấn văn hóa với đội ngũ.
+Tổng thời gian hoàn thành: ~2 tháng.
+
 ## **1. Tổng quan kế hoạch tuyển dụng**
 - **Số lượng nhân sự cần tuyển:** 15 người
   - **Tư vấn triển khai:** 4 người
