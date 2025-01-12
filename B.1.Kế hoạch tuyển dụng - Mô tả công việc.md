@@ -103,3 +103,30 @@
 Kinh doanh --> Tư vấn triển khai --> Data Analyst --> Data Engineer --> Hỗ trợ & đào tạo
          ↳ (Phản hồi khách hàng) ↵
 
+
+## **4. Các công việc cần thực hiện trong năm 2025**
+
+### **4.1. Bộ phận nhân sự**
+- Đăng tin tuyển dụng trên các kênh tuyển dụng uy tín.
+- Tổ chức phỏng vấn và đánh giá ứng viên theo từng vòng.
+- Onboarding và đào tạo cơ bản cho nhân viên mới (kỹ năng mềm và hiểu biết cơ bản về AI).
+
+### **4.2. Bộ phận kinh doanh và phát triển sản phẩm**
+- Thiết lập các quy trình phối hợp giữa bộ phận kinh doanh và các nhóm triển khai, đảm bảo thông tin không bị đứt gãy.
+- Tổ chức họp giao ban hàng tuần giữa các bộ phận để theo dõi tiến độ dự án.
+
+### **4.3. Hỗ trợ và quản lý khách hàng**
+- Xây dựng tài liệu hướng dẫn sử dụng cho khách hàng.
+- Triển khai khảo sát mức độ hài lòng của khách hàng định kỳ để cải thiện dịch vụ.
+
+---
+
+## **5. Tổng kết ngân sách tuyển dụng năm 2025**
+
+| **Danh mục**            | **Chi phí dự kiến (VNĐ)** |
+|--------------------------|--------------------------|
+| Tuyển dụng & onboarding | 300 triệu               |
+| Đào tạo nhân sự nội bộ   | 200 triệu               |
+| **Tổng ngân sách**       | **500 triệu**           |
+
+FoxAI sẽ tập trung xây dựng đội ngũ nhân sự chất lượng cao và phối hợp chặt chẽ giữa các bộ phận để triển khai dịch vụ hiệu quả, đảm bảo đáp ứng nhu cầu khách hàng và đạt mục tiêu kinh doanh trong năm 2025.
