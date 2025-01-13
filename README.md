@@ -6,6 +6,8 @@
 
 # Chiến lược phát triển sản phẩm AI (tầm nhìn 2025-2029) và kế hoạch phát triển nguồn nhân lực năm 2025
 
+![Cơ cấu tổ chức công ty năm 2025](https://github.com/hoanglong8/FoxAI-Data-Analyst/blob/main/FoxAI%20-%20C%C6%A1%20c%E1%BA%A5u%20d%E1%BB%B1%20ki%E1%BA%BFn%202025.png?raw=true)
+
 ## A.Về chiến lược phát triển trong giai đoạn 2025-2029:
 Là sự tổng hòa và phối hợp của 3 chiến lược:
 * [Chiến lược phát triển khối sản phẩm AI](https://github.com/hoanglong8/FoxAI-Data-Analyst/blob/main/A.Chi%E1%BA%BFn%20l%C6%B0%E1%BB%A3c%20ph%C3%A1t%20tri%E1%BB%83n%20s%E1%BA%A3n%20ph%E1%BA%A9m%20AI.md)
