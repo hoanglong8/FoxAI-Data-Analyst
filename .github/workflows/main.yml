@@ -1,3 +1,4 @@
+# Set your workflow to run every day of the week from Monday to Friday at 2:00 UTC
 on:
   schedule:
   - cron: "0 2 * * 1-5"
