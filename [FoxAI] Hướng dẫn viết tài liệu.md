@@ -1,10 +1,10 @@
-# TÀI LIỆU HƯỚNG DẪN VIẾT TÀI LIỆU TRÊN GITHUB BẰNG MARKDOWN
+# HƯỚNG DẪN VIẾT TÀI LIỆU TRÊN GITHUB
 
 **Mục tiêu**:  
-1. Hiểu được **cách viết tài liệu** bằng Markdown.  
-2. Biết cách **đồng bộ** nội dung **GitHub** sang **GitBook** để tạo tài liệu, sách online.  
-3. Biết cách **đồng bộ** GitHub với **HackMD** để tạo slide trình chiếu.
-4. Giúp bạn **tiết kiệm thời gian, công sức** khi soạn thảo tài liệu, tránh sai sót khi cập nhật.
+1. Hiểu được **cách viết tài liệu** bằng ngôn ngữ Markdown, HTML.  
+2. Biết cách **đồng bộ** nội dung **GitHub** sang **GitBook** để tạo tài liệu, sách online giúp cập nhật nhanh chóng. 
+3. Biết cách **đồng bộ** GitHub với **HackMD** để tạo slide trình chiếu chuyên nghiệp.
+4. Giúp **tiết kiệm thời gian, công sức** khi soạn thảo tài liệu, đảm bảo nhất quán tài liệu sau nhiều lần chỉnh sửa, cập nhật.
 
 ---
 
@@ -20,7 +20,7 @@ graph TD;
 ## 1. Công cụ MARKDOWN
 
 ### 1.1 Markdown là gì?
-- **Markdown** là **ngôn ngữ đánh dấu** đơn giản, cho phép viết tài liệu nhanh chóng, gọn nhẹ. Định dạng đuôi là .md.
+- **Markdown** là **ngôn ngữ đánh dấu** đơn giản, cho phép viết tài liệu nhanh chóng, gọn nhẹ. Định dạng đuôi là `.md`.
 - Kết hợp với GitHub, GitBook, HackMD… bạn dễ dàng tạo **trang doc**, **slide**, **blog** mà **không cần** các công cụ soạn thảo nặng nề.
 
 ### 1.2 Cú pháp Markdown cơ bản
