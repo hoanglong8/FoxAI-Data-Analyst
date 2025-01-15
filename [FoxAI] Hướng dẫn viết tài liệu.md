@@ -132,6 +132,8 @@ Bạn có thể dán file Markdown (copy/paste) hoặc sync một phần với G
 
 ### 5.3.Kết quả đầu ra:
 
-[Slide đào tạo](https://foxai-data-analyst.gitbook.io/tai-lieu-dong-bo-tu-github-foxai)
+[Dạng book view ](https://foxai-data-analyst.gitbook.io/tai-lieu-dong-bo-tu-github-foxai)
+
+[Dạng slide view](https://hackmd.io/@DCs5idhtQRK_cmFBAVRcSw/B1WDl3NPyl#/)
 
 <img src="https://github.com/hoanglong8/FoxAI-Data-Analyst/blob/main/Image/HackMD.gif" width="100%" />
