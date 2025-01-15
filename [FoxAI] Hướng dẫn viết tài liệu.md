@@ -55,4 +55,15 @@ graph LR;
     [Link đến Google](https://google.com)
     ![Mô tả ảnh](https://link-den-anh.jpg)
 
-- 
+- Dòng code lệnh:
+    ```markdown
+    ```python
+    print("Hello World")
+
+- Dòng kẻ/ngăn cách trang slide:
+    ```markdown
+    ---
+
+Tham khảo thêm tại: [Basic writing and formatting syntax.](https://docs.github.com/en/get-started/writing-on-github/basic-writing-and-formatting-syntax)
+
+
