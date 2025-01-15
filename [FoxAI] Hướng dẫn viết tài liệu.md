@@ -14,6 +14,8 @@
 graph TD;
     1.Viết_nội_dung --> 2.Vẽ_biểu_đồ/Chèn_hình --> 3.Tạo_tài_liệu --> 4.Tạo_slide --> 5.Phê_duyệt_tài_liệu
 
+```
+---
 
 ## Các công cụ sử dụng
 
