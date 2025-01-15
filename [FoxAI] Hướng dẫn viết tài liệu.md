@@ -22,5 +22,24 @@ graph TD;
 ```mermaid
 graph LR;
     Markdown --> Mermaid --> GitHub --> GitBook --> HackMD
-   
+
+```
+---
+
+## 1. GIỚI THIỆU MARKDOWN
+
+### 1.1 Markdown là gì?
+- **Markdown** là **ngôn ngữ đánh dấu** đơn giản, cho phép viết tài liệu nhanh chóng, gọn nhẹ.  
+- Kết hợp với GitHub, GitBook, HackMD… bạn dễ dàng tạo **trang doc**, **slide**, **blog** mà **không cần** các công cụ soạn thảo nặng nề.
+
+### 1.2 Cú pháp Markdown cơ bản
+- **Tiêu đề**:  
+  ```markdown
+  # Tiêu đề cấp 1
+  ## Tiêu đề cấp 2
+  ### Tiêu đề cấp 3
+
+- Đoạn văn in đậm, in nghiêng:
+    ```markdown
+Đây là **chữ in đậm** và *chữ in nghiêng*.
 
