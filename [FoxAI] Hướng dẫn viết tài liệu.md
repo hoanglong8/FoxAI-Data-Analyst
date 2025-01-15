@@ -46,6 +46,11 @@ graph TD;
     [Link đến Google](https://google.com)
     ![Mô tả ảnh](https://link-den-anh.jpg)
 
+- Chèn ảnh động .gif /video với kích thước tùy chỉnh thì sử dụng cú pháp HTML:
+    ```html
+    # Chèn Ảnh với Kích Thước 50%
+    <img src="Image/example.gif" width="50%" />
+
 - Chèn biểu đồ diagram vẽ trên Mermaid:
 
 ```mermaid
@@ -78,7 +83,7 @@ Tham khảo thêm tại: [Basic writing and formatting syntax.](https://docs.git
 
 [Mermaid](https://mermaid.js.org/intro/) là nền tảng giúp bạn vẽ nhanh các diagram nhanh chóng và có thể chèn trực tiếp vào Markdown mà không cần xuất ra ảnh để chèn vào tài liệu.
 
-Minh họa
+<img src="https://github.com/hoanglong8/FoxAI-Data-Analyst/blob/main/Image/Mermaid.gif" width="70%" />
 
 3. ĐỒNG BỘ GITHUB SANG GITBOOK
 GitBook là nền tảng giúp bạn tạo trang tài liệu (doc) chuyên nghiệp. Có hai hình thức chính:
