@@ -17,10 +17,10 @@ graph TD;
 ```
 ---
 
-## 1. GIỚI THIỆU MARKDOWN
+## 1. Công cụ MARKDOWN
 
 ### 1.1 Markdown là gì?
-- **Markdown** là **ngôn ngữ đánh dấu** đơn giản, cho phép viết tài liệu nhanh chóng, gọn nhẹ.  
+- **Markdown** là **ngôn ngữ đánh dấu** đơn giản, cho phép viết tài liệu nhanh chóng, gọn nhẹ. Định dạng đuôi là .md.
 - Kết hợp với GitHub, GitBook, HackMD… bạn dễ dàng tạo **trang doc**, **slide**, **blog** mà **không cần** các công cụ soạn thảo nặng nề.
 
 ### 1.2 Cú pháp Markdown cơ bản
@@ -65,4 +65,28 @@ graph LR;
 
 Tham khảo thêm tại: [Basic writing and formatting syntax.](https://docs.github.com/en/get-started/writing-on-github/basic-writing-and-formatting-syntax)
 
+## 2. VIẾT TÀI LIỆU BẰNG MARKDOWN TRÊN GITHUB
+### 2.1 Tạo repository / file Markdown
+* Đăng nhập GitHub → Tạo repo mới (hoặc mở repo sẵn có).
+* Tạo file .md (ví dụ: README.md, doc-tong-quan.md).
+* Viết nội dung Markdown, commit lên repo.
+### 2.2 Quản lý phiên bản
+* Mọi thay đổi (commit) trong file .md sẽ được Git lưu lại.
+* Bạn có thể tạo Pull Request để review nội dung.
+
+## 3. VẼ BIỂU ĐỒ BẰNG MERMAID
+
+[Mermaid](https://mermaid.js.org/intro/) là nền tảng giúp bạn vẽ nhanh các diagram nhanh chóng và có thể chèn trực tiếp vào Markdown mà không cần xuất ra ảnh để chèn vào tài liệu.
+
+Minh họa
+
+3. ĐỒNG BỘ GITHUB SANG GITBOOK
+GitBook là nền tảng giúp bạn tạo trang tài liệu (doc) chuyên nghiệp. Có hai hình thức chính:
+
+3.1 GitBook SaaS (gitbook.com)
+Phiên bản GitBook mới chủ yếu dùng Giao diện web (có thể import file Markdown), nhưng chưa hỗ trợ Git Sync hoàn hảo như bản cũ.
+Bạn có thể:
+Tạo Space trên GitBook.
+Chọn Import tài liệu Markdown (từ local hoặc copy dán).
+Khi cần cập nhật, bạn thủ công import lại hoặc copy-paste.
 
