@@ -41,5 +41,18 @@ graph LR;
 
 - Đoạn văn in đậm, in nghiêng:
     ```markdown
-Đây là **chữ in đậm** và *chữ in nghiêng*.
+    Đây là **chữ in đậm** và *chữ in nghiêng*.
+    
+- Danh sách:
+    ```markdown
+    - Gạch đầu dòng 1
+    - Gạch đầu dòng 2
+    1. Mục thứ nhất
+    2. Mục thứ hai
 
+- Chèn link, hình ảnh, biểu đồ, trích dẫn:
+    ```markdown
+    [Link đến Google](https://google.com)
+    ![Mô tả ảnh](https://link-den-anh.jpg)
+
+- 
