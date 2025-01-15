@@ -1,21 +1,21 @@
 # TÀI LIỆU GIẢI PHÁP QUẢN TRỊ DỮ LIỆU ...
 
 **Công ty cổ phần công nghệ FoxAI**  
-**Tên khách hàng**: *[Điền tên khách hàng]*  
-**Tên giải pháp**: *[Điền tên giải pháp]*  
+**Thuốc lá Thăng Long**: *[Thuốc lá Thăng Long]*  
+**Database Replicate**: *[Database Replicate]*  
 **Ngày ban hành**: *[dd/mm/yyyy]*  
-**Phiên bản tài liệu**: *[v1.0 / v1.1 / etc.]*  
+**Phiên bản tài liệu**: *[v1.0]*  
 
 ---
 
 ## 1. MỤC ĐÍCH TÀI LIỆU
-- Tài liệu này nhằm mô tả chi tiết **giải pháp** mà **Công ty cổ phần công nghệ FoxAI** cung cấp cho *[Tên khách hàng]*.  
-- Trình bày **kiến trúc, tính năng, quy trình triển khai** và **quản trị dữ liệu** liên quan đến *[Tên giải pháp]*.  
+- Tài liệu này nhằm mô tả chi tiết **giải pháp** mà **Công ty cổ phần công nghệ FoxAI** cung cấp cho *[Thuốc lá Thăng Long]*.  
+- Trình bày **kiến trúc, tính năng, quy trình triển khai** và **quản trị dữ liệu** liên quan đến *[Database Replicate]*.  
 
 ---
 
 ## 2. PHẠM VI VÀ ĐỐI TƯỢNG SỬ DỤNG
-- **Phạm vi**: Áp dụng cho dự án triển khai giải pháp quản trị dữ liệu/phần mềm tại đơn vị *[Tên khách hàng]*.  
+- **Phạm vi**: Áp dụng cho dự án triển khai giải pháp quản trị dữ liệu/phần mềm tại đơn vị *[Thuốc lá Thăng Long]*.  
 - **Đối tượng sử dụng**:  
   1. Ban quản lý dự án (Bên A, Bên B).  
   2. Đội ngũ kỹ thuật / phòng CNTT.  
@@ -25,7 +25,7 @@
 
 ## 3. GIỚI THIỆU TỔNG QUAN GIẢI PHÁP
 ### 3.1 Mô tả ngắn gọn
-- *[Mô tả tóm tắt giải pháp, mục tiêu cốt lõi]*
+- *[Replica database là bản sao của cơ sở dữ liệu chính, được duy trì để cải thiện hiệu suất và tính sẵn sàng cao. Mục tiêu cốt lõi của replica database là phân tán tải công việc đọc, tăng cường khả năng chịu lỗi và đảm bảo tính sẵn sàng liên tục cho hệ thống. Nó cho phép sao lưu dữ liệu, phục hồi nhanh chóng khi gặp sự cố, và thực hiện phân tích mà không làm ảnh hưởng đến hoạt động của cơ sở dữ liệu chính.]*
 
 ### 3.2 Các lợi ích chính
 1. **Tự động hóa quy trình**: *[Ví dụ: Tự động thu thập, chuẩn hóa dữ liệu]*  
