@@ -48,7 +48,8 @@ graph TD;
 
 - Chèn ảnh động .gif /video với kích thước tùy chỉnh thì sử dụng cú pháp HTML:
     ```html
-    # Chèn Ảnh với Kích Thước 50%
+    #1.Tải ảnh lên thư mục Image của GitHub
+    #2.Chèn Ảnh với Kích Thước 50%
     <img src="Image/example.gif" width="50%" />
 
 - Chèn biểu đồ diagram vẽ trên Mermaid:
@@ -83,15 +84,29 @@ Tham khảo thêm tại: [Basic writing and formatting syntax.](https://docs.git
 
 [Mermaid](https://mermaid.js.org/intro/) là nền tảng giúp bạn vẽ nhanh các diagram nhanh chóng và có thể chèn trực tiếp vào Markdown mà không cần xuất ra ảnh để chèn vào tài liệu.
 
+Các bước thực hiện:
+* Lựa chọn dạng biểu đồ: Flowchart, Sequent Diagram, Hierachy, TopDown hay LeftRight...
+* Viết code biểu đồ ```mermaid
+* Copy code sang GitHub, chú ý bổ sung ``` ở cuối dòng
+  ```markdown
+  ```mermaid
+    graph LR;
+    Markdown --> Mermaid --> GitHub --> GitBook --> HackMD ```
+  ```
+
 <img src="https://github.com/hoanglong8/FoxAI-Data-Analyst/blob/main/Image/Mermaid.gif" width="70%" />
 
-3. ĐỒNG BỘ GITHUB SANG GITBOOK
-GitBook là nền tảng giúp bạn tạo trang tài liệu (doc) chuyên nghiệp. Có hai hình thức chính:
+## 4. ĐỒNG BỘ GITHUB SANG GITBOOK
 
-3.1 GitBook SaaS (gitbook.com)
-Phiên bản GitBook mới chủ yếu dùng Giao diện web (có thể import file Markdown), nhưng chưa hỗ trợ Git Sync hoàn hảo như bản cũ.
-Bạn có thể:
-Tạo Space trên GitBook.
-Chọn Import tài liệu Markdown (từ local hoặc copy dán).
-Khi cần cập nhật, bạn thủ công import lại hoặc copy-paste.
+[GitBook](https://www.gitbook.com/) là nền tảng giúp bạn tạo trang tài liệu/sách online chuyên nghiệp, có thể mời người khác cộng tác chỉnh sửa và chia sẻ cho khách hàng.
+
+GitBook có thể sync từ file Markdown từ GitHub, khi chỉnh sửa trên GitHub thì GitBook tự động cập nhật theo.
+
+Các bước thực hiện:
+* Tạo Space trên GitBook
+* Thêm Page và sync đồng bộ từ GitHub
+* Edit changes, chia sẻ và publish to web.
+
+<img src="https://github.com/hoanglong8/FoxAI-Data-Analyst/blob/main/Image/Mermaid.gif" width="70%" />
+
 
