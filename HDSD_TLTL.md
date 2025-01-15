@@ -2,20 +2,20 @@
 
 **Công ty cổ phần công nghệ FoxAI**  
 **Thuốc lá Thăng Long**: *Thuốc lá Thăng Long*  
-**Database Replicate**: *[Database Replicate]*  
+**Database Replicate**: *Database Replicate*  
 **Ngày ban hành**: *[dd/mm/yyyy]*  
-**Phiên bản tài liệu**: *[v1.0]*  
+**Phiên bản tài liệu**: *v1.0*  
 
 ---
 
 ## 1. MỤC ĐÍCH TÀI LIỆU
-- Tài liệu này nhằm mô tả chi tiết **giải pháp** mà **Công ty cổ phần công nghệ FoxAI** cung cấp cho *[Thuốc lá Thăng Long]*.  
-- Trình bày **kiến trúc, tính năng, quy trình triển khai** và **quản trị dữ liệu** liên quan đến *[Database Replicate]*.  
+- Tài liệu này nhằm mô tả chi tiết **giải pháp** mà **Công ty cổ phần công nghệ FoxAI** cung cấp cho *Thuốc lá Thăng Long*.  
+- Trình bày **kiến trúc, tính năng, quy trình triển khai** và **quản trị dữ liệu** liên quan đến *Database Replicate*.  
 
 ---
 
 ## 2. PHẠM VI VÀ ĐỐI TƯỢNG SỬ DỤNG
-- **Phạm vi**: Áp dụng cho dự án triển khai giải pháp quản trị dữ liệu/phần mềm tại đơn vị *[Thuốc lá Thăng Long]*.  
+- **Phạm vi**: Áp dụng cho dự án triển khai giải pháp quản trị dữ liệu/phần mềm tại đơn vị *Thuốc lá Thăng Long*.  
 - **Đối tượng sử dụng**:  
   1. Ban quản lý dự án (Bên A, Bên B).  
   2. Đội ngũ kỹ thuật / phòng CNTT.  
@@ -25,13 +25,16 @@
 
 ## 3. GIỚI THIỆU TỔNG QUAN GIẢI PHÁP
 ### 3.1 Mô tả ngắn gọn
-- *[Replica database là bản sao của cơ sở dữ liệu chính, được duy trì để cải thiện hiệu suất và tính sẵn sàng cao. Mục tiêu cốt lõi của replica database là phân tán tải công việc đọc, tăng cường khả năng chịu lỗi và đảm bảo tính sẵn sàng liên tục cho hệ thống. Nó cho phép sao lưu dữ liệu, phục hồi nhanh chóng khi gặp sự cố, và thực hiện phân tích mà không làm ảnh hưởng đến hoạt động của cơ sở dữ liệu chính.]*
+- *Replica database là bản sao của cơ sở dữ liệu chính, được duy trì để cải thiện hiệu suất và tính sẵn sàng cao.*
+- *Mục tiêu cốt lõi của replica database là phân tán tải công việc đọc, tăng cường khả năng chịu lỗi và đảm bảo tính sẵn sàng liên tục cho hệ thống. Nó cho phép sao lưu dữ liệu, phục hồi nhanh chóng khi gặp sự cố, và thực hiện phân tích mà không làm ảnh hưởng đến hoạt động của cơ sở dữ liệu chính.*
 
 ### 3.2 Các lợi ích chính
-1. **Tự động hóa quy trình**: *[Ví dụ: Tự động thu thập, chuẩn hóa dữ liệu]*  
-2. **Tăng hiệu suất**: *[Ví dụ: Giảm thời gian thao tác thủ công]*  
-3. **Bảo mật và ổn định**: *[Ví dụ: Cơ chế phân quyền, giám sát]*  
-4. **Khả năng mở rộng**: *[Ví dụ: Tích hợp với các hệ thống khác]*  
+1. **Cải thiện hiệu suất đọc:**: *Việc phân tán các truy vấn đọc giữa các replica giúp giảm tải cho cơ sở dữ liệu chính và cải thiện hiệu suất xử lý các yêu cầu đọc dữ liệu.*  
+2. **Tăng cường tính sẵn sàng và khả năng chịu lỗi**: *Nếu cơ sở dữ liệu chính gặp sự cố, các replica có thể thay thế, đảm bảo hệ thống vẫn hoạt động mà không bị gián đoạn.*  
+3. **Phân tán tải và mở rộng quy mô**: *Việc sử dụng nhiều replica giúp phân tán tải công việc đọc và hỗ trợ mở rộng quy mô hệ thống mà không làm giảm hiệu suất.*  
+4. **Sao lưu và phục hồi nhanh chóng**: *Các replica có thể được sử dụng để sao lưu dữ liệu mà không ảnh hưởng đến hoạt động của cơ sở dữ liệu chính, đồng thời giúp phục hồi dữ liệu nhanh chóng khi cần.*
+5. **Phân tích dữ liệu mà không làm gián đoạn**:*Replica database cho phép thực hiện phân tích, báo cáo và các công việc không làm gián đoạn hoạt động của cơ sở dữ liệu chính.*
+6. **Tăng tính khả dụng của dịch vụ**:*Với nhiều bản sao ở các vị trí khác nhau, dịch vụ có thể tiếp tục hoạt động ngay cả khi một replica gặp sự cố, đảm bảo dịch vụ luôn có sẵn cho người dùng.*
 
 ---
 
