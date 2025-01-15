@@ -101,10 +101,14 @@ Các bước thực hiện:
 
 GitBook có thể sync từ file Markdown từ GitHub, khi chỉnh sửa trên GitHub thì GitBook tự động cập nhật theo.
 
-Các bước thực hiện:
+### 4.1.Các bước thực hiện:
 * Tạo Space trên GitBook
 * Thêm Page và sync đồng bộ từ GitHub
 * Edit changes, chia sẻ và publish to web.
+
+### 4.2.Kết quả đầu ra:
+
+[Demo tài liệu](https://foxai-data-analyst.gitbook.io/tai-lieu-dong-bo-tu-github-foxai)
 
 <img src="https://github.com/hoanglong8/FoxAI-Data-Analyst/blob/main/Image/GitBook.gif" width="100%" />
 
@@ -113,16 +117,21 @@ Các bước thực hiện:
 HackMD (hoặc CodiMD nếu self-host) là nền tảng soạn thảo Markdown online, hỗ trợ chế độ trình chiếu (Slide mode) dựa trên Reveal.js.
 Bạn có thể dán file Markdown (copy/paste) hoặc sync một phần với GitHub (HackMD có chức năng “Import from GitHub” hoặc “Publish to GitHub” trong một số trường hợp).
 
-Cách thực hiện:
+### 4.1.Các bước thực hiện:
 * Đăng nhập bằng GitHub account, thực hiện sync
 * Chọn “New Note” → “Import from GitHub Gist / GitHub repo”
 * Chọn file .md trong repo.
 * Mọi thay đổi trên GitHub sẽ được sync với HackMD
 (Hoặc bạn có thể copy/paste nội dung Markdown từ GitHub sang HackMD).
 
-Tạo slide trình chiếu:
+### 4.2.Tạo slide trình chiếu:
 * Chỉnh sửa nội dung Markdown đã có trên HackMD (nếu cần)
 * Thêm --- để chia slide.
 * Bấm Menu → Slide mode (hoặc “Present Slides”).
 * Nếu muốn tùy chỉnh theme, transition, CSS… → sử dụng YAML front matter (khóa reveal Options).
 
+### 4.3.Kết quả đầu ra:
+
+[Slide đào tạo](https://foxai-data-analyst.gitbook.io/tai-lieu-dong-bo-tu-github-foxai)
+
+<img src="https://github.com/hoanglong8/FoxAI-Data-Analyst/blob/main/Image/GitBook.gif" width="100%" />
