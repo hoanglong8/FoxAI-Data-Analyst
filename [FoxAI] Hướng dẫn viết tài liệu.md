@@ -72,13 +72,12 @@ graph LR;
 Tham khảo thêm tại: [Basic writing and formatting syntax.](https://docs.github.com/en/get-started/writing-on-github/basic-writing-and-formatting-syntax)
 
 ## 2. VIẾT TÀI LIỆU BẰNG MARKDOWN TRÊN GITHUB
-### 2.1 Tạo repository / file Markdown
+
+Cách thực hiện:
+* Tạo repository / file Markdown
 * Đăng nhập GitHub → Tạo repo mới (hoặc mở repo sẵn có).
 * Tạo file .md (ví dụ: README.md, doc-tong-quan.md).
-* Viết nội dung Markdown, commit lên repo.
-### 2.2 Quản lý phiên bản
-* Mọi thay đổi (commit) trong file .md sẽ được Git lưu lại.
-* Bạn có thể tạo Pull Request để review nội dung.
+* Viết nội dung Markdown, commit lên repo. Mọi thay đổi (commit) trong file .md sẽ được Git lưu lại.
 
 ## 3. VẼ BIỂU ĐỒ BẰNG MERMAID
 
@@ -94,7 +93,7 @@ Các bước thực hiện:
     Markdown --> Mermaid --> GitHub --> GitBook --> HackMD ```
   ```
 
-<img src="https://github.com/hoanglong8/FoxAI-Data-Analyst/blob/main/Image/Mermaid.gif" width="70%" />
+<img src="https://github.com/hoanglong8/FoxAI-Data-Analyst/blob/main/Image/Mermaid.gif" width="100%" />
 
 ## 4. ĐỒNG BỘ GITHUB SANG GITBOOK
 
@@ -107,6 +106,23 @@ Các bước thực hiện:
 * Thêm Page và sync đồng bộ từ GitHub
 * Edit changes, chia sẻ và publish to web.
 
-<img src="https://github.com/hoanglong8/FoxAI-Data-Analyst/blob/main/Image/Mermaid.gif" width="70%" />
+<img src="https://github.com/hoanglong8/FoxAI-Data-Analyst/blob/main/Image/GitBook.gif" width="100%" />
 
+## 5. ĐỒNG BỘ HOẶC SỬ DỤNG GITHUB VỚI HACKMD ĐỂ TẠO SLIDE
+
+HackMD (hoặc CodiMD nếu self-host) là nền tảng soạn thảo Markdown online, hỗ trợ chế độ trình chiếu (Slide mode) dựa trên Reveal.js.
+Bạn có thể dán file Markdown (copy/paste) hoặc sync một phần với GitHub (HackMD có chức năng “Import from GitHub” hoặc “Publish to GitHub” trong một số trường hợp).
+
+Cách thực hiện:
+* Đăng nhập bằng GitHub account, thực hiện sync
+* Chọn “New Note” → “Import from GitHub Gist / GitHub repo”
+* Chọn file .md trong repo.
+* Mọi thay đổi trên GitHub sẽ được sync với HackMD
+(Hoặc bạn có thể copy/paste nội dung Markdown từ GitHub sang HackMD).
+
+Tạo slide trình chiếu:
+* Chỉnh sửa nội dung Markdown đã có trên HackMD (nếu cần)
+* Thêm --- để chia slide.
+* Bấm Menu → Slide mode (hoặc “Present Slides”).
+* Nếu muốn tùy chỉnh theme, transition, CSS… → sử dụng YAML front matter (khóa reveal Options).
 
