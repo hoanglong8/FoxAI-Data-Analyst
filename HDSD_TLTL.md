@@ -1,7 +1,7 @@
 # TÀI LIỆU GIẢI PHÁP QUẢN TRỊ DỮ LIỆU ...
 
 **Công ty cổ phần công nghệ FoxAI**  
-**Thuốc lá Thăng Long**: *[Thuốc lá Thăng Long]*  
+**Thuốc lá Thăng Long**: *Thuốc lá Thăng Long*  
 **Database Replicate**: *[Database Replicate]*  
 **Ngày ban hành**: *[dd/mm/yyyy]*  
 **Phiên bản tài liệu**: *[v1.0]*  
