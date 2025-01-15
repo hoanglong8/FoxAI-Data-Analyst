@@ -17,15 +17,6 @@ graph TD;
 ```
 ---
 
-## Các công cụ sử dụng
-
-```mermaid
-graph LR;
-    Markdown --> Mermaid --> GitHub --> GitBook --> HackMD
-
-```
----
-
 ## 1. GIỚI THIỆU MARKDOWN
 
 ### 1.1 Markdown là gì?
@@ -50,10 +41,18 @@ graph LR;
     1. Mục thứ nhất
     2. Mục thứ hai
 
-- Chèn link, hình ảnh, biểu đồ, trích dẫn:
+- Chèn link, hình ảnh, trích dẫn:
     ```markdown
     [Link đến Google](https://google.com)
     ![Mô tả ảnh](https://link-den-anh.jpg)
+
+- Chèn biểu đồ diagram vẽ trên Mermaid:
+
+```mermaid
+graph LR;
+    Markdown --> Mermaid --> GitHub --> GitBook --> HackMD
+
+```
 
 - Dòng code lệnh:
     ```markdown
