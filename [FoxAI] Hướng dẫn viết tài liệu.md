@@ -1,7 +1,10 @@
 # HƯỚNG DẪN VIẾT TÀI LIỆU TRÊN GITHUB
-![Phiên bản](https://img.shields.io/badge/Version-1.0-blue)
-![Bản quyền](https://img.shields.io/badge/FoxAI-yellow)
-![Trạng thái](https://img.shields.io/badge/Đang_soạn_thảo-brightgreen)
+![Phiên_bản](https://img.shields.io/badge/Version-1.0-green)
+![Bản_quyền](https://img.shields.io/badge/Bản_quyền-gray)
+![Bản_quyền](https://img.shields.io/badge/FoxAI-blue)
+![Editor](https://img.shields.io/badge/Người_soạn_thảo-darkorange)
+![Tình_trạng](https://img.shields.io/badge/Đang_soạn_thảo-gray)
+![Approval](https://img.shields.io/badge/Người_phê_duyệt-darkred)
 
 # Nội dung
 1. [Mục tiêu](#mục-tiêu)
