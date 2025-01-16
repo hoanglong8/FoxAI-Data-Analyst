@@ -125,6 +125,32 @@ Giao diện website được chia làm 2 phần:
 
 Khung bên trái:
 * Nơi bạn nhập nội dung Markdown. Nội dung này sẽ được chuyển thành mindmap.
+Ví dụ:
+```markdown
+# Tài liệu Hướng Dẫn Sử Dụng
+
+## Giới thiệu
+- Tổng quan về phần mềm
+- Mục đích sử dụng
+
+## Sử dụng
+- Tạo tài liệu mới
+- Chỉnh sửa tài liệu
+  - Thêm nội dung
+  - Xóa nội dung
+- Xuất tài liệu
+  - PDF
+  - HTML
+
+## Tài liệu tham khảo
+  - Hướng dẫn sử dụng chi tiết
+  - FAQ
+
+## Ghi chú
+- Thường xuyên cập nhật phần mềm
+- Lưu ý bảo mật tài liệu
+
+
 Khung bên phải:
 * Hiển thị sơ đồ mindmap tương tác được tạo từ nội dung Markdown bạn nhập.
 
