@@ -9,28 +9,36 @@
 ![Hotline](https://img.shields.io/badge/Liên_hệ-info@foxai.vn-red)
 
 # Nội dung
-1. [Mục tiêu](#mục-tiêu)
-2. [Quy trình thực hiện](#Quy-trình-thực-hiện)
-3. [Các ngôn ngữ soạn thảo](#1-CÁC-NGÔN-NGỮ-SOẠN-THẢO-TÀI-LIỆU)
-4. [Tool vẽ biểu đồ](#2-CÁC-CÔNG-CỤ-VẼ-BIỂU-ĐỒ,-SƠ-ĐỒ,-WORKFLOW,-MINDMAP)
+1. [Công cụ soạn thảo](#1-CÁC-NGÔN-NGỮ-SOẠN-THẢO-TÀI-LIỆU)
+   * [Markdown](#1-1-Ngôn-ngữ-Markdown)
+   * [HTML](#1-2-Ngôn-ngữ-HTML)
+3. [Công cụ trực quan hóa](#2-CÁC-CÔNG-CỤ-VẼ-BIỂU-ĐỒ,-SƠ-ĐỒ,-WORKFLOW,-MINDMAP)
+   * [Mermaid](#2-1-Công-cụ-Mermaid)
+   * [Markmap](#2-2-Công-cụ-Markmap)
+   * [Badge](#2-3-Công-cụ-Badge)
 5. [Tự đồng bộ tạo Book Online](#3-TỰ-ĐỒNG-BỘ-TẠO-BOOK-ONLINE)
-6. [Tự đồng bộ tạo Slide](#4-TỰ-ĐỒNG-BỘ-TẠO-SLIDE)
-7. [Sắp xếp, Quản lý, Cập nhật tài liệu](#5-QUẢN-LÝ-TÀI-LIỆU)
+   * [GitBook](#Công-cụ-GitBook)
+7. [Tự đồng bộ tạo Slide](#4-TỰ-ĐỒNG-BỘ-TẠO-SLIDE)
+   * [HackMD](#Công-cụ-HackMD)
+9. [Sắp xếp, Quản lý, Cập nhật tài liệu](#5-QUẢN-LÝ-TÀI-LIỆU)
+    * [Git](#Công-cụ-Git)
 
 ## Đối tượng sử dụng
-Nhân viên của FoxAI khi cần thực hiện các công việc như:
+Tài liệu này được thiết kế dành cho nhân viên của FoxAI khi cần thực hiện các công việc như:
 * Viết tài liệu đào tạo để chuyển giao cho khách hàng;
 * Tạo slide thuyết trình sản phẩm hoặc kế hoạch kinh doanh;
 * Xây dựng tài liệu, quy trình, quy định để đào tạo nội bộ.
 
+Giúp nâng cao năng suất, thực hiện một cách dễ dàng, chuyên nghiệp, và hiệu quả.
+
 ## Mục tiêu
 
 Người dùng sau khi đọc tài liệu này có thể:
-1. Biết sử dụng ngôn ngữ [Markdown](#1-1-Ngôn-ngữ-Markdown), [HTML](#1-2-Ngôn-ngữ-HTML)... để ghi chú, soạn thảo nội dung một cách nhanh chóng, gọn nhẹ.
-2. Nắm được các công cụ [Mermaid](#2-1-Công-cụ-Mermaid), [Markmap](#2-2-Công-cụ-Markmap), [Badge](#2-3-Công-cụ-Badge)... để vẽ biểu đồ, workflow giúp trực quan hóa tài liệu.
-3. Thực hành được cách đồng bộ tự động nội dung trên GitHub sang [GitBook](#Công-cụ-GitBook) để xuất bản book online nhanh, không phải sửa thủ công.
-4. Biết cách cập nhật nội dung từ GitHub sang [HackMD](#Công-cụ-HackMD) để tạo slide trình chiếu chuyên nghiệp, nhanh chóng.
-5. Hiểu được cách thức lưu trữ thông qua công cụ [Git](#Git-Hệ-thống-Quản-lý-Phiên-bản-VCS-Version-Control-System) đảm bảo nhất quán tài liệu sau nhiều lần chỉnh sửa, nhiều người cùng cập nhật.
+1. **Biết được** cách dùng [Markdown](#1-1-Ngôn-ngữ-Markdown), [HTML](#1-2-Ngôn-ngữ-HTML)... để ghi chú, soạn thảo nội dung một cách nhanh chóng, dễ chỉnh sửa, dễ truyền tải.
+2. **Nắm được** các công cụ [Mermaid](#2-1-Công-cụ-Mermaid), [Markmap](#2-2-Công-cụ-Markmap), [Badge](#2-3-Công-cụ-Badge)... để vẽ biểu đồ, workflow giúp trực quan hóa tài liệu.
+3. **Thực hành được** cách đồng bộ tự động nội dung trên GitHub sang [GitBook](#Công-cụ-GitBook) để xuất bản sách hướng dẫn nhanh, dễ dàng chia sẻ cho khách hàng, luôn đảm bảo update mà không phải sửa thủ công.
+4. **Biết cách** cập nhật nội dung từ GitHub sang [HackMD](#Công-cụ-HackMD) để tạo slide trình chiếu chuyên nghiệp, nhanh chóng.
+5. **Hiểu được** cách thức lưu trữ thông qua công cụ [Git](#Công-cụ-Git) đảm bảo tính nhất quán, tránh xung đột khi nhiều nhân viên cùng tham gia chỉnh sửa hoặc cập nhật.
 
 ---
 
