@@ -7,7 +7,7 @@
 4. [Tool vẽ biểu đồ](#2-CÁC-CÔNG-CỤ-VẼ-BIỂU-ĐỒ,-SƠ-ĐỒ,-WORKFLOW,-MINDMAP)
 5. [Tự đồng bộ tạo Book Online](#3-TỰ-ĐỒNG-BỘ-TẠO-BOOK-ONLINE)
 6. [Tự đồng bộ tạo Slide](#4-TỰ-ĐỒNG-BỘ-TẠO-SLIDE)
-7. [Sắp xếp, Quản lý, Cập nhật tài liệu](#5-SẮP-XẾP,-QUẢN-LÝ,-CẬP-NHẬT-TÀI-LIỆU)
+7. [Sắp xếp, Quản lý, Cập nhật tài liệu](#5-QUẢN-LÝ-TÀI-LIỆU)
 
 
 ## Mục tiêu  
@@ -189,11 +189,11 @@ Bạn có thể dán file Markdown (copy/paste) hoặc sync một phần với G
 
 <img src="https://github.com/hoanglong8/FoxAI-Data-Analyst/blob/main/Image/HackMD.gif" width="100%" />
 
-## 5-SẮP XẾP, QUẢN LÝ, CẬP NHẬT TÀI LIỆU
+## 5-QUẢN LÝ TÀI LIỆU
 
-### Git Hệ thống Quản lý Phiên bản VCS Version Control System
+### Công cụ Git
 
-[Git](https://git-scm.com/) là nền tảng mã nguồn mở giúp quản lý tài liệu, theo dõi phiên bản thay đổi, chia sẻ việc sửa cho nhóm và giữ được lịch sử chỉnh sửa tài liệu thông qua: GitHub, GitLab, hoặc Bitbucket.
+[Git](https://git-scm.com/) là Hệ thống Quản lý Phiên bản VCS (Version Control System) giúp quản lý tài liệu, theo dõi phiên bản thay đổi, chia sẻ việc sửa cho nhóm và giữ được lịch sử chỉnh sửa tài liệu thông qua một số nền tảng: GitHub, GitLab, hoặc Bitbucket.
 
 **1.Các thao tác với kho lưu trữ từ xa (Remote Repository)**
 
@@ -211,7 +211,9 @@ git clone https://github.com/username/repository-name.git
 - Hợp nhất thay đổi (merge) hoặc phê duyệt thay đổi tài liệu
 - Nếu nhiều người cùng chỉnh sửa một file, Git sẽ báo xung đột để tạo ra 2 phiên bản khác
 
-**3.Quy tắc Quản lý Tài liệu Hiệu Quả**
+**3.Một số cách thức quản lý tài liệu hiệu quả**
+
+Quy tắc:
 * Quy định rõ cấu trúc tài liệu (ví dụ: đặt tên file, thư mục).
 * Quy định cách ghi chú thay đổi (changelog).
 
