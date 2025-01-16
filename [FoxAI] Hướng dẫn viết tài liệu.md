@@ -12,7 +12,7 @@
 
 ## Mục tiêu  
 1. Sử dụng ngôn ngữ [Markdown](#1-1-Ngôn-ngữ-Markdown), [HTML](#1-2-Ngôn-ngữ-HTML)... để soạn thảo nội dung một cách nhanh chóng, gọn nhẹ.
-2. Thành thạo công cụ **Mermaid, Markmap, Badge**... để vẽ biểu đồ, workflow giúp trực quan hóa tài liệu.
+2. Thành thạo công cụ [Mermaid](#2-1-Công-cụ-Mermaid), [Markmap](#2-2-Công-cụ-Markmap), [Badge](#2-3-Công-cụ-Badge)... để vẽ biểu đồ, workflow giúp trực quan hóa tài liệu.
 3. Nắm được cách đồng bộ tự động nội dung trên **GitHub** sang **GitBook** để xuất bản book online nhanh, không phải sửa thủ công.
 4. Biết cách cập nhật nội dung từ GitHub sang **HackMD** để tạo slide trình chiếu chuyên nghiệp, nhanh chóng.
 5. Hiểu được **cách lưu trữ và công cụ quản lý** sau khi ban hành tài liệu, đảm bảo nhất quán tài liệu sau nhiều lần chỉnh sửa, nhiều người cùng cập nhật.
@@ -118,6 +118,19 @@ Các bước thực hiện:
 <img src="https://github.com/hoanglong8/FoxAI-Data-Analyst/blob/main/Image/Mermaid.gif" width="100%" />
 
 ### 2-2-Công cụ Markmap
+
+[Markmap.js](https://markmap.js.org/repl) là một website giúp chuyển đổi Markdown thành **mindmap (sơ đồ tư duy)** trực quan và tương tác, sử dụng trực tiếp trên trình duyệt (dưới dạng HTML).
+
+Giao diện website được chia làm 2 phần:
+
+Khung bên trái:
+* Nơi bạn nhập nội dung Markdown. Nội dung này sẽ được chuyển thành mindmap.
+Khung bên phải:
+* Hiển thị sơ đồ mindmap tương tác được tạo từ nội dung Markdown bạn nhập.
+
+Bạn có thể tải file mindmap về dưới dạng .html, rồi tải lên GitHub Pages để xem trực tiếp trong tài liệu.
+
+![Minh họa](https://github.com/hoanglong8/FoxAI-Data-Analyst/blob/main/Image/Markmap.gif)
 
 ### 2-3-Công cụ Badge
 
