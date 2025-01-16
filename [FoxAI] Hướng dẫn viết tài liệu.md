@@ -80,7 +80,16 @@ Cách thực hiện:
 * Viết nội dung Markdown, commit lên repo. Mọi thay đổi (commit) trong file .md sẽ được Git lưu lại.
 
 ### 1.2 Ngôn ngữ HTML
-- **HTML** là ...
+- **HTML** là ngôn ngữ thường dùng để viết tài liệu có cấu trúc rõ ràng, thường viết bằng công cụ như Visual Studio Code VSCode để dễ dàng kiểm tra nội dung.
+
+- Khi mở file `.html` trên GitHub, mã HTML sẽ hiển thị dưới dạng văn bản chứ không được render thành trang web, do vậy để xem thì phải render thông qua GitHub Pages.
+
+- Ngôn ngữ HTML thường kết hợp Markdown để tăng tính tương tác trong tài liệu, ví dụ HTML hỗ trợ tốt các tính năng như: thay đổi font, màu sắc, kích thước ảnh...
+
+- [Hướng dẫn sử dụng GitHub Pages](https://docs.github.com/en/pages)  
+- [HTML cơ bản - W3Schools](https://www.w3schools.com/html/)  
+- [Markdown trên GitHub](https://guides.github.com/features/mastering-markdown/)  
+
 
 ## 2. CÁC CÔNG CỤ VẼ BIỂU ĐỒ, SƠ ĐỒ, WORKFLOW, MINDMAP
 
