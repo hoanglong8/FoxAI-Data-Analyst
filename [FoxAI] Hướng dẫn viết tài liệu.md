@@ -1,7 +1,7 @@
 # HƯỚNG DẪN VIẾT TÀI LIỆU TRÊN GITHUB
 
 **Mục tiêu**:  
-1. Sử dụng ngôn ngữ **Markdown, HTML**... để soạn thảo nội dung một cách nhanh chóng, gọn nhẹ.
+1. Sử dụng ngôn ngữ [Markdown](#1.1-Ngôn-ngữ-Markdown), HTML... để soạn thảo nội dung một cách nhanh chóng, gọn nhẹ.
 2. Thành thạo công cụ **Mermaid, Markmap, Badge**... để vẽ biểu đồ, workflow giúp trực quan hóa tài liệu.
 3. Nắm được cách đồng bộ tự động nội dung trên **GitHub** sang **GitBook** để xuất bản book online nhanh, không phải sửa thủ công.
 4. Biết cách cập nhật nội dung từ GitHub sang **HackMD** để tạo slide trình chiếu chuyên nghiệp, nhanh chóng.
@@ -72,9 +72,8 @@ graph LR;
 
 Tham khảo thêm tại: [Basic writing and formatting syntax.](https://docs.github.com/en/get-started/writing-on-github/basic-writing-and-formatting-syntax)
 
-#### b. Cách viết trên GitHub
+#### b. Thao tác trên GitHub
 
-Cách thực hiện:
 * Tạo repository / file Markdown
 * Đăng nhập GitHub → Tạo repo mới (hoặc mở repo sẵn có).
 * Tạo file .md (ví dụ: README.md, doc-tong-quan.md).
