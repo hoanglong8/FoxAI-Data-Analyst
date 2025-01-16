@@ -118,6 +118,7 @@ Xem thêm:
 
 ## 2-CÁC CÔNG CỤ TRỰC QUAN HÓA
 [⬆️](#nội-dung)
+
 Nhằm giúp thông tin dễ hiểu hơn, hấp dẫn hơn, và hỗ trợ người đọc nắm bắt ý chính nhanh chóng, chúng ta thường dùng các cách thức như: vẽ biểu đồ workflow, đồ thị chart, sơ đồ mindmap, chèn hình ảnh minh họa và biểu tượng icon, infographic và kết hợp đa phương tiện như video, âm thanh, hoặc liên kết (link) đến tài liệu khác.
 
 ### 2-1-Công cụ Mermaid
@@ -199,6 +200,7 @@ Ví dụ:
 
 ## 3-TỰ ĐỒNG BỘ TẠO BOOK ONLINE
 [⬆️](#nội-dung)
+
 ### Công cụ GitBook
 [GitBook](https://www.gitbook.com/) là nền tảng giúp bạn tạo trang tài liệu/sách online chuyên nghiệp, có thể mời người khác cộng tác chỉnh sửa và chia sẻ cho khách hàng.
 
@@ -217,6 +219,7 @@ GitBook có thể sync từ file Markdown từ GitHub, khi chỉnh sửa trên G
 
 ## 4-TỰ ĐỒNG BỘ TẠO SLIDE
 [⬆️](#nội-dung)
+
 ### Công cụ HackMD
 [HackMD](https://hackmd.io/) là nền tảng soạn thảo Markdown online, hỗ trợ chế độ trình chiếu (Slide mode) dựa trên Reveal.js.
 Bạn có thể dán file Markdown (copy/paste) hoặc sync một phần với GitHub (chức năng “Import from GitHub” hoặc “Publish to GitHub”).
@@ -243,6 +246,7 @@ Bạn có thể dán file Markdown (copy/paste) hoặc sync một phần với G
 <img src="https://github.com/hoanglong8/FoxAI-Data-Analyst/blob/main/Image/HackMD.gif" width="100%" />
 
 ## 5-QUẢN LÝ TÀI LIỆU
+[⬆️](#nội-dung)
 
 ### Công cụ Git
 
