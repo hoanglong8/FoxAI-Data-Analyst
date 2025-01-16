@@ -1,4 +1,7 @@
 # HƯỚNG DẪN VIẾT TÀI LIỆU TRÊN GITHUB
+![Phiên bản](https://img.shields.io/badge/Version-1.0-blue)
+![Bản quyền](https://img.shields.io/badge/FoxAI-yellow)
+![Trạng thái](https://img.shields.io/badge/Đang_soạn_thảo-brightgreen)
 
 # Nội dung
 1. [Mục tiêu](#mục-tiêu)
@@ -149,7 +152,7 @@ Ví dụ:
 ## Ghi chú
 - Thường xuyên cập nhật phần mềm
 - Lưu ý bảo mật tài liệu
-
+```
 
 Khung bên phải:
 * Hiển thị sơ đồ mindmap tương tác được tạo từ nội dung Markdown bạn nhập.
