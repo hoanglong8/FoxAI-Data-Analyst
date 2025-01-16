@@ -119,7 +119,7 @@ Các bước thực hiện:
 
 ### 2-2-Công cụ Markmap
 
-[Markmap.js](https://markmap.js.org/repl) là một website giúp chuyển đổi Markdown thành **mindmap (sơ đồ tư duy)** trực quan và tương tác, sử dụng trực tiếp trên trình duyệt (dưới dạng HTML).
+[Markmap.js](https://markmap.js.org/repl) là một nền tảng giúp chuyển đổi Markdown thành **mindmap (sơ đồ tư duy)** trực quan và tương tác, sử dụng trực tiếp trên trình duyệt (dưới dạng HTML).
 
 Giao diện website được chia làm 2 phần:
 
@@ -128,11 +128,21 @@ Khung bên trái:
 Khung bên phải:
 * Hiển thị sơ đồ mindmap tương tác được tạo từ nội dung Markdown bạn nhập.
 
-Bạn có thể tải file mindmap về dưới dạng .html, rồi tải lên GitHub Pages để xem trực tiếp trong tài liệu.
+Bạn có thể tải file mindmap về dưới dạng .html, rồi tải lên **GitHub Pages** để xem trực tiếp trong tài liệu.
 
 ![Minh họa](https://github.com/hoanglong8/FoxAI-Data-Analyst/blob/main/Image/Markmap.gif)
 
 ### 2-3-Công cụ Badge
+
+[Badge](https://shields.io/) là các biểu tượng/huy hiệu hiển thị trạng thái, thông tin hoặc số liệu quan trọng, thường được sử dụng trong `README.md` để cung cấp thông tin nhanh (ví dụ: tình trạng dự án, phiên bản của tài liệu, cấp độ bảo mật, license...) và tăng tính chuyên nghiệp, dễ đọc, hiện đại và bắt mắt hơn.
+
+Ví dụ:
+### [FoxAI] Tài liệu triển khai dự án ABC...
+![Version](https://img.shields.io/badge/Version-1.0-blue)
+![License](https://img.shields.io/badge/License-MIT-yellow)
+![Build Status](https://img.shields.io/badge/Build-Passing-brightgreen)
+![GitHub stars](https://img.shields.io/github/stars/<username>/<repo>)
+![Codecov](https://img.shields.io/codecov/c/github/<username>/<repo>)
 
 ## 3-TỰ ĐỒNG BỘ TẠO BOOK ONLINE
 
