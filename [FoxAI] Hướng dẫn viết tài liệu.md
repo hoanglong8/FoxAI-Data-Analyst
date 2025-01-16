@@ -16,11 +16,11 @@
    * [Mermaid](#2-1-Công-cụ-Mermaid)
    * [Markmap](#2-2-Công-cụ-Markmap)
    * [Badge](#2-3-Công-cụ-Badge)
-5. [Tự đồng bộ tạo Book Online](#3-TỰ-ĐỒNG-BỘ-TẠO-BOOK-ONLINE)
+5. [Công cụ tự đồng bộ tạo Book Online](#3-TỰ-ĐỒNG-BỘ-TẠO-BOOK-ONLINE)
    * [GitBook](#Công-cụ-GitBook)
-7. [Tự đồng bộ tạo Slide](#4-TỰ-ĐỒNG-BỘ-TẠO-SLIDE)
+7. [Công cụ tự đồng bộ tạo Slide](#4-TỰ-ĐỒNG-BỘ-TẠO-SLIDE)
    * [HackMD](#Công-cụ-HackMD)
-9. [Sắp xếp, Quản lý, Cập nhật tài liệu](#5-QUẢN-LÝ-TÀI-LIỆU)
+9. [Công cụ lưu trữ, quản lý tài liệu](#5-QUẢN-LÝ-TÀI-LIỆU)
     * [Git](#Công-cụ-Git)
 
 ## Đối tượng sử dụng
@@ -46,7 +46,7 @@ Người dùng sau khi đọc tài liệu này có thể:
 
 ```mermaid
 graph TD;
-    1.Viết_nội_dung --> 2.Chèn_biểu_đồ/image/video --> 3.Xuất_bản_book_online --> 4.Tạo_slide --> 5.Lưu_trữ_tài_liệu
+    1.Soạn_thảo_nội_dung --> 2.Trực_quan_hóa --> 3.Xuất_bản_tài_liệu --> 4.Thuyết_trình --> 5.Lưu_trữ_tài_liệu
 
 ```
 
@@ -208,7 +208,7 @@ GitBook có thể sync từ file Markdown từ GitHub, khi chỉnh sửa trên G
 
 ### Kết quả đầu ra:
 
-[Demo tài liệu](https://foxai-data-analyst.gitbook.io/tai-lieu-dong-bo-tu-github-foxai)
+![1](https://img.shields.io/badge/Xem_demo-orange) [here](https://foxai-data-analyst.gitbook.io/tai-lieu-dong-bo-tu-github-foxai)
 
 <img src="https://github.com/hoanglong8/FoxAI-Data-Analyst/blob/main/Image/GitBook.gif" width="100%" />
 
@@ -282,5 +282,8 @@ Thiết lập Quy trình Kiểm Duyệt:
 Sử dụng các công cụ như Zapier hoặc Make (Integromat) để tự động:
 * Thông báo thay đổi tài liệu.
 * Gửi tài liệu mới đến các bên liên quan (Lập trình viên, Tư vấn, Kinh doanh, Khách hàng...)
+
+## Tóm tắt
+Với tài liệu hướng dẫn này, các nhân viên FoxAI sẽ có công cụ và quy trình rõ ràng để tạo ra những tài liệu chuyên nghiệp, hiệu quả và luôn được cập nhật. Điều này không chỉ nâng cao chất lượng dịch vụ mà còn cải thiện khả năng hỗ trợ khách hàng và đào tạo nội bộ.
 
 [⬆️ Quay lại đầu trang](#nội-dung)
