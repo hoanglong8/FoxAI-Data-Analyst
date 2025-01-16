@@ -140,10 +140,11 @@ Class08 <--> C2: Cool label
 - **Phụ lục C**: Thuật ngữ, định nghĩa.  
 
 ---
+<img src="https://fox.ai.vn/wp-content/uploads/2024/07/Logo_Original-1.png" alt="Hình ảnh" width="30%" />
 
 > **Thông tin liên hệ**  
 > **Công ty cổ phần công nghệ FoxAI**  
-> *Địa chỉ*: …  
+> *Địa chỉ*: Tầng 3, tòa nhà N03-T3, khu đô thị mới Ngoại giao Đoàn, Bắc Từ Liêm, Tp.Hà Nội
 > *Điện thoại*: …  
-> *Email*: …  
+> *Email*: info@foxai.vn 
 
