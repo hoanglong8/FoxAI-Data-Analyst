@@ -2,12 +2,11 @@
 
 <img src="https://fox.ai.vn/wp-content/uploads/2024/07/Logo_Original-1.png" alt="Hình ảnh" width="30%" />
 
-![Phiên_bản](https://img.shields.io/badge/Version-1.0-green)
-![Bản_quyền](https://img.shields.io/badge/Bản_quyền-gray)
-![Bản_quyền](https://img.shields.io/badge/FoxAI-blue)
-![Editor](https://img.shields.io/badge/Người_soạn_thảo-darkorange)
-![Tình_trạng](https://img.shields.io/badge/Đang_soạn_thảo-gray)
-![Approval](https://img.shields.io/badge/Người_phê_duyệt-darkred)
+![Phiên_bản](https://img.shields.io/badge/Phiên_bản-1.0-brightgreen)
+![Bản_quyền](https://img.shields.io/badge/Bản_quyền-FoxAI-blue)
+![Tình trạng](https://img.shields.io/badge/Tình_trạng-Đang_soạn_thảo-darkorange)
+![Hỗ trợ](https://img.shields.io/badge/Hỗ_trợ_247-Chatbot-purple)
+![Hotline](https://img.shields.io/badge/Liên_hệ-info@foxai.vn-red)
 
 # Nội dung
 1. [Mục tiêu](#mục-tiêu)
