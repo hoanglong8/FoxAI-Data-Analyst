@@ -3,7 +3,11 @@
 # Nội dung
 1. [Mục tiêu](#mục-tiêu)
 2. [Quy trình thực hiện](#Quy-trình-thực-hiện)
-3. [Các ngôn ngữ thường dùng](#1-CÁC-NGÔN-NGỮ-THƯỜNG-DÙNG-ĐỂ-VIẾT-TÀI-LIỆU)
+3. [Các ngôn ngữ soạn thảo](#1-CÁC-NGÔN-NGỮ-THƯỜNG-DÙNG-ĐỂ-VIẾT-TÀI-LIỆU)
+4. [Tool vẽ biểu đồ](#2-CÁC-CÔNG-CỤ-VẼ-BIỂU-ĐỒ,-SƠ-ĐỒ,-WORKFLOW,-MINDMAP)
+5. [Tự đồng bộ tạo Book Online](#3-TỰ-ĐỒNG-BỘ-TẠO-BOOK-ONLINE)
+6. [Tự đồng bộ tạo Slide](#4-TỰ-ĐỒNG-BỘ-TẠO-SLIDE)
+7. [Sắp xếp, Quản lý, Cập nhật tài liệu](#5-SẮP-XẾP,-QUẢN-LÝ,-CẬP-NHẬT-TÀI-LIỆU)
 
 
 ## Mục tiêu  
@@ -97,9 +101,9 @@ Tham khảo thêm tại: [Basic writing and formatting syntax.](https://docs.git
 - [Markdown trên GitHub](https://guides.github.com/features/mastering-markdown/)  
 
 
-## 2. CÁC CÔNG CỤ VẼ BIỂU ĐỒ, SƠ ĐỒ, WORKFLOW, MINDMAP
+## 2-CÁC CÔNG CỤ VẼ BIỂU ĐỒ, SƠ ĐỒ, WORKFLOW, MINDMAP
 
-### 2.1. Công cụ Mermaid
+### 2-1-Công cụ Mermaid
 
 [Mermaid](https://mermaid.js.org/intro/) là nền tảng giúp bạn vẽ nhanh các diagram nhanh chóng và có thể chèn trực tiếp vào Markdown mà không cần xuất ra ảnh để chèn vào tài liệu.
 
@@ -115,45 +119,54 @@ Các bước thực hiện:
 
 <img src="https://github.com/hoanglong8/FoxAI-Data-Analyst/blob/main/Image/Mermaid.gif" width="100%" />
 
-## 4. ĐỒNG BỘ GITHUB SANG GITBOOK
+### 2-2-Công cụ Markmap
 
+### 2-3-Công cụ Badge
+
+## 3-TỰ ĐỒNG BỘ TẠO BOOK ONLINE
+
+### Công cụ GitBook
 [GitBook](https://www.gitbook.com/) là nền tảng giúp bạn tạo trang tài liệu/sách online chuyên nghiệp, có thể mời người khác cộng tác chỉnh sửa và chia sẻ cho khách hàng.
 
 GitBook có thể sync từ file Markdown từ GitHub, khi chỉnh sửa trên GitHub thì GitBook tự động cập nhật theo.
 
-### 4.1.Các bước thực hiện:
+### Các bước thực hiện:
 * Tạo Space trên GitBook
 * Thêm Page và sync đồng bộ từ GitHub
 * Edit changes, chia sẻ và publish to web.
 
-### 4.2.Kết quả đầu ra:
+### Kết quả đầu ra:
 
 [Demo tài liệu](https://foxai-data-analyst.gitbook.io/tai-lieu-dong-bo-tu-github-foxai)
 
 <img src="https://github.com/hoanglong8/FoxAI-Data-Analyst/blob/main/Image/GitBook.gif" width="100%" />
 
-## 5. ĐỒNG BỘ HOẶC SỬ DỤNG GITHUB VỚI HACKMD ĐỂ TẠO SLIDE
+## 4-TỰ ĐỒNG BỘ TẠO SLIDE
 
+### Công cụ HackMD
 [HackMD](https://hackmd.io/) là nền tảng soạn thảo Markdown online, hỗ trợ chế độ trình chiếu (Slide mode) dựa trên Reveal.js.
 Bạn có thể dán file Markdown (copy/paste) hoặc sync một phần với GitHub (chức năng “Import from GitHub” hoặc “Publish to GitHub”).
 
-### 5.1.Các bước thực hiện:
+### Các bước thực hiện:
 * Đăng nhập bằng GitHub account, thực hiện sync
 * Chọn “New Note” → “Import from GitHub Gist / GitHub repo”
 * Chọn file .md trong repo.
 * Mọi thay đổi trên GitHub sẽ được sync với HackMD
 (Hoặc bạn có thể copy/paste nội dung Markdown từ GitHub sang HackMD).
 
-### 5.2.Tạo slide trình chiếu:
+### Tạo slide trình chiếu:
 * Chỉnh sửa nội dung Markdown đã có trên HackMD (nếu cần)
 * Thêm --- để chia slide.
 * Bấm Menu → Slide mode (hoặc “Present Slides”).
 * Nếu muốn tùy chỉnh theme, transition, CSS… → sử dụng YAML front matter (khóa reveal Options).
 
-### 5.3.Kết quả đầu ra:
+### Kết quả đầu ra:
 
 [Dạng book view ](https://foxai-data-analyst.gitbook.io/tai-lieu-dong-bo-tu-github-foxai)
 
 [Dạng slide view](https://hackmd.io/@DCs5idhtQRK_cmFBAVRcSw/B1WDl3NPyl#/)
 
 <img src="https://github.com/hoanglong8/FoxAI-Data-Analyst/blob/main/Image/HackMD.gif" width="100%" />
+
+## 5-SẮP XẾP, QUẢN LÝ, CẬP NHẬT TÀI LIỆU
+
