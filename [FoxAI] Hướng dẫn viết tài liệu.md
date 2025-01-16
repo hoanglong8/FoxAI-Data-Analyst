@@ -1,4 +1,7 @@
 # HƯỚNG DẪN VIẾT TÀI LIỆU TRÊN GITHUB
+
+<img src="https://fox.ai.vn/wp-content/uploads/2024/07/Logo_Original-1.png" alt="Hình ảnh" width="30%" />
+
 ![Phiên_bản](https://img.shields.io/badge/Version-1.0-green)
 ![Bản_quyền](https://img.shields.io/badge/Bản_quyền-gray)
 ![Bản_quyền](https://img.shields.io/badge/FoxAI-blue)
