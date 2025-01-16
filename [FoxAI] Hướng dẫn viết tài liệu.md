@@ -1,6 +1,12 @@
 # HƯỚNG DẪN VIẾT TÀI LIỆU TRÊN GITHUB
 
-**Mục tiêu**:  
+# Nội dung
+1. [Mục tiêu](#mục-tiêu)
+2. [Quy trình thực hiện](#Quy-trình-thực-hiện)
+3. [Các ngôn ngữ thường dùng](#1-CÁC-NGÔN-NGỮ-THƯỜNG-DÙNG-ĐỂ-VIẾT-TÀI-LIỆU)
+
+
+## Mục tiêu  
 1. Sử dụng ngôn ngữ [Markdown](#1-1-Ngôn-ngữ-Markdown), [HTML](#1-2-Ngôn-ngữ-HTML)... để soạn thảo nội dung một cách nhanh chóng, gọn nhẹ.
 2. Thành thạo công cụ **Mermaid, Markmap, Badge**... để vẽ biểu đồ, workflow giúp trực quan hóa tài liệu.
 3. Nắm được cách đồng bộ tự động nội dung trên **GitHub** sang **GitBook** để xuất bản book online nhanh, không phải sửa thủ công.
@@ -18,7 +24,7 @@ graph TD;
 ```
 ---
 
-## 1. CÁC NGÔN NGỮ THƯỜNG DÙNG ĐỂ VIẾT TÀI LIỆU
+## 1-CÁC NGÔN NGỮ THƯỜNG DÙNG ĐỂ VIẾT TÀI LIỆU
 
 ### 1-1-Ngôn ngữ Markdown
 - **Markdown** là **ngôn ngữ đánh dấu** đơn giản, cho phép viết tài liệu nhanh chóng, gọn nhẹ. Định dạng đuôi là `.md`.
