@@ -4,7 +4,7 @@
 
 ![Phiên_bản](https://img.shields.io/badge/Phiên_bản-1.0-brightgreen)
 ![Bản_quyền](https://img.shields.io/badge/Bản_quyền-FoxAI-blue)
-![Tình trạng](https://img.shields.io/badge/Tình_trạng-Đang_soạn_thảo-darkorange)
+![Tình trạng](https://img.shields.io/badge/Tình_trạng-Đã_ban_hành-darkorange)
 ![Hỗ trợ](https://img.shields.io/badge/Hỗ_trợ_247-Chatbot-purple)
 ![Hotline](https://img.shields.io/badge/Liên_hệ-info@foxai.vn-red)
 
