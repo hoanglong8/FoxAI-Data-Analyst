@@ -40,3 +40,9 @@ Quản lý công việc và nhân sự của phòng Data Analyst - Công ty FoxA
 * Power BI cho khách hàng (2 dự án là: Thuốc lá Thăng Long, APFCO)
 
 ## 4. Công tác nghiên cứu và phát triển sản phẩm "Hợp nhất báo cáo tài chính"
+
+Tóm tắt nội dung bài viết [tại đây](https://hoanglong8.github.io/FoxAI-Data-Analyst/markmap.html)
+
+## Mindmap Visualization
+
+[![Open Mindmap](https://img.shields.io/badge/Mindmap-View%20Now-blue)](https://hoanglong8.github.io/FoxAI-Data-Analyst/markmap.html)
