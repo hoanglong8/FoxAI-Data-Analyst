@@ -197,28 +197,38 @@ Bạn có thể dán file Markdown (copy/paste) hoặc sync một phần với G
 
 **1.Các thao tác với kho lưu trữ từ xa (Remote Repository)**
 
-- Liên kết kho lưu trữ từ xa:
-```
-git remote add origin https://github.com/username/repository-name.git
-```
-- Đẩy tài liệu lên kho lưu trữ từ xa:
-```
-git push -u origin main
-```
-- Thành viên trong team có thể clone kho lưu trữ (tải hàng loạt):
+- Liên kết kho lưu trữ từ xa bằng link online hoặc GitHub Desktop
+- Tải tài liệu lên kho lưu trữ Repo
+- Thành viên trong team có thể tải hàng loạt tài liệu bằng lệnh `Git clone`:
 ```
 git clone https://github.com/username/repository-name.git
 ```
 **2.Quản lý phiên bản**
 
-- Tạo nhánh để chỉnh sửa mà không ảnh hưởng đến tài liệu gốc:
-```
-git checkout -b feature/update-documents
-```
-- Hợp nhất thay đổi (merge) hoặc phê duyệt thay đổi tài liệu:
-```
-git merge feature/update-documents
-```
-- Nếu nhiều người cùng chỉnh sửa một file, Git có thể báo xung đột.
+- Tạo nhánh (fork) để chỉnh sửa mà không ảnh hưởng đến tài liệu gốc
+- Tạo Commit history sau mỗi lần chỉnh sửa
+- Tạo Pull request để gửi yêu cầu phê duyệt tài liệu
+- Hợp nhất thay đổi (merge) hoặc phê duyệt thay đổi tài liệu
+- Nếu nhiều người cùng chỉnh sửa một file, Git sẽ báo xung đột để tạo ra 2 phiên bản khác
+
+**3.Quy tắc Quản lý Tài liệu Hiệu Quả**
+* Quy định rõ cấu trúc tài liệu (ví dụ: đặt tên file, thư mục).
+* Quy định cách ghi chú thay đổi (changelog).
+
+Phân Quyền Rõ Ràng:
+* Ai có quyền chỉnh sửa, nhận xét, hoặc chỉ xem.
+* Sử dụng công cụ hỗ trợ phân quyền như Google Workspace, Confluence.
+
+Thiết lập Quy trình Kiểm Duyệt:
+* Áp dụng quy trình phê duyệt thay đổi trước khi ban hành.
+* Sử dụng Git (Pull Request) hoặc Google Docs (Suggested Edits).
+
+Đặt Lịch Kiểm Tra Định Kỳ:
+* Xác định ngày kiểm tra và cập nhật tài liệu định kỳ (hàng quý, hàng năm).
+* Sử dụng các công cụ nhắc lịch như Google Calendar hoặc Microsoft Outlook.
+
+Sử dụng các công cụ như Zapier hoặc Make (Integromat) để tự động:
+* Thông báo thay đổi tài liệu.
+* Gửi tài liệu mới đến các bên liên quan (Lập trình viên, Tư vấn, Kinh doanh, Khách hàng...)
 
 [⬆️ Quay lại đầu trang](#nội-dung)
