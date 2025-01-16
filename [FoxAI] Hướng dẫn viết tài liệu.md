@@ -1,4 +1,4 @@
-# HƯỚNG DẪN VIẾT TÀI LIỆU TRÊN GITHUB
+# BỘ QUY TẮC, CÔNG CỤ GIÚP SOẠN THẢO TÀI LIỆU NHANH CHÓNG, CHUYÊN NGHIỆP
 
 <img src="https://fox.ai.vn/wp-content/uploads/2024/07/Logo_Original-1.png" alt="Hình ảnh" width="30%" />
 
@@ -17,13 +17,20 @@
 6. [Tự đồng bộ tạo Slide](#4-TỰ-ĐỒNG-BỘ-TẠO-SLIDE)
 7. [Sắp xếp, Quản lý, Cập nhật tài liệu](#5-QUẢN-LÝ-TÀI-LIỆU)
 
+## Đối tượng sử dụng
+Nhân viên của FoxAI khi cần thực hiện các công việc như:
+* Viết tài liệu đào tạo để chuyển giao cho khách hàng;
+* Tạo slide thuyết trình sản phẩm hoặc kế hoạch kinh doanh;
+* Xây dựng tài liệu, quy trình, quy định để đào tạo nội bộ.
 
-## Mục tiêu  
-1. Sử dụng ngôn ngữ [Markdown](#1-1-Ngôn-ngữ-Markdown), [HTML](#1-2-Ngôn-ngữ-HTML)... để soạn thảo nội dung một cách nhanh chóng, gọn nhẹ.
-2. Thành thạo công cụ [Mermaid](#2-1-Công-cụ-Mermaid), [Markmap](#2-2-Công-cụ-Markmap), [Badge](#2-3-Công-cụ-Badge)... để vẽ biểu đồ, workflow giúp trực quan hóa tài liệu.
-3. Nắm được cách đồng bộ tự động nội dung trên GitHub sang [GitBook](#Công-cụ-GitBook) để xuất bản book online nhanh, không phải sửa thủ công.
+## Mục tiêu
+
+Người dùng sau khi đọc tài liệu này có thể:
+1. Biết sử dụng ngôn ngữ [Markdown](#1-1-Ngôn-ngữ-Markdown), [HTML](#1-2-Ngôn-ngữ-HTML)... để ghi chú, soạn thảo nội dung một cách nhanh chóng, gọn nhẹ.
+2. Nắm được các công cụ [Mermaid](#2-1-Công-cụ-Mermaid), [Markmap](#2-2-Công-cụ-Markmap), [Badge](#2-3-Công-cụ-Badge)... để vẽ biểu đồ, workflow giúp trực quan hóa tài liệu.
+3. Thực hành được cách đồng bộ tự động nội dung trên GitHub sang [GitBook](#Công-cụ-GitBook) để xuất bản book online nhanh, không phải sửa thủ công.
 4. Biết cách cập nhật nội dung từ GitHub sang [HackMD](#Công-cụ-HackMD) để tạo slide trình chiếu chuyên nghiệp, nhanh chóng.
-5. Hiểu được cách thức lưu trữ và sử dụng công cụ [Git](#Git-Hệ-thống-Quản-lý-Phiên-bản-VCS-Version-Control-System) đảm bảo nhất quán tài liệu sau nhiều lần chỉnh sửa, nhiều người cùng cập nhật.
+5. Hiểu được cách thức lưu trữ thông qua công cụ [Git](#Git-Hệ-thống-Quản-lý-Phiên-bản-VCS-Version-Control-System) đảm bảo nhất quán tài liệu sau nhiều lần chỉnh sửa, nhiều người cùng cập nhật.
 
 ---
 
