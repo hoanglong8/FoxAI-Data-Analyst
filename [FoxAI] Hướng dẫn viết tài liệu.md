@@ -13,8 +13,8 @@
 ## Mục tiêu  
 1. Sử dụng ngôn ngữ [Markdown](#1-1-Ngôn-ngữ-Markdown), [HTML](#1-2-Ngôn-ngữ-HTML)... để soạn thảo nội dung một cách nhanh chóng, gọn nhẹ.
 2. Thành thạo công cụ [Mermaid](#2-1-Công-cụ-Mermaid), [Markmap](#2-2-Công-cụ-Markmap), [Badge](#2-3-Công-cụ-Badge)... để vẽ biểu đồ, workflow giúp trực quan hóa tài liệu.
-3. Nắm được cách đồng bộ tự động nội dung trên **GitHub** sang **GitBook** để xuất bản book online nhanh, không phải sửa thủ công.
-4. Biết cách cập nhật nội dung từ GitHub sang **HackMD** để tạo slide trình chiếu chuyên nghiệp, nhanh chóng.
+3. Nắm được cách đồng bộ tự động nội dung trên **GitHub** sang [GitBook](#Công-cụ-GitBook) để xuất bản book online nhanh, không phải sửa thủ công.
+4. Biết cách cập nhật nội dung từ GitHub sang [HackMD](#Công-cụ-HackMD) để tạo slide trình chiếu chuyên nghiệp, nhanh chóng.
 5. Hiểu được **cách lưu trữ và công cụ quản lý** sau khi ban hành tài liệu, đảm bảo nhất quán tài liệu sau nhiều lần chỉnh sửa, nhiều người cùng cập nhật.
 
 ---
