@@ -218,9 +218,9 @@ Bạn có thể dán file Markdown (copy/paste) hoặc sync một phần với G
 
 ### Kết quả đầu ra:
 
-[Dạng book view ](https://foxai-data-analyst.gitbook.io/tai-lieu-dong-bo-tu-github-foxai)
+![1](https://img.shields.io/badge/Bookview-brightgreen) [here](https://foxai-data-analyst.gitbook.io/tai-lieu-dong-bo-tu-github-foxai)
 
-[Dạng slide view](https://hackmd.io/@DCs5idhtQRK_cmFBAVRcSw/B1WDl3NPyl#/)
+![2](https://img.shields.io/badge/Slideview-blue) [here](https://hackmd.io/@DCs5idhtQRK_cmFBAVRcSw/B1WDl3NPyl#/)
 
 <img src="https://github.com/hoanglong8/FoxAI-Data-Analyst/blob/main/Image/HackMD.gif" width="100%" />
 
