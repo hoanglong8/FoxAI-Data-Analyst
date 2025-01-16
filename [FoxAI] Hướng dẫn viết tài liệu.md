@@ -26,7 +26,6 @@ graph TD;
     1.Viết_nội_dung --> 2.Chèn_biểu_đồ/image/video --> 3.Xuất_bản_book_online --> 4.Tạo_slide --> 5.Lưu_trữ_tài_liệu
 
 ```
----
 
 ## 1-CÁC NGÔN NGỮ THƯỜNG DÙNG ĐỂ VIẾT TÀI LIỆU
 
@@ -100,7 +99,6 @@ Tham khảo thêm tại: [Basic writing and formatting syntax.](https://docs.git
 - [HTML cơ bản - W3Schools](https://www.w3schools.com/html/)  
 - [Markdown trên GitHub](https://guides.github.com/features/mastering-markdown/)  
 
-
 ## 2-CÁC CÔNG CỤ VẼ BIỂU ĐỒ, SƠ ĐỒ, WORKFLOW, MINDMAP
 
 ### 2-1-Công cụ Mermaid
@@ -170,3 +168,4 @@ Bạn có thể dán file Markdown (copy/paste) hoặc sync một phần với G
 
 ## 5-SẮP XẾP, QUẢN LÝ, CẬP NHẬT TÀI LIỆU
 
+[⬆️ Quay lại đầu trang](#nội-dung)
