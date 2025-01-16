@@ -9,10 +9,10 @@
 ![Hotline](https://img.shields.io/badge/Liên_hệ-info@foxai.vn-red)
 
 # Nội dung
-1. [Công cụ soạn thảo](#1-CÁC-NGÔN-NGỮ-SOẠN-THẢO-TÀI-LIỆU)
+1. [Công cụ soạn thảo](#1-CÁC-CÔNG-CỤ-SOẠN-THẢO-TÀI-LIỆU)
    * [Markdown](#1-1-Ngôn-ngữ-Markdown)
    * [HTML](#1-2-Ngôn-ngữ-HTML)
-3. [Công cụ trực quan hóa](#2-CÁC-CÔNG-CỤ-VẼ-BIỂU-ĐỒ,-SƠ-ĐỒ,-WORKFLOW,-MINDMAP)
+3. [Công cụ trực quan hóa](#2-CÁC-CÔNG-CỤ-TRỰC-QUAN-HÓA)
    * [Mermaid](#2-1-Công-cụ-Mermaid)
    * [Markmap](#2-2-Công-cụ-Markmap)
    * [Badge](#2-3-Công-cụ-Badge)
@@ -50,7 +50,7 @@ graph TD;
 
 ```
 
-## 1-CÁC NGÔN NGỮ SOẠN THẢO TÀI LIỆU
+## 1-CÁC CÔNG CỤ SOẠN THẢO TÀI LIỆU
 
 ### 1-1-Ngôn ngữ Markdown
 - **Markdown** là **ngôn ngữ đánh dấu** đơn giản, cho phép viết tài liệu nhanh chóng, gọn nhẹ. Định dạng đuôi là `.md`.
@@ -115,7 +115,9 @@ Xem thêm:
 - [HTML cơ bản - W3Schools](https://www.w3schools.com/html/)  
 - [Markdown trên GitHub](https://guides.github.com/features/mastering-markdown/)  
 
-## 2-CÁC CÔNG CỤ VẼ BIỂU ĐỒ, SƠ ĐỒ, WORKFLOW, MINDMAP
+## 2-CÁC CÔNG CỤ TRỰC QUAN HÓA
+
+Nhằm giúp thông tin dễ hiểu hơn, hấp dẫn hơn, và hỗ trợ người đọc nắm bắt ý chính nhanh chóng, chúng ta thường dùng các cách thức như: vẽ biểu đồ workflow, đồ thị chart, sơ đồ mindmap, chèn hình ảnh minh họa và biểu tượng icon, infographic và kết hợp đa phương tiện như video, âm thanh, hoặc liên kết (link) đến tài liệu khác.
 
 ### 2-1-Công cụ Mermaid
 
