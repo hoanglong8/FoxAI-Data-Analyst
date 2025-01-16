@@ -3,6 +3,7 @@
 <img src="https://fox.ai.vn/wp-content/uploads/2024/07/Logo_Original-1.png" alt="Hình ảnh" width="50%" />
 
 ![Language](https://img.shields.io/badge/Language-Python-orange.svg?logo=Python&logoColor=yellow) ![Update](https://img.shields.io/badge/Update-Weekly-green.svg) ![Progress](https://img.shields.io/badge/progress-N%2F1049-brightgreen.svg) ![Sponsors](https://img.shields.io/badge/Sponsor-0-lightgrey.svg)
+[![Open Mindmap](https://img.shields.io/badge/Mindmap-View%20Now-green)](https://hoanglong8.github.io/FoxAI-Data-Analyst/markmap.html)
 
 # Chiến lược phát triển sản phẩm AI (tầm nhìn 2025-2029) và kế hoạch phát triển nguồn nhân lực năm 2025
 
@@ -43,8 +44,7 @@ Quản lý công việc và nhân sự của phòng Data Analyst - Công ty FoxA
 
 Tóm tắt nội dung bài viết [tại đây](https://hoanglong8.github.io/FoxAI-Data-Analyst/markmap.html)
 
-Hình ảnh
+![Hình ảnh](https://github.com/hoanglong8/FoxAI-Data-Analyst/blob/main/Image/Markmap.png)
 
 #### Mindmap Visualization
 
-[![Open Mindmap](https://img.shields.io/badge/Mindmap-View%20Now-blue)](https://hoanglong8.github.io/FoxAI-Data-Analyst/markmap.html)
