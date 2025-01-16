@@ -144,6 +144,6 @@ Class08 <--> C2: Cool label
 
 > **Thông tin liên hệ:**  **Công ty cổ phần công nghệ FoxAI**  
 > **Địa chỉ:** Tầng 3, tòa nhà N03-T3, khu đô thị mới Ngoại giao Đoàn, Bắc Từ Liêm, Tp.Hà Nội
-> **Điện thoại:** …  
-> **Email:** info@foxai.vn 
+> **Điện thoại:** 0246 254 4578
+> **Email:** info@fox.ai.vn 
 
