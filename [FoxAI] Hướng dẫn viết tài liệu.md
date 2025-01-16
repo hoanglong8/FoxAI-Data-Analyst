@@ -1,10 +1,11 @@
 # HƯỚNG DẪN VIẾT TÀI LIỆU TRÊN GITHUB
 
 **Mục tiêu**:  
-1. Hiểu được **cách viết tài liệu** bằng ngôn ngữ Markdown, HTML.  
-2. Biết cách **đồng bộ** nội dung **GitHub** sang **GitBook** để tạo tài liệu, sách online giúp cập nhật nhanh chóng. 
-3. Biết cách **đồng bộ** GitHub với **HackMD** để tạo slide trình chiếu chuyên nghiệp.
-4. Giúp **tiết kiệm thời gian, công sức** khi soạn thảo tài liệu, đảm bảo nhất quán tài liệu sau nhiều lần chỉnh sửa, cập nhật.
+1. Sử dụng ngôn ngữ **Markdown, HTML**... để soạn thảo nội dung một cách nhanh chóng, gọn nhẹ.
+2. Thành thạo công cụ **Mermaid, Markmap, Badge**... để vẽ biểu đồ, workflow giúp trực quan hóa tài liệu.
+3. Nắm được cách đồng bộ tự động nội dung trên **GitHub** sang **GitBook** để xuất bản book online nhanh, không phải sửa thủ công.
+4. Biết cách cập nhật nội dung từ GitHub sang **HackMD** để tạo slide trình chiếu chuyên nghiệp, nhanh chóng.
+5. Hiểu được **cách lưu trữ và công cụ quản lý** sau khi ban hành tài liệu, đảm bảo nhất quán tài liệu sau nhiều lần chỉnh sửa, nhiều người cùng cập nhật.
 
 ---
 
