@@ -1,7 +1,7 @@
 # HƯỚNG DẪN VIẾT TÀI LIỆU TRÊN GITHUB
 
 **Mục tiêu**:  
-1. Sử dụng ngôn ngữ [Markdown](#Ngôn-ngữ-Markdown), [HTML](#a-Cú-pháp-Markdown)... để soạn thảo nội dung một cách nhanh chóng, gọn nhẹ.
+1. Sử dụng ngôn ngữ [Markdown](#1-1-Ngôn-ngữ-Markdown), [HTML](#1-2-Ngôn-ngữ-HTML)... để soạn thảo nội dung một cách nhanh chóng, gọn nhẹ.
 2. Thành thạo công cụ **Mermaid, Markmap, Badge**... để vẽ biểu đồ, workflow giúp trực quan hóa tài liệu.
 3. Nắm được cách đồng bộ tự động nội dung trên **GitHub** sang **GitBook** để xuất bản book online nhanh, không phải sửa thủ công.
 4. Biết cách cập nhật nội dung từ GitHub sang **HackMD** để tạo slide trình chiếu chuyên nghiệp, nhanh chóng.
@@ -20,11 +20,11 @@ graph TD;
 
 ## 1. CÁC NGÔN NGỮ THƯỜNG DÙNG ĐỂ VIẾT TÀI LIỆU
 
-### Ngôn ngữ Markdown
+### 1-1-Ngôn ngữ Markdown
 - **Markdown** là **ngôn ngữ đánh dấu** đơn giản, cho phép viết tài liệu nhanh chóng, gọn nhẹ. Định dạng đuôi là `.md`.
 - Kết hợp với GitHub, GitBook, HackMD… bạn dễ dàng tạo **trang doc**, **slide**, **blog** mà **không cần** các công cụ soạn thảo nặng nề.
 
-#### a-Cú pháp Markdown
+#### a.Cú pháp Markdown
 - **Tiêu đề**:  
   ```markdown
   # Tiêu đề cấp 1
@@ -79,7 +79,7 @@ Tham khảo thêm tại: [Basic writing and formatting syntax.](https://docs.git
 * Tạo file .md (ví dụ: README.md, doc-tong-quan.md).
 * Viết nội dung Markdown, commit lên repo. Mọi thay đổi (commit) trong file .md sẽ được Git lưu lại.
 
-### Ngôn ngữ HTML
+### 1-2-Ngôn ngữ HTML
 - **HTML** là ngôn ngữ thường dùng để viết tài liệu có cấu trúc rõ ràng, thường viết bằng công cụ như Visual Studio Code VSCode để dễ dàng kiểm tra nội dung.
 
 - Khi mở file `.html` trên GitHub, mã HTML sẽ hiển thị dưới dạng văn bản chứ không được render thành trang web, do vậy để xem thì phải render thông qua GitHub Pages.
