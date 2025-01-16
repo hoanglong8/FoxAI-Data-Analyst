@@ -130,8 +130,9 @@ graph LR;
 [Markmap.js](https://markmap.js.org/repl) là một nền tảng giúp chuyển đổi Markdown thành **mindmap (sơ đồ tư duy)** trực quan và tương tác, sử dụng trực tiếp trên trình duyệt (dưới dạng HTML).
 
 Giao diện website được chia làm 2 phần:
+![Minh họa](https://github.com/hoanglong8/FoxAI-Data-Analyst/blob/main/Image/Markmap.gif)
 
-Khung bên trái:
+**Khung bên trái:**
 * Nơi bạn nhập nội dung Markdown. Nội dung này sẽ được chuyển thành mindmap.
 Ví dụ:
 ```markdown
@@ -159,12 +160,12 @@ Ví dụ:
 - Lưu ý bảo mật tài liệu
 ```
 
-Khung bên phải:
+**Khung bên phải:**
 * Hiển thị sơ đồ mindmap tương tác được tạo từ nội dung Markdown bạn nhập.
 
-Bạn có thể tải file mindmap về dưới dạng .html, rồi tải lên **GitHub Pages** để xem trực tiếp trong tài liệu.
+Bạn có thể tải file mindmap về dưới dạng .html, rồi tải lên [**GitHub Pages**](https://hoanglong8.github.io/FoxAI-Data-Analyst/markmap.html) để xem trực tiếp trong tài liệu.
 
-![Minh họa](https://github.com/hoanglong8/FoxAI-Data-Analyst/blob/main/Image/Markmap.gif)
+<img src="https://github.com/hoanglong8/FoxAI-Data-Analyst/blob/main/Image/Markmap.png" alt="Hình ảnh" width="70%" />
 
 ### 2-3-Công cụ Badge
 
