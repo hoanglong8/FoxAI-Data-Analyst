@@ -15,7 +15,7 @@
 2. Thành thạo công cụ [Mermaid](#2-1-Công-cụ-Mermaid), [Markmap](#2-2-Công-cụ-Markmap), [Badge](#2-3-Công-cụ-Badge)... để vẽ biểu đồ, workflow giúp trực quan hóa tài liệu.
 3. Nắm được cách đồng bộ tự động nội dung trên GitHub sang [GitBook](#Công-cụ-GitBook) để xuất bản book online nhanh, không phải sửa thủ công.
 4. Biết cách cập nhật nội dung từ GitHub sang [HackMD](#Công-cụ-HackMD) để tạo slide trình chiếu chuyên nghiệp, nhanh chóng.
-5. Hiểu được cách thức lưu trữ và sử dụng công cụ [Git](#Git---Hệ-thống-Quản-lý-Phiên-bản-(Version-Control-System---VCS)) đảm bảo nhất quán tài liệu sau nhiều lần chỉnh sửa, nhiều người cùng cập nhật.
+5. Hiểu được cách thức lưu trữ và sử dụng công cụ [Git](#Git-Hệ-thống-Quản-lý-Phiên-bản-VCS-Version-Control-System) đảm bảo nhất quán tài liệu sau nhiều lần chỉnh sửa, nhiều người cùng cập nhật.
 
 ---
 
@@ -191,7 +191,7 @@ Bạn có thể dán file Markdown (copy/paste) hoặc sync một phần với G
 
 ## 5-SẮP XẾP, QUẢN LÝ, CẬP NHẬT TÀI LIỆU
 
-### Git - Hệ thống Quản lý Phiên bản (Version Control System - VCS)
+### Git Hệ thống Quản lý Phiên bản VCS Version Control System
 
 [Git](https://git-scm.com/) là nền tảng mã nguồn mở giúp quản lý tài liệu, theo dõi phiên bản thay đổi, chia sẻ việc sửa cho nhóm và giữ được lịch sử chỉnh sửa tài liệu thông qua: GitHub, GitLab, hoặc Bitbucket.
 
