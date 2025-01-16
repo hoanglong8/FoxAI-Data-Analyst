@@ -1,6 +1,45 @@
 # TÀI LIỆU HƯỚNG DẪN SỬ DỤNG GITHUB
 
-![Hình ảnh](https://private-user-images.githubusercontent.com/190205490/402772643-2d09a769-fb94-4d9b-80d7-421f24ed4ea8.png?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3MzY4Mjk4MDcsIm5iZiI6MTczNjgyOTUwNywicGF0aCI6Ii8xOTAyMDU0OTAvNDAyNzcyNjQzLTJkMDlhNzY5LWZiOTQtNGQ5Yi04MGQ3LTQyMWYyNGVkNGVhOC5wbmc_WC1BbXotQWxnb3JpdGhtPUFXUzQtSE1BQy1TSEEyNTYmWC1BbXotQ3JlZGVudGlhbD1BS0lBVkNPRFlMU0E1M1BRSzRaQSUyRjIwMjUwMTE0JTJGdXMtZWFzdC0xJTJGczMlMkZhd3M0X3JlcXVlc3QmWC1BbXotRGF0ZT0yMDI1MDExNFQwNDM4MjdaJlgtQW16LUV4cGlyZXM9MzAwJlgtQW16LVNpZ25hdHVyZT0xYTA4ZTJiNmFmMGMxNTliYWQyNjMwNWRlNjE3ZGExMDQ2NGJkYzU0NDI0Y2M0YjAwMTBjZWM1MGRlM2EzNDlhJlgtQW16LVNpZ25lZEhlYWRlcnM9aG9zdCJ9.xL-QJmsz2kgVTg38SKiNYXe7ZnK9hPRjYIhiEoh70l0)
+<img src="https://fox.ai.vn/wp-content/uploads/2024/07/Logo_Original-1.png" alt="Hình ảnh" width="30%" />
+
+![Phiên_bản](https://img.shields.io/badge/Phiên_bản-1.0-brightgreen)
+![Bản_quyền](https://img.shields.io/badge/Bản_quyền-FoxAI-blue)
+![Tình trạng](https://img.shields.io/badge/Tình_trạng-Đang_soạn_thảo-darkorange)
+![Hỗ trợ](https://img.shields.io/badge/Hỗ_trợ_247-Chatbot-purple)
+![Hotline](https://img.shields.io/badge/Liên_hệ-info@foxai.vn-red)
+
+# Nội dung
+1. [Công cụ soạn thảo](#1-CÁC-CÔNG-CỤ-SOẠN-THẢO-TÀI-LIỆU)
+   * [Markdown](#1-1-Ngôn-ngữ-Markdown)
+   * [HTML](#1-2-Ngôn-ngữ-HTML)
+3. [Công cụ trực quan hóa](#2-CÁC-CÔNG-CỤ-TRỰC-QUAN-HÓA)
+   * [Mermaid](#2-1-Công-cụ-Mermaid)
+   * [Markmap](#2-2-Công-cụ-Markmap)
+   * [Badge](#2-3-Công-cụ-Badge)
+5. [Công cụ tự đồng bộ tạo Book Online](#3-TỰ-ĐỒNG-BỘ-TẠO-BOOK-ONLINE)
+   * [GitBook](#Công-cụ-GitBook)
+7. [Công cụ tự đồng bộ tạo Slide](#4-TỰ-ĐỒNG-BỘ-TẠO-SLIDE)
+   * [HackMD](#Công-cụ-HackMD)
+9. [Công cụ lưu trữ, quản lý tài liệu](#5-QUẢN-LÝ-TÀI-LIỆU)
+    * [Git](#Công-cụ-Git)
+
+## Đối tượng sử dụng
+Tài liệu này được thiết kế dành cho nhân viên của FoxAI khi cần thực hiện các công việc như:
+* Viết tài liệu đào tạo để chuyển giao cho khách hàng;
+* Tạo slide thuyết trình sản phẩm hoặc kế hoạch kinh doanh;
+* Xây dựng tài liệu, quy trình, quy định để đào tạo nội bộ.
+
+Giúp nâng cao năng suất, thực hiện một cách dễ dàng, chuyên nghiệp, và hiệu quả.
+
+## Mục tiêu
+
+Người dùng sau khi đọc tài liệu này có thể:
+1. **Biết được** cách dùng [Markdown](#1-1-Ngôn-ngữ-Markdown), [HTML](#1-2-Ngôn-ngữ-HTML)... để ghi chú, soạn thảo nội dung một cách nhanh chóng, dễ chỉnh sửa, dễ truyền tải.
+2. **Nắm được** các công cụ [Mermaid](#2-1-Công-cụ-Mermaid), [Markmap](#2-2-Công-cụ-Markmap), [Badge](#2-3-Công-cụ-Badge)... để vẽ biểu đồ, workflow giúp trực quan hóa tài liệu.
+3. **Thực hành được** cách đồng bộ tự động nội dung trên GitHub sang [GitBook](#Công-cụ-GitBook) để xuất bản sách hướng dẫn nhanh, dễ dàng chia sẻ cho khách hàng, luôn đảm bảo update mà không phải sửa thủ công.
+4. **Biết cách** cập nhật nội dung từ GitHub sang [HackMD](#Công-cụ-HackMD) để tạo slide trình chiếu chuyên nghiệp, nhanh chóng.
+5. **Hiểu được** cách thức lưu trữ thông qua công cụ [Git](#Công-cụ-Git) đảm bảo tính nhất quán, tránh xung đột khi nhiều nhân viên cùng tham gia chỉnh sửa hoặc cập nhật.
+
 ---
 
 ## 1. Giới thiệu chung về GitHub
