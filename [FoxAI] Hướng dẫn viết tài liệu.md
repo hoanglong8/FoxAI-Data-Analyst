@@ -62,14 +62,6 @@ graph TD;
     #2.Chèn Ảnh với Kích Thước 50%
     <img src="Image/example.gif" width="50%" />
 
-- Chèn biểu đồ diagram vẽ trên Mermaid:
-
-```mermaid
-graph LR;
-    Markdown --> Mermaid --> GitHub --> GitBook --> HackMD
-
-```
-
 - Dòng code lệnh:
     ```markdown
     ```python
@@ -79,7 +71,7 @@ graph LR;
     ```markdown
     ---
 
-Tham khảo thêm tại: [Basic writing and formatting syntax.](https://docs.github.com/en/get-started/writing-on-github/basic-writing-and-formatting-syntax)
+Xem thêm tại: [Basic writing and formatting syntax](https://docs.github.com/en/get-started/writing-on-github/basic-writing-and-formatting-syntax)
 
 #### b.Thao tác trên GitHub
 
@@ -95,6 +87,7 @@ Tham khảo thêm tại: [Basic writing and formatting syntax.](https://docs.git
 
 - Ngôn ngữ HTML thường kết hợp Markdown để tăng tính tương tác trong tài liệu, ví dụ HTML hỗ trợ tốt các tính năng như: thay đổi font, màu sắc, kích thước ảnh...
 
+Xem thêm:
 - [Hướng dẫn sử dụng GitHub Pages](https://docs.github.com/en/pages)  
 - [HTML cơ bản - W3Schools](https://www.w3schools.com/html/)  
 - [Markdown trên GitHub](https://guides.github.com/features/mastering-markdown/)  
@@ -114,6 +107,13 @@ Các bước thực hiện:
     graph LR;
     Markdown --> Mermaid --> GitHub --> GitBook --> HackMD ```
   ```
+Biểu đồ sẽ có dạng như sau:
+
+```mermaid
+graph LR;
+    Markdown --> Mermaid --> GitHub --> GitBook --> HackMD
+
+```
 
 <img src="https://github.com/hoanglong8/FoxAI-Data-Analyst/blob/main/Image/Mermaid.gif" width="100%" />
 
