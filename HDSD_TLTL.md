@@ -142,9 +142,8 @@ Class08 <--> C2: Cool label
 ---
 <img src="https://fox.ai.vn/wp-content/uploads/2024/07/Logo_Original-1.png" alt="Hình ảnh" width="30%" />
 
-> **Thông tin liên hệ**  
-> **Công ty cổ phần công nghệ FoxAI**  
-> *Địa chỉ*: Tầng 3, tòa nhà N03-T3, khu đô thị mới Ngoại giao Đoàn, Bắc Từ Liêm, Tp.Hà Nội
-> *Điện thoại*: …  
-> *Email*: info@foxai.vn 
+> **Thông tin liên hệ:**  **Công ty cổ phần công nghệ FoxAI**  
+> **Địa chỉ:** Tầng 3, tòa nhà N03-T3, khu đô thị mới Ngoại giao Đoàn, Bắc Từ Liêm, Tp.Hà Nội
+> **Điện thoại:** …  
+> **Email:** info@foxai.vn 
 
