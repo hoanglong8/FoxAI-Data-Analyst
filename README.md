@@ -43,6 +43,8 @@ Quản lý công việc và nhân sự của phòng Data Analyst - Công ty FoxA
 
 Tóm tắt nội dung bài viết [tại đây](https://hoanglong8.github.io/FoxAI-Data-Analyst/markmap.html)
 
-## Mindmap Visualization
+Hình ảnh
+
+#### Mindmap Visualization
 
 [![Open Mindmap](https://img.shields.io/badge/Mindmap-View%20Now-blue)](https://hoanglong8.github.io/FoxAI-Data-Analyst/markmap.html)
