@@ -3,7 +3,7 @@
 # Nội dung
 1. [Mục tiêu](#mục-tiêu)
 2. [Quy trình thực hiện](#Quy-trình-thực-hiện)
-3. [Các ngôn ngữ soạn thảo](#1-CÁC-NGÔN-NGỮ-THƯỜNG-DÙNG-ĐỂ-VIẾT-TÀI-LIỆU)
+3. [Các ngôn ngữ soạn thảo](#1-CÁC-NGÔN-NGỮ-SOẠN-THẢO-TÀI-LIỆU)
 4. [Tool vẽ biểu đồ](#2-CÁC-CÔNG-CỤ-VẼ-BIỂU-ĐỒ,-SƠ-ĐỒ,-WORKFLOW,-MINDMAP)
 5. [Tự đồng bộ tạo Book Online](#3-TỰ-ĐỒNG-BỘ-TẠO-BOOK-ONLINE)
 6. [Tự đồng bộ tạo Slide](#4-TỰ-ĐỒNG-BỘ-TẠO-SLIDE)
@@ -27,7 +27,7 @@ graph TD;
 
 ```
 
-## 1-CÁC NGÔN NGỮ THƯỜNG DÙNG ĐỂ VIẾT TÀI LIỆU
+## 1-CÁC NGÔN NGỮ SOẠN THẢO TÀI LIỆU
 
 ### 1-1-Ngôn ngữ Markdown
 - **Markdown** là **ngôn ngữ đánh dấu** đơn giản, cho phép viết tài liệu nhanh chóng, gọn nhẹ. Định dạng đuôi là `.md`.
