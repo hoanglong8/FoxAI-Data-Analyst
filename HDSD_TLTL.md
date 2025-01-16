@@ -1,11 +1,16 @@
-# TÀI LIỆU GIẢI PHÁP QUẢN TRỊ DỮ LIỆU ...
+# TÀI LIỆU GIẢI PHÁP QUẢN TRỊ DỮ LIỆU BÁO CÁO ĐIỀU HÀNH
 
-**Công ty cổ phần công nghệ FoxAI**  
-**Thuốc lá Thăng Long**: *Thuốc lá Thăng Long*  
-**Database Replicate**: *Database Replicate*  
+<img src="https://github.com/hoanglong8/FoxAI-Data-Analyst/blob/main/Image/LOGO_THANGLONG-TOBACO.png" alt="Hình ảnh" width="50%" />
+
+**Đơn vị triển khai**: *Công ty CP Công nghệ FoxAI*  
+**Tính năng**: *Database Replicate*  
 **Ngày ban hành**: *[dd/mm/yyyy]*  
-**Phiên bản tài liệu**: *v1.0*  
 
+![Phiên_bản](https://img.shields.io/badge/Phiên_bản-1.0-brightgreen)
+![Bản_quyền](https://img.shields.io/badge/Bản_quyền-FoxAI-blue)
+![Tình trạng](https://img.shields.io/badge/Tình_trạng-Đã_ban_hành-darkorange)
+![Hỗ trợ](https://img.shields.io/badge/Hỗ_trợ_247-Chatbot-purple)
+![Hotline](https://img.shields.io/badge/Liên_hệ-info@foxai.vn-red)
 ---
 
 ## 1. MỤC ĐÍCH TÀI LIỆU
@@ -29,7 +34,7 @@
 - *Mục tiêu cốt lõi của replica database là phân tán tải công việc đọc, tăng cường khả năng chịu lỗi và đảm bảo tính sẵn sàng liên tục cho hệ thống. Nó cho phép sao lưu dữ liệu, phục hồi nhanh chóng khi gặp sự cố, và thực hiện phân tích mà không làm ảnh hưởng đến hoạt động của cơ sở dữ liệu chính.*
 
 ### 3.2 Các lợi ích chính
-1. **Cải thiện hiệu suất đọc:**: *Việc phân tán các truy vấn đọc giữa các replica giúp giảm tải cho cơ sở dữ liệu chính và cải thiện hiệu suất xử lý các yêu cầu đọc dữ liệu.*  
+1. **Cải thiện hiệu suất đọc:** *Việc phân tán các truy vấn đọc giữa các replica giúp giảm tải cho cơ sở dữ liệu chính và cải thiện hiệu suất xử lý các yêu cầu đọc dữ liệu.*  
 2. **Tăng cường tính sẵn sàng và khả năng chịu lỗi**: *Nếu cơ sở dữ liệu chính gặp sự cố, các replica có thể thay thế, đảm bảo hệ thống vẫn hoạt động mà không bị gián đoạn.*  
 3. **Phân tán tải và mở rộng quy mô**: *Việc sử dụng nhiều replica giúp phân tán tải công việc đọc và hỗ trợ mở rộng quy mô hệ thống mà không làm giảm hiệu suất.*  
 4. **Sao lưu và phục hồi nhanh chóng**: *Các replica có thể được sử dụng để sao lưu dữ liệu mà không ảnh hưởng đến hoạt động của cơ sở dữ liệu chính, đồng thời giúp phục hồi dữ liệu nhanh chóng khi cần.*
