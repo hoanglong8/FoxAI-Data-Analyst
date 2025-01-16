@@ -12,18 +12,18 @@
 
 ```mermaid
 graph TD;
-    1.Viết_nội_dung --> 2.Vẽ_biểu_đồ/Chèn_hình --> 3.Tạo_tài_liệu --> 4.Tạo_slide --> 5.Phê_duyệt_tài_liệu
+    1.Viết_nội_dung --> 2.Chèn_biểu_đồ/image/video --> 3.Xuất_bản_book_online --> 4.Tạo_slide --> 5.Lưu_trữ_tài_liệu
 
 ```
 ---
 
-## 1. Công cụ MARKDOWN
+## 1. CÁC NGÔN NGỮ THƯỜNG DÙNG ĐỂ VIẾT TÀI LIỆU
 
-### 1.1 Markdown là gì?
+### 1.1 Ngôn ngữ Markdown
 - **Markdown** là **ngôn ngữ đánh dấu** đơn giản, cho phép viết tài liệu nhanh chóng, gọn nhẹ. Định dạng đuôi là `.md`.
 - Kết hợp với GitHub, GitBook, HackMD… bạn dễ dàng tạo **trang doc**, **slide**, **blog** mà **không cần** các công cụ soạn thảo nặng nề.
 
-### 1.2 Cú pháp Markdown cơ bản
+#### a. Cú pháp Markdown
 - **Tiêu đề**:  
   ```markdown
   # Tiêu đề cấp 1
@@ -71,7 +71,7 @@ graph LR;
 
 Tham khảo thêm tại: [Basic writing and formatting syntax.](https://docs.github.com/en/get-started/writing-on-github/basic-writing-and-formatting-syntax)
 
-## 2. VIẾT TÀI LIỆU BẰNG MARKDOWN TRÊN GITHUB
+#### b. Cách viết trên GitHub
 
 Cách thực hiện:
 * Tạo repository / file Markdown
@@ -79,7 +79,12 @@ Cách thực hiện:
 * Tạo file .md (ví dụ: README.md, doc-tong-quan.md).
 * Viết nội dung Markdown, commit lên repo. Mọi thay đổi (commit) trong file .md sẽ được Git lưu lại.
 
-## 3. VẼ BIỂU ĐỒ BẰNG MERMAID
+### 1.2 Ngôn ngữ HTML
+- **HTML** là ...
+
+## 2. CÁC CÔNG CỤ VẼ BIỂU ĐỒ, SƠ ĐỒ, WORKFLOW, MINDMAP
+
+### 2.1. Công cụ Mermaid
 
 [Mermaid](https://mermaid.js.org/intro/) là nền tảng giúp bạn vẽ nhanh các diagram nhanh chóng và có thể chèn trực tiếp vào Markdown mà không cần xuất ra ảnh để chèn vào tài liệu.
 
