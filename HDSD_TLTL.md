@@ -1,4 +1,4 @@
-# TÀI LIỆU GIẢI PHÁP QUẢN TRỊ DỮ LIỆU BÁO CÁO ĐIỀU HÀNH
+# TÀI LIỆU KỸ THUẬT
 
 <img src="https://github.com/hoanglong8/FoxAI-Data-Analyst/blob/main/Image/LOGO_THANGLONG-TOBACO.png" alt="Hình ảnh" width="50%" />
 
