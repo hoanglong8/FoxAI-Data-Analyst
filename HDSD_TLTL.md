@@ -28,44 +28,35 @@
 ---
 
 ## 3. GIỚI THIỆU TỔNG QUAN GIẢI PHÁP
-### 3.1 Mô tả ngắn gọn
 - Database Replication là bản sao của cơ sở dữ liệu chính, được duy trì để cải thiện hiệu suất và tính sẵn sàng cao.
 - Mục tiêu cốt lõi của Database Replication là phân tán tải công việc đọc, tăng cường khả năng chịu lỗi và đảm bảo tính sẵn sàng liên tục cho hệ thống. Nó cho phép sao lưu dữ liệu, phục hồi nhanh chóng khi gặp sự cố, và thực hiện phân tích mà không làm ảnh hưởng đến hoạt động của cơ sở dữ liệu chính.
-
-### 3.2 Các lợi ích chính
-1. **Cải thiện hiệu suất đọc:** Việc phân tán các truy vấn đọc giữa các Replication giúp giảm tải cho cơ sở dữ liệu chính và cải thiện hiệu suất xử lý các yêu cầu đọc dữ liệu.
-2. **Tăng cường tính sẵn sàng và khả năng chịu lỗi**: Nếu cơ sở dữ liệu chính gặp sự cố, các Replication có thể thay thế, đảm bảo hệ thống vẫn hoạt động mà không bị gián đoạn.
-3. **Phân tán tải và mở rộng quy mô**: Việc sử dụng nhiều Replication giúp phân tán tải công việc đọc và hỗ trợ mở rộng quy mô hệ thống mà không làm giảm hiệu suất.
-4. **Sao lưu và phục hồi nhanh chóng**: Các Replication có thể được sử dụng để sao lưu dữ liệu mà không ảnh hưởng đến hoạt động của cơ sở dữ liệu chính, đồng thời giúp phục hồi dữ liệu nhanh chóng khi cần.
-5. **Phân tích dữ liệu mà không làm gián đoạn**: Database Replication cho phép thực hiện phân tích, báo cáo và các công việc không làm gián đoạn hoạt động của cơ sở dữ liệu chính.
-6. **Tăng tính khả dụng của dịch vụ**: Với nhiều bản sao ở các vị trí khác nhau, dịch vụ có thể tiếp tục hoạt động ngay cả khi một Replication gặp sự cố, đảm bảo dịch vụ luôn có sẵn cho người dùng.
 
 ---
 
 ## 4. KIẾN TRÚC VÀ CÔNG NGHỆ
 ### 4.1 Mô hình tổng quan
-- Hình minh họa sơ đồ nhân bản dữ liệu:
+- Mô hình giải pháp nhân bản dữ liệu:
 
 ```mermaid
 ---
 title: Sơ đồ 
 ---
 flowchart LR
-    SAP --> REP
-    IBOSS_KT --> REP
-    IBOSS_NS --> REP
-    REP --> DB_REP --> ETL --> BI
+    1_SAP --> REP
+    2_IBOSS_KT --> REP
+    3_IBOSS_NS --> REP
+    REP --> 4_DB_REP --> ETL --> BI
     Excel --> ETL
 ```
 
 
 ### 4.2 Thành phần hệ thống trong sơ đồ
-- **SAP**: Các dữ liệu từ phần mềm SAP
-- **IBOSS_KT**: Các dữ liệu từ phần mềm IBOSS liên quan đến kế toán
-- **IBOSS_NS**: Các dữ liệu từ phần mềm IBOSS liên quan đến nhân sự
+- **1_SAP**: Các dữ liệu từ phần mềm SAP
+- **2_IBOSS_KT**: Các dữ liệu từ phần mềm IBOSS liên quan đến kế toán
+- **3_IBOSS_NS**: Các dữ liệu từ phần mềm IBOSS liên quan đến nhân sự
 - **Excel**: Dữ liệu từ các file Excel của các phòng ban liên quan
 - **REP**: Replication (Sao chép dữ liệu) là quá trình sao chép và duy trì các bản sao đồng nhất của dữ liệu giữa nhiều máy chủ hoặc cơ sở dữ liệu khác nhau.
-- **DB_REP**: Dữ liệu bản sao là một bản sao của dữ liệu từ cơ sở dữ liệu nguồn (Primary Database), được duy trì và đồng bộ hóa để phục vụ các mục đích như cải thiện hiệu suất, tăng cường khả năng sẵn sàng và đảm bảo tính dự phòng của hệ thống.
+- **4_DB_REP**: Dữ liệu bản sao là một bản sao của dữ liệu từ cơ sở dữ liệu nguồn (Primary Database), được duy trì và đồng bộ hóa để phục vụ các mục đích như cải thiện hiệu suất, tăng cường khả năng sẵn sàng và đảm bảo tính dự phòng của hệ thống.
 - **ETL**: Extract, Transform, Load (Trích xuất, Chuyển đổi, Nạp), là một quy trình trong lĩnh vực xử lý dữ liệu dùng để chuyển đổi và hợp nhất dữ liệu từ nhiều nguồn khác nhau vào một hệ thống đích, ở đây là phần mềm phân tích dữ liệu Power BI.
 - **BI**: Power BI công cụ dùng để phân tích và trực quan hóa dữ liệu từ các dữ liệu đã làm sạch ở **ETL**.
 
@@ -110,7 +101,7 @@ flowchart LR
 - **Khôi phục sau thảm họa (Disaster Recovery)**
     - Nhanh chóng khôi phục dữ liệu từ bản sao trong trường hợp mất dữ liệu hoặc sự cố.
 
-### 5.10. Bảo mật dữ liệu
+### 5.5. Bảo mật dữ liệu
 
 - **Mã hóa dữ liệu**
   - Bảo vệ dữ liệu trong quá trình sao chép bằng mã hóa.
@@ -118,7 +109,7 @@ flowchart LR
 - **Kiểm soát truy cập**
   - Quản lý quyền truy cập vào bản sao để đảm bảo chỉ các vai trò được cấp phép mới có thể truy cập.
  
-## 6. CẤU HÌNH MÁY CHỦ
+## 6. CẤU HÌNH MÁY CHỦ KHUYẾN NGHỊ
 | Tên VM      | vCPU        | Memory(GB)  |  SDD(GB)    |Hệ điều hành| Băng thông mạng |
 |-------------|-------------|-------------|-------------|------------|-----------------|
 | Application Server                           | 16   | 64   | 1000|Windows Server |15 Mbps|
@@ -129,7 +120,7 @@ flowchart LR
 ## 7. QUẢN TRỊ RỦI RO & BẢO MẬT
 ### 7.1 Rủi ro về kỹ thuật
 - **Hiệu suất hệ thống giảm**
-  - **Nguy cơ:** Khi có lượng lớn dữ liệu hoặc truy vấn phức tạp từ Power BI, hệ thống máy chủ 4 có thể bị quá tải.
+  - **Nguy cơ:** Khi có lượng lớn dữ liệu hoặc truy vấn phức tạp từ Power BI, hệ thống máy chủ 4(DB_REP) có thể bị quá tải.
   - **Giải pháp:**
     - Sử dụng Power BI DirectQuery hoặc chế độ Import phù hợp.
     - Thực hiện load balancing giữa các nguồn dữ liệu.
