@@ -161,14 +161,21 @@ Giải pháp không chỉ tập trung vào việc nâng cao hiệu suất kỹ t
 
 ---
 ## 9. PHỤ LỤC
-## 9.1 Phụ lục 1: Lấy dữ 
-
-## 9.2 Phụ lục 2
-
-## 9.3 Phụ lục 3
-- Lấy thêm danh mục IBOSS
-- Lấy báo cáo IBOSS
-- Autohotkey
+**9.1 Phụ lục 1:** 
+Để phục vụ nhu cầu phân tích và báo cáo quản trị trên Power BI, dữ liệu từ hệ thống IBOSS sẽ được trích xuất và xử lý nhằm đảm bảo tính chính xác, đầy đủ và khả năng trực quan hóa. Quy trình thực hiện như sau:
+  - Sử dụng Jupiter Notebook để chạy file code Python ở dưới
+  - Lấy [dữ liệu](https://github.com/hoanglong8/FoxAI-Data-Analyst/blob/main/docs/LayThemDanhMucTaiKhoanIBOSS.ipynb) từ IBOSS
+  - Dữ liệu sẽ được tự động chuyển về file Excel
+**9.2 Phụ lục 2**
+Để chuẩn hóa dữ liệu từ hệ thống IBOSS, đặc biệt khi dữ liệu đang ở định dạng TCVN3 (bộ mã cũ) và cần chuyển sang Unicode (bộ mã hiện đại, tương thích tốt hơn với các ứng dụng như Power BI), có thể sử dụng Unikey với các bước sau:
+  - Cài đặt Unikey
+  - Sao chép văn bản cần chuyển đổi
+  - Chọn chức năng chuyển mã nhanh của Unikey
+  - Dán văn bản
+**9.3 Phụ lục 3**
+Việc chuyển mã văn bản thủ công từ TCVN3 sang Unicode bằng Unikey có thể tốn thời gian nếu xử lý nhiều dữ liệu. Sử dụng AutoHotKey (AHK), bạn có thể tự động hóa quy trình này, giúp tiết kiệm thời gian và giảm thiểu sai sót:
+  - Cài đặt Autohotkey
+  - 
 <img src="https://fox.ai.vn/wp-content/uploads/2024/07/Logo_Original-1.png" alt="Hình ảnh" width="30%" />
 
 > **Thông tin liên hệ:**  **Công ty cổ phần công nghệ FoxAI**  
