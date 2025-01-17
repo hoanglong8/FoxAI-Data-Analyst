@@ -1,9 +1,9 @@
-# TÀI LIỆU KỸ THUẬT
+# TÀI LIỆU GIẢI PHÁP KỸ THUẬT
 
-<img src="https://github.com/hoanglong8/FoxAI-Data-Analyst/blob/main/Image/LOGO_THANGLONG-TOBACO.png" alt="Hình ảnh" width="50%" />
+<img src="https://github.com/hoanglong8/FoxAI-Data-Analyst/blob/main/Image/Logo-Since1957-THANGLONG%202021%20(1).png" alt="Hình ảnh" width="30%" />
 
 **Đơn vị triển khai**: *Công ty CP Công nghệ FoxAI*  
-**Tính năng**: *Database Replication*  
+**Tính năng**: *Database Replication - Nhân bản dữ liệu*  
 **Ngày ban hành**: *17/01/2025*  
 
 ![Phiên_bản](https://img.shields.io/badge/Phiên_bản-1.0-brightgreen)
