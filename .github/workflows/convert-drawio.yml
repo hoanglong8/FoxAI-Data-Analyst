@@ -1,0 +1,44 @@
+name: Convert Draw.io to Images
+
+on:
+  push:
+    paths:
+      - 'docs/*.drawio' # Theo dõi thay đổi trong các tệp .drawio trong thư mục docs
+  workflow_dispatch: # Cho phép chạy thủ công workflow
+
+jobs:
+  convert-drawio:
+    runs-on: ubuntu-latest
+
+    steps:
+      # 1. Checkout mã nguồn
+      - name: Checkout repository
+        uses: actions/checkout@v3
+
+      # 2. Cài đặt draw.io CLI
+      - name: Install Draw.io CLI
+        run: |
+          sudo apt update
+          sudo apt install -y curl
+          curl -LO https://github.com/jgraph/drawio-desktop/releases/download/v20.8.16/drawio-x86_64-20.8.16.AppImage
+          chmod +x drawio-x86_64-20.8.16.AppImage
+          sudo mv drawio-x86_64-20.8.16.AppImage /usr/local/bin/drawio
+
+      # 3. Chuyển đổi các tệp .drawio sang PNG và SVG
+      - name: Convert .drawio files to PNG and SVG
+        run: |
+          mkdir -p docs/exports
+          for file in docs/*.drawio; do
+            base_name=$(basename "$file" .drawio)
+            drawio --export --format png --output "docs/exports/${base_name}.png" "$file"
+            drawio --export --format svg --output "docs/exports/${base_name}.svg" "$file"
+          done
+
+      # 4. Commit và đẩy hình ảnh xuất ra vào kho Git
+      - name: Commit and push exported images
+        run: |
+          git config user.name "GitHub Actions"
+          git config user.email "actions@github.com"
+          git add docs/exports/*.png docs/exports/*.svg
+          git commit -m "Export .drawio files to PNG and SVG [Automated]"
+          git push
