@@ -35,11 +35,10 @@
 
 ## 4. KIẾN TRÚC VÀ CÔNG NGHỆ
 ### 4.1 Mô hình tổng quan
-- Mô hình giải pháp nhân bản dữ liệu:
 
 ```mermaid
 ---
-title: Sơ đồ 
+title: Mô hình giải pháp nhân bản dữ liệu
 ---
 flowchart LR
     1_SAP --> REP
@@ -67,7 +66,7 @@ flowchart LR
   
 ---
 
-## 5. Ưu điểm của giải pháp Database Replication
+## 5. Lợi ích của giải pháp Database Replication
 ### 5.1 Đồng bộ hóa dữ liệu
 
 - **Sao chép đồng bộ (Synchronous Replication)**:
@@ -120,30 +119,30 @@ flowchart LR
 ## 7. QUẢN TRỊ RỦI RO & BẢO MẬT
 ### 7.1 Rủi ro về kỹ thuật
 - **Hiệu suất hệ thống giảm**
-  - **Nguy cơ:** Khi có lượng lớn dữ liệu hoặc truy vấn phức tạp từ Power BI, hệ thống máy chủ 4(DB_REP) có thể bị quá tải.
+  - **Nguy cơ:** Khi có lượng lớn dữ liệu hoặc truy vấn phức tạp từ Power BI, hệ thống máy chủ 4(**DB_REP**) có thể bị quá tải.
   - **Giải pháp:**
     - Sử dụng Power BI DirectQuery hoặc chế độ Import phù hợp.
     - Thực hiện load balancing giữa các nguồn dữ liệu.
 ### 7.2 Rủi ro về quy trình
 - **Thay đổi tên bảng, thủ tục lưu trữ hoặc cấu trúc trong cơ sở dữ liệu dẫn đến lỗi dữ liệu trên Power BI:**
-  - **Rủi ro:** Khi các bảng, thủ tục lưu trữ (stored procedures) hoặc cấu trúc dữ liệu bị thay đổi mà không được cập nhật trong Power BI, hệ thống sẽ gặp lỗi, làm gián đoạn việc hiển thị và phân tích dữ liệu.
+  - **Rủi ro:** Khi Thuốc lá Thăng Long thay đổi các bảng, thủ tục lưu trữ (stored procedures) hoặc cấu trúc dữ liệu bị thay đổi mà không được cập nhật trong Power BI, hệ thống sẽ gặp lỗi, làm gián đoạn việc hiển thị và phân tích dữ liệu.
   - **Giải pháp:**
     - Xây dựng quy trình thống nhất việc đặt tên và quản lý cấu trúc cơ sở dữ liệu.
-    - Bất kỳ thay đổi nào liên quan đến bảng, thủ tục, hoặc cấu trúc dữ liệu phải được thông báo trước thông qua tài liệu hoặc kênh trao đổi đã thống nhất.
+    - Bất kỳ thay đổi nào liên quan đến bảng, thủ tục, hoặc cấu trúc dữ liệu phải được thông báo với FOXAI thông qua tài liệu hoặc kênh trao đổi đã thống nhất.
     - Cung cấp danh sách các thay đổi cụ thể để cập nhật trên Power BI, đảm bảo tính nhất quán.
 - **Thay đổi mẫu biểu trong file Excel dẫn đến dữ liệu không khớp hoặc lỗi:**
-  - **Rủi ro:** Nếu mẫu biểu trong file Excel (dòng, cột) bị thay đổi mà không theo quy định, hệ thống sẽ không thể đồng bộ hoặc phân tích dữ liệu chính xác.
+  - **Rủi ro:** Nếu Thuốc lá Thăng Long thay đổi mẫu biểu trong file Excel (dòng, cột) bị thay đổi mà không theo quy định, hệ thống sẽ không thể đồng bộ hoặc phân tích dữ liệu chính xác.
   - **Giải pháp:**
     - Sử dụng tính năng khóa dòng, cột trong Excel để giới hạn việc thay đổi cấu trúc mẫu biểu, chỉ cho phép chỉnh sửa ở các khu vực được quy định.
     - Xây dựng tài liệu hướng dẫn rõ ràng về mẫu biểu Excel, bao gồm các dòng/cột được phép thay đổi.
     - Thiết lập quy trình kiểm tra và xác nhận khi có bất kỳ thay đổi nào trong mẫu Excel, đảm bảo tính tương thích với hệ thống.
 ### 7.3 Bảo mật
-- Hệ thống tuân thủ các tiêu chuẩn bảo mật của Microsoft, đảm bảo an toàn dữ liệu và hạn chế rủi ro trong quá trình vận hành.
+- Hệ thống Power Bi tuân thủ các tiêu chuẩn bảo mật của Microsoft, đảm bảo an toàn dữ liệu và hạn chế rủi ro trong quá trình vận hành.
 ---
 
 ## 8. KẾT LUẬN  
-Giải pháp do Công ty Cổ phần Công nghệ FoxAI cung cấp giúp Thuốc lá Thăng Long:
-- **Tăng hiệu suất và sẵn sàng:** Đảm bảo hệ thống hoạt động liên tục, giảm gián đoạn và tăng tốc độ xử lý.
+Giải pháp nhân bản dữ liệu do Công ty Cổ phần Công nghệ FoxAI cung cấp giúp Thuốc lá Thăng Long có các lợi ích sau:
+- **Tăng hiệu suất:** Đảm bảo hệ thống hoạt động liên tục, giảm gián đoạn và tăng tốc độ xử lý.
 - **Cải thiện quản trị dữ liệu:** Dễ dàng sao lưu, phục hồi và quản lý dữ liệu an toàn.
 - **Tối ưu phân tích:** Kết nối Power BI và các công cụ phân tích, hỗ trợ ra quyết định nhanh chóng và chính xác.
 - **Bảo mật toàn diện:** Tuân thủ tiêu chuẩn Microsoft, bảo vệ dữ liệu hiệu quả.
@@ -154,23 +153,18 @@ Giải pháp không chỉ tập trung vào việc nâng cao hiệu suất kỹ t
 ## 9. PHỤ LỤC
 ### 9.1 Phụ lục 1:
 - Để phục vụ nhu cầu phân tích và báo cáo quản trị trên Power BI, dữ liệu từ hệ thống IBOSS sẽ được trích xuất và xử lý nhằm đảm bảo tính chính xác, đầy đủ và khả năng trực quan hóa. Quy trình thực hiện như sau:
-  - Cài đặt Anaconda
   - Cài đặt Python
-  - Mở Anaconda Prompt
-  - Mở Jupyter Notebook, sử dụng Jupiter Notebook để chạy file code Python ở dưới
-  - Lấy [dữ liệu](https://github.com/hoanglong8/FoxAI-Data-Analyst/blob/main/docs/LayThemDanhMucTaiKhoanIBOSS.ipynb) từ IBOSS
+  - Cài đặt Jupyter Notebook/Anaconda
+  - Mở Jupyter Notebook
+  - Tải file Python [LayThemDanhMucTaiKhoanIBOSS](https://github.com/hoanglong8/FoxAI-Data-Analyst/blob/main/docs/LayThemDanhMucTaiKhoanIBOSS.ipynb)
+  - Sử dụng Jupiter Notebook để chạy file code Python ở trên
   - Dữ liệu sẽ được tự động chuyển về file Excel
 ### 9.2 Phụ lục 2
-- Để chuẩn hóa dữ liệu từ hệ thống IBOSS, đặc biệt khi dữ liệu đang ở định dạng TCVN3 (bộ mã cũ) và cần chuyển sang Unicode (bộ mã hiện đại, tương thích tốt hơn với các ứng dụng như Power BI), có thể sử dụng Unikey với các bước sau:
-  - Cài đặt Unikey
-  - Sao chép văn bản cần chuyển đổi
-  - Chọn chức năng chuyển mã nhanh của Unikey
-  - Dán văn bản
-### 9.3 Phụ lục 3
 - Việc chuyển mã văn bản thủ công từ TCVN3 sang Unicode bằng Unikey có thể tốn thời gian nếu xử lý nhiều dữ liệu. Sử dụng AutoHotKey (AHK), có thể tự động hóa quy trình này, giúp tiết kiệm thời gian và giảm thiểu sai sót:
+  - Cài đặt Unikey
   - Cài đặt Autohotkey
-  - Tải [File](https://github.com/hoanglong8/FoxAI-Data-Analyst/blob/main/docs/Test.ahk)
-  - Chạy [File](https://github.com/hoanglong8/FoxAI-Data-Analyst/blob/main/docs/Test.ahk)
+  - Tải file [Chuyenma.ahk](https://github.com/hoanglong8/FoxAI-Data-Analyst/blob/main/docs/Test.ahk)
+  - Chạy file [Chuyenma.ahk](https://github.com/hoanglong8/FoxAI-Data-Analyst/blob/main/docs/Test.ahk)
 <img src="https://fox.ai.vn/wp-content/uploads/2024/07/Logo_Original-1.png" alt="Hình ảnh" width="30%" />
 
 > **Thông tin liên hệ:**  **Công ty cổ phần công nghệ FoxAI**  
