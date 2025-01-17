@@ -112,6 +112,7 @@ flowchart LR
   - Quản lý quyền truy cập vào bản sao để đảm bảo chỉ các vai trò được cấp phép mới có thể truy cập.
  
 ## 6. CẤU HÌNH MÁY CHỦ KHUYẾN NGHỊ
+
 | Tên VM      | vCPU        | Memory(GB)  |  SDD(GB)    |Hệ điều hành| Băng thông mạng |
 |-------------|-------------|-------------|-------------|------------|-----------------|
 | Application Server                           | 16   | 64   | 1000|Windows Server |15 Mbps|
@@ -119,31 +120,8 @@ flowchart LR
 | Ổ cứng back up data cho Application Server   |    |   | 300 | |
 | Ổ cứng back up data cho Database Server      |    |   | 300 | |
 
-## 7. QUẢN TRỊ RỦI RO & BẢO MẬT
-### 7.1 Rủi ro về kỹ thuật
-- **Hiệu suất hệ thống giảm**
-  - **Nguy cơ:** Khi có lượng lớn dữ liệu hoặc truy vấn phức tạp từ Power BI, hệ thống máy chủ 4(**DB_REP**) có thể BI quá tải.
-  - **Giải pháp:**
-    - Sử dụng Power BI DirectQuery hoặc chế độ Import phù hợp.
-    - Thực hiện load balancing giữa các nguồn dữ liệu.
-### 7.2 Rủi ro về quy trình
-- **Thay đổi tên bảng, thủ tục lưu trữ hoặc cấu trúc trong cơ sở dữ liệu dẫn đến lỗi dữ liệu trên Power BI:**
-  - **Rủi ro:** Khi Công ty thuốc lá Thăng Long thay đổi các bảng, thủ tục lưu trữ (stored procedures) hoặc cấu trúc dữ liệu BI thay đổi mà không được cập nhật trong Power BI, hệ thống sẽ gặp lỗi, làm gián đoạn việc hiển thị và phân tích dữ liệu.
-  - **Giải pháp:**
-    - Xây dựng quy trình thống nhất việc đặt tên và quản lý cấu trúc cơ sở dữ liệu.
-    - Bất kỳ thay đổi nào liên quan đến bảng, thủ tục, hoặc cấu trúc dữ liệu phải được thông báo với FOXAI thông qua tài liệu hoặc kênh trao đổi đã thống nhất.
-    - Cung cấp danh sách các thay đổi cụ thể để cập nhật trên Power BI, đảm bảo tính nhất quán.
-- **Thay đổi mẫu BIểu trong file Excel dẫn đến dữ liệu không khớp hoặc lỗi:**
-  - **Rủi ro:** Nếu Công ty thuốc lá Thăng Long thay đổi mẫu BIểu trong file Excel (dòng, cột) BI thay đổi mà không theo quy định, hệ thống sẽ không thể đồng bộ hoặc phân tích dữ liệu chính xác.
-  - **Giải pháp:**
-    - Sử dụng tính năng khóa dòng, cột trong Excel để giới hạn việc thay đổi cấu trúc mẫu BIểu, chỉ cho phép chỉnh sửa ở các khu vực được quy định.
-    - Xây dựng tài liệu hướng dẫn rõ ràng về mẫu BIểu Excel, bao gồm các dòng/cột được phép thay đổi.
-    - Thiết lập quy trình kiểm tra và xác nhận khi có bất kỳ thay đổi nào trong mẫu Excel, đảm bảo tính tương thích với hệ thống.
-### 7.3 Bảo mật
-- Hệ thống Power BI tuân thủ các tiêu chuẩn bảo mật của Microsoft, đảm bảo an toàn dữ liệu và hạn chế rủi ro trong quá trình vận hành.
 ---
-
-## 8. KẾT LUẬN  
+## 7. KẾT LUẬN  
 Giải pháp nhân bản dữ liệu do Công ty Cổ phần Công nghệ FoxAI cung cấp giúp Công ty thuốc lá Thăng Long có các lợi ích sau:
 - **Tăng hiệu suất:** Đảm bảo hệ thống hoạt động liên tục, giảm gián đoạn và tăng tốc độ xử lý.
 - **Cải thiện quản trị dữ liệu:** Dễ dàng sao lưu, phục hồi và quản lý dữ liệu an toàn.
@@ -153,8 +131,8 @@ Giải pháp nhân bản dữ liệu do Công ty Cổ phần Công nghệ FoxAI 
 Giải pháp không chỉ tập trung vào việc nâng cao hiệu suất kỹ thuật mà còn đảm bảo tính an toàn, minh bạch và khả năng ứng dụng thực tiễn trong các hoạt động vận hành và phân tích của doanh nghiệp. 
 
 ---
-## 9. PHỤ LỤC
-### 9.1 Phụ lục 1:
+## 8. PHỤ LỤC
+### 8.1 Phụ lục 1:
 - Để phục vụ nhu cầu phân tích và báo cáo quản trị trên Power BI, dữ liệu từ hệ thống IBOSS sẽ được trích xuất và xử lý nhằm đảm bảo tính chính xác, đầy đủ và khả năng trực quan hóa. Quy trình thực hiện như sau:
   - Cài đặt Python
   - Cài đặt Jupyter Notebook/Anaconda
@@ -162,7 +140,7 @@ Giải pháp không chỉ tập trung vào việc nâng cao hiệu suất kỹ t
   - Tải file Python [Lay_BaoCaoIBOSS](https://github.com/hoanglong8/FoxAI-Data-Analyst/blob/main/docs/LayThemDanhMucTaiKhoanIBOSS.ipynb)
   - Sử dụng Jupiter Notebook để chạy file code Python ở trên
   - Dữ liệu sẽ được tự động chuyển về file Excel
-### 9.2 Phụ lục 2
+### 8.2 Phụ lục 2
 - Việc chuyển mã văn bản thủ công từ TCVN3 sang Unicode bằng Unikey có thể tốn thời gian nếu xử lý nhiều dữ liệu. Sử dụng AutoHotKey (AHK), có thể tự động hóa quy trình này, giúp tiết kiệm thời gian và giảm thiểu sai sót:
   - Cài đặt Unikey
   - Cài đặt Autohotkey
