@@ -14,13 +14,13 @@
 ---
 
 ## 1. MỤC ĐÍCH TÀI LIỆU
-- Tài liệu này nhằm mô tả chi tiết **giải pháp** mà **Công ty cổ phần công nghệ FoxAI** cung cấp cho *Thuốc lá Thăng Long*.  
+- Tài liệu này nhằm mô tả chi tiết **giải pháp** mà **Công ty cổ phần công nghệ FoxAI** cung cấp cho *Công ty thuốc lá Thăng Long*.  
 - Trình bày **kiến trúc, tính năng, quy trình triển khai** và **quản trị dữ liệu** liên quan đến *Database Replication*.  
 
 ---
 
 ## 2. PHẠM VI VÀ ĐỐI TƯỢNG SỬ DỤNG
-- **Phạm vi**: Áp dụng cho dự án triển khai giải pháp quản trị dữ liệu/phần mềm tại đơn vị *Thuốc lá Thăng Long*.  
+- **Phạm vi**: Áp dụng cho dự án triển khai giải pháp quản trị dữ liệu/phần mềm tại đơn vị *Công ty thuốc lá Thăng Long*.  
 - **Đối tượng sử dụng**:  
   I. Đội ngũ kỹ thuật / phòng CNTT.  
   II. Các phòng ban liên quan.  
@@ -125,13 +125,13 @@ flowchart LR
     - Thực hiện load balancing giữa các nguồn dữ liệu.
 ### 7.2 Rủi ro về quy trình
 - **Thay đổi tên bảng, thủ tục lưu trữ hoặc cấu trúc trong cơ sở dữ liệu dẫn đến lỗi dữ liệu trên Power BI:**
-  - **Rủi ro:** Khi Thuốc lá Thăng Long thay đổi các bảng, thủ tục lưu trữ (stored procedures) hoặc cấu trúc dữ liệu bị thay đổi mà không được cập nhật trong Power BI, hệ thống sẽ gặp lỗi, làm gián đoạn việc hiển thị và phân tích dữ liệu.
+  - **Rủi ro:** Khi Công ty thuốc lá Thăng Long thay đổi các bảng, thủ tục lưu trữ (stored procedures) hoặc cấu trúc dữ liệu bị thay đổi mà không được cập nhật trong Power BI, hệ thống sẽ gặp lỗi, làm gián đoạn việc hiển thị và phân tích dữ liệu.
   - **Giải pháp:**
     - Xây dựng quy trình thống nhất việc đặt tên và quản lý cấu trúc cơ sở dữ liệu.
     - Bất kỳ thay đổi nào liên quan đến bảng, thủ tục, hoặc cấu trúc dữ liệu phải được thông báo với FOXAI thông qua tài liệu hoặc kênh trao đổi đã thống nhất.
     - Cung cấp danh sách các thay đổi cụ thể để cập nhật trên Power BI, đảm bảo tính nhất quán.
 - **Thay đổi mẫu biểu trong file Excel dẫn đến dữ liệu không khớp hoặc lỗi:**
-  - **Rủi ro:** Nếu Thuốc lá Thăng Long thay đổi mẫu biểu trong file Excel (dòng, cột) bị thay đổi mà không theo quy định, hệ thống sẽ không thể đồng bộ hoặc phân tích dữ liệu chính xác.
+  - **Rủi ro:** Nếu Công ty thuốc lá Thăng Long thay đổi mẫu biểu trong file Excel (dòng, cột) bị thay đổi mà không theo quy định, hệ thống sẽ không thể đồng bộ hoặc phân tích dữ liệu chính xác.
   - **Giải pháp:**
     - Sử dụng tính năng khóa dòng, cột trong Excel để giới hạn việc thay đổi cấu trúc mẫu biểu, chỉ cho phép chỉnh sửa ở các khu vực được quy định.
     - Xây dựng tài liệu hướng dẫn rõ ràng về mẫu biểu Excel, bao gồm các dòng/cột được phép thay đổi.
@@ -141,7 +141,7 @@ flowchart LR
 ---
 
 ## 8. KẾT LUẬN  
-Giải pháp nhân bản dữ liệu do Công ty Cổ phần Công nghệ FoxAI cung cấp giúp Thuốc lá Thăng Long có các lợi ích sau:
+Giải pháp nhân bản dữ liệu do Công ty Cổ phần Công nghệ FoxAI cung cấp giúp Công ty thuốc lá Thăng Long có các lợi ích sau:
 - **Tăng hiệu suất:** Đảm bảo hệ thống hoạt động liên tục, giảm gián đoạn và tăng tốc độ xử lý.
 - **Cải thiện quản trị dữ liệu:** Dễ dàng sao lưu, phục hồi và quản lý dữ liệu an toàn.
 - **Tối ưu phân tích:** Kết nối Power BI và các công cụ phân tích, hỗ trợ ra quyết định nhanh chóng và chính xác.
