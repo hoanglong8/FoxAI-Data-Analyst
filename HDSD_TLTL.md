@@ -161,7 +161,7 @@ Giải pháp không chỉ tập trung vào việc nâng cao hiệu suất kỹ t
 
 ---
 ## 9. PHỤ LỤC
-**9.1 Phụ lục 1:** 
+### 9.1 Phụ lục 1:
 - Để phục vụ nhu cầu phân tích và báo cáo quản trị trên Power BI, dữ liệu từ hệ thống IBOSS sẽ được trích xuất và xử lý nhằm đảm bảo tính chính xác, đầy đủ và khả năng trực quan hóa. Quy trình thực hiện như sau:
   - Cài đặt Anaconda
   - Cài đặt Python
@@ -169,13 +169,13 @@ Giải pháp không chỉ tập trung vào việc nâng cao hiệu suất kỹ t
   - Mở Jupyter Notebook, sử dụng Jupiter Notebook để chạy file code Python ở dưới
   - Lấy [dữ liệu](https://github.com/hoanglong8/FoxAI-Data-Analyst/blob/main/docs/LayThemDanhMucTaiKhoanIBOSS.ipynb) từ IBOSS
   - Dữ liệu sẽ được tự động chuyển về file Excel
-**9.2 Phụ lục 2**
+### 9.2 Phụ lục 2
 - Để chuẩn hóa dữ liệu từ hệ thống IBOSS, đặc biệt khi dữ liệu đang ở định dạng TCVN3 (bộ mã cũ) và cần chuyển sang Unicode (bộ mã hiện đại, tương thích tốt hơn với các ứng dụng như Power BI), có thể sử dụng Unikey với các bước sau:
   - Cài đặt Unikey
   - Sao chép văn bản cần chuyển đổi
   - Chọn chức năng chuyển mã nhanh của Unikey
   - Dán văn bản
-**9.3 Phụ lục 3**
+### 9.3 Phụ lục 3
 - Việc chuyển mã văn bản thủ công từ TCVN3 sang Unicode bằng Unikey có thể tốn thời gian nếu xử lý nhiều dữ liệu. Sử dụng AutoHotKey (AHK), có thể tự động hóa quy trình này, giúp tiết kiệm thời gian và giảm thiểu sai sót:
   - Cài đặt Autohotkey
   - Tải [File](https://github.com/hoanglong8/FoxAI-Data-Analyst/blob/main/docs/Test.ahk)
