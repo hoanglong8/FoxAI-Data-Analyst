@@ -5,8 +5,8 @@
 ### Bước 1.Khảo sát khách hàng
 
 * **Bộ phận thực hiện:** Team triển khai sau khi họp với khách hàng sẽ tiến hành ký xác nhận.
-* Tải biên bản tại [1.1.Mẫu biên bản](https://foxai.sharepoint.com/:f:/s/thuoclathanglong/ElfmIUiQum1Ksyyhf2HHhH4Bq_ANirYHuQQjqXiZtB1w2A?e=pgmP7g)
-* Biên bản đã ký cần được scan và lưu tại [1.2.Biên bản khảo sát](https://foxai.sharepoint.com/:f:/s/thuoclathanglong/Em4fEPgZ13dFu5AnJdIPKDgBUlWZIGQhlkR0jHvy473JHQ?e=RgNs8j)
+* Mẫu biên bản khảo sát tại [1.1.Template](https://foxai.sharepoint.com/:f:/s/thuoclathanglong/EvLAzgkmT6lGirXaprTFnzYB-okIT17ZF0wzFIeWqUJH_g?e=cRz25A)
+* Bản đã ký cần được scan và lưu tại [1.2.Biên bản khảo sát](https://foxai.sharepoint.com/:f:/s/thuoclathanglong/EvLAzgkmT6lGirXaprTFnzYB-okIT17ZF0wzFIeWqUJH_g?e=cRz25A)
 
 ### Bước 2.Thiết kế hệ thống
 
@@ -21,3 +21,13 @@
 * Mẫu biên bản đào tạo xem tại [3.2.Biên bản đào tạo](https://foxai.sharepoint.com/:f:/s/thuoclathanglong/EsQKXZxCa_BPqb768St8GAkBo-QlS5IdgBdkIRBbVAQe8g?e=s8AI6L)
 * Bản scan cũng lưu tại [3.2.Biên bản đào tạo](https://foxai.sharepoint.com/:f:/s/thuoclathanglong/EsQKXZxCa_BPqb768St8GAkBo-QlS5IdgBdkIRBbVAQe8g?e=s8AI6L)
 
+### Bước 4.Nghiệm thu dự án
+
+* **Bộ phận thực hiện:** Team kinh doanh phối hợp cùng team triển khai họp với khách hàng để xác nhận và ký biên bản nghiệm thu theo từng giai đoạn. 
+* Mẫu biên bản nghiệm thu xem tại [4.1.Template](https://foxai.sharepoint.com/:f:/s/thuoclathanglong/Emivd-eujfhNmxwfgesb2VYB4w9lk2xvUV7s6bpMdqg2zg?e=Mvrt4U)
+* Bản scan cũng lưu tại [4.2.Biên bản nghiệm thu](https://foxai.sharepoint.com/:f:/s/thuoclathanglong/Emivd-eujfhNmxwfgesb2VYB4w9lk2xvUV7s6bpMdqg2zg?e=Mvrt4U)
+
+### Bước 5.Hợp đồng & Hóa đơn
+
+* **Bộ phận thực hiện:** Sau khi kế toán xuất hóa đơn, team kinh doanh tiến hành lưu trữ hợp đồng và hóa đơn theo từng giai đoạn. 
+* Hợp đồng và hóa đơn được lưu tại [5.Lưu trữ](https://foxai.sharepoint.com/:f:/s/thuoclathanglong/EunIO_jv1iRKv_UM7muLFiMBOi5xdSdXZbCDi8fBDYWTAw?e=LCcCji)
