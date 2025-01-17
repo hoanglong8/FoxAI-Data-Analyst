@@ -156,7 +156,7 @@ Giải pháp không chỉ tập trung vào việc nâng cao hiệu suất kỹ t
   - Cài đặt Python
   - Cài đặt Jupyter Notebook/Anaconda
   - Mở Jupyter Notebook
-  - Tải file Python [LayThemDanhMucTaiKhoanIBOSS](https://github.com/hoanglong8/FoxAI-Data-Analyst/blob/main/docs/LayThemDanhMucTaiKhoanIBOSS.ipynb)
+  - Tải file Python [Lay_BaoCaoIBOSS](https://github.com/hoanglong8/FoxAI-Data-Analyst/blob/main/docs/LayThemDanhMucTaiKhoanIBOSS.ipynb)
   - Sử dụng Jupiter Notebook để chạy file code Python ở trên
   - Dữ liệu sẽ được tự động chuyển về file Excel
 ### 9.2 Phụ lục 2
