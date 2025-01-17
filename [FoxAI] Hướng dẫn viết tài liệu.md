@@ -16,6 +16,7 @@
    * [Mermaid](#2-1-Công-cụ-Mermaid)
    * [Markmap](#2-2-Công-cụ-Markmap)
    * [Badge](#2-3-Công-cụ-Badge)
+   * [Kroki](#2-4-Công-cụ-Kroki)
 5. [Công cụ tự đồng bộ tạo Book Online](#3-TỰ-ĐỒNG-BỘ-TẠO-BOOK-ONLINE)
    * [GitBook](#Công-cụ-GitBook)
 7. [Công cụ tự đồng bộ tạo Slide](#4-TỰ-ĐỒNG-BỘ-TẠO-SLIDE)
@@ -35,7 +36,7 @@ Giúp nâng cao năng suất, thực hiện một cách dễ dàng, chuyên nghi
 
 Người dùng sau khi đọc tài liệu này có thể:
 1. **Biết được** cách dùng [Markdown](#1-1-Ngôn-ngữ-Markdown), [HTML](#1-2-Ngôn-ngữ-HTML)... để ghi chú, soạn thảo nội dung một cách nhanh chóng, dễ chỉnh sửa, dễ truyền tải.
-2. **Nắm được** các công cụ [Mermaid](#2-1-Công-cụ-Mermaid), [Markmap](#2-2-Công-cụ-Markmap), [Badge](#2-3-Công-cụ-Badge)... để vẽ biểu đồ, workflow giúp trực quan hóa tài liệu.
+2. **Nắm được** các công cụ [Mermaid](#2-1-Công-cụ-Mermaid), [Markmap](#2-2-Công-cụ-Markmap), [Badge](#2-3-Công-cụ-Badge), [Kroki](#2-4-Công-cụ-Kroki)... để vẽ biểu đồ, workflow giúp trực quan hóa tài liệu.
 3. **Thực hành được** cách đồng bộ tự động nội dung trên GitHub sang [GitBook](#Công-cụ-GitBook) để xuất bản sách hướng dẫn nhanh, dễ dàng chia sẻ cho khách hàng, luôn đảm bảo update mà không phải sửa thủ công.
 4. **Biết cách** cập nhật nội dung từ GitHub sang [HackMD](#Công-cụ-HackMD) để tạo slide trình chiếu chuyên nghiệp, nhanh chóng.
 5. **Hiểu được** cách thức lưu trữ thông qua công cụ [Git](#Công-cụ-Git) đảm bảo tính nhất quán, tránh xung đột khi nhiều nhân viên cùng tham gia chỉnh sửa hoặc cập nhật.
@@ -197,6 +198,33 @@ Ví dụ:
 ![Build Status](https://img.shields.io/badge/Build-Passing-brightgreen)
 ![GitHub stars](https://img.shields.io/github/stars/<username>/<repo>)
 ![Codecov](https://img.shields.io/codecov/c/github/<username>/<repo>)
+
+### 2-4-Công cụ Kroki
+
+[Kroki](https://kroki.io/) là nền tảng cho phép bạn tạo URL để nhúng sơ đồ PlantUML, GraphViz... bằng cách dán mã Markdown để tạo hình ảnh dưới dạng .png, .jpg, .svg, .pdf, .txt hoặc	base64. Điểm mạnh so với Mermaid là có thể tạo đa dạng sơ đồ, có màu sắc.
+
+Các bước thực hiện:
+**Bước 1:** Vào trang [PlantUML](https://plantuml.com/) để tạo cú pháp tạo mindmap, ví dụ như:
+```
+@startmindmap
+*[#Orange] Colors
+**[#lightgreen] Green
+**[#FFBBCC] Rose
+**[#lightblue] Blue
+@endmindmap
+```
+
+**Bước 2:** Vào trang [Kroki](https://kroki.io/) để tạo url, ví dụ như:
+```
+https://kroki.io/plantuml/svg/eNpzKC5JLCrJzcxLyU0s4NKKVvYvSsxLT41VcM7PyS8q5tICCuVkpmeUpBelpubFKriDKLCom5uTk7NzrEJQfnEqQllSTilQsxOQ5HJIBRoKNRgAE0MiXw==
+```
+
+**Bước 3:** Cập nhật vào tài liệu trên GitHub bằng cú pháp:
+```
+![Mindmap](https://kroki.io/plantuml/png/[encoded_url])
+```
+![Mindmap](https://kroki.io/plantuml/svg/eNpzKC5JLCrJzcxLyU0s4NKKVvYvSsxLT41VcM7PyS8q5tICCuVkpmeUpBelpubFKriDKLCom5uTk7NzrEJQfnEqQllSTilQsxOQ5HJIBRoKNRgAE0MiXw==)
+
 
 ## 3-TỰ ĐỒNG BỘ TẠO BOOK ONLINE
 [⬆️](#nội-dung)
