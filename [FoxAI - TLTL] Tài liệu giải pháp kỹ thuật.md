@@ -122,22 +122,22 @@ flowchart LR
 ## 7. QUẢN TRỊ RỦI RO & BẢO MẬT
 ### 7.1 Rủi ro về kỹ thuật
 - **Hiệu suất hệ thống giảm**
-  - **Nguy cơ:** Khi có lượng lớn dữ liệu hoặc truy vấn phức tạp từ Power BI, hệ thống máy chủ 4(**DB_REP**) có thể bị quá tải.
+  - **Nguy cơ:** Khi có lượng lớn dữ liệu hoặc truy vấn phức tạp từ Power BI, hệ thống máy chủ 4(**DB_REP**) có thể BI quá tải.
   - **Giải pháp:**
     - Sử dụng Power BI DirectQuery hoặc chế độ Import phù hợp.
     - Thực hiện load balancing giữa các nguồn dữ liệu.
 ### 7.2 Rủi ro về quy trình
 - **Thay đổi tên bảng, thủ tục lưu trữ hoặc cấu trúc trong cơ sở dữ liệu dẫn đến lỗi dữ liệu trên Power BI:**
-  - **Rủi ro:** Khi Công ty thuốc lá Thăng Long thay đổi các bảng, thủ tục lưu trữ (stored procedures) hoặc cấu trúc dữ liệu bị thay đổi mà không được cập nhật trong Power BI, hệ thống sẽ gặp lỗi, làm gián đoạn việc hiển thị và phân tích dữ liệu.
+  - **Rủi ro:** Khi Công ty thuốc lá Thăng Long thay đổi các bảng, thủ tục lưu trữ (stored procedures) hoặc cấu trúc dữ liệu BI thay đổi mà không được cập nhật trong Power BI, hệ thống sẽ gặp lỗi, làm gián đoạn việc hiển thị và phân tích dữ liệu.
   - **Giải pháp:**
     - Xây dựng quy trình thống nhất việc đặt tên và quản lý cấu trúc cơ sở dữ liệu.
     - Bất kỳ thay đổi nào liên quan đến bảng, thủ tục, hoặc cấu trúc dữ liệu phải được thông báo với FOXAI thông qua tài liệu hoặc kênh trao đổi đã thống nhất.
     - Cung cấp danh sách các thay đổi cụ thể để cập nhật trên Power BI, đảm bảo tính nhất quán.
-- **Thay đổi mẫu biểu trong file Excel dẫn đến dữ liệu không khớp hoặc lỗi:**
-  - **Rủi ro:** Nếu Công ty thuốc lá Thăng Long thay đổi mẫu biểu trong file Excel (dòng, cột) bị thay đổi mà không theo quy định, hệ thống sẽ không thể đồng bộ hoặc phân tích dữ liệu chính xác.
+- **Thay đổi mẫu BIểu trong file Excel dẫn đến dữ liệu không khớp hoặc lỗi:**
+  - **Rủi ro:** Nếu Công ty thuốc lá Thăng Long thay đổi mẫu BIểu trong file Excel (dòng, cột) BI thay đổi mà không theo quy định, hệ thống sẽ không thể đồng bộ hoặc phân tích dữ liệu chính xác.
   - **Giải pháp:**
-    - Sử dụng tính năng khóa dòng, cột trong Excel để giới hạn việc thay đổi cấu trúc mẫu biểu, chỉ cho phép chỉnh sửa ở các khu vực được quy định.
-    - Xây dựng tài liệu hướng dẫn rõ ràng về mẫu biểu Excel, bao gồm các dòng/cột được phép thay đổi.
+    - Sử dụng tính năng khóa dòng, cột trong Excel để giới hạn việc thay đổi cấu trúc mẫu BIểu, chỉ cho phép chỉnh sửa ở các khu vực được quy định.
+    - Xây dựng tài liệu hướng dẫn rõ ràng về mẫu BIểu Excel, bao gồm các dòng/cột được phép thay đổi.
     - Thiết lập quy trình kiểm tra và xác nhận khi có bất kỳ thay đổi nào trong mẫu Excel, đảm bảo tính tương thích với hệ thống.
 ### 7.3 Bảo mật
 - Hệ thống Power BI tuân thủ các tiêu chuẩn bảo mật của Microsoft, đảm bảo an toàn dữ liệu và hạn chế rủi ro trong quá trình vận hành.
