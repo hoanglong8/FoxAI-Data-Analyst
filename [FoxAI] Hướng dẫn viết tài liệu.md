@@ -145,6 +145,17 @@ graph LR;
 
 <img src="https://github.com/hoanglong8/FoxAI-Data-Analyst/blob/main/Image/Mermaid.gif" width="100%" />
 
+Ngoài ra, Mermaid cũng hỗ trợ tạo sơ đồ có màu sắc như:
+
+```mermaid
+mindmap
+  root((Colors))
+    Orange
+    Green
+    Rose
+    Blue
+```
+
 ### 2-2-Công cụ Markmap
 
 [Markmap.js](https://markmap.js.org/repl) là một nền tảng giúp chuyển đổi Markdown thành **mindmap (sơ đồ tư duy)** trực quan và tương tác, sử dụng trực tiếp trên trình duyệt (dưới dạng HTML).
@@ -201,9 +212,10 @@ Ví dụ:
 
 ### 2-4-Công cụ Kroki
 
-[Kroki](https://kroki.io/) là nền tảng cho phép bạn tạo URL để nhúng sơ đồ PlantUML, GraphViz... bằng cách dán mã Markdown để tạo hình ảnh dưới dạng .png, .jpg, .svg, .pdf, .txt hoặc	base64. Điểm mạnh so với Mermaid là có thể tạo đa dạng sơ đồ, có màu sắc.
+[Kroki](https://kroki.io/) là nền tảng cho phép bạn tạo URL để nhúng sơ đồ PlantUML, GraphViz... bằng cách dán mã Markdown để tạo hình ảnh dưới dạng .png, .jpg, .svg, .pdf, .txt hoặc	base64. Điểm mạnh so với Mermaid là có thể tạo đa dạng sơ đồ hơn nhưng hạn chế là không thể chỉnh sửa trực tiếp ngay trong GitHub.
 
 Các bước thực hiện:
+
 **Bước 1:** Vào trang [PlantUML](https://plantuml.com/) để tạo cú pháp tạo mindmap, ví dụ như:
 ```
 @startmindmap
