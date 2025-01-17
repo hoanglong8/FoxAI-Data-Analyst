@@ -27,7 +27,7 @@ jobs:
       # 3. Chuyển đổi các tệp .drawio sang PNG và SVG
       - name: Convert .drawio files to PNG and SVG
         run: |
-          mkdir -p docs/exports
+          mkdir -p docs
           for file in docs/*.drawio; do
             base_name=$(basename "$file" .drawio)
             drawio --export --format png --output "docs/exports/${base_name}.png" "$file"
