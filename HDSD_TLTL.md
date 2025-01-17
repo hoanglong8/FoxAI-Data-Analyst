@@ -152,18 +152,17 @@ flowchart LR
 
 ## 8. KẾT LUẬN  
 Giải pháp do Công ty Cổ phần Công nghệ FoxAI cung cấp giúp Thuốc lá Thăng Long:
-- Tăng hiệu suất và sẵn sàng: Đảm bảo hệ thống hoạt động liên tục, giảm gián đoạn và tăng tốc độ xử lý.
-- Cải thiện quản trị dữ liệu: Dễ dàng sao lưu, phục hồi và quản lý dữ liệu an toàn.
-- Tối ưu phân tích: Kết nối Power BI và các công cụ phân tích, hỗ trợ ra quyết định nhanh chóng và chính xác.
-- Bảo mật toàn diện: Tuân thủ tiêu chuẩn Microsoft, bảo vệ dữ liệu hiệu quả.
-- Hỗ trợ mở rộng: Linh hoạt đáp ứng nhu cầu phát triển hệ thống trong tương lai.
+- **Tăng hiệu suất và sẵn sàng:** Đảm bảo hệ thống hoạt động liên tục, giảm gián đoạn và tăng tốc độ xử lý.
+- **Cải thiện quản trị dữ liệu:** Dễ dàng sao lưu, phục hồi và quản lý dữ liệu an toàn.
+- **Tối ưu phân tích:** Kết nối Power BI và các công cụ phân tích, hỗ trợ ra quyết định nhanh chóng và chính xác.
+- **Bảo mật toàn diện:** Tuân thủ tiêu chuẩn Microsoft, bảo vệ dữ liệu hiệu quả.
+- **Hỗ trợ mở rộng:** Linh hoạt đáp ứng nhu cầu phát triển hệ thống trong tương lai.
 Giải pháp không chỉ tập trung vào việc nâng cao hiệu suất kỹ thuật mà còn đảm bảo tính an toàn, minh bạch và khả năng ứng dụng thực tiễn trong các hoạt động vận hành và phân tích của doanh nghiệp. 
 
 ---
 ## 9. PHỤ LỤC
-## 9.1 Phụ lục 1
-khi nào dùng
-lưu ý khi dùng
+## 9.1 Phụ lục 1: Lấy dữ 
+
 ## 9.2 Phụ lục 2
 
 ## 9.3 Phụ lục 3
