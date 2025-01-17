@@ -20,7 +20,7 @@
 ---
 
 ## 2. PHẠM VI VÀ ĐỐI TƯỢNG SỬ DỤNG
-- **Phạm vi**: Áp dụng cho dự án triển khai giải pháp quản trị dữ liệu/phần mềm tại đơn vị ***Công ty thuốc lá Thăng Long***.  
+- **Phạm vi**: Áp dụng cho dự án triển khai giải pháp quản trị dữ liệu/phần mềm tại đơn vị **Công ty thuốc lá Thăng Long**.  
 - **Đối tượng sử dụng**:  
   I. Đội ngũ kỹ thuật / phòng CNTT.  
   II. Các phòng ban liên quan.  
@@ -60,12 +60,17 @@ flowchart LR
 - **BI**: Power BI công cụ dùng để phân tích và trực quan hóa dữ liệu từ các dữ liệu đã làm sạch ở **ETL**.
 
 ### 4.3 Công nghệ sử dụng 
-- **Cơ sở dữ liệu**: *SQL Server*
+- **Cơ sở dữ liệu**: SQL Server
 - **Phần mềm**: AutoHotKey, Unikey, Anaconda,Jupyter Notebook
 - **Ngôn ngữ**: Ngôn ngữ SQL, Python
   
 ---
-
+### 4.4. Quản lý dữ liệu Excel
+- Bộ phận công nghệ thông tin bố trí thư mục trên máy chủ 4 (DB_REP)
+- Xây dựng quy định về cách thức cập nhập:
+  |Tên file báo cáo Excel| Tần suất cập nhập | Bộ phận gửi báo cáo | Thư mục lưu trữ | Cách ghi (Nối tiếp/Ghi đè)
+  |----------------------|----------------------|----------------------|----------------------|----------------------|
+  | | | | | |
 ## 5. Lợi ích của giải pháp Database Replication
 ### 5.1 Đồng bộ hóa dữ liệu
 
@@ -80,12 +85,8 @@ flowchart LR
 
 - **Master-Slave Replication**
   - Một cơ sở dữ liệu chính (Master) xử lý các thao tác ghi, còn các cơ sở dữ liệu phụ (Slave) xử lý thao tác đọc.
-- **Master-Master Replication**
-  - Các cơ sở dữ liệu đều có thể vừa ghi vừa đọc, đồng thời đồng bộ hóa thay đổi giữa các bản sao.
-- **Peer-to-Peer Replication**
-  - Mỗi nút trong hệ thống đều ngang hàng, có khả năng ghi và đồng bộ hóa.
 - **Snapshot Replication**
-  - Sao chép dữ liệu tại một thời điểm cụ thể, thường áp dụng cho dữ liệu ít thay đổi.
+  - Sao chép dữ liệu tại một thời điểm cụ thể (thời điểm cập nhập là 1 giờ sáng hàng ngày).
 
 ### 5.3. Ghi lại nhật ký giao dịch
 
@@ -137,7 +138,7 @@ flowchart LR
     - Xây dựng tài liệu hướng dẫn rõ ràng về mẫu biểu Excel, bao gồm các dòng/cột được phép thay đổi.
     - Thiết lập quy trình kiểm tra và xác nhận khi có bất kỳ thay đổi nào trong mẫu Excel, đảm bảo tính tương thích với hệ thống.
 ### 7.3 Bảo mật
-- Hệ thống Power Bi tuân thủ các tiêu chuẩn bảo mật của Microsoft, đảm bảo an toàn dữ liệu và hạn chế rủi ro trong quá trình vận hành.
+- Hệ thống Power BI tuân thủ các tiêu chuẩn bảo mật của Microsoft, đảm bảo an toàn dữ liệu và hạn chế rủi ro trong quá trình vận hành.
 ---
 
 ## 8. KẾT LUẬN  
