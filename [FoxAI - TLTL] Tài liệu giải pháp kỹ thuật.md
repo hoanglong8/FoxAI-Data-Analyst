@@ -14,7 +14,7 @@
 ---
 
 ## 1. MỤC ĐÍCH TÀI LIỆU
-- Tài liệu này nhằm mô tả chi tiết **giải pháp** mà **Công ty cổ phần công nghệ FoxAI** cung cấp cho *Công ty thuốc lá Thăng Long*.  
+- Tài liệu này nhằm mô tả chi tiết **giải pháp** mà **Công ty cổ phần công nghệ FoxAI** cung cấp cho **Công ty thuốc lá Thăng Long**.  
 - Trình bày **kiến trúc, tính năng, quy trình triển khai** và **quản trị dữ liệu** liên quan đến *Database Replication*.  
 
 ---
