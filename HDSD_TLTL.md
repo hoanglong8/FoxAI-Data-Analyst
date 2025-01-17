@@ -150,9 +150,8 @@ flowchart LR
 - Hệ thống tuân thủ các tiêu chuẩn bảo mật của Microsoft, đảm bảo an toàn dữ liệu và hạn chế rủi ro trong quá trình vận hành.
 ---
 
-## 8. KẾT LUẬN
-- Tóm tắt **lợi ích** và **giá trị** cốt lõi của giải pháp.  
- Giải pháp do Công ty Cổ phần Công nghệ FoxAI cung cấp giúp Thuốc lá Thăng Long:
+## 8. KẾT LUẬN  
+Giải pháp do Công ty Cổ phần Công nghệ FoxAI cung cấp giúp Thuốc lá Thăng Long:
 - Tăng hiệu suất và sẵn sàng: Đảm bảo hệ thống hoạt động liên tục, giảm gián đoạn và tăng tốc độ xử lý.
 - Cải thiện quản trị dữ liệu: Dễ dàng sao lưu, phục hồi và quản lý dữ liệu an toàn.
 - Tối ưu phân tích: Kết nối Power BI và các công cụ phân tích, hỗ trợ ra quyết định nhanh chóng và chính xác.
