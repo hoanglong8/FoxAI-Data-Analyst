@@ -2,6 +2,12 @@
 
 ![Hình ảnh](https://github.com/hoanglong8/FoxAI-Data-Analyst/blob/main/Image/Quy%20tr%C3%ACnh%20tri%E1%BB%83n%20khai%20d%E1%BB%B1%20%C3%A1n%20BI_d%E1%BB%B1%20th%E1%BA%A3o.png)
 
+```mermaid
+graph TD;
+    1.Khảo_sát_KH --> 2.Thiết_kế_hệ_thống --> 3.Đào_tạo_KH --> 4.Nghiệm_thu_tiến_độ --> 5.Lưu_trữ_HĐ
+
+```
+
 ### Bước 1.Khảo sát khách hàng
 
 * **Bộ phận thực hiện:** Team triển khai sau khi họp với khách hàng sẽ tiến hành ký xác nhận.
@@ -27,7 +33,7 @@
 * Mẫu biên bản nghiệm thu xem tại [4.1.Template](https://foxai.sharepoint.com/:f:/s/thuoclathanglong/Emivd-eujfhNmxwfgesb2VYB4w9lk2xvUV7s6bpMdqg2zg?e=Mvrt4U)
 * Bản scan cũng lưu tại [4.2.Biên bản nghiệm thu](https://foxai.sharepoint.com/:f:/s/thuoclathanglong/Emivd-eujfhNmxwfgesb2VYB4w9lk2xvUV7s6bpMdqg2zg?e=Mvrt4U)
 
-### Bước 5.Hợp đồng & Hóa đơn
+### Bước 5.Lưu trữ Hợp đồng & Hóa đơn
 
 * **Bộ phận thực hiện:** Sau khi kế toán xuất hóa đơn, team kinh doanh tiến hành lưu trữ hợp đồng và hóa đơn theo từng giai đoạn. 
 * Hợp đồng và hóa đơn được lưu tại [5.Lưu trữ](https://foxai.sharepoint.com/:f:/s/thuoclathanglong/EunIO_jv1iRKv_UM7muLFiMBOi5xdSdXZbCDi8fBDYWTAw?e=LCcCji)
