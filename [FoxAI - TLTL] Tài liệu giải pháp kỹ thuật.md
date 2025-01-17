@@ -68,9 +68,11 @@ flowchart LR
 ### 4.4. Quản lý dữ liệu Excel
 - Bộ phận công nghệ thông tin bố trí thư mục trên máy chủ 4 (DB_REP)
 - Xây dựng quy định về cách thức cập nhập:
+  
   |Tên file báo cáo Excel| Tần suất cập nhập | Bộ phận gửi báo cáo | Thư mục lưu trữ | Cách ghi (Nối tiếp/Ghi đè)
   |----------------------|----------------------|----------------------|----------------------|----------------------|
   | | | | | |
+  
 ## 5. Lợi ích của giải pháp Database Replication
 ### 5.1 Đồng bộ hóa dữ liệu
 
