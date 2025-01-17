@@ -20,7 +20,7 @@
 ---
 
 ## 2. PHẠM VI VÀ ĐỐI TƯỢNG SỬ DỤNG
-- **Phạm vi**: Áp dụng cho dự án triển khai giải pháp quản trị dữ liệu/phần mềm tại đơn vị *Công ty thuốc lá Thăng Long*.  
+- **Phạm vi**: Áp dụng cho dự án triển khai giải pháp quản trị dữ liệu/phần mềm tại đơn vị ***Công ty thuốc lá Thăng Long***.  
 - **Đối tượng sử dụng**:  
   I. Đội ngũ kỹ thuật / phòng CNTT.  
   II. Các phòng ban liên quan.  
