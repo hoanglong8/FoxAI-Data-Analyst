@@ -52,4 +52,4 @@ Dưới đây là các tiêu chí KPI chi tiết cho từng nhiệm vụ đượ
 
 ## **Tổng quan về phân bổ trọng số**
 - Trọng số có thể thay đổi tùy theo mức độ ưu tiên của công ty.
-- Các KPI này nên được đánh giá theo năm.
+- Các KPI này nên được đánh giá theo kỳ 6 tháng/năm.
