@@ -35,7 +35,13 @@ flowchart LR
 
 ## 2.Giới thiệu chi tiết giải pháp AI cho các lĩnh vực
 
-!Hình ảnh
+```mermaid
+flowchart LR
+    id1([Sản_phẩm_AI]) --> id2([SAP_Chatbot_AI])
+    id1([Sản_phẩm_AI]) --> id3([SX_Dự_đoán_nhu_cầu_NVL_MRP])
+    id1([Sản_phẩm_AI]) --> id4([NH_Đánh_giá_KPI])
+    id1([Sản_phẩm_AI]) --> id5([NH_Đánh_giá_khoản_vay_LOS])
+```
 
 ## 2.1. [Chatbot hỗ trợ khách hàng](https://fox.ai.vn/wp-content/uploads/2024/07/Logo_Original-1.png) sử dụng SAP
 
@@ -387,7 +393,7 @@ flowchart LR
 - **Lợi nhuận (40%):** **2,18 tỷ VNĐ**.
 - **Nhân sự triển khai dự kiến:** **3 nhân sự** (chưa tính team KD và team SX).
 
-## 3.4.Tổng hợp mục tiêu 5 năm**
+## 3.4.Tổng hợp mục tiêu 5 năm
 | Năm      | Số khách hàng | Doanh thu (VNĐ) | Chi phí vận hành (VNĐ) | Lợi nhuận (VNĐ) | Nhân sự triển khai |
 |----------|---------------|------------------|-------------------------|------------------|-------------------|
 | **2025** | 10            | 5,45 tỷ         | 3,27 tỷ                | 2,18 tỷ         | 3                 |
