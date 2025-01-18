@@ -35,8 +35,87 @@ flowchart LR
 
 !Hình ảnh
 
-## 2.1. Trong ngành sản xuất
+## 2.1. Chatbot hỗ trợ khách hàng sử dụng SAP
+
+**Mục tiêu dự án**
+1. **Hỗ trợ nhân viên trong việc sử dụng SAP:**
+   - Hướng dẫn thao tác trong các module của SAP như tài chính, bán hàng, quản lý kho.
+   - Đưa ra câu trả lời nhanh cho các vướng mắc thường gặp.
+2. **Tăng hiệu suất làm việc:**
+   - Tiết kiệm thời gian cho nhân viên bằng cách tự động hóa câu trả lời cho các vấn đề phổ biến.
+   - Giảm khối lượng công việc cho đội ngũ IT hoặc bộ phận hỗ trợ của FoxAI.
+3. **Nắm bắt số liệu tức thời:**
+   - Cho phép ban lãnh đạo truy xuất nhanh các số liệu quan trọng (doanh thu, chi phí, tồn kho) thông qua chatbot.
+
+**Dữ liệu đầu vào cần thiết**
+1. **Tài liệu hệ thống SAP:**
+   - Cấu trúc dữ liệu và tài liệu hướng dẫn của các module SAP đang sử dụng.
+   - Danh sách quy trình công việc và các thao tác phổ biến.
+2. **Câu hỏi thường gặp (FAQs):**
+   - Các câu hỏi và câu trả lời liên quan đến việc sử dụng SAP.
+   - Dữ liệu từ các yêu cầu hỗ trợ trước đây.
+3. **Số liệu vận hành thực tế:**
+   - Dữ liệu từ hệ thống SAP về tài chính, bán hàng, quản lý kho, nhân sự.
+4. **Dữ liệu hội thoại:**
+   - Ghi nhận các yêu cầu và phản hồi từ nhân viên qua email, chat, hoặc các kênh hỗ trợ.
+5. **Quyền truy cập:**
+   - Phân quyền để chatbot có thể truy cập các dữ liệu theo từng cấp độ (nhân viên, quản lý, lãnh đạo).
+
+**Cơ sở hạ tầng**
+1. **Hạ tầng máy chủ và lưu trữ:**
+   - **Cloud:** Sử dụng AWS, Microsoft Azure, hoặc Google Cloud để đảm bảo khả năng mở rộng.
+   - **On-premises:** Nếu doanh nghiệp ưu tiên bảo mật cao, có thể sử dụng hạ tầng máy chủ tại chỗ.
+2. **Hệ thống tích hợp:**
+   - **API Gateway:** Để kết nối chatbot với hệ thống SAP.
+   - **Database:** Dữ liệu cấu trúc (SQL) và phi cấu trúc (NoSQL) để lưu trữ thông tin từ các hội thoại và phản hồi.
+3. **AI và NLP:**
+   - **Ngôn ngữ:** Sử dụng các framework như Python (TensorFlow, PyTorch) hoặc sử dụng API có sẵn như OpenAI GPT.
+   - **NLP Frameworks:** Google Dialogflow, Microsoft Bot Framework, hoặc Rasa để xử lý hội thoại.
+4. **Hệ thống bảo mật:**
+   - Mã hóa dữ liệu và xác thực hai lớp (2FA) để đảm bảo an toàn cho dữ liệu SAP.
+   - Quản lý quyền truy cập để bảo vệ dữ liệu nhạy cảm.
+
+**Giao diện người dùng (UI/UX)**
+**Đối với nhân viên sử dụng SAP:**
+   - **Chatbot UI:** 
+     - Tích hợp trên nền tảng Microsoft Teams, Slack, hoặc một ứng dụng nội bộ.
+     - Giao diện đơn giản với các chức năng như hỏi đáp, hướng dẫn quy trình.
+   - **Các tính năng:** 
+     - Hướng dẫn từng bước theo câu lệnh (step-by-step).
+     - Gợi ý tự động (autocomplete) khi nhân viên đặt câu hỏi.
+
+**Đối với ban lãnh đạo:**
+   - **Dashboard tức thời:**
+     - Hiển thị thông tin như:
+       - Doanh thu theo thời gian thực.
+       - Tồn kho theo loại hàng.
+       - Chi phí vận hành hàng tháng.
+     - Có thể truy cập qua web hoặc ứng dụng di động.
+   - **Chức năng ra lệnh bằng giọng nói:**
+     - Cho phép lãnh đạo yêu cầu số liệu bằng lệnh thoại qua chatbot.
+
+**- Nguồn lực team sản xuất dự kiến:**
+    - 1 Giám đốc dự án (PM) phụ trách kế hoạch & tiến độ triển khai.
+    - 1 Data Analyst để thu thập và xử lý dữ liệu từ SAP, ERP...
+    - 1 Kỹ sư (AI Engineers) phát triển, tinh chỉnh mô hình NLP (Natural Language Processing) để chatbot hiểu tiếng Việt và các lệnh SAP.
+    - 1 Dev Backend tích hợp với hệ thống SAP thông qua API, kết nối với các nền tảng (Teams, Slack, hoặc ứng dụng nội bộ).
+    - 1 Dev Frontend (UX/UI) để thiết kế giao diện chatbot thân thiện, trực quan và xây dựng dashboard cho ban lãnh đạo truy cập số liệu tức thời.
+    - 1 Kỹ sư hệ thống (DevOps) nếu triển khải chatbot trên hệ thống localhost.
+
+**Timeline triển khai**
+
+| **Giai đoạn**            | **Thời gian**     | **Công việc chính**                                                                 |
+|---------------------------|-------------------|------------------------------------------------------------------------------------|
+| **Giai đoạn 1: Khảo sát nhu cầu** | 0,5 tháng           | - Phân tích nhu cầu doanh nghiệp, BLĐ và nhân viên. <br> - Xây dựng danh sách các chức năng cần thiết. |
+| **Giai đoạn 2: Xử lý dữ liệu** | 0,5 tháng           | - Thu thập tài liệu và dữ liệu từ SAP. <br> - Làm sạch và chuẩn hóa dữ liệu.          |
+| **Giai đoạn 3: Xây dựng chatbot** | 0,5-1 tháng           | - Xây dựng mô hình AI NLP để hiểu ngôn ngữ tự nhiên. <br> - Tích hợp API với SAP.   |
+| **Giai đoạn 4: Thử nghiệm**     | 1 tháng           | - Triển khai thử nghiệm trên một nhóm nhỏ. <br> - Thu thập phản hồi và tối ưu hóa.   |
+| **Giai đoạn 5: Triển khai chính thức** | 1 tháng           | - Đào tạo nhân viên sử dụng chatbot. <br> - Theo dõi hiệu quả và cập nhật định kỳ.   |
+
+
+## 2.2. Cho ngành sản xuất
 **Một số Case-study ứng dụng AI thành công**
+
     - Amazon: Sử dụng AI để quản lý chuỗi cung ứng và dự đoán nhu cầu sản phẩm, từ đó giúp tối ưu hóa việc lưu trữ và vận chuyển dựa trên dự đoán chính xác nhu cầu.
     - Toyota: Ứng dụng AI trong quản lý tồn kho và chuỗi cung ứng. Hệ thống AI phân tích dữ liệu thời gian thực từ nhà máy và nhà cung cấp để tối ưu hóa dòng nguyên vật liệu.
     - Coca-Cola: Dùng AI để dự đoán nhu cầu nguyên vật liệu dựa trên phân tích dữ liệu tiêu thụ sản phẩm và xu hướng thị trường.
@@ -44,17 +123,17 @@ flowchart LR
 
 **Chiến lược của FoxAI**
 
-- Xây dựng hệ thống dự đoán nhu cầu nguyên vật liệu (MRP) giúp:
+**- Xây dựng hệ thống dự đoán nhu cầu nguyên vật liệu (MRP) giúp:**
   - Tối ưu hóa chuỗi cung ứng: Dự đoán chính xác nhu cầu nguyên vật liệu, giảm thiểu tồn kho và lãng phí.
   - Tăng hiệu quả hoạt động: Cải thiện quy trình lập kế hoạch sản xuất và đặt hàng nguyên liệu.
   - Giảm chi phí vận hành: Hạn chế tình trạng mua thừa hoặc thiếu nguyên vật liệu.
 
-- Đối tượng khách hàng tiềm năng:
+**- Đối tượng khách hàng tiềm năng:**
   - Hạ tầng công nghệ: Có sẵn ERP, hệ thống quản lý kho (WMS), hoặc hệ thống quản lý sản xuất (MES) có đủ các dữ liệu lịch sử như đơn hàng, thông tin tồn kho, kế hoạch, tiến độ và chu kỳ sản xuất.
   - Nhân sự: Có đội ngũ IT hoặc sẵn sàng thuê ngoài triển khai.
   - Hạ tầng lưu trữ: Sử dụng cloud (AWS, Google Cloud, Azure) hoặc **hạ tầng tại chỗ (on-premises).**
  
-- Dữ liệu đầu vào cần thiết:
+**- Dữ liệu đầu vào cần thiết:**
     - Lịch sử sản xuất: Thông tin về sản lượng sản xuất theo thời gian.
     - Lịch sử bán hàng: Số lượng hàng bán theo từng loại sản phẩm, theo mùa, hoặc theo thị trường.
     - Tồn kho: Tồn kho nguyên vật liệu và thành phẩm.
@@ -62,20 +141,20 @@ flowchart LR
     - Các yếu tố bên ngoài: Dữ liệu kinh tế vĩ mô (giá nguyên liệu, xu hướng thị trường), thời tiết (nếu liên quan đến nguyên liệu nông nghiệp), và sự kiện đặc biệt (dịch bệnh, chiến tranh thương mại).
     - Dữ liệu nội bộ khác: Quy trình sản xuất, BOM (Bill of Materials), và vòng đời sản phẩm.
 
-- Kiến trúc hệ thống
+**- Kiến trúc hệ thống**
 ```mermaid
 flowchart LR
-    id1([Thu_thập_dữ_liệu]) --> id2([Xử_lý_dữ_liệu]) --> id3([Phân_tích_dự_đoán_ML]) --> id4([Giao_diện_người_dùng_UI])
+    id1([Thu_thập_dữ_liệu]) --> id2([Xử_lý_dữ_liệu]) --> id3([Phân_tích_dự_đoán_ML]) --> id4([TK_giao_diện_UI])
 ```
 
-- Nguồn lực team sản xuất dự kiến:
+**- Nguồn lực team sản xuất dự kiến:**
     - 1 Giám đốc dự án (PM) phụ trách kế hoạch & tiến độ triển khai.
     - 1 Data Analyst để thu thập và xử lý dữ liệu từ các hệ thống của KH.
     - 1 Kỹ sư (AI Engineers) để dựng và tối ưu hóa mô hình ML.
     - 1 Dev mảng giao diện người dùng (UX/UI) để thiết kế bảng điều khiển.
     - 1 Kỹ sư hệ thống (DevOps) để đảm bảo hệ thống localhost vận hành ổn định, bảo mật.
 
-- Timeline triển khai:
+**- Timeline triển khai:**
     - Bước 1: Team kinh doanh đánh giá KH & chào mời dự án
     - Bước 2: Team SX tích hợp các nguồn dữ liệu, làm sạch và chuẩn hóa dữ liệu.
     - Bước 3: Team SX phát triển mô hình AI, thử nghiệm trên dữ liệu lịch sử.
@@ -86,47 +165,7 @@ flowchart LR
 
 ---
 
-## 2.2. Lĩnh vực nông nghiệp
-### Case-study ứng dụng AI thành công
-- John Deere:
-  - Ứng dụng: AI và Computer Vision trên máy kéo để nhận diện cỏ dại và tự động phun thuốc.
-  - Kết quả: Giảm 90% lượng thuốc trừ sâu sử dụng.
-- CropX:
-  - Ứng dụng: AI phân tích dữ liệu cảm biến đất để tối ưu hóa tưới tiêu.
-  - Kết quả: Tiết kiệm nước và tăng năng suất cây trồng.
 
-### Định hướng sản phẩm & dịch vụ AI
-- Hệ thống AI tối ưu hóa tưới tiêu và phân bón:
-  - Phân tích dữ liệu đất và khí hậu để đưa ra quyết định chính xác.
-- Giải pháp quản lý cây trồng thông minh:
-  - Theo dõi sức khỏe cây trồng bằng drone và AI.
-- Dự báo năng suất và dịch bệnh:
-  - Sử dụng Machine Learning để dự đoán năng suất mùa vụ và phát hiện sớm dịch bệnh.
-- Tự động hóa trong thu hoạch:
-  - Robot AI thu hoạch tự động hoặc phân loại nông sản.
-
----
-
-## 2.3. Lĩnh vực thương mại
-### Case-study ứng dụng AI thành công
-- Amazon:
-  - Ứng dụng: AI cá nhân hóa trải nghiệm mua sắm, phân tích hành vi khách hàng.
-  - Kết quả: Tăng tỷ lệ chuyển đổi và doanh thu.
-- Walmart:
-  - Ứng dụng: AI dự báo nhu cầu để quản lý kho hàng hiệu quả.
-  - Kết quả: Giảm thiểu hàng tồn kho dư thừa, tăng hiệu quả cung ứng.
-
-### Định hướng sản phẩm & dịch vụ AI
-- Giải pháp phân tích hành vi khách hàng:
-  - AI phân tích dữ liệu giao dịch và lịch sử mua sắm để cá nhân hóa đề xuất sản phẩm.
-- Hệ thống quản lý kho thông minh:
-  - AI dự đoán nhu cầu để tối ưu hóa kho bãi và logistics.
-- Tối ưu hóa giá bán:
-  - Sử dụng AI để điều chỉnh giá theo cung cầu và chiến lược cạnh tranh.
-- **Chatbot hỗ trợ khách hàng:**
-  - Chatbot AI 24/7 giải đáp câu hỏi và hỗ trợ mua sắm.
-
----
 
 ## 2.4. Lĩnh vực tài chính, ngân hàng và bảo hiểm
 ### Case-study ứng dụng AI thành công
@@ -149,75 +188,6 @@ flowchart LR
 
 ---
 
-## 2.5. Lĩnh vực y tế
-### Case-study ứng dụng AI thành công
-- DeepMind Health:
-  - Ứng dụng: AI chẩn đoán bệnh về mắt và ung thư.
-  - Kết quả: Phát hiện sớm ung thư với độ chính xác trên 90%.
-- Ping An Good Doctor:
-  - Ứng dụng: Nền tảng tư vấn y tế trực tuyến sử dụng AI.
-  - Kết quả: Tiết kiệm thời gian cho bác sĩ và nâng cao chất lượng dịch vụ.
-
-### Định hướng sản phẩm & dịch vụ AI
-- AI chẩn đoán bệnh:
-  - Sử dụng AI để phân tích hình ảnh y khoa (X-quang, MRI).
-- Quản lý lịch khám thông minh:
-  - Hệ thống đặt lịch tự động dựa trên lịch trình bệnh nhân và bác sĩ.
-- Hỗ trợ bác sĩ ra quyết định:
-  - AI phân tích triệu chứng và gợi ý phác đồ điều trị.
-- Hệ thống chăm sóc sức khỏe từ xa:
-  - Tư vấn y tế 24/7 bằng AI hoặc kết nối với bác sĩ.
-
----
-
-## 2.6. Lĩnh vực giáo dục
-### Case-study ứng dụng AI thành công
--Duolingo (Ứng dụng học ngôn ngữ):
-  - Sử dụng các thuật toán học máy (machine learning) để cá nhân hóa nội dung học tập.
-  - AI đánh giá năng lực người học dựa trên hiệu suất, từ đó điều chỉnh mức độ bài học phù hợp.
-
--Squirrel AI (Học tập cá nhân hóa tại Trung Quốc):
-  - Nền tảng học tập trực tuyến sử dụng AI để thiết kế lộ trình học tập cá nhân hóa.
-  - AI xác định điểm mạnh và điểm yếu của học sinh, từ đó đưa ra nội dung học tập phù hợp.
-
--Carnegie Learning (AI hỗ trợ dạy toán tại Mỹ):
-  - Tích hợp AI vào phần mềm dạy toán để đánh giá sự tiến bộ của học sinh.
-  - AI đưa ra phản hồi thời gian thực và cung cấp hướng dẫn cho từng bài toán cụ thể.
-
--Content Technologies Inc. (Tạo giáo trình tự động bằng AI):
-  - AI tự động hóa việc xây dựng giáo trình học tập từ các tài liệu hiện có.
-  - Hệ thống tổng hợp và cá nhân hóa nội dung học tập theo nhu cầu học sinh.
-
--Gradescope (Chấm điểm tự động):
-  - AI hỗ trợ giáo viên chấm điểm các bài kiểm tra tự luận và trắc nghiệm.
-  - Phân tích lỗi sai để đưa ra các gợi ý giúp học sinh cải thiện.
-
-### Định hướng sản phẩm & dịch vụ AI cho giáo dục tại Việt Nam
-
--Nền tảng học tập cá nhân hóa AI 
-   - Mô tả:
-     - Xây dựng nền tảng học trực tuyến sử dụng AI để đánh giá năng lực và thiết kế lộ trình học tập riêng cho từng học sinh.
-     - Đề xuất nội dung học tập dựa trên sở thích, điểm yếu và năng lực cá nhân.
-
--Hệ thống chấm điểm và đánh giá tự động 
-   - Mô tả:
-     - Sử dụng AI để tự động chấm bài kiểm tra trắc nghiệm và tự luận.
-     - Hệ thống phân tích lỗi sai và đưa ra phản hồi chi tiết.
-
--Ứng dụng dạy ngôn ngữ tích hợp AI 
-   - Mô tả:
-     - AI hỗ trợ người dùng học ngôn ngữ thông qua các bài học tương tác và phản hồi phát âm thời gian thực.
-   - Đối tượng:
-     - Người học tiếng Anh và các ngôn ngữ khác, từ người lớn đến trẻ em.
-
--Công cụ tạo giáo trình tự động:
-   - Mô tả:
-     - AI tự động tạo nội dung giảng dạy từ tài liệu có sẵn, cá nhân hóa giáo trình theo từng lớp học hoặc đối tượng.
-   - Đối tượng:
-     - Trường học, trung tâm đào tạo.
-
----
-
 # 3.Lộ Trình Chiến Lược 5 Năm (2025-2029)
 
 ## 3.1. Giả định
@@ -236,93 +206,6 @@ flowchart LR
 | Phát triển giải pháp AI tùy chỉnh         | 1,5 tỷ                        |
 | Tích hợp AI vào hệ thống sẵn có           | 1 tỷ                          |
 | Đào tạo và hỗ trợ                         | 50 triệu                      |
-
----
-
-## 3.3. Lộ trình chi tiết theo năm
-
-### **Năm 1 (2025)**
-- **Số lượng khách hàng dự kiến:** 50
-  - Khảo sát, tư vấn: 20 khách hàng
-  - Phát triển giải pháp tùy chỉnh: 10 khách hàng
-  - Tích hợp AI: 10 khách hàng
-  - Đào tạo: 10 khách hàng
-- **Doanh số dự kiến:** 26 tỷ VNĐ
-  - Khảo sát, tư vấn: 2 tỷ VNĐ
-  - Phát triển giải pháp: 15 tỷ VNĐ
-  - Tích hợp AI: 10 tỷ VNĐ
-  - Đào tạo: 0,5 tỷ VNĐ
-- **Doanh thu thực tế (sau chi phí):** 15,6 tỷ VNĐ
-- **Lợi nhuận:** 10,4 tỷ VNĐ
-- **Nhân sự triển khai:** 15 người
-
----
-
-### **Năm 2 (2026)**
-- **Số lượng khách hàng dự kiến:** 70 (+20% so với năm trước)
-  - Khảo sát, tư vấn: 28 khách hàng
-  - Phát triển giải pháp tùy chỉnh: 14 khách hàng
-  - Tích hợp AI: 14 khách hàng
-  - Đào tạo: 14 khách hàng
-- **Doanh số dự kiến:** 31,2 tỷ VNĐ
-  - Khảo sát, tư vấn: 2,8 tỷ VNĐ
-  - Phát triển giải pháp: 21 tỷ VNĐ
-  - Tích hợp AI: 14 tỷ VNĐ
-  - Đào tạo: 0,7 tỷ VNĐ
-- **Doanh thu thực tế (sau chi phí):** 18,72 tỷ VNĐ
-- **Lợi nhuận:** 12,48 tỷ VNĐ
-- **Nhân sự triển khai:** 18 người
-
----
-
-### **Năm 3 (2027)**
-- **Số lượng khách hàng dự kiến:** 100 (+30% so với năm trước)
-  - Khảo sát, tư vấn: 40 khách hàng
-  - Phát triển giải pháp tùy chỉnh: 20 khách hàng
-  - Tích hợp AI: 20 khách hàng
-  - Đào tạo: 20 khách hàng
-- **Doanh số dự kiến:** 41 tỷ VNĐ
-  - Khảo sát, tư vấn: 4 tỷ VNĐ
-  - Phát triển giải pháp: 30 tỷ VNĐ
-  - Tích hợp AI: 20 tỷ VNĐ
-  - Đào tạo: 1 tỷ VNĐ
-- **Doanh thu thực tế (sau chi phí):** 24,6 tỷ VNĐ
-- **Lợi nhuận:** 16,4 tỷ VNĐ
-- **Nhân sự triển khai:** 25 người
-
----
-
-### **Năm 4 (2028)**
-- **Số lượng khách hàng dự kiến:** 140 (+40% so với năm trước)
-  - Khảo sát, tư vấn: 56 khách hàng
-  - Phát triển giải pháp tùy chỉnh: 28 khách hàng
-  - Tích hợp AI: 28 khách hàng
-  - Đào tạo: 28 khách hàng
-- **Doanh số dự kiến:** 54,6 tỷ VNĐ
-  - Khảo sát, tư vấn: 5,6 tỷ VNĐ
-  - Phát triển giải pháp: 42 tỷ VNĐ
-  - Tích hợp AI: 28 tỷ VNĐ
-  - Đào tạo: 1,4 tỷ VNĐ
-- **Doanh thu thực tế (sau chi phí):** 32,76 tỷ VNĐ
-- **Lợi nhuận:** 21,84 tỷ VNĐ
-- **Nhân sự triển khai:** 35 người
-
----
-
-### **Năm 5 (2029)**
-- **Số lượng khách hàng dự kiến:** 200 (+40% so với năm trước)
-  - Khảo sát, tư vấn: 80 khách hàng
-  - Phát triển giải pháp tùy chỉnh: 40 khách hàng
-  - Tích hợp AI: 40 khách hàng
-  - Đào tạo: 40 khách hàng
-- **Doanh số dự kiến:** 78 tỷ VNĐ
-  - Khảo sát, tư vấn: 8 tỷ VNĐ
-  - Phát triển giải pháp: 60 tỷ VNĐ
-  - Tích hợp AI: 40 tỷ VNĐ
-  - Đào tạo: 2 tỷ VNĐ
-- **Doanh thu thực tế (sau chi phí):** 46,8 tỷ VNĐ
-- **Lợi nhuận:** 31,2 tỷ VNĐ
-- **Nhân sự triển khai:** 50 người
 
 ---
 
