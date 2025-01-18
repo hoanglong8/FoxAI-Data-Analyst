@@ -21,22 +21,23 @@ flowchart LR
 
 **1.2. Triển khai giải pháp AI localhost:**
 
-* [Xây dựng và triển khai hệ thống AI localhost trên máy chủ của khách hàng](https://github.com/hoanglong8/FoxAI-Data-Analyst/blob/main/A.1.2.D%E1%BB%8Bch%20V%E1%BB%A5%3A%20X%C3%A2y%20D%E1%BB%B1ng%20H%E1%BB%87%20Th%E1%BB%91ng%20AI%20Chuy%C3%AAn%20Bi%E1%BB%87t%20Theo%20Y%C3%AAu%20C%E1%BA%A7u%20T%E1%BB%ABng%20Ng%C3%A0nh.md), tập trung vào các ngành mũi nhọn như sản xuất, ngân hàng... (xem chi tiết ở phần 2).
+* [Xây dựng và triển khai hệ thống AI localhost cho khách hàng có nhu cầu bảo mật dữ liệu](https://github.com/hoanglong8/FoxAI-Data-Analyst/blob/main/A.1.2.D%E1%BB%8Bch%20V%E1%BB%A5%3A%20X%C3%A2y%20D%E1%BB%B1ng%20H%E1%BB%87%20Th%E1%BB%91ng%20AI%20Chuy%C3%AAn%20Bi%E1%BB%87t%20Theo%20Y%C3%AAu%20C%E1%BA%A7u%20T%E1%BB%ABng%20Ng%C3%A0nh.md), tập trung vào các ngành như sản xuất, ngân hàng...
 
 **1.3. Triển khai giải pháp AI tích hợp sẵn:**
 
-* [Ứng dụng và triển Khai hệ thống AI có sẵn để tích hợp vào hệ thống phần mềm của khách hàng](https://github.com/hoanglong8/FoxAI-Data-Analyst/blob/main/A.1.3.D%E1%BB%8Bch%20v%E1%BB%A5%3A%20Tri%E1%BB%83n%20khai%20AI%20t%C3%ADch%20h%E1%BB%A3p%20ho%E1%BA%B7c%20AI%20t%E1%BB%B1%20%C4%91%E1%BB%99ng.md)
+* [Ứng dụng và triển Khai hệ thống AI có sẵn để tích hợp vào hệ thống phần mềm của khách hàng] như SAP, ERP, Kế toán, Nhân sự, CRM, MRP... (https://github.com/hoanglong8/FoxAI-Data-Analyst/blob/main/A.1.3.D%E1%BB%8Bch%20v%E1%BB%A5%3A%20Tri%E1%BB%83n%20khai%20AI%20t%C3%ADch%20h%E1%BB%A3p%20ho%E1%BA%B7c%20AI%20t%E1%BB%B1%20%C4%91%E1%BB%99ng.md). Trong đó ưu tiên xây dựng hệ thống Chatbot hỗ trợ sản phẩm SAP dùng cho đào tạo nội bộ FoxAI và chăm sóc khách hàng.
 
 **1.4. Dịch vụ đào tạo và hỗ trợ khách hàng ứng dụng AI hiệu quả:**
 
 * [Đào tạo đội ngũ ban lãnh đạo, quản lý và nhân viên của khách hàng sử dụng công cụ AI để tăng hiệu quả công việc](https://github.com/hoanglong8/FoxAI-Data-Analyst/blob/main/A.1.4.D%E1%BB%8Bch%20v%E1%BB%A5:%20%C4%90%C3%A0o%20t%E1%BA%A1o%20kh%C3%A1ch%20h%C3%A0ng%20s%E1%BB%AD%20d%E1%BB%A5ng%20AI.md)
 
-## 2.Một số sản phẩm AI chuyên biệt cho từng lĩnh vực/ngành
+## 2.Giới thiệu chi tiết giải pháp AI localhost
 
-![Hình ảnh](https://github.com/hoanglong8/FoxAI-Data-Analyst/blob/main/A.1.2.png?raw=true)
+![Hình ảnh](https://github.com/hoanglong8/Chiến lược SP/FoxAI-Data-Analyst/blob/main/A.1.2.png?raw=true)
 
-## 2.1. Lĩnh vực sản xuất
-### Case-study ứng dụng AI thành công
+## 2.1. Trong ngành sản xuất
+**Case-study ứng dụng AI thành công**
+
 - Siemens:
   - Ứng dụng: Sử dụng AI trong bảo trì dự đoán (Predictive Maintenance).
   - Kết quả: Giảm thiểu thời gian chết của máy móc, tối ưu hóa lịch bảo trì.
@@ -44,17 +45,25 @@ flowchart LR
   - Ứng dụng: Dùng AI để tự động hóa dây chuyền sản xuất và kiểm tra chất lượng sản phẩm.
   - Kết quả: Tăng tốc độ sản xuất, giảm sai sót sản phẩm.
 
-### Định hướng sản phẩm & dịch vụ AI
-- Hệ thống bảo trì dự đoán (Predictive Maintenance):
-  - Theo dõi tình trạng máy móc theo thời gian thực, dự đoán lỗi trước khi xảy ra.
-  - Công cụ: IoT, AI phân tích dữ liệu cảm biến.
-- Tối ưu hóa sản xuất:
-  - Ứng dụng AI để lập kế hoạch sản xuất thông minh, tối ưu hóa chuỗi cung ứng.
-  - Giải pháp: Machine Learning, mô hình tối ưu hóa.
-- Kiểm tra chất lượng sản phẩm bằng Computer Vision:
-  - Dùng camera và AI để phát hiện lỗi trên sản phẩm trong dây chuyền sản xuất.
-- Dự đoán nhu cầu nguyên vật liệu:
-  - Giảm tồn kho dư thừa bằng cách dự đoán chính xác nhu cầu.
+**Chiến lược của FoxAI**
+
+- Xây dựng hệ thống dự đoán nhu cầu nguyên vật liệu (MRP) giúp:
+  - Tối ưu hóa chuỗi cung ứng: Dự đoán chính xác nhu cầu nguyên vật liệu, giảm thiểu tồn kho và lãng phí.
+  - Tăng hiệu quả hoạt động: Cải thiện quy trình lập kế hoạch sản xuất và đặt hàng nguyên liệu.
+  - Giảm chi phí vận hành: Hạn chế tình trạng mua thừa hoặc thiếu nguyên vật liệu.
+
+- Đối tượng khách hàng tiềm năng:
+  - Hạ tầng công nghệ: Có sẵn ERP, hệ thống quản lý kho (WMS), hoặc hệ thống quản lý sản xuất (MES).
+  - Nhân sự: Có đội ngũ IT hoặc sẵn sàng thuê ngoài triển khai.
+  - Dữ liệu: Chất lượng và tính đầy đủ của dữ liệu lịch sử như đơn hàng, thông tin tồn kho, và chu kỳ sản xuất.
+
+- Dữ liệu đầu vào cần thiết:
+    - Lịch sử sản xuất: Thông tin về sản lượng sản xuất theo thời gian.
+    - Lịch sử bán hàng: Số lượng hàng bán theo từng loại sản phẩm, theo mùa, hoặc theo thị trường.
+    - Tồn kho: Tồn kho nguyên vật liệu và thành phẩm.
+    - Thời gian giao hàng: Dữ liệu về thời gian giao hàng của các nhà cung cấp.
+    - Các yếu tố bên ngoài: Dữ liệu kinh tế vĩ mô (giá nguyên liệu, xu hướng thị trường), thời tiết (nếu liên quan đến nguyên liệu nông nghiệp), và sự kiện đặc biệt (dịch bệnh, chiến tranh thương mại).
+    - Dữ liệu nội bộ khác: Quy trình sản xuất, BOM (Bill of Materials), và vòng đời sản phẩm.
 
 ---
 
