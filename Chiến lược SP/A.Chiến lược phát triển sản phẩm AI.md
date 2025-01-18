@@ -4,8 +4,17 @@
 
 ![Language](https://img.shields.io/badge/Language-Python-orange.svg?logo=Python&logoColor=yellow) ![Update](https://img.shields.io/badge/Update-Weekly-green.svg) ![Progress](https://img.shields.io/badge/progress-N%2F1049-brightgreen.svg) ![Sponsors](https://img.shields.io/badge/Sponsor-0-lightgrey.svg)
 
+# Nội dung
+[1.Chiến lược phát triển 4 loại hình dịch vụ](#1.Tầm-nhìn-phát-triển-khối-sản-phẩm-AI-giai-đoạn-2025-2029)
+[2.Giới thiệu 4 giải pháp AI cho ngành sản xuất, ngân hàng](#2.Giới-thiệu-tổng-quan-4-giải-pháp-AI-cho-lĩnh-vực-sản-xuất,-ngân-hàng)
+[]
+[]
+[]
+[]
+[3.Lộ trình chiến lược 5 năm](#3.Lộ-Trình-Chiến-Lược-5-Năm-2025-2029)
 
-# 1. Chiến lược phát triển khối sản phẩm AI - tầm nhìn 2025-2029
+
+# 1.Tầm nhìn phát triển khối sản phẩm AI giai đoạn 2025-2029
 
 ```mermaid
 flowchart LR
@@ -33,7 +42,7 @@ flowchart LR
 
 ---
 
-## 2.Giới thiệu chi tiết giải pháp AI cho các lĩnh vực
+## 2.Giới thiệu tổng quan 4 giải pháp AI cho ngành sản xuất, ngân hàng
 
 ```mermaid
 flowchart LR
@@ -45,7 +54,7 @@ flowchart LR
 
 ## 2.1. [Chatbot hỗ trợ khách hàng](https://fox.ai.vn/wp-content/uploads/2024/07/Logo_Original-1.png) sử dụng SAP
 
-**2.1.1.Mục tiêu dự án**
+**a. Mục tiêu dự án**
 - Hỗ trợ nhân viên trong việc sử dụng SAP:
    - Hướng dẫn thao tác trong các module của SAP như tài chính, bán hàng, quản lý kho.
    - Đưa ra câu trả lời nhanh cho các vướng mắc thường gặp.
@@ -55,7 +64,7 @@ flowchart LR
 - Nắm bắt số liệu tức thời:
    - Cho phép ban lãnh đạo truy xuất nhanh các số liệu quan trọng (doanh thu, chi phí, tồn kho) thông qua chatbot.
 
-**2.1.2.Dữ liệu đầu vào cần thiết**
+**b. Dữ liệu đầu vào cần thiết**
 - Tài liệu hệ thống SAP:
    - Cấu trúc dữ liệu và tài liệu hướng dẫn của các module SAP đang sử dụng.
    - Danh sách quy trình công việc và các thao tác phổ biến.
@@ -67,7 +76,7 @@ flowchart LR
 - Dữ liệu hội thoại:
    - Ghi nhận các yêu cầu và phản hồi từ nhân viên qua email, chat, hoặc các kênh hỗ trợ.
 
-**2.1.3.Cơ sở hạ tầng**
+**c. Cơ sở hạ tầng**
 - Hạ tầng máy chủ và lưu trữ:
    - **Cloud:** Sử dụng AWS, Microsoft Azure, hoặc Google Cloud để đảm bảo khả năng mở rộng.
    - **On-premises:** Nếu doanh nghiệp ưu tiên bảo mật cao, có thể sử dụng hạ tầng máy chủ tại chỗ.
@@ -81,7 +90,7 @@ flowchart LR
    - Mã hóa dữ liệu và xác thực hai lớp (2FA) để đảm bảo an toàn cho dữ liệu SAP.
    - Quản lý quyền truy cập để bảo vệ dữ liệu nhạy cảm.
 
-**2.1.4.Giao diện người dùng (UI/UX)**
+**d. Giao diện người dùng (UI/UX)**
 
 - **Ban lãnh đạo xem Dashboard tức thời:**
     - Doanh thu theo thời gian thực.
@@ -96,7 +105,7 @@ flowchart LR
     - Hướng dẫn từng bước theo câu lệnh (step-by-step).
     - Gợi ý tự động (autocomplete) khi nhân viên đặt câu hỏi.
 
-**2.1.5.Nguồn lực team sản xuất dự kiến:**
+**e. Nguồn lực team sản xuất dự kiến:**
 
 | **Vai trò**            | **Số lượng**     | **Nhiệm vụ**                                                                 |
 |---------------------------|-------------------|------------------------------------------------------------------------------------|
@@ -107,7 +116,7 @@ flowchart LR
 | Dev Frontend (UX/UI) | 1          | thiết kế giao diện chatbot thân thiện, trực quan và xây dựng dashboard cho ban lãnh đạo truy cập số liệu tức thời. |
 | Kỹ sư hệ thống (DevOps) | 1          | đảm bảo hệ thống localhost vận hành ổn định, bảo mật.|
 
-**2.1.6.Timeline triển khai**
+**f. Timeline triển khai**
 
 | **Giai đoạn**            | **Thời gian**     | **Công việc chính**                                                                 |
 |---------------------------|-------------------|------------------------------------------------------------------------------------|
@@ -130,17 +139,17 @@ flowchart LR
     
     - Unilever: Kết hợp AI và Big Data để dự đoán nhu cầu sản phẩm và tối ưu hóa việc sản xuất theo khu vực.
 
-**2.2.1.Mục tiêu dự án:**
+**a. Mục tiêu dự án:**
   - Tối ưu hóa chuỗi cung ứng: Dự đoán chính xác nhu cầu nguyên vật liệu, giảm thiểu tồn kho và lãng phí.
   - Tăng hiệu quả hoạt động: Cải thiện quy trình lập kế hoạch sản xuất và đặt hàng nguyên liệu.
   - Giảm chi phí vận hành: Hạn chế tình trạng mua thừa hoặc thiếu nguyên vật liệu.
 
-**2.2.2.Đối tượng khách hàng tiềm năng:**
+**b. Đối tượng khách hàng tiềm năng:**
   - Hạ tầng công nghệ: Có sẵn ERP, hệ thống quản lý kho (WMS), hoặc hệ thống quản lý sản xuất (MES) có đủ các dữ liệu lịch sử như đơn hàng, thông tin tồn kho, kế hoạch, tiến độ và chu kỳ sản xuất.
   - Nhân sự: Có đội ngũ IT hoặc sẵn sàng thuê ngoài triển khai.
   - Hạ tầng lưu trữ: Sử dụng cloud (AWS, Google Cloud, Azure) hoặc **hạ tầng tại chỗ (on-premises).**
  
-**2.2.3.Dữ liệu đầu vào cần thiết:**
+**c. Dữ liệu đầu vào cần thiết:**
 - Lịch sử sản xuất: Thông tin về sản lượng sản xuất theo thời gian.
 - Lịch sử bán hàng: Số lượng hàng bán theo từng loại sản phẩm, theo mùa, hoặc theo thị trường.
 - Tồn kho: Tồn kho nguyên vật liệu và thành phẩm.
@@ -148,13 +157,13 @@ flowchart LR
 - Các yếu tố bên ngoài: Dữ liệu kinh tế vĩ mô (giá nguyên liệu, xu hướng thị trường), thời tiết (nếu liên quan đến nguyên liệu nông nghiệp), và sự kiện đặc biệt (dịch bệnh, chiến tranh thương mại).
 - Dữ liệu nội bộ khác: Quy trình sản xuất, BOM (Bill of Materials), và vòng đời sản phẩm.
 
-**2.2.4.Kiến trúc hệ thống**
+**d. Kiến trúc hệ thống**
 ```mermaid
 flowchart LR
     id1([Thu_thập_dữ_liệu]) --> id2([Xử_lý_dữ_liệu]) --> id3([Phân_tích_dự_đoán_ML]) --> id4([TK_giao_diện_UI])
 ```
 
-**2.2.5.Nguồn lực team sản xuất dự kiến:**
+**e. Nguồn lực team sản xuất dự kiến:**
 
 | **Vai trò**            | **Số lượng**     | **Nhiệm vụ**                                                                 |
 |---------------------------|-------------------|------------------------------------------------------------------------------------|
@@ -165,7 +174,7 @@ flowchart LR
 | Dev Frontend (UX/UI) | 1          | thiết kế bảng điều khiển. |
 | Kỹ sư hệ thống (DevOps) | 1          | đảm bảo hệ thống localhost vận hành ổn định, bảo mật. |
 
-**2.2.6.Timeline triển khai**
+**f. Timeline triển khai**
 
 | **Giai đoạn**            | **Thời gian**     | **Công việc chính**                                                                 |
 |---------------------------|-------------------|------------------------------------------------------------------------------------|
@@ -177,7 +186,7 @@ flowchart LR
 
 ---
 
-## 2.3. [Hệ thống AI phân loại và đánh giá KPI](https://fox.ai.vn/wp-content/uploads/2024/07/Logo_Original-1.png) nhân viên ngân hàng, tài chính, bảo hiểm
+## 2.3. [Hệ thống AI phân loại và đánh giá KPI nhân viên](https://fox.ai.vn/wp-content/uploads/2024/07/Logo_Original-1.png) ngành ngân hàng, tài chính, bảo hiểm
 
 **a. Mục tiêu dự án**
 - Tăng cường hiệu quả đánh giá nhân viên:
@@ -260,7 +269,7 @@ flowchart LR
 
 ---
 
-## 2.4.[Hệ thống AI đánh giá chất lượng khoản vay (Loan Origination System - LOS)](https://fox.ai.vn/wp-content/uploads/2024/07/Logo_Original-1.png) cho ngân hàng
+## 2.4.[Hệ thống AI đánh giá chất lượng khoản vay (Loan Origination System - LOS)](https://fox.ai.vn/wp-content/uploads/2024/07/Logo_Original-1.png) cho ngành ngân hàng, tài chính, bảo hiểm
 
 **a. Mục tiêu dự án**
 - Tăng cường khả năng đánh giá khoản vay:
@@ -354,7 +363,7 @@ flowchart LR
 
 ---
 
-# 3.Lộ Trình Chiến Lược 5 Năm (2025-2029)
+# 3.Lộ Trình Chiến Lược 5 Năm 2025-2029
 
 ## 3.1. Giả định
 - **Doanh thu dự kiến:** Tổng doanh thu từ cả 4 gói sản phẩm.
