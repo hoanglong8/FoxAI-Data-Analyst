@@ -155,6 +155,30 @@ mindmap
     Rose
     Blue
 ```
+```mermaid
+mindmap
+  root((So sánh Phương án Kinh doanh Chatbot AI))
+    Localhost
+      Chi phí
+        Cao: 5-7 tỷ VNĐ
+        Phí triển khai ban đầu lớn
+      Thời gian
+        6-9 tháng triển khai
+        Tập trung vào phát triển và tối ưu hóa nội bộ
+      Đối tượng khách hàng
+        Doanh nghiệp lớn, yêu cầu bảo mật cao
+        Ngành: tài chính, ngân hàng, y tế, giáo dục
+    API
+      Chi phí
+        Thấp: 2-4 tỷ VNĐ
+        Phí sử dụng linh hoạt theo tháng
+      Thời gian
+        3-5 tháng triển khai
+        Nhanh chóng nhờ tích hợp API có sẵn
+      Đối tượng khách hàng
+        Doanh nghiệp vừa và nhỏ
+        Ngành: bán lẻ, dịch vụ, thương mại điện tử
+```
 
 ### 2-2-Công cụ Markmap
 
