@@ -149,14 +149,6 @@ Ngoài ra, Mermaid cũng hỗ trợ tạo sơ đồ có màu sắc như:
 
 ```mermaid
 mindmap
-  root((Colors))
-    Orange
-    Green
-    Rose
-    Blue
-```
-```mermaid
-mindmap
   root((So sánh Phương án Kinh doanh Chatbot AI))
     Localhost
       Chi phí
