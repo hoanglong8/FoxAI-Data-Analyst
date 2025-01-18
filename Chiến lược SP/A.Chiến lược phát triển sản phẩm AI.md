@@ -119,7 +119,7 @@ flowchart LR
 
 ---
 
-## 2.2. Đối với ngành sản xuất
+## 2.2. [Hệ thống dự đoán nhu cầu nguyên vật liệu (MRP)](https://fox.ai.vn/wp-content/uploads/2024/07/Logo_Original-1.png)
 - Một số Case-study ứng dụng AI thành công:
     
     - Amazon: Sử dụng AI để quản lý chuỗi cung ứng và dự đoán nhu cầu sản phẩm, từ đó giúp tối ưu hóa việc lưu trữ và vận chuyển dựa trên dự đoán chính xác nhu cầu.
@@ -130,7 +130,7 @@ flowchart LR
     
     - Unilever: Kết hợp AI và Big Data để dự đoán nhu cầu sản phẩm và tối ưu hóa việc sản xuất theo khu vực.
 
-**2.2.1.Mục tiêu dự án là xây dựng [hệ thống dự đoán nhu cầu nguyên vật liệu (MRP)](https://fox.ai.vn/wp-content/uploads/2024/07/Logo_Original-1.png) giúp:**
+**2.2.1.Mục tiêu dự án:**
   - Tối ưu hóa chuỗi cung ứng: Dự đoán chính xác nhu cầu nguyên vật liệu, giảm thiểu tồn kho và lãng phí.
   - Tăng hiệu quả hoạt động: Cải thiện quy trình lập kế hoạch sản xuất và đặt hàng nguyên liệu.
   - Giảm chi phí vận hành: Hạn chế tình trạng mua thừa hoặc thiếu nguyên vật liệu.
@@ -177,18 +177,7 @@ flowchart LR
 
 ---
 
-## 2.3. Lĩnh vực tài chính, ngân hàng và bảo hiểm
-### Case-study ứng dụng AI thành công
-- JP Morgan Chase:
-  - Ứng dụng: AI xử lý hợp đồng và phát hiện gian lận tài chính.
-  - Kết quả: Giảm 360.000 giờ làm việc thủ công mỗi năm.
-- Zest AI:
-  - Ứng dụng: AI hỗ trợ chấm điểm tín dụng dựa trên dữ liệu phi truyền thống.
-  - Kết quả: Mở rộng tiếp cận tín dụng cho các nhóm đối tượng mới.
-
----
-
-**2.3.1.Kế hoạch xây dựng [hệ thống AI phân loại và đánh giá KPI](https://fox.ai.vn/wp-content/uploads/2024/07/Logo_Original-1.png) nhân viên ngân hàng**
+## 2.3. [Hệ thống AI phân loại và đánh giá KPI](https://fox.ai.vn/wp-content/uploads/2024/07/Logo_Original-1.png) nhân viên ngân hàng, tài chính, bảo hiểm
 
 **a. Mục tiêu dự án**
 - Tăng cường hiệu quả đánh giá nhân viên:
@@ -271,7 +260,7 @@ flowchart LR
 
 ---
 
-**2.3.2.Kế hoạch xây dựng [hệ thống AI đánh giá chất lượng khoản vay (Loan Origination System - LOS)](https://fox.ai.vn/wp-content/uploads/2024/07/Logo_Original-1.png) cho ngân hàng**
+## 2.4.[Hệ thống AI đánh giá chất lượng khoản vay (Loan Origination System - LOS)](https://fox.ai.vn/wp-content/uploads/2024/07/Logo_Original-1.png) cho ngân hàng
 
 **a. Mục tiêu dự án**
 - Tăng cường khả năng đánh giá khoản vay:
