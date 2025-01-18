@@ -1,4 +1,4 @@
-# Dịch Vụ: Xây Dựng Hệ Thống AI Chuyên Biệt Theo Yêu Cầu Từng Ngành
+# Dịch Vụ: Xây Dựng Hệ Thống AI localhost cho khách hàng
 
 ## Mô tả dịch vụ
 Dịch vụ cung cấp các giải pháp AI chuyên biệt được thiết kế riêng cho từng ngành, đặc biệt là ngành **tài chính-ngân hàng**. Từ phân tích dữ liệu, tự động hóa quy trình, dự đoán rủi ro, đến nâng cao trải nghiệm khách hàng, dịch vụ này đáp ứng nhu cầu chuyển đổi số và cải thiện hiệu suất kinh doanh của doanh nghiệp.
