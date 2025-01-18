@@ -145,7 +145,7 @@ graph LR;
 
 <img src="https://github.com/hoanglong8/FoxAI-Data-Analyst/blob/main/Image/Mermaid.gif" width="100%" />
 
-Ngoài ra, Mermaid cũng hỗ trợ tạo sơ đồ có màu sắc như:
+Ngoài ra, Mermaid cũng hỗ trợ tạo sơ đồ Mindmap như sau:
 
 ```mermaid
 mindmap
