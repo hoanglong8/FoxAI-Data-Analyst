@@ -1,40 +1,36 @@
-# **Kế hoạch nhân sự năm 2025**
+# **Kế hoạch tuyển dụng năm 2025**
 
 ## A.Quy trình tuyển dụng
+
+```mermaid
+graph LR
+XĐ_yêu_cầu_công_việc --> Đăng_tin_tuyển_dụng --> Sàng_lọc_ứng_viên --> Phỏng_vấn --> Thử_việc
+```
 
 ### Xác định yêu cầu công việc:
 * Xây dựng JD (Job Description) chi tiết cho từng vị trí.
 * Lên danh sách các kỹ năng và chứng chỉ bắt buộc.
 
-### Kênh tuyển dụng:
+### Đăng tin trên các kênh tuyển dụng:
 * LinkedIn, VietnamWorks, ITviec cho Tech Lead SAP và AI Engineer.
 * Facebook Group, CareerBuilder cho Data Analyst.
 
-### Tiêu chí sàng lọc ứng viên:
+### Sàng lọc ứng viên:
 * Tech Lead SAP: Kiến thức về SAP Fiori, HANA, tích hợp API.
 * AI Engineer: Thành thạo Python, TensorFlow, tích hợp ChatGPT hoặc các AI model.
 * Data Analyst: Kinh nghiệm làm việc với SQL, Power BI, hoặc Tableau.
 
-### Quy trình phỏng vấn:
-* Vòng 1: Sàng lọc CV.
-* Vòng 2: Phỏng vấn chuyên môn (Test case thực tế).
-* Vòng 3: Phỏng vấn văn hóa với đội ngũ.
-Tổng thời gian hoàn thành: ~2 tháng.
+### Phỏng vấn:
+* 1.Sàng lọc CV.
+* 2.Phỏng vấn chuyên môn (Test case thực tế).
 
-## B.Tổng quan kế hoạch tuyển dụng
-- **Số lượng nhân sự cần tuyển:** 15 người
-  - **Tư vấn triển khai:** 4 người
-  - **Data Analyst:** 3 người
-  - **Data Engineer:** 5 người
-  - **Hỗ trợ & đào tạo:** 3 người
-- **Thời gian tuyển dụng:** Hoàn tất trong **Q1/2025**.
-- **Chiến lược tuyển dụng:**
-  - Sử dụng kênh LinkedIn, VietnamWorks, ITviec để đăng tin tuyển dụng.
-  - Tổ chức 2 buổi workshop "Cơ hội nghề nghiệp tại FoxAI" tại các trường đại học (HUST, UIT, FPT University).
+### Thử việc:
+* Đào_tạo_hội_nhập
+* Training on job
 
 ---
 
-## C.Mô tả công việc cho 4 vị trí
+## B.Mô tả công việc cho 4 vị trí
 
 ### **2.1. Vị trí: Tư vấn triển khai (AI Consultant)**
 - **Số lượng cần tuyển:** 4 người
@@ -47,9 +43,7 @@ Tổng thời gian hoàn thành: ~2 tháng.
   - Tốt nghiệp ngành Quản trị kinh doanh, Khoa học máy tính hoặc tương đương.
   - Có kinh nghiệm tư vấn công nghệ (tối thiểu 2 năm).
   - Kỹ năng giao tiếp, phân tích và trình bày tốt.
-- **Mức lương dự kiến:** 18-25 triệu VNĐ/tháng.
-
----
+- **Mức lương dự kiến:** ... triệu VNĐ/tháng.
 
 ### **2.2. Vị trí: Data Analyst**
 - **Số lượng cần tuyển:** 3 người
@@ -62,9 +56,7 @@ Tổng thời gian hoàn thành: ~2 tháng.
   - Thành thạo SQL, Python hoặc R; kinh nghiệm làm việc với Power BI/Tableau.
   - Có kinh nghiệm phân tích dữ liệu và đưa ra đề xuất chiến lược.
   - Tư duy logic, kỹ năng giải quyết vấn đề.
-- **Mức lương dự kiến:** 15-20 triệu VNĐ/tháng.
-
----
+- **Mức lương dự kiến:** ... triệu VNĐ/tháng.
 
 ### **2.3. Vị trí: Data Engineer**
 - **Số lượng cần tuyển:** 5 người
@@ -77,9 +69,7 @@ Tổng thời gian hoàn thành: ~2 tháng.
   - Kinh nghiệm với các công cụ xử lý dữ liệu lớn (Hadoop, Spark).
   - Thành thạo Python, Java hoặc Scala.
   - Am hiểu cơ sở dữ liệu SQL và NoSQL.
-- **Mức lương dự kiến:** 18-30 triệu VNĐ/tháng.
-
----
+- **Mức lương dự kiến:** ... triệu VNĐ/tháng.
 
 ### **2.4. Vị trí: Hỗ trợ & đào tạo (AI Trainer)**
 - **Số lượng cần tuyển:** 3 người
@@ -91,39 +81,18 @@ Tổng thời gian hoàn thành: ~2 tháng.
   - Có kiến thức cơ bản về AI, kỹ năng thuyết trình và đào tạo.
   - Khả năng giao tiếp tốt và kỹ năng giải quyết vấn đề.
   - Ưu tiên ứng viên có kinh nghiệm làm việc tại vị trí hỗ trợ khách hàng.
-- **Mức lương dự kiến:** 12-18 triệu VNĐ/tháng.
+- **Mức lương dự kiến:** ... triệu VNĐ/tháng.
 
 ---
 
 ## **3. Quy trình phối hợp triển khai giữa 4 vị trí và bộ phận kinh doanh**
 
-### **3.1. Quy trình làm việc**
-1. **Bộ phận kinh doanh:**
-   - Thu thập thông tin từ khách hàng, xác định nhu cầu cơ bản.
-   - Chuyển giao thông tin ban đầu cho bộ phận tư vấn triển khai.
-2. **Tư vấn triển khai (AI Consultant):**
-   - Khảo sát chi tiết nhu cầu và dữ liệu của khách hàng.
-   - Phối hợp với Data Analyst và Data Engineer để đánh giá khả năng ứng dụng AI.
-   - Xây dựng kế hoạch triển khai cụ thể và trình bày giải pháp cho khách hàng.
-3. **Data Analyst:**
-   - Phân tích dữ liệu đầu vào từ khách hàng để đưa ra báo cáo và các gợi ý ứng dụng AI.
-   - Làm việc chặt chẽ với Data Engineer để chuẩn bị dữ liệu phù hợp cho mô hình AI.
-4. **Data Engineer:**
-   - Tích hợp hệ thống dữ liệu của khách hàng vào giải pháp AI.
-   - Cung cấp dữ liệu sạch và tối ưu hóa cho các mô hình.
-5. **Hỗ trợ & đào tạo:**
-   - Đào tạo khách hàng cách sử dụng giải pháp.
-   - Cung cấp hỗ trợ kỹ thuật sau khi hệ thống được triển khai.
-6. **Phối hợp sau bán hàng:**
-   - Bộ phận kinh doanh làm việc với AI Trainer để đảm bảo khách hàng hài lòng và gia hạn hợp đồng.
+```mermaid
+graph LR
+Kinh_doanh --> Tư_vấn_triển_khai --> Data_Analyst --> AI_Engineer --> Hỗ_trợ_bảo_trì
+```
 
 ---
-
-### **3.2. Lưu đồ phối hợp**
-```plaintext
-Kinh doanh --> Tư vấn triển khai --> Data Analyst --> Data Engineer --> Hỗ trợ & đào tạo
-         ↳ (Phản hồi khách hàng) ↵
-```
 
 ## **4. Các công việc cần thực hiện trong năm 2025**
 
