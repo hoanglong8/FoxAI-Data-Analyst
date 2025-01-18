@@ -9,10 +9,10 @@
 
 ```mermaid
 flowchart LR
-    id1([4_nhóm_sản_phẩm]) --> id2([1_Dịch_vụ_khảo_sát])
+    id1([4_nhóm_sản_phẩm]) --> id2([1_Dịch_vụ_tư_vấn_khảo_sát])
     id1([4_nhóm_sản_phẩm]) --> id3([2_AI_Localhost])
     id1([4_nhóm_sản_phẩm]) --> id4([3_AI_tích_hợp_sẵn])
-    id1([4_nhóm_sản_phẩm]) --> id5([4_Dịch_vụ_đào_tạo])
+    id1([4_nhóm_sản_phẩm]) --> id5([4_Dịch_vụ_đào_tạo_AI])
 ```
 
 **1.1. Dịch vụ khảo sát, tư vấn lộ trình ứng dụng AI cho doanh nghiệp:**
@@ -76,13 +76,6 @@ flowchart LR
    - Quản lý quyền truy cập để bảo vệ dữ liệu nhạy cảm.
 
 **Giao diện người dùng (UI/UX)**
-**Đối với nhân viên sử dụng SAP:**
-   - **Chatbot UI:** 
-     - Tích hợp trên nền tảng Microsoft Teams, Slack, hoặc một ứng dụng nội bộ.
-     - Giao diện đơn giản với các chức năng như hỏi đáp, hướng dẫn quy trình.
-   - **Các tính năng:** 
-     - Hướng dẫn từng bước theo câu lệnh (step-by-step).
-     - Gợi ý tự động (autocomplete) khi nhân viên đặt câu hỏi.
 
 **Đối với ban lãnh đạo:**
    - **Dashboard tức thời:**
@@ -93,14 +86,25 @@ flowchart LR
      - Có thể truy cập qua web hoặc ứng dụng di động.
    - **Chức năng ra lệnh bằng giọng nói:**
      - Cho phép lãnh đạo yêu cầu số liệu bằng lệnh thoại qua chatbot.
+    
+**Đối với nhân viên sử dụng SAP:**
+   - **Chatbot UI:** 
+     - Tích hợp trên nền tảng Microsoft Teams, Slack, hoặc một ứng dụng nội bộ.
+     - Giao diện đơn giản với các chức năng như hỏi đáp, hướng dẫn quy trình.
+   - **Các tính năng:** 
+     - Hướng dẫn từng bước theo câu lệnh (step-by-step).
+     - Gợi ý tự động (autocomplete) khi nhân viên đặt câu hỏi.
 
 **- Nguồn lực team sản xuất dự kiến:**
-    - 1 Giám đốc dự án (PM) phụ trách kế hoạch & tiến độ triển khai.
-    - 1 Data Analyst để thu thập và xử lý dữ liệu từ SAP, ERP...
-    - 1 Kỹ sư (AI Engineers) phát triển, tinh chỉnh mô hình NLP (Natural Language Processing) để chatbot hiểu tiếng Việt và các lệnh SAP.
-    - 1 Dev Backend tích hợp với hệ thống SAP thông qua API, kết nối với các nền tảng (Teams, Slack, hoặc ứng dụng nội bộ).
-    - 1 Dev Frontend (UX/UI) để thiết kế giao diện chatbot thân thiện, trực quan và xây dựng dashboard cho ban lãnh đạo truy cập số liệu tức thời.
-    - 1 Kỹ sư hệ thống (DevOps) nếu triển khải chatbot trên hệ thống localhost.
+
+| **Vai trò**            | **Số lượng**     | **Nhiệm vụ**                                                                 |
+|---------------------------|-------------------|------------------------------------------------------------------------------------|
+| Giám đốc dự án (PM) | 1          | phụ trách kế hoạch & tiến độ triển khai. |
+| Data Analyst | 1          | thu thập và xử lý dữ liệu từ SAP, ERP... |
+| Kỹ sư (AI Engineers) | 1          | phát triển, tinh chỉnh mô hình NLP (Natural Language Processing) để chatbot hiểu tiếng Việt và các lệnh SAP. |
+| Dev Backend | 1          | tích hợp với hệ thống SAP thông qua API, kết nối với các nền tảng (Teams, Slack, hoặc ứng dụng nội bộ). |
+| Dev Frontend (UX/UI) | 1          | thiết kế giao diện chatbot thân thiện, trực quan và xây dựng dashboard cho ban lãnh đạo truy cập số liệu tức thời. |
+| Kỹ sư hệ thống (DevOps) | 1          | đảm bảo hệ thống localhost vận hành ổn định, bảo mật.|
 
 **Timeline triển khai**
 
@@ -116,24 +120,27 @@ flowchart LR
 ## 2.2. Cho ngành sản xuất
 **Một số Case-study ứng dụng AI thành công**
 
-    - Amazon: Sử dụng AI để quản lý chuỗi cung ứng và dự đoán nhu cầu sản phẩm, từ đó giúp tối ưu hóa việc lưu trữ và vận chuyển dựa trên dự đoán chính xác nhu cầu.
-    - Toyota: Ứng dụng AI trong quản lý tồn kho và chuỗi cung ứng. Hệ thống AI phân tích dữ liệu thời gian thực từ nhà máy và nhà cung cấp để tối ưu hóa dòng nguyên vật liệu.
-    - Coca-Cola: Dùng AI để dự đoán nhu cầu nguyên vật liệu dựa trên phân tích dữ liệu tiêu thụ sản phẩm và xu hướng thị trường.
-    - Unilever: Kết hợp AI và Big Data để dự đoán nhu cầu sản phẩm và tối ưu hóa việc sản xuất theo khu vực.
+- Amazon: Sử dụng AI để quản lý chuỗi cung ứng và dự đoán nhu cầu sản phẩm, từ đó giúp tối ưu hóa việc lưu trữ và vận chuyển dựa trên dự đoán chính xác nhu cầu.
+
+- Toyota: Ứng dụng AI trong quản lý tồn kho và chuỗi cung ứng. Hệ thống AI phân tích dữ liệu thời gian thực từ nhà máy và nhà cung cấp để tối ưu hóa dòng nguyên vật liệu.
+
+- Coca-Cola: Dùng AI để dự đoán nhu cầu nguyên vật liệu dựa trên phân tích dữ liệu tiêu thụ sản phẩm và xu hướng thị trường.
+
+- Unilever: Kết hợp AI và Big Data để dự đoán nhu cầu sản phẩm và tối ưu hóa việc sản xuất theo khu vực.
 
 **Chiến lược của FoxAI**
 
-**- Xây dựng hệ thống dự đoán nhu cầu nguyên vật liệu (MRP) giúp:**
+**Xây dựng hệ thống dự đoán nhu cầu nguyên vật liệu (MRP) giúp:**
   - Tối ưu hóa chuỗi cung ứng: Dự đoán chính xác nhu cầu nguyên vật liệu, giảm thiểu tồn kho và lãng phí.
   - Tăng hiệu quả hoạt động: Cải thiện quy trình lập kế hoạch sản xuất và đặt hàng nguyên liệu.
   - Giảm chi phí vận hành: Hạn chế tình trạng mua thừa hoặc thiếu nguyên vật liệu.
 
-**- Đối tượng khách hàng tiềm năng:**
+**Đối tượng khách hàng tiềm năng:**
   - Hạ tầng công nghệ: Có sẵn ERP, hệ thống quản lý kho (WMS), hoặc hệ thống quản lý sản xuất (MES) có đủ các dữ liệu lịch sử như đơn hàng, thông tin tồn kho, kế hoạch, tiến độ và chu kỳ sản xuất.
   - Nhân sự: Có đội ngũ IT hoặc sẵn sàng thuê ngoài triển khai.
   - Hạ tầng lưu trữ: Sử dụng cloud (AWS, Google Cloud, Azure) hoặc **hạ tầng tại chỗ (on-premises).**
  
-**- Dữ liệu đầu vào cần thiết:**
+**Dữ liệu đầu vào cần thiết:**
     - Lịch sử sản xuất: Thông tin về sản lượng sản xuất theo thời gian.
     - Lịch sử bán hàng: Số lượng hàng bán theo từng loại sản phẩm, theo mùa, hoặc theo thị trường.
     - Tồn kho: Tồn kho nguyên vật liệu và thành phẩm.
@@ -141,27 +148,32 @@ flowchart LR
     - Các yếu tố bên ngoài: Dữ liệu kinh tế vĩ mô (giá nguyên liệu, xu hướng thị trường), thời tiết (nếu liên quan đến nguyên liệu nông nghiệp), và sự kiện đặc biệt (dịch bệnh, chiến tranh thương mại).
     - Dữ liệu nội bộ khác: Quy trình sản xuất, BOM (Bill of Materials), và vòng đời sản phẩm.
 
-**- Kiến trúc hệ thống**
+**Kiến trúc hệ thống**
 ```mermaid
 flowchart LR
     id1([Thu_thập_dữ_liệu]) --> id2([Xử_lý_dữ_liệu]) --> id3([Phân_tích_dự_đoán_ML]) --> id4([TK_giao_diện_UI])
 ```
 
-**- Nguồn lực team sản xuất dự kiến:**
-    - 1 Giám đốc dự án (PM) phụ trách kế hoạch & tiến độ triển khai.
-    - 1 Data Analyst để thu thập và xử lý dữ liệu từ các hệ thống của KH.
-    - 1 Kỹ sư (AI Engineers) để dựng và tối ưu hóa mô hình ML.
-    - 1 Dev mảng giao diện người dùng (UX/UI) để thiết kế bảng điều khiển.
-    - 1 Kỹ sư hệ thống (DevOps) để đảm bảo hệ thống localhost vận hành ổn định, bảo mật.
+**Nguồn lực team sản xuất dự kiến:**
 
-**- Timeline triển khai:**
-    - Bước 1: Team kinh doanh đánh giá KH & chào mời dự án
-    - Bước 2: Team SX tích hợp các nguồn dữ liệu, làm sạch và chuẩn hóa dữ liệu.
-    - Bước 3: Team SX phát triển mô hình AI, thử nghiệm trên dữ liệu lịch sử.
-    - Bước 4: Tích hợp và chạy thử nghiệm trên 1 database REP.
-    - Bước 5: Đánh giá thử nghiệm và triển khai chính thức
-    - Bước 6: Đào tạo đội ngũ sử dụng hệ thống.
-    - Bước 7: Theo dõi và tối ưu hóa sau khi triển khai.
+| **Vai trò**            | **Số lượng**     | **Nhiệm vụ**                                                                 |
+|---------------------------|-------------------|------------------------------------------------------------------------------------|
+| Giám đốc dự án (PM) | 1          | phụ trách kế hoạch & tiến độ triển khai. |
+| Data Analyst | 1          | thu thập và xử lý dữ liệu từ các hệ thống của KH. |
+| Kỹ sư (AI Engineers) | 1          | dựng và tối ưu hóa mô hình ML, hồi quy (Regression) để dự đoán nhu cầu theo thời gian; xử lý ngôn ngữ tự nhiên (NLP) để phân tích dữ liệu từ email đặt hàng hoặc báo cáo. |
+| Dev Backend | 1          | tích hợp với hệ thống SAP, ERP thông qua API. |
+| Dev Frontend (UX/UI) | 1          | thiết kế bảng điều khiển. |
+| Kỹ sư hệ thống (DevOps) | 1          | đảm bảo hệ thống localhost vận hành ổn định, bảo mật. |
+
+**Timeline triển khai**
+
+| **Giai đoạn**            | **Thời gian**     | **Công việc chính**                                                                 |
+|---------------------------|-------------------|------------------------------------------------------------------------------------|
+| **Giai đoạn 1: Khảo sát nhu cầu** | 0,5 tháng           | Team kinh doanh khảo sát, đánh giá KH & xúc tiến dự án |
+| **Giai đoạn 2: Xử lý dữ liệu** | 0,5-1 tháng           | - Team SX thu thập tài liệu và dữ liệu từ SAP, ERP. <br> - Làm sạch và chuẩn hóa dữ liệu.          |
+| **Giai đoạn 3: Xây dựng mô hình AI** | 0,5-1 tháng           | - Team SX phát triển mô hình AI, thử nghiệm trên dữ liệu lịch sử. <br>    |
+| **Giai đoạn 4: Thử nghiệm**     | 1 tháng           | - Tích hợp và chạy thử nghiệm trên 1 database REP. <br> - Thu thập phản hồi và tối ưu hóa.   |
+| **Giai đoạn 5: Triển khai chính thức** | 1 tháng           | - Đào tạo đội ngũ sử dụng hệ thống. <br> - Theo dõi, tối ưu sau triển khai và chuyển sang bảo trì.   |
 
 ---
 
