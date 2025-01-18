@@ -36,7 +36,7 @@ flowchart LR
 
 **1.2. Triển khai giải pháp AI localhost:**
 
-* [Xây dựng và triển khai hệ thống AI localhost cho khách hàng có nhu cầu bảo mật dữ liệu](https://github.com/hoanglong8/FoxAI-Data-Analyst/blob/main/A.1.2.D%E1%BB%8Bch%20V%E1%BB%A5%3A%20X%C3%A2y%20D%E1%BB%B1ng%20H%E1%BB%87%20Th%E1%BB%91ng%20AI%20Chuy%C3%AAn%20Bi%E1%BB%87t%20Theo%20Y%C3%AAu%20C%E1%BA%A7u%20T%E1%BB%ABng%20Ng%C3%A0nh.md), tập trung vào các ngành như sản xuất, tài chính ngân hàng...
+* [Xây dựng và triển khai hệ thống AI localhost](https://github.com/hoanglong8/FoxAI-Data-Analyst/blob/main/Chi%E1%BA%BFn%20l%C6%B0%E1%BB%A3c%20SP/A.1.2.D%E1%BB%8Bch%20V%E1%BB%A5%3A%20X%C3%A2y%20D%E1%BB%B1ng%20H%E1%BB%87%20Th%E1%BB%91ng%20AI%20localhost.md) cho khách hàng có nhu cầu bảo mật dữ liệu ví dụ như sản xuất, tài chính ngân hàng...
 
 **1.3. Triển khai giải pháp AI tích hợp sẵn:**
 
