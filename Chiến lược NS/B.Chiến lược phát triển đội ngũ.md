@@ -1,6 +1,6 @@
 ## Công ty cổ phần công nghệ FoxAI
 
-<img src="https://fox.ai.vn/wp-content/uploads/2024/07/Logo_Original-1.png" alt="Hình ảnh" width="50%" />
+<img src="https://fox.ai.vn/wp-content/uploads/2024/07/Logo_Original-1.png" alt="Hình ảnh" width="30%" />
 
 ![Language](https://img.shields.io/badge/Language-Python-orange.svg?logo=Python&logoColor=yellow) ![Update](https://img.shields.io/badge/Update-Weekly-green.svg) ![Progress](https://img.shields.io/badge/progress-N%2F1049-brightgreen.svg) ![Sponsors](https://img.shields.io/badge/Sponsor-0-lightgrey.svg)
 
@@ -75,20 +75,20 @@
 - **Hạ tầng máy chủ:**  
   - Thuê cloud hoặc build on-premise tùy vào từng dự án cụ thể.
 - **Công cụ quản lý dự án:**  
-  - GitHub để quản lý các dự án, source-code.
-  - Microsoft Sharepoint để quản lý tài liệu.
+  - [GitHub](https://fox.ai.vn/wp-content/uploads/2024/07/Logo_Original-1.png) để quản lý các dự án, source-code.
+  - [Microsoft Sharepoint](https://fox.ai.vn/wp-content/uploads/2024/07/Logo_Original-1.png) để quản lý tài liệu.
   - Ban đầu dùng gói free, nếu ổn thì nâng cấp lên gói Business.
 
 ### **b. Phí sử dụng các công cụ AI**
 - **ChatGPT Plus (TK share 5 người): 2 tài khoản**  
   - Sử dụng để hỗ trợ viết báo cáo, tối ưu hóa tài liệu tư vấn, code...
-  - Chi phí dự kiến: 12 triệu VNĐ/năm.
+  - Chi phí dự kiến: [12 triệu VNĐ/năm](https://fox.ai.vn/wp-content/uploads/2024/07/Logo_Original-1.png).
 
 
 ### **c. Đào tạo nhân sự nội bộ**
-- Ưu tiên các chứng chỉ phổ biến từ Google, Microsoft, AWS, IBM: Những chứng chỉ này mang lại giá trị cao, được công nhận toàn cầu và sát với nhu cầu thực tế.
-- Kết hợp các khóa học miễn phí: Để giảm chi phí và khuyến khích học tập chủ động.
-- Chương trình đào tạo nội bộ: FoxAI xây dựng các khóa học nội bộ, đưa lên Sharepoint để phục vụ E-learning và đào tạo hội nhập.
+- Ưu tiên các chứng chỉ phổ biến từ [Google, Microsoft, AWS, IBM](https://fox.ai.vn/wp-content/uploads/2024/07/Logo_Original-1.png): Những chứng chỉ này mang lại giá trị cao, được công nhận toàn cầu và sát với nhu cầu thực tế.
+- Kết hợp các khóa học miễn phí trên [Deeplearning.ai, Datacampt, GitHub](https://fox.ai.vn/wp-content/uploads/2024/07/Logo_Original-1.png): Để giảm chi phí và khuyến khích học tập chủ động.
+- Chương trình [đào tạo nội bộ](https://fox.ai.vn/wp-content/uploads/2024/07/Logo_Original-1.png): FoxAI xây dựng các khóa học nội bộ, đưa lên Sharepoint để phục vụ E-learning và đào tạo hội nhập.
 
 ---
 
