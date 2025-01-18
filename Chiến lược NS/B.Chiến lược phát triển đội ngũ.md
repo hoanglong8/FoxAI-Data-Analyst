@@ -16,7 +16,7 @@
 
 ---
 
-## **2. Mô tả công việc**
+## **2. Nhiệm vụ chính**
 
 ### **a. Bộ phận tư vấn triển khai**
   - **AI Consultant (3 người):**
