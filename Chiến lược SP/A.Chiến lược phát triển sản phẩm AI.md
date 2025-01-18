@@ -32,7 +32,7 @@ flowchart LR
 
 **1.1. Dịch vụ khảo sát, tư vấn lộ trình ứng dụng AI cho doanh nghiệp:**
 
-* [Khảo sát, đánh giá nhu cầu và tư vấn lộ trình ứng dụng AI cho từng khách hàng của FoxAI.](https://github.com/hoanglong8/FoxAI-Data-Analyst/blob/main/A.1.1.D%E1%BB%8Bch%20v%E1%BB%A5%20kh%E1%BA%A3o%20s%C3%A1t,%20t%C6%B0%20v%E1%BA%A5n%20AI.md)
+* [Khảo sát, đánh giá nhu cầu và tư vấn lộ trình ứng dụng AI cho khách hàng](https://github.com/hoanglong8/FoxAI-Data-Analyst/blob/main/Chi%E1%BA%BFn%20l%C6%B0%E1%BB%A3c%20SP/A.1.1.D%E1%BB%8Bch%20v%E1%BB%A5%20kh%E1%BA%A3o%20s%C3%A1t%2C%20t%C6%B0%20v%E1%BA%A5n%20AI.md)
 
 **1.2. Triển khai giải pháp AI localhost:**
 
