@@ -11,27 +11,27 @@
 flowchart LR
     id1([4_nhóm_sản_phẩm]) --> id2([1_Dịch_vụ_khảo_sát])
     id1([4_nhóm_sản_phẩm]) --> id3([2_AI_Localhost])
-    id1([4_nhóm_sản_phẩm]) --> id4([3_AI_tích_hợp])
+    id1([4_nhóm_sản_phẩm]) --> id4([3_AI_tích_hợp_sẵn])
     id1([4_nhóm_sản_phẩm]) --> id5([4_Dịch_vụ_đào_tạo])
 ```
 
 ## 1.1. Các hướng phát triển sản phẩm, dịch vụ AI
 
-**1.1.1. Dịch vụ khảo sát, đánh giá lộ trình ứng dụng AI:**
+**1.1.1. Dịch vụ khảo sát, tư vấn lộ trình ứng dụng AI cho doanh nghiệp:**
 
-* [Khảo sát, đánh giá nhu cầu và tiềm năng ứng dụng AI cho từng khách hàng của FoxAI.](https://github.com/hoanglong8/FoxAI-Data-Analyst/blob/main/A.1.1.D%E1%BB%8Bch%20v%E1%BB%A5%20kh%E1%BA%A3o%20s%C3%A1t,%20t%C6%B0%20v%E1%BA%A5n%20AI.md)
+* [Khảo sát, đánh giá nhu cầu và tư vấn lộ trình ứng dụng AI cho từng khách hàng của FoxAI.](https://github.com/hoanglong8/FoxAI-Data-Analyst/blob/main/A.1.1.D%E1%BB%8Bch%20v%E1%BB%A5%20kh%E1%BA%A3o%20s%C3%A1t,%20t%C6%B0%20v%E1%BA%A5n%20AI.md)
 
 **1.1.2. Triển khai giải pháp AI localhost:**
 
-* [Xây dựng các hệ thống AI chuyên biệt theo yêu cầu của từng ngành](https://github.com/hoanglong8/FoxAI-Data-Analyst/blob/main/A.1.2.D%E1%BB%8Bch%20V%E1%BB%A5%3A%20X%C3%A2y%20D%E1%BB%B1ng%20H%E1%BB%87%20Th%E1%BB%91ng%20AI%20Chuy%C3%AAn%20Bi%E1%BB%87t%20Theo%20Y%C3%AAu%20C%E1%BA%A7u%20T%E1%BB%ABng%20Ng%C3%A0nh.md), ví dụ như sản xuất, ngân hàng... (xem chi tiết ở phần 2).
+* [Xây dựng và triển khai hệ thống AI localhost trên máy chủ của khách hàng](https://github.com/hoanglong8/FoxAI-Data-Analyst/blob/main/A.1.2.D%E1%BB%8Bch%20V%E1%BB%A5%3A%20X%C3%A2y%20D%E1%BB%B1ng%20H%E1%BB%87%20Th%E1%BB%91ng%20AI%20Chuy%C3%AAn%20Bi%E1%BB%87t%20Theo%20Y%C3%AAu%20C%E1%BA%A7u%20T%E1%BB%ABng%20Ng%C3%A0nh.md), tập trung vào các ngành mũi nhọn như sản xuất, ngân hàng... (xem chi tiết ở phần 2).
 
 **1.1.3. Triển khai giải pháp AI tích hợp sẵn:**
 
-* [Triển Khai hệ thống AI Tích Hợp Vào Phần Mềm Nội Bộ Hoặc Tự Động Hóa Quy Trình (Automatic Workflow)](https://github.com/hoanglong8/FoxAI-Data-Analyst/blob/main/A.1.3.D%E1%BB%8Bch%20v%E1%BB%A5%3A%20Tri%E1%BB%83n%20khai%20AI%20t%C3%ADch%20h%E1%BB%A3p%20ho%E1%BA%B7c%20AI%20t%E1%BB%B1%20%C4%91%E1%BB%99ng.md)
+* [Ứng dụng và triển Khai hệ thống AI có sẵn để tích hợp vào hệ thống phần mềm của khách hàng](https://github.com/hoanglong8/FoxAI-Data-Analyst/blob/main/A.1.3.D%E1%BB%8Bch%20v%E1%BB%A5%3A%20Tri%E1%BB%83n%20khai%20AI%20t%C3%ADch%20h%E1%BB%A3p%20ho%E1%BA%B7c%20AI%20t%E1%BB%B1%20%C4%91%E1%BB%99ng.md)
 
-**1.1.4. Dịch vụ đào tạo và hỗ trợ ứng dụng AI hiệu quả:**
+**1.1.4. Dịch vụ đào tạo và hỗ trợ khách hàng ứng dụng AI hiệu quả:**
 
-* [Đào tạo đội ngũ ban lãnh đạo, quản lý và nhân viên của khách hàng sử dụng công cụ AI để ứng dụng hiệu quả.](https://github.com/hoanglong8/FoxAI-Data-Analyst/blob/main/A.1.4.D%E1%BB%8Bch%20v%E1%BB%A5:%20%C4%90%C3%A0o%20t%E1%BA%A1o%20kh%C3%A1ch%20h%C3%A0ng%20s%E1%BB%AD%20d%E1%BB%A5ng%20AI.md)
+* [Đào tạo đội ngũ ban lãnh đạo, quản lý và nhân viên của khách hàng sử dụng công cụ AI để tăng hiệu quả công việc](https://github.com/hoanglong8/FoxAI-Data-Analyst/blob/main/A.1.4.D%E1%BB%8Bch%20v%E1%BB%A5:%20%C4%90%C3%A0o%20t%E1%BA%A1o%20kh%C3%A1ch%20h%C3%A0ng%20s%E1%BB%AD%20d%E1%BB%A5ng%20AI.md)
 
 ## 2.Một số sản phẩm AI chuyên biệt cho từng lĩnh vực/ngành
 
