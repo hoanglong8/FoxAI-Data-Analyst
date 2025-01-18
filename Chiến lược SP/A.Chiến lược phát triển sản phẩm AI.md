@@ -37,65 +37,58 @@ flowchart LR
 
 ## 2.1. Chatbot hỗ trợ khách hàng sử dụng SAP
 
-**Mục tiêu dự án**
-1. **Hỗ trợ nhân viên trong việc sử dụng SAP:**
+**2.1.1.Mục tiêu dự án**
+- Hỗ trợ nhân viên trong việc sử dụng SAP:
    - Hướng dẫn thao tác trong các module của SAP như tài chính, bán hàng, quản lý kho.
    - Đưa ra câu trả lời nhanh cho các vướng mắc thường gặp.
-2. **Tăng hiệu suất làm việc:**
+- Tăng hiệu suất làm việc:
    - Tiết kiệm thời gian cho nhân viên bằng cách tự động hóa câu trả lời cho các vấn đề phổ biến.
    - Giảm khối lượng công việc cho đội ngũ IT hoặc bộ phận hỗ trợ của FoxAI.
-3. **Nắm bắt số liệu tức thời:**
+- Nắm bắt số liệu tức thời:
    - Cho phép ban lãnh đạo truy xuất nhanh các số liệu quan trọng (doanh thu, chi phí, tồn kho) thông qua chatbot.
 
-**Dữ liệu đầu vào cần thiết**
-1. **Tài liệu hệ thống SAP:**
+**2.1.2.Dữ liệu đầu vào cần thiết**
+- Tài liệu hệ thống SAP:
    - Cấu trúc dữ liệu và tài liệu hướng dẫn của các module SAP đang sử dụng.
    - Danh sách quy trình công việc và các thao tác phổ biến.
-2. **Câu hỏi thường gặp (FAQs):**
+- Câu hỏi thường gặp (FAQs):
    - Các câu hỏi và câu trả lời liên quan đến việc sử dụng SAP.
    - Dữ liệu từ các yêu cầu hỗ trợ trước đây.
-3. **Số liệu vận hành thực tế:**
+- Số liệu vận hành thực tế:
    - Dữ liệu từ hệ thống SAP về tài chính, bán hàng, quản lý kho, nhân sự.
-4. **Dữ liệu hội thoại:**
+- Dữ liệu hội thoại:
    - Ghi nhận các yêu cầu và phản hồi từ nhân viên qua email, chat, hoặc các kênh hỗ trợ.
-5. **Quyền truy cập:**
-   - Phân quyền để chatbot có thể truy cập các dữ liệu theo từng cấp độ (nhân viên, quản lý, lãnh đạo).
 
-**Cơ sở hạ tầng**
-1. **Hạ tầng máy chủ và lưu trữ:**
+**2.1.3.Cơ sở hạ tầng**
+- Hạ tầng máy chủ và lưu trữ:
    - **Cloud:** Sử dụng AWS, Microsoft Azure, hoặc Google Cloud để đảm bảo khả năng mở rộng.
    - **On-premises:** Nếu doanh nghiệp ưu tiên bảo mật cao, có thể sử dụng hạ tầng máy chủ tại chỗ.
-2. **Hệ thống tích hợp:**
+- Hệ thống tích hợp:
    - **API Gateway:** Để kết nối chatbot với hệ thống SAP.
    - **Database:** Dữ liệu cấu trúc (SQL) và phi cấu trúc (NoSQL) để lưu trữ thông tin từ các hội thoại và phản hồi.
-3. **AI và NLP:**
+- AI và NLP:
    - **Ngôn ngữ:** Sử dụng các framework như Python (TensorFlow, PyTorch) hoặc sử dụng API có sẵn như OpenAI GPT.
    - **NLP Frameworks:** Google Dialogflow, Microsoft Bot Framework, hoặc Rasa để xử lý hội thoại.
-4. **Hệ thống bảo mật:**
+- Hệ thống bảo mật:
    - Mã hóa dữ liệu và xác thực hai lớp (2FA) để đảm bảo an toàn cho dữ liệu SAP.
    - Quản lý quyền truy cập để bảo vệ dữ liệu nhạy cảm.
 
-**Giao diện người dùng (UI/UX)**
+**2.1.4.Giao diện người dùng (UI/UX)**
 
-**Đối với ban lãnh đạo:**
-   - **Dashboard tức thời:**
-     - Hiển thị thông tin như:
-       - Doanh thu theo thời gian thực.
-       - Tồn kho theo loại hàng.
-       - Chi phí vận hành hàng tháng.
-     - Có thể truy cập qua web hoặc ứng dụng di động.
-   - **Chức năng ra lệnh bằng giọng nói:**
-     - Cho phép lãnh đạo yêu cầu số liệu bằng lệnh thoại qua chatbot.
+- **Ban lãnh đạo xem Dashboard tức thời:**
+    - Doanh thu theo thời gian thực.
+    - Tồn kho theo loại hàng.
+    - Chi phí vận hành hàng tháng.
+    - Có thể truy cập qua web hoặc ứng dụng di động.
+    - Cho phép lãnh đạo yêu cầu số liệu bằng lệnh thoại qua chatbot.
     
-**Đối với nhân viên sử dụng SAP:**
-   - **Chatbot UI:** 
-     - Tích hợp trên nền tảng Microsoft Teams, Slack, hoặc một ứng dụng nội bộ.
-     - Giao diện đơn giản với các chức năng như hỏi đáp, hướng dẫn quy trình.
-   - **Các tính năng:** 
-     - Hướng dẫn từng bước theo câu lệnh (step-by-step).
-     - Gợi ý tự động (autocomplete) khi nhân viên đặt câu hỏi.
+- **Đối với nhân viên sử dụng SAP:**
+    - Tích hợp trên nền tảng Microsoft Teams, Slack, hoặc một ứng dụng nội bộ.
+    - Giao diện đơn giản với các chức năng như hỏi đáp, hướng dẫn quy trình.
+    - Hướng dẫn từng bước theo câu lệnh (step-by-step).
+    - Gợi ý tự động (autocomplete) khi nhân viên đặt câu hỏi.
 
-**- Nguồn lực team sản xuất dự kiến:**
+**2.1.5.Nguồn lực team sản xuất dự kiến:**
 
 | **Vai trò**            | **Số lượng**     | **Nhiệm vụ**                                                                 |
 |---------------------------|-------------------|------------------------------------------------------------------------------------|
@@ -106,7 +99,7 @@ flowchart LR
 | Dev Frontend (UX/UI) | 1          | thiết kế giao diện chatbot thân thiện, trực quan và xây dựng dashboard cho ban lãnh đạo truy cập số liệu tức thời. |
 | Kỹ sư hệ thống (DevOps) | 1          | đảm bảo hệ thống localhost vận hành ổn định, bảo mật.|
 
-**Timeline triển khai**
+**2.1.6.Timeline triển khai**
 
 | **Giai đoạn**            | **Thời gian**     | **Công việc chính**                                                                 |
 |---------------------------|-------------------|------------------------------------------------------------------------------------|
@@ -117,44 +110,42 @@ flowchart LR
 | **Giai đoạn 5: Triển khai chính thức** | 1 tháng           | - Đào tạo nhân viên sử dụng chatbot. <br> - Theo dõi hiệu quả và cập nhật định kỳ.   |
 
 
-## 2.2. Cho ngành sản xuất
-**Một số Case-study ứng dụng AI thành công**
+## 2.2. Đối với ngành sản xuất
+- Một số Case-study ứng dụng AI thành công:
+    
+    - Amazon: Sử dụng AI để quản lý chuỗi cung ứng và dự đoán nhu cầu sản phẩm, từ đó giúp tối ưu hóa việc lưu trữ và vận chuyển dựa trên dự đoán chính xác nhu cầu.
+    
+    - Toyota: Ứng dụng AI trong quản lý tồn kho và chuỗi cung ứng. Hệ thống AI phân tích dữ liệu thời gian thực từ nhà máy và nhà cung cấp để tối ưu hóa dòng nguyên vật liệu.
+    
+    - Coca-Cola: Dùng AI để dự đoán nhu cầu nguyên vật liệu dựa trên phân tích dữ liệu tiêu thụ sản phẩm và xu hướng thị trường.
+    
+    - Unilever: Kết hợp AI và Big Data để dự đoán nhu cầu sản phẩm và tối ưu hóa việc sản xuất theo khu vực.
 
-- Amazon: Sử dụng AI để quản lý chuỗi cung ứng và dự đoán nhu cầu sản phẩm, từ đó giúp tối ưu hóa việc lưu trữ và vận chuyển dựa trên dự đoán chính xác nhu cầu.
-
-- Toyota: Ứng dụng AI trong quản lý tồn kho và chuỗi cung ứng. Hệ thống AI phân tích dữ liệu thời gian thực từ nhà máy và nhà cung cấp để tối ưu hóa dòng nguyên vật liệu.
-
-- Coca-Cola: Dùng AI để dự đoán nhu cầu nguyên vật liệu dựa trên phân tích dữ liệu tiêu thụ sản phẩm và xu hướng thị trường.
-
-- Unilever: Kết hợp AI và Big Data để dự đoán nhu cầu sản phẩm và tối ưu hóa việc sản xuất theo khu vực.
-
-**Chiến lược của FoxAI**
-
-**Xây dựng hệ thống dự đoán nhu cầu nguyên vật liệu (MRP) giúp:**
+**2.2.1.Mục tiêu dự án là xây dựng hệ thống dự đoán nhu cầu nguyên vật liệu (MRP) giúp:**
   - Tối ưu hóa chuỗi cung ứng: Dự đoán chính xác nhu cầu nguyên vật liệu, giảm thiểu tồn kho và lãng phí.
   - Tăng hiệu quả hoạt động: Cải thiện quy trình lập kế hoạch sản xuất và đặt hàng nguyên liệu.
   - Giảm chi phí vận hành: Hạn chế tình trạng mua thừa hoặc thiếu nguyên vật liệu.
 
-**Đối tượng khách hàng tiềm năng:**
+**2.2.2.Đối tượng khách hàng tiềm năng:**
   - Hạ tầng công nghệ: Có sẵn ERP, hệ thống quản lý kho (WMS), hoặc hệ thống quản lý sản xuất (MES) có đủ các dữ liệu lịch sử như đơn hàng, thông tin tồn kho, kế hoạch, tiến độ và chu kỳ sản xuất.
   - Nhân sự: Có đội ngũ IT hoặc sẵn sàng thuê ngoài triển khai.
   - Hạ tầng lưu trữ: Sử dụng cloud (AWS, Google Cloud, Azure) hoặc **hạ tầng tại chỗ (on-premises).**
  
-**Dữ liệu đầu vào cần thiết:**
-    - Lịch sử sản xuất: Thông tin về sản lượng sản xuất theo thời gian.
-    - Lịch sử bán hàng: Số lượng hàng bán theo từng loại sản phẩm, theo mùa, hoặc theo thị trường.
-    - Tồn kho: Tồn kho nguyên vật liệu và thành phẩm.
-    - Thời gian giao hàng: Dữ liệu về thời gian giao hàng của các nhà cung cấp.
-    - Các yếu tố bên ngoài: Dữ liệu kinh tế vĩ mô (giá nguyên liệu, xu hướng thị trường), thời tiết (nếu liên quan đến nguyên liệu nông nghiệp), và sự kiện đặc biệt (dịch bệnh, chiến tranh thương mại).
-    - Dữ liệu nội bộ khác: Quy trình sản xuất, BOM (Bill of Materials), và vòng đời sản phẩm.
+**2.2.3.Dữ liệu đầu vào cần thiết:**
+- Lịch sử sản xuất: Thông tin về sản lượng sản xuất theo thời gian.
+- Lịch sử bán hàng: Số lượng hàng bán theo từng loại sản phẩm, theo mùa, hoặc theo thị trường.
+- Tồn kho: Tồn kho nguyên vật liệu và thành phẩm.
+- Thời gian giao hàng: Dữ liệu về thời gian giao hàng của các nhà cung cấp.
+- Các yếu tố bên ngoài: Dữ liệu kinh tế vĩ mô (giá nguyên liệu, xu hướng thị trường), thời tiết (nếu liên quan đến nguyên liệu nông nghiệp), và sự kiện đặc biệt (dịch bệnh, chiến tranh thương mại).
+- Dữ liệu nội bộ khác: Quy trình sản xuất, BOM (Bill of Materials), và vòng đời sản phẩm.
 
-**Kiến trúc hệ thống**
+**2.2.4.Kiến trúc hệ thống**
 ```mermaid
 flowchart LR
     id1([Thu_thập_dữ_liệu]) --> id2([Xử_lý_dữ_liệu]) --> id3([Phân_tích_dự_đoán_ML]) --> id4([TK_giao_diện_UI])
 ```
 
-**Nguồn lực team sản xuất dự kiến:**
+**2.2.5.Nguồn lực team sản xuất dự kiến:**
 
 | **Vai trò**            | **Số lượng**     | **Nhiệm vụ**                                                                 |
 |---------------------------|-------------------|------------------------------------------------------------------------------------|
@@ -165,7 +156,7 @@ flowchart LR
 | Dev Frontend (UX/UI) | 1          | thiết kế bảng điều khiển. |
 | Kỹ sư hệ thống (DevOps) | 1          | đảm bảo hệ thống localhost vận hành ổn định, bảo mật. |
 
-**Timeline triển khai**
+**2.2.6.Timeline triển khai**
 
 | **Giai đoạn**            | **Thời gian**     | **Công việc chính**                                                                 |
 |---------------------------|-------------------|------------------------------------------------------------------------------------|
@@ -174,9 +165,6 @@ flowchart LR
 | **Giai đoạn 3: Xây dựng mô hình AI** | 0,5-1 tháng           | - Team SX phát triển mô hình AI, thử nghiệm trên dữ liệu lịch sử. <br>    |
 | **Giai đoạn 4: Thử nghiệm**     | 1 tháng           | - Tích hợp và chạy thử nghiệm trên 1 database REP. <br> - Thu thập phản hồi và tối ưu hóa.   |
 | **Giai đoạn 5: Triển khai chính thức** | 1 tháng           | - Đào tạo đội ngũ sử dụng hệ thống. <br> - Theo dõi, tối ưu sau triển khai và chuyển sang bảo trì.   |
-
----
-
 
 
 ## 2.4. Lĩnh vực tài chính, ngân hàng và bảo hiểm
