@@ -366,33 +366,40 @@ flowchart LR
 - **Chi phí vận hành:** Dự kiến khoảng 60% tổng doanh thu (bao gồm nhân sự, công nghệ, marketing, vận hành).
 - **Lợi nhuận:** 40% tổng doanh thu (sau chi phí).
 - **Tăng trưởng khách hàng hàng năm:** Trung bình 20%/năm.
-- **Số lượng nhân sự cần thiết:** Tăng tương ứng với quy mô khách hàng (1 nhân sự quản lý 5-7 khách hàng).
-
----
+- **Số lượng nhân sự cần thiết:** Tăng tương ứng với quy mô khách hàng (1 nhân sự quản lý 3-5 khách hàng).
 
 ## 3.2. Các gói sản phẩm và giá bán dự kiến
 | **Gói sản phẩm**                           | **Giá trung bình/dự án (VNĐ)** |
 |-------------------------------------------|--------------------------------|
-| Khảo sát, tư vấn ứng dụng AI              | 100 triệu                     |
-| Phát triển giải pháp AI tùy chỉnh         | 1,5 tỷ                        |
-| Tích hợp AI vào hệ thống sẵn có           | 1 tỷ                          |
-| Đào tạo và hỗ trợ                         | 50 triệu                      |
+| Dịch vụ tư vấn, khảo sát AI              | 50-100 triệu                |
+| Giải pháp AI localhost tùy chỉnh         | 1,5 tỷ                        |
+| Giải pháp AI tích hợp sẵn           | 1 tỷ                          |
+| Dịch vụ đào tạo và hỗ trợ AI                    | 100-150 triệu                      |
 
----
+## 3.3.Giả định ban đầu (Năm 2025)
+- **Khách hàng mục tiêu:** 10 khách hàng.
+  - 3 khách hàng mua gói **Dịch vụ đào tạo AI**: 3 x 100 triệu = **300 triệu VNĐ**.
+  - 3 khách hàng mua gói **Dịch vụ tư vấn khảo sát AI**: 3 x 50 triệu = **150 triệu VNĐ**.
+  - 2 khách hàng mua gói **AI localhost tùy chỉnh**: 2 x 1,5 tỷ = **3 tỷ VNĐ**.
+  - 2 khách hàng mua gói **AI tích hợp sẵn**: 2 x 1 tỷ = **2 tỷ VNĐ**.
+- **Doanh thu năm 2025:** **5,45 tỷ VNĐ**.
+- **Chi phí vận hành (60%):** **3,27 tỷ VNĐ**.
+- **Lợi nhuận (40%):** **2,18 tỷ VNĐ**.
+- **Nhân sự triển khai dự kiến:** **3 nhân sự** (chưa tính team KD và team SX).
 
-## 4. Tổng kết 5 năm (2025-2029)
-| **Chỉ số**               | **Năm 1** | **Năm 2** | **Năm 3** | **Năm 4** | **Năm 5** | **Tổng cộng** |
-|---------------------------|-----------|-----------|-----------|-----------|-----------|---------------|
-| Số lượng khách hàng       | 50        | 70        | 100       | 140       | 200       | 560           |
-| Doanh số dự kiến (tỷ VNĐ) | 26        | 31,2      | 41        | 54,6      | 78        | 230,8         |
-| Doanh thu thực tế (tỷ VNĐ)| 15,6      | 18,72     | 24,6      | 32,76     | 46,8      | 138,48        |
-| Lợi nhuận (tỷ VNĐ)        | 10,4      | 12,48     | 16,4      | 21,84     | 31,2      | 92,32         |
-| Nhân sự triển khai        | 15        | 18        | 25        | 35        | 50        | -             |
+## 3.4.Tổng hợp mục tiêu 5 năm**
+| Năm      | Số khách hàng | Doanh thu (VNĐ) | Chi phí vận hành (VNĐ) | Lợi nhuận (VNĐ) | Nhân sự triển khai |
+|----------|---------------|------------------|-------------------------|------------------|-------------------|
+| **2025** | 10            | 5,45 tỷ         | 3,27 tỷ                | 2,18 tỷ         | 3                 |
+| **2026** | 12            | 6,54 tỷ         | 3,92 tỷ                | 2,62 tỷ         | 4               |
+| **2027** | 14            | 7,85 tỷ         | 4,71 tỷ                | 3,14 tỷ         | 5                 |
+| **2028** | 17            | 9,42 tỷ         | 5,65 tỷ                | 3,77 tỷ         | 6               |
+| **2029** | 21            | 11,31 tỷ        | 6,79 tỷ                | 4,52 tỷ         | 7                 |
 
----
-
-## 5. Chiến lược triển khai
-- **Năm 1-2:** Tập trung vào tiếp thị và xây dựng thương hiệu FoxAI, triển khai dịch vụ khảo sát và giải pháp tùy chỉnh.
-- **Năm 3-4:** Mở rộng quy mô dịch vụ tích hợp AI và đào tạo nhân viên. Đẩy mạnh các dự án tự động hóa quy trình (RPA).
-- **Năm 5:** Phát triển các dịch vụ cao cấp, mở rộng thị trường ra các doanh nghiệp lớn và đối tác quốc tế.
+## **Chiến lược tổng thể**
+1. **Tăng trưởng khách hàng:** Đạt mức tăng trưởng đều đặn 20% mỗi năm thông qua các chiến lược marketing, quan hệ đối tác và chất lượng dịch vụ.
+2. **Tối ưu hóa chi phí:** Đầu tư vào công nghệ tự động hóa và cải thiện quy trình vận hành để duy trì tỷ lệ chi phí/doanh thu.
+3. **Phát triển nhân sự:** Tuyển dụng và đào tạo đội ngũ nhân sự đáp ứng tốc độ tăng trưởng khách hàng.
+4. **Mở rộng thị trường:** Tập trung vào ngân hàng và các ngành tài chính khác để mở rộng cơ hội doanh thu.
+5. **Đầu tư vào R&D:** Phát triển các gói dịch vụ AI mới để giữ vững vị thế cạnh tranh trên thị trường.
 
