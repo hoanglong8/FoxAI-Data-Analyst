@@ -31,11 +31,13 @@ flowchart LR
 
 * [Đào tạo đội ngũ ban lãnh đạo, quản lý và nhân viên của khách hàng sử dụng công cụ AI để tăng hiệu quả công việc](https://github.com/hoanglong8/FoxAI-Data-Analyst/blob/main/A.1.4.D%E1%BB%8Bch%20v%E1%BB%A5:%20%C4%90%C3%A0o%20t%E1%BA%A1o%20kh%C3%A1ch%20h%C3%A0ng%20s%E1%BB%AD%20d%E1%BB%A5ng%20AI.md)
 
+---
+
 ## 2.Giới thiệu chi tiết giải pháp AI cho các lĩnh vực
 
 !Hình ảnh
 
-## 2.1. Chatbot hỗ trợ khách hàng sử dụng SAP
+## 2.1. [Chatbot hỗ trợ khách hàng](https://fox.ai.vn/wp-content/uploads/2024/07/Logo_Original-1.png) sử dụng SAP
 
 **2.1.1.Mục tiêu dự án**
 - Hỗ trợ nhân viên trong việc sử dụng SAP:
@@ -109,6 +111,7 @@ flowchart LR
 | **Giai đoạn 4: Thử nghiệm**     | 1 tháng           | - Triển khai thử nghiệm trên một nhóm nhỏ. <br> - Thu thập phản hồi và tối ưu hóa.   |
 | **Giai đoạn 5: Triển khai chính thức** | 1 tháng           | - Đào tạo nhân viên sử dụng chatbot. <br> - Theo dõi hiệu quả và cập nhật định kỳ.   |
 
+---
 
 ## 2.2. Đối với ngành sản xuất
 - Một số Case-study ứng dụng AI thành công:
@@ -121,7 +124,7 @@ flowchart LR
     
     - Unilever: Kết hợp AI và Big Data để dự đoán nhu cầu sản phẩm và tối ưu hóa việc sản xuất theo khu vực.
 
-**2.2.1.Mục tiêu dự án là xây dựng hệ thống dự đoán nhu cầu nguyên vật liệu (MRP) giúp:**
+**2.2.1.Mục tiêu dự án là xây dựng [hệ thống dự đoán nhu cầu nguyên vật liệu (MRP)](https://fox.ai.vn/wp-content/uploads/2024/07/Logo_Original-1.png) giúp:**
   - Tối ưu hóa chuỗi cung ứng: Dự đoán chính xác nhu cầu nguyên vật liệu, giảm thiểu tồn kho và lãng phí.
   - Tăng hiệu quả hoạt động: Cải thiện quy trình lập kế hoạch sản xuất và đặt hàng nguyên liệu.
   - Giảm chi phí vận hành: Hạn chế tình trạng mua thừa hoặc thiếu nguyên vật liệu.
@@ -166,6 +169,7 @@ flowchart LR
 | **Giai đoạn 4: Thử nghiệm**     | 1 tháng           | - Tích hợp và chạy thử nghiệm trên 1 database REP. <br> - Thu thập phản hồi và tối ưu hóa.   |
 | **Giai đoạn 5: Triển khai chính thức** | 1 tháng           | - Đào tạo đội ngũ sử dụng hệ thống. <br> - Theo dõi, tối ưu sau triển khai và chuyển sang bảo trì.   |
 
+---
 
 ## 2.3. Lĩnh vực tài chính, ngân hàng và bảo hiểm
 ### Case-study ứng dụng AI thành công
@@ -176,7 +180,9 @@ flowchart LR
   - Ứng dụng: AI hỗ trợ chấm điểm tín dụng dựa trên dữ liệu phi truyền thống.
   - Kết quả: Mở rộng tiếp cận tín dụng cho các nhóm đối tượng mới.
 
-**2.3.1.Kế hoạch xây dựng hệ thống AI phân loại và đánh giá KPI nhân viên ngân hàng**
+---
+
+**2.3.1.Kế hoạch xây dựng [hệ thống AI phân loại và đánh giá KPI](https://fox.ai.vn/wp-content/uploads/2024/07/Logo_Original-1.png) nhân viên ngân hàng**
 
 **a. Mục tiêu dự án**
 - Tăng cường hiệu quả đánh giá nhân viên:
@@ -259,7 +265,7 @@ flowchart LR
 
 ---
 
-**2.3.2.Kế hoạch xây dựng hệ thống AI đánh giá chất lượng khoản vay (Loan Origination System - LOS) cho ngân hàng**
+**2.3.2.Kế hoạch xây dựng [hệ thống AI đánh giá chất lượng khoản vay (Loan Origination System - LOS)](https://fox.ai.vn/wp-content/uploads/2024/07/Logo_Original-1.png) cho ngân hàng**
 
 **a. Mục tiêu dự án**
 - Tăng cường khả năng đánh giá khoản vay:
@@ -342,10 +348,14 @@ flowchart LR
 | **Giai đoạn 6: Triển khai chính thức** | 1 tháng          | Tất cả các thành viên, đào tạo người dùng.                            |
 
 **g. Lợi ích kỳ vọng**
-    - **Tăng tốc độ phê duyệt:** Rút ngắn thời gian xử lý hồ sơ khoản vay xuống 30-50%.
-    - **Giảm thiểu rủi ro tín dụng:** Cảnh báo sớm các khoản vay không đạt tiêu chuẩn.
-    - **Tăng hiệu suất làm việc:** Tự động hóa quy trình đánh giá, giảm áp lực cho nhân viên tín dụng.
-    - **Hỗ trợ ra quyết định:** Cung cấp dữ liệu và báo cáo chi tiết giúp lãnh đạo quản lý danh mục tín dụng hiệu quả hơn.
+
+- **Tăng tốc độ phê duyệt:** Rút ngắn thời gian xử lý hồ sơ khoản vay xuống 30-50%.
+    
+- **Giảm thiểu rủi ro tín dụng:** Cảnh báo sớm các khoản vay không đạt tiêu chuẩn.
+
+- **Tăng hiệu suất làm việc:** Tự động hóa quy trình đánh giá, giảm áp lực cho nhân viên tín dụng.
+
+- **Hỗ trợ ra quyết định:** Cung cấp dữ liệu và báo cáo chi tiết giúp lãnh đạo quản lý danh mục tín dụng hiệu quả hơn.
 
 ---
 
