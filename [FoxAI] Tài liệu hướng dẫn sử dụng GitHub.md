@@ -9,18 +9,18 @@
 ![Hotline](https://img.shields.io/badge/Liên_hệ-info@foxai.vn-red)
 
 # Nội dung
-1. [Công cụ soạn thảo](#1-CÁC-CÔNG-CỤ-SOẠN-THẢO-TÀI-LIỆU)
-   * [Markdown](#1-1-Ngôn-ngữ-Markdown)
-   * [HTML](#1-2-Ngôn-ngữ-HTML)
-3. [Công cụ trực quan hóa](#2-CÁC-CÔNG-CỤ-TRỰC-QUAN-HÓA)
-   * [Mermaid](#2-1-Công-cụ-Mermaid)
-   * [Markmap](#2-2-Công-cụ-Markmap)
-   * [Badge](#2-3-Công-cụ-Badge)
-5. [Công cụ tự đồng bộ tạo Book Online](#3-TỰ-ĐỒNG-BỘ-TẠO-BOOK-ONLINE)
+1. [Quản lý kho lưu trữ Repo](#1-CÁC-CÔNG-CỤ-SOẠN-THẢO-TÀI-LIỆU)
+
+2. [Công cụ quản lý dự án](#2-CÁC-CÔNG-CỤ-TRỰC-QUAN-HÓA)
+   * [Milestone](#2-1-Công-cụ-Mermaid)
+   * [Project](#2-2-Công-cụ-Markmap)
+   * [Issue](#2-3-Công-cụ-Badge)
+   * [Task](#2-3-Công-cụ-Badge)
+3. [Công cụ tự đồng bộ tạo Book Online](#3-TỰ-ĐỒNG-BỘ-TẠO-BOOK-ONLINE)
    * [GitBook](#Công-cụ-GitBook)
-7. [Công cụ tự đồng bộ tạo Slide](#4-TỰ-ĐỒNG-BỘ-TẠO-SLIDE)
+4. [Công cụ tự đồng bộ tạo Slide](#4-TỰ-ĐỒNG-BỘ-TẠO-SLIDE)
    * [HackMD](#Công-cụ-HackMD)
-9. [Công cụ lưu trữ, quản lý tài liệu](#5-QUẢN-LÝ-TÀI-LIỆU)
+5. [Công cụ lưu trữ, quản lý tài liệu](#5-QUẢN-LÝ-TÀI-LIỆU)
     * [Git](#Công-cụ-Git)
 
 ## Giới thiệu chung về GitHub
