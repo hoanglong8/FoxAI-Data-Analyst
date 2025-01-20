@@ -9,13 +9,13 @@
 
 2. [Tổng quan 4 giải pháp AI cho ngành sản xuất, ngân hàng](#2.Giới-thiệu-tổng-quan-4-giải-pháp-AI-cho-lĩnh-vực-sản-xuất,-ngân-hàng)
     
-* [Chatbot AI hỗ trợ khách hàng](#2.Giới-thiệu-tổng-quan-4-giải-pháp-AI-cho-lĩnh-vực-sản-xuất,-ngân-hàng)
+    * [Chatbot AI hỗ trợ khách hàng](#2.Giới-thiệu-tổng-quan-4-giải-pháp-AI-cho-lĩnh-vực-sản-xuất,-ngân-hàng)
     
-* [Hệ thống AI dự báo nhu cầu nguyên liệu MRP](#2.Giới-thiệu-tổng-quan-4-giải-pháp-AI-cho-lĩnh-vực-sản-xuất,-ngân-hàng)
+    * [Hệ thống AI dự báo nhu cầu nguyên liệu MRP](#2.Giới-thiệu-tổng-quan-4-giải-pháp-AI-cho-lĩnh-vực-sản-xuất,-ngân-hàng)
     
-* [Hệ thống AI đánh giá KPI nhân viên ngân hàng](#2.Giới-thiệu-tổng-quan-4-giải-pháp-AI-cho-lĩnh-vực-sản-xuất,-ngân-hàng)
+    * [Hệ thống AI đánh giá KPI nhân viên ngân hàng](#2.Giới-thiệu-tổng-quan-4-giải-pháp-AI-cho-lĩnh-vực-sản-xuất,-ngân-hàng)
     
-* [Hệ thống AI đánh giá chất lượng khoản vay LOS](#2.Giới-thiệu-tổng-quan-4-giải-pháp-AI-cho-lĩnh-vực-sản-xuất,-ngân-hàng)
+    * [Hệ thống AI đánh giá chất lượng khoản vay LOS](#2.Giới-thiệu-tổng-quan-4-giải-pháp-AI-cho-lĩnh-vực-sản-xuất,-ngân-hàng)
 
 3. [Dự kiến kế hoạch tài chính](#3.Dự-kiến-kế-hoạch-tài-chính-5-năm-tới)
 
