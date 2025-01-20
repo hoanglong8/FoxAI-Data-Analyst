@@ -5,19 +5,19 @@
 ![Language](https://img.shields.io/badge/Language-Python-orange.svg?logo=Python&logoColor=yellow) ![Update](https://img.shields.io/badge/Update-Weekly-green.svg) ![Progress](https://img.shields.io/badge/progress-N%2F1049-brightgreen.svg) ![Sponsors](https://img.shields.io/badge/Sponsor-0-lightgrey.svg)
 
 # Nội dung
-1.[Chiến lược phát triển 4 loại hình dịch vụ](#1.Chiến-lược-phát-triển-khối-sản-phẩm-AI-giai-đoạn-5-năm-tới)
+1. [Chiến lược phát triển 4 loại hình dịch vụ](#1.Chiến-lược-phát-triển-khối-sản-phẩm-AI-giai-đoạn-5-năm-tới)
 
-2.[Tổng quan 4 giải pháp AI cho ngành sản xuất, ngân hàng](#2.Giới-thiệu-tổng-quan-4-giải-pháp-AI-cho-lĩnh-vực-sản-xuất,-ngân-hàng)
+2. [Tổng quan 4 giải pháp AI cho ngành sản xuất, ngân hàng](#2.Giới-thiệu-tổng-quan-4-giải-pháp-AI-cho-lĩnh-vực-sản-xuất,-ngân-hàng)
     
-2.1.[Chatbot AI hỗ trợ khách hàng](#2.Giới-thiệu-tổng-quan-4-giải-pháp-AI-cho-lĩnh-vực-sản-xuất,-ngân-hàng)
+* [Chatbot AI hỗ trợ khách hàng](#2.Giới-thiệu-tổng-quan-4-giải-pháp-AI-cho-lĩnh-vực-sản-xuất,-ngân-hàng)
     
-2.2.[Hệ thống AI dự báo nhu cầu nguyên liệu MRP](#2.Giới-thiệu-tổng-quan-4-giải-pháp-AI-cho-lĩnh-vực-sản-xuất,-ngân-hàng)
+* [Hệ thống AI dự báo nhu cầu nguyên liệu MRP](#2.Giới-thiệu-tổng-quan-4-giải-pháp-AI-cho-lĩnh-vực-sản-xuất,-ngân-hàng)
     
-2.3.[Hệ thống AI đánh giá KPI nhân viên ngân hàng](#2.Giới-thiệu-tổng-quan-4-giải-pháp-AI-cho-lĩnh-vực-sản-xuất,-ngân-hàng)
+* [Hệ thống AI đánh giá KPI nhân viên ngân hàng](#2.Giới-thiệu-tổng-quan-4-giải-pháp-AI-cho-lĩnh-vực-sản-xuất,-ngân-hàng)
     
-2.4.[Hệ thống AI đánh giá chất lượng khoản vay LOS](#2.Giới-thiệu-tổng-quan-4-giải-pháp-AI-cho-lĩnh-vực-sản-xuất,-ngân-hàng)
+* [Hệ thống AI đánh giá chất lượng khoản vay LOS](#2.Giới-thiệu-tổng-quan-4-giải-pháp-AI-cho-lĩnh-vực-sản-xuất,-ngân-hàng)
 
-3.[Dự kiến kế hoạch tài chính](#3.Dự-kiến-kế-hoạch-tài-chính-5-năm-tới)
+3. [Dự kiến kế hoạch tài chính](#3.Dự-kiến-kế-hoạch-tài-chính-5-năm-tới)
 
 ![Hình ảnh](https://tiki.vn/blog/wp-content/uploads/2023/08/thumb-34.jpg)
 
