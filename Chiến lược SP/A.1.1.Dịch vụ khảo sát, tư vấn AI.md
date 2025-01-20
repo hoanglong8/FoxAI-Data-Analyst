@@ -1,5 +1,7 @@
 # Kế hoạch xây dựng gói dịch vụ khảo sát và tư vấn lộ trình doanh nghiệp ứng dụng AI
 
+![Hình ảnh](https://mpbpo.com.vn/wp-content/uploads/2020/05/lam-khao-sat-kiem-tien-vnfruit-02-1200x675-1.jpg)
+
 ## Mục tiêu dịch vụ
 1. **Khảo sát hiện trạng**:
    - Đánh giá mức độ sẵn sàng của doanh nghiệp trong việc áp dụng AI.
