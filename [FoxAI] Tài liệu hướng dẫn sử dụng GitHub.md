@@ -59,7 +59,7 @@ Người dùng sau khi đọc tài liệu này có thể:
 
 ## 4. Quản lý dự án GitHub [Projects](https://docs.github.com/en/issues/planning-and-tracking-with-projects)
 
-# Sơ đồ Quản lý Dự án
+### Sơ đồ Quản lý Dự án
 
 ```mermaid
 graph TD
@@ -84,36 +84,25 @@ graph TD
 - Gắn nhãn (label), người xử lý (assignee), milestone.  
 - Thêm comment, checklist…  
 
+# 5.Cách dạng xem báo cáo
 
-
-### 5.2. Board (Kanban)  
+### 5.1. Board (Kanban)  
 - Ở Projects Beta, chọn **Board view**.  
 - Sử dụng các cột (chẳng hạn: *To do*, *In progress*, *Done*).  
 - Kéo – thả các card (Issue) giữa các cột để cập nhật tiến độ.  
 
-### 5.3. Roadmap  
+### 5.2. Roadmap  
 - Giúp xem các công việc theo **timeline** (thời gian).  
 - Gán **start date**, **due date** cho mỗi Issue.  
 - Thuận tiện cho việc sắp xếp thứ tự ưu tiên, theo dõi deadline.
 
-### 5.4. Backlog  
+### 5.3. Backlog  
 - Nơi tập hợp những công việc chờ xử lý/ý tưởng.  
 - Chọn lọc các công việc cần làm trong giai đoạn sắp tới và chuyển chúng vào Board/Roadmap.
 
-### 5.5. Table view  
+### 5.4. Table view  
 - Dạng bảng, hiển thị fields (các trường) như assignee, labels, due date…  
 - Tùy biến field (custom fields) để hiển thị chỉ số, % hoàn thành (nhập tay), v.v.
-
----
-
-## 6. Sử dụng Issues và Milestones
-
-6.1. **Quản lý Issue**  
-
-- [Tracking your work with issues]()
-
-6.2. 
----
 
 ## 7. Thảo luận và hợp tác
 
@@ -127,20 +116,15 @@ graph TD
 - Gắn Issue vào PR để liên kết (closes #issue_number).  
 - [About pull requests](https://docs.github.com/en/pull-requests)
 
----
-
 ## 8. Phân quyền và bảo mật
 
 8.1. **Quyền truy cập Repo**  
 - Thêm cộng tác viên (Collaborators) hoặc sử dụng tổ chức (Organization).  
 - Các quyền: Read, Triage, Write, Maintain, Admin.
 
-8.2. **Bảo vệ nhánh (Branch Protection)**  
+8.2. [**Bảo vệ nhánh (Branch Protection)**](https://docs.github.com/en/repositories/configuring-branches-and-merges/configuring-protected-branches)
 - Yêu cầu review trước khi merge.  
 - Thiết lập CI/CD checks.  
-- [Configuring protected branches](https://docs.github.com/en/repositories/configuring-branches-and-merges/configuring-protected-branches)
-
----
 
 ## 9. Tích hợp và mở rộng
 
@@ -169,8 +153,6 @@ graph TD
 
 10.3. **Regular review**  
 - Thường xuyên rà soát Project (Board/Roadmap) theo tuần/sprint để cập nhật tiến độ, sắp xếp lại độ ưu tiên.
-
----
 
 ## 11. Tài liệu & nguồn tham khảo
 
