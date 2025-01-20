@@ -220,7 +220,7 @@ flowchart LR
 
 ## 2.3. [Hệ thống AI phân loại và đánh giá KPI nhân viên](https://fox.ai.vn/wp-content/uploads/2024/07/Logo_Original-1.png) ngành ngân hàng, tài chính, bảo hiểm
 
-![KPI](https://github.com/hoanglong8/FoxAI-Data-Analyst/blob/main/Image/KPI.png)
+<img src="https://github.com/hoanglong8/FoxAI-Data-Analyst/blob/main/Image/KPI.png" alt="Hình ảnh" width="70%" />
 
 **a. Mục tiêu dự án**
 - Tăng cường hiệu quả đánh giá nhân viên:
@@ -305,7 +305,7 @@ flowchart LR
 
 ## 2.4.[Hệ thống AI đánh giá chất lượng khoản vay (Loan Origination System - LOS)](https://fox.ai.vn/wp-content/uploads/2024/07/Logo_Original-1.png) cho ngành ngân hàng, tài chính, bảo hiểm
 
-![LOS](https://github.com/hoanglong8/FoxAI-Data-Analyst/blob/main/Image/LOS.jpeg)
+<img src="https://media.licdn.com/dms/image/v2/D4D12AQGp-r_sp8fXMA/article-cover_image-shrink_720_1280/article-cover_image-shrink_720_1280/0/1662111323492?e=2147483647&v=beta&t=Ct1bgfM91DgmwWIAxFdWLyjbFI2I6DQ96uSan-he0T0" alt="Hình ảnh" width="70%" />
 
 **a. Mục tiêu dự án**
 - Tăng cường khả năng đánh giá khoản vay:
