@@ -387,16 +387,6 @@ flowchart LR
 | **Giai đoạn 5: Thử nghiệm**       | 2 tháng          | Nhân sự kiểm thử, giám đốc dự án, chuyên gia tín dụng                 |
 | **Giai đoạn 6: Triển khai chính thức** | 1 tháng          | Tất cả các thành viên, đào tạo người dùng.                            |
 
-**g. Lợi ích kỳ vọng**
-
-- **Tăng tốc độ phê duyệt:** Rút ngắn thời gian xử lý hồ sơ khoản vay xuống 30-50%.
-    
-- **Giảm thiểu rủi ro tín dụng:** Cảnh báo sớm các khoản vay không đạt tiêu chuẩn.
-
-- **Tăng hiệu suất làm việc:** Tự động hóa quy trình đánh giá, giảm áp lực cho nhân viên tín dụng.
-
-- **Hỗ trợ ra quyết định:** Cung cấp dữ liệu và báo cáo chi tiết giúp lãnh đạo quản lý danh mục tín dụng hiệu quả hơn.
-
 ---
 
 # 3.Dự kiến kế hoạch tài chính 5 năm tới
@@ -405,7 +395,7 @@ flowchart LR
 - **Doanh thu dự kiến:** Tổng doanh thu từ cả 4 gói sản phẩm.
 - **Chi phí vận hành:** Dự kiến khoảng 60% tổng doanh thu (bao gồm nhân sự, công nghệ, marketing, vận hành).
 - **Lợi nhuận:** 40% tổng doanh thu (sau chi phí).
-- **Tăng trưởng khách hàng hàng năm:** Trung bình 20%/năm.
+- **Tăng trưởng khách hàng hàng năm:** Trung bình 20-50%/năm.
 - **Số lượng nhân sự cần thiết:** Tăng tương ứng với quy mô khách hàng (1 nhân sự quản lý 3-5 khách hàng).
 
 ## 3.2. Các gói sản phẩm và giá bán dự kiến
@@ -415,31 +405,3 @@ flowchart LR
 | Giải pháp AI localhost tùy chỉnh         | 1,5 tỷ                        |
 | Giải pháp AI tích hợp sẵn           | 1 tỷ                          |
 | Dịch vụ đào tạo và hỗ trợ AI                    | 100-150 triệu                      |
-
-## 3.3.Giả định ban đầu (Năm 2025)
-- **Khách hàng mục tiêu:** 10 khách hàng.
-  - 3 khách hàng mua gói **Dịch vụ đào tạo AI**: 3 x 100 triệu = **300 triệu VNĐ**.
-  - 3 khách hàng mua gói **Dịch vụ tư vấn khảo sát AI**: 3 x 50 triệu = **150 triệu VNĐ**.
-  - 2 khách hàng mua gói **AI localhost tùy chỉnh**: 2 x 1,5 tỷ = **3 tỷ VNĐ**.
-  - 2 khách hàng mua gói **AI tích hợp sẵn**: 2 x 1 tỷ = **2 tỷ VNĐ**.
-- **Doanh thu năm 2025:** **5,45 tỷ VNĐ**.
-- **Chi phí vận hành (60%):** **3,27 tỷ VNĐ**.
-- **Lợi nhuận (40%):** **2,18 tỷ VNĐ**.
-- **Nhân sự triển khai dự kiến:** **3 nhân sự** (chưa tính team KD và team SX).
-
-## 3.4.Tổng hợp mục tiêu 5 năm
-| Năm      | Số khách hàng | Doanh thu (VNĐ) | Chi phí vận hành (VNĐ) | Lợi nhuận (VNĐ) | Nhân sự triển khai |
-|----------|---------------|------------------|-------------------------|------------------|-------------------|
-| **2025** | 10            | 5,45 tỷ         | 3,27 tỷ                | 2,18 tỷ         | 3                 |
-| **2026** | 12            | 6,54 tỷ         | 3,92 tỷ                | 2,62 tỷ         | 4               |
-| **2027** | 14            | 7,85 tỷ         | 4,71 tỷ                | 3,14 tỷ         | 5                 |
-| **2028** | 17            | 9,42 tỷ         | 5,65 tỷ                | 3,77 tỷ         | 6               |
-| **2029** | 21            | 11,31 tỷ        | 6,79 tỷ                | 4,52 tỷ         | 7                 |
-
-## **Chiến lược tổng thể**
-1. **Tăng trưởng khách hàng:** Đạt mức tăng trưởng đều đặn 20% mỗi năm thông qua các chiến lược marketing, quan hệ đối tác và chất lượng dịch vụ.
-2. **Tối ưu hóa chi phí:** Đầu tư vào công nghệ tự động hóa và cải thiện quy trình vận hành để duy trì tỷ lệ chi phí/doanh thu.
-3. **Phát triển nhân sự:** Tuyển dụng và đào tạo đội ngũ nhân sự đáp ứng tốc độ tăng trưởng khách hàng.
-4. **Mở rộng thị trường:** Tập trung vào ngân hàng và các ngành tài chính khác để mở rộng cơ hội doanh thu.
-5. **Đầu tư vào R&D:** Phát triển các gói dịch vụ AI mới để giữ vững vị thế cạnh tranh trên thị trường.
-
