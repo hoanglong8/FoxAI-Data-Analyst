@@ -9,19 +9,16 @@
 ![Hotline](https://img.shields.io/badge/Liên_hệ-info@foxai.vn-red)
 
 # Nội dung
-1. [Quản lý kho lưu trữ Repo](#1-CÁC-CÔNG-CỤ-SOẠN-THẢO-TÀI-LIỆU)
+1. [Quản lý kho lưu trữ Repository](https://docs.github.com/en/get-started/quickstart)
 
-2. [Công cụ quản lý dự án](#2-CÁC-CÔNG-CỤ-TRỰC-QUAN-HÓA)
+2. [Công cụ quản lý dự án](https://docs.github.com/en/issues/planning-and-tracking-with-projects)
    * [Milestone](#2-1-Công-cụ-Mermaid)
    * [Project](#2-2-Công-cụ-Markmap)
-   * [Issue](#2-3-Công-cụ-Badge)
+   * [Issue](https://docs.github.com/en/issues/tracking-your-work-with-issues)
    * [Task](#2-3-Công-cụ-Badge)
-3. [Công cụ tự đồng bộ tạo Book Online](#3-TỰ-ĐỒNG-BỘ-TẠO-BOOK-ONLINE)
-   * [GitBook](#Công-cụ-GitBook)
-4. [Công cụ tự đồng bộ tạo Slide](#4-TỰ-ĐỒNG-BỘ-TẠO-SLIDE)
-   * [HackMD](#Công-cụ-HackMD)
-5. [Công cụ lưu trữ, quản lý tài liệu](#5-QUẢN-LÝ-TÀI-LIỆU)
-    * [Git](#Công-cụ-Git)
+3. [Các dạng xem báo cáo Kanban, Table, Roadmap](#3-TỰ-ĐỒNG-BỘ-TẠO-BOOK-ONLINE)
+4. [Thảo luận và Tiện ích mở rộng](https://docs.github.com/en/discussions)
+5. [Một số mẹo và kinh nghiệm](#3-TỰ-ĐỒNG-BỘ-TẠO-BOOK-ONLINE)
 
 ## Giới thiệu chung về GitHub
 
@@ -46,18 +43,15 @@ Người dùng sau khi đọc tài liệu này có thể:
 * **Ứng dụng được** công cụ [Project, Milestone](https://fox.ai.vn/wp-content/uploads/2024/07/Logo_Original-1.png) để quản lý tiến độ các dự án đang triển khai.
 * **Hiểu được** công cụ [Insight (Hiểu biết sâu sắc dạng Dashboard)](https://fox.ai.vn/wp-content/uploads/2024/07/Logo_Original-1.png) để có cái nhìn tổng quát theo từng contributors, Traffic (mức độ quan tâm) theo từng bài viết, Folk (quản lý phiên bản)...
 
-## 3. Quản lý kho lưu trữ [Repository](https://docs.github.com/en/get-started/quickstart/create-a-repo)
+## 1. Quản lý kho lưu trữ [Repository](https://docs.github.com/en/get-started/quickstart/create-a-repo)
 
-3.1. **Tạo Repository**  
+**Tạo Repository**  
 - Nhấn nút **+** (New) ở góc trên bên phải → **New repository**.  
 - Chọn Public/Private, đặt tên, mô tả.  
 - Chọn “Initialize this repository with a README” hoặc để trống nếu muốn tạo rỗng.
-
-3.2. **Cài đặt Repo**  
 - Thiết lập **branch** chính (default branch) – thường là `main`.  
-- Thêm license, file .gitignore nếu cần.
 
-## 4. Quản lý dự án GitHub [Projects](https://docs.github.com/en/issues/planning-and-tracking-with-projects)
+## 2. Quản lý dự án GitHub [Projects](https://docs.github.com/en/issues/planning-and-tracking-with-projects)
 
 ### Sơ đồ Quản lý Dự án
 
@@ -68,102 +62,77 @@ graph TD
   C --> D["Task - Nhiệm vụ"]
 ```
 
-4.1. [**Milestones**](https://docs.github.com/en/issues/tracking-your-work-with-issues/creating-issues)
+2.1. [**Milestones**](https://docs.github.com/en/issues/tracking-your-work-with-issues/creating-issues)
 - Tạo milestone rồi gắn Issue vào milestone.  
 - GitHub hiển thị % công việc đã đóng (done) / tổng Issue.
 
-4.2. [**Project**](https://docs.github.com/en/issues/tracking-your-work-with-issues/creating-issues)
+2.2. [**Project**](https://docs.github.com/en/issues/tracking-your-work-with-issues/creating-issues)
 - Tại trang **Projects** (trong repository hoặc trong profile), nhấn **New project**.  
 - Đặt tên, chọn **Template** (nếu có).
 
-4.3. [**Issue**](https://docs.github.com/en/issues/tracking-your-work-with-issues)
+2.3. [**Issue**](https://docs.github.com/en/issues/tracking-your-work-with-issues)
 - Tại tab **Issues** → **New issue**.  
 - Đặt tiêu đề, mô tả (có thể thêm checklist công việc con).  
 - Trong giao diện Issue, chọn **Projects** (phía bên phải), hoặc  
 - Vào giao diện Project → **+ Add item** → Nhập `#` + số Issue.
 - Gắn nhãn (label), người xử lý (assignee), milestone.  
-- Thêm comment, checklist…  
+- Thêm comment, checklist…
 
-# 5.Cách dạng xem báo cáo
+2.4. [**Task**](https://docs.github.com/en/issues/tracking-your-work-with-issues)
+- Là công việc con trong từng Issue, có thể chuyển thành Issue để quản lý tiến độ.
+- Trong description, sử dụng mã Markdown -[] để tạo checklist box tương ứng với 1 Task. 
 
-### 5.1. Board (Kanban)  
+# 3.Cách dạng xem báo cáo
+
+### 3.1. Board (Kanban)  
 - Ở Projects Beta, chọn **Board view**.  
 - Sử dụng các cột (chẳng hạn: *To do*, *In progress*, *Done*).  
 - Kéo – thả các card (Issue) giữa các cột để cập nhật tiến độ.  
 
-### 5.2. Roadmap  
+### 3.2. Roadmap  
 - Giúp xem các công việc theo **timeline** (thời gian).  
 - Gán **start date**, **due date** cho mỗi Issue.  
 - Thuận tiện cho việc sắp xếp thứ tự ưu tiên, theo dõi deadline.
 
-### 5.3. Backlog  
+### 3.3. Backlog  
 - Nơi tập hợp những công việc chờ xử lý/ý tưởng.  
 - Chọn lọc các công việc cần làm trong giai đoạn sắp tới và chuyển chúng vào Board/Roadmap.
 
-### 5.4. Table view  
+### 3.4. Table view  
 - Dạng bảng, hiển thị fields (các trường) như assignee, labels, due date…  
 - Tùy biến field (custom fields) để hiển thị chỉ số, % hoàn thành (nhập tay), v.v.
 
-## 7. Thảo luận và hợp tác
+## 4. Thảo luận và một số tiện ích mở rộng
 
-7.1. **Discussions**  
+4.1. **Discussions**  
 - Tạo không gian chung để trao đổi, hỏi đáp, thảo luận.  
 - So sánh với Issue (phân biệt: Issue → công việc cần làm, Discussion → thảo luận chung).  
 - [About Discussions](https://docs.github.com/en/discussions)
 
-7.2. **Pull Requests (PR)**  
-- Quy trình merge code, review.  
-- Gắn Issue vào PR để liên kết (closes #issue_number).  
-- [About pull requests](https://docs.github.com/en/pull-requests)
-
-## 8. Phân quyền và bảo mật
-
-8.1. **Quyền truy cập Repo**  
-- Thêm cộng tác viên (Collaborators) hoặc sử dụng tổ chức (Organization).  
-- Các quyền: Read, Triage, Write, Maintain, Admin.
-
-8.2. [**Bảo vệ nhánh (Branch Protection)**](https://docs.github.com/en/repositories/configuring-branches-and-merges/configuring-protected-branches)
-- Yêu cầu review trước khi merge.  
-- Thiết lập CI/CD checks.  
-
-## 9. Tích hợp và mở rộng
-
-9.1. **GitHub Actions**  
+4.2. **GitHub Actions**  
 - Tự động hóa, CI/CD.  
 - Build/test code mỗi khi commit, deploy lên server…  
 - [About GitHub Actions](https://docs.github.com/en/actions)
 
-9.2. **ZenHub** hoặc công cụ khác  
+4.3. **ZenHub** hoặc extension khác
 - Nếu cần báo cáo chuyên sâu (velocity, burn-down chart…) có thể cài ZenHub extension.  
 - Tích hợp với GitHub Projects.  
 
-9.3. **GitHub Pages** (nếu cần)  
-- Triển khai website tĩnh trực tiếp từ repo.  
+4.4. **GitHub Pages**  
+- Triển khai website tĩnh trực tiếp từ repo, dùng để xem trực tiếp các file dạng .html
 - [About GitHub Pages](https://docs.github.com/en/pages)
 
----
 
-## 10. Một số mẹo và kinh nghiệm
+## 5. Một số mẹo và kinh nghiệm
 
-10.1. **Workflow cơ bản**  
+5.1. **Workflow cơ bản**  
 - Tạo Issue → Thêm vào Project → Thảo luận → Pull Request → Merge → Đóng Issue.
 
-10.2. **Sử dụng nhãn (Label)**  
+5.2. **Sử dụng nhãn (Label)**  
 - Tạo nhãn `bug`, `enhancement`, `priority-high`, v.v. để dễ lọc.
 
-10.3. **Regular review**  
+5.3. **Regular review**  
 - Thường xuyên rà soát Project (Board/Roadmap) theo tuần/sprint để cập nhật tiến độ, sắp xếp lại độ ưu tiên.
-
-## 11. Tài liệu & nguồn tham khảo
-
-- [GitHub Docs – Bắt đầu nhanh (Quickstart)](https://docs.github.com/en/get-started/quickstart)  
-- [Giới thiệu GitHub Projects (Beta)](https://docs.github.com/en/issues/planning-and-tracking-with-projects)  
-- [Quản lý công việc với Issues](https://docs.github.com/en/issues/tracking-your-work-with-issues)  
-- [Pull Requests – Quy trình review và merge](https://docs.github.com/en/pull-requests)  
-- [GitHub Discussions](https://docs.github.com/en/discussions)  
 - [Hướng dẫn bảo mật tài khoản GitHub](https://docs.github.com/en/authentication/keeping-your-account-and-data-secure)
 
 ---
-
-### Lời kết
-Với đề cương trên, bạn có thể xây dựng thành **một tài liệu hướng dẫn chi tiết** kèm ảnh minh họa, ví dụ thực tế và các bước “step-by-step”. Hãy nhấn mạnh vào sự **liên kết** giữa tính năng Projects và Issues để người dùng mới dễ hiểu mô hình “Task → Issue → Project → Milestone”. Chúc bạn triển khai tài liệu thành công!
