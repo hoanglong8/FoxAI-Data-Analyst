@@ -8,7 +8,7 @@
 ![Sponsors](https://img.shields.io/badge/Sponsor-0-lightgrey.svg)
 [![Open Mindmap](https://img.shields.io/badge/Mindmap-View%20Now-green)](https://hoanglong8.github.io/FoxAI-Data-Analyst/markmap.html)
 
-![Xu hướng AI](https://vdigital.vn/wp-content/uploads/2023/03/xu-huong-cong-nghe-tuong-lai-1-1024x538.png)
+![Xu hướng AI](https://vbee.vn/blog/wp-content/uploads/2023/04/cong-nghe-tri-tue-nhan-tao-0.jpg)
 
 # Dự thảo chiến lược phát triển sản phẩm khối AI trong giai đoạn 2025-2029
 
@@ -26,10 +26,10 @@ Trong nội dung này, tôi sẽ trình bày 2 chiến lược là sản phẩm 
 
 ```mermaid
 flowchart LR
-    id1([4_nhóm_sản_phẩm]) --> id2([1_Dịch_vụ_tư_vấn_khảo_sát])
-    id1([4_nhóm_sản_phẩm]) --> id3([2_AI_Localhost])
-    id1([4_nhóm_sản_phẩm]) --> id4([3_AI_tích_hợp_sẵn])
-    id1([4_nhóm_sản_phẩm]) --> id5([4_Dịch_vụ_đào_tạo_AI])
+    id1([Sản_phẩm_Dịch_vụ]) --> id2([1_Dịch_vụ_tư_vấn_khảo_sát])
+    id1([Sản_phẩm_Dịch_vụ]) --> id3([2_AI_Localhost])
+    id1([Sản_phẩm_Dịch_vụ]) --> id4([3_AI_tích_hợp_sẵn])
+    id1([Sản_phẩm_Dịch_vụ]) --> id5([4_Dịch_vụ_đào_tạo_AI])
 ```
 
 ## B.Chiến lược phát triển nhân sự khối AI
@@ -51,7 +51,7 @@ flowchart LR
     id1([Nhiệm_vụ_2025]) --> id2([1_Phát_triển_đội_ngũ])
     id1([Nhiệm_vụ_2025]) --> id3([2_R&D_sản_phẩm_AI])
     id1([Nhiệm_vụ_2025]) --> id4([3_Quản_lý_nghiệm_thu_dự_án_BI])
-    id1([Nhiệm_vụ_2025]) --> id5([4_Hoàn_thiện_tài_liệu_nội_bộ])
+    id1([Nhiệm_vụ_2025]) --> id5([4_Hoàn_thiện_tài_liệu_quy_trình_nội_bộ])
 ```
 
 Tóm tắt nội dung bài viết [tại đây](https://hoanglong8.github.io/FoxAI-Data-Analyst/markmap.html)
