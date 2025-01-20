@@ -49,7 +49,7 @@ flowchart LR
     * text2audio TTS: Elevenlabs, Google TTS, Amazon Polly, Typecast.
     * audio2text: Google STT, IBM Watson STT, AssemblyAI.
 
-**1.3. Triển khai giải pháp AI tích hợp sẵn:**
+**1.3. Tích hợp giải pháp AI của bên thứ 3:**
 
 * [Ứng dụng và tích hợp hệ thống AI của bên thứ 3](https://github.com/hoanglong8/FoxAI-Data-Analyst/blob/main/Chi%E1%BA%BFn%20l%C6%B0%E1%BB%A3c%20SP/A.1.3.D%E1%BB%8Bch%20v%E1%BB%A5%3A%20Tri%E1%BB%83n%20khai%20AI%20t%C3%ADch%20h%E1%BB%A3p%20ho%E1%BA%B7c%20AI%20t%E1%BB%B1%20%C4%91%E1%BB%99ng.md) vào hệ thống phần mềm của khách hàng như SAP, ERP, Kế toán, Nhân sự, CRM, MRP... Trong đó ưu tiên xây dựng hệ thống Chatbot hỗ trợ sản phẩm SAP dùng cho đào tạo nội bộ FoxAI và chăm sóc khách hàng.
 * Một số giải pháp hiện nay:
@@ -58,7 +58,7 @@ flowchart LR
     * Xử lý hình ảnh OCR: Google Vision, Adobe Acrobat, ABBYY FineReader
     * Dịch văn bản tự động: Google Translate API, Translate.io, DeepL Translator
     * Text2image: Midjourney, Dall-E,
-    * Text2video: RunwayML, Pictory.ai
+    * Text2video: RunwayML, Pictory.ai, Sora
     * Image2video: RunwayML, Kling, DeepMotion
     * Auto-workflow: Make, Zapier, UiPath
     * Text2Speech: Coqui TTS, Mimic 3, Mozilla TTS, Applio, RVC
