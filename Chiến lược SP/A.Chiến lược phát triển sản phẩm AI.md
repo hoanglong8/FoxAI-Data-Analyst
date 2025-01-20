@@ -159,7 +159,7 @@ flowchart LR
 
 ## 2.2. [Hệ thống dự đoán nhu cầu nguyên vật liệu (MRP)](https://fox.ai.vn/wp-content/uploads/2024/07/Logo_Original-1.png)
 
-![MRP](https://vti-solutions.vn/wp-content/uploads/2023/07/MRP-La-Gi-1.png)
+![MRP](https://github.com/hoanglong8/FoxAI-Data-Analyst/blob/main/Image/MRP.webp)
 
 - Một số Case-study ứng dụng AI thành công:
     
@@ -220,7 +220,7 @@ flowchart LR
 
 ## 2.3. [Hệ thống AI phân loại và đánh giá KPI nhân viên](https://fox.ai.vn/wp-content/uploads/2024/07/Logo_Original-1.png) ngành ngân hàng, tài chính, bảo hiểm
 
-![KPI](https://cdn.fpt-is.com/vi/phan-mem-danh-gia-nhan-su-12-1715227562.png)
+![KPI](https://github.com/hoanglong8/FoxAI-Data-Analyst/blob/main/Image/KPI.png)
 
 **a. Mục tiêu dự án**
 - Tăng cường hiệu quả đánh giá nhân viên:
@@ -305,7 +305,7 @@ flowchart LR
 
 ## 2.4.[Hệ thống AI đánh giá chất lượng khoản vay (Loan Origination System - LOS)](https://fox.ai.vn/wp-content/uploads/2024/07/Logo_Original-1.png) cho ngành ngân hàng, tài chính, bảo hiểm
 
-![LOS](https://cmcts.com.vn/media/cache/data/products/Loan-origination-system-cr-1200x630.jpeg)
+![LOS](https://github.com/hoanglong8/FoxAI-Data-Analyst/blob/main/Image/LOS.jpeg)
 
 **a. Mục tiêu dự án**
 - Tăng cường khả năng đánh giá khoản vay:
