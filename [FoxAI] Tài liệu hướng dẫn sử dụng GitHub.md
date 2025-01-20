@@ -25,9 +25,11 @@
 
 ## Đối tượng sử dụng
 Tài liệu này được thiết kế dành cho nhân viên của FoxAI khi cần thực hiện các công việc như:
-* Viết tài liệu đào tạo để chuyển giao cho khách hàng;
-* Tạo slide thuyết trình sản phẩm hoặc kế hoạch kinh doanh;
-* Xây dựng tài liệu, quy trình, quy định để đào tạo nội bộ.
+* Bộ phận lập trình viên (Devs) quản lý mã nguồn một cách tập trung, thống nhất (đặc biệt là khi cả nhóm cùng code);
+* Bộ phận tư vấn triển khai (Colsutant) cập nhật, sửa đổi và phát hành tài liệu đào tạo, hỗ trợ khách hàng một cách nhanh chóng (đặc biệt là khi cả nhóm cùng sửa từng phần trên cùng tài liệu);
+* Bộ phận hành chính nhân sự cập nhật tài liệu, quy trình, quy định để truyền thông nội bộ hiệu quả (có thể dùng Sharepoint với mục đích tương tự), tránh phân tán tài liệu ở nhiều nơi.
+* Các thành viên trong dự án có thể dễ dàng theo dõi lại nội dung các biên bản cuộc họp (Issue), cùng nhau trao đổi tương tác qua Discussion, người mới có thể xem lại dữ liệu History commit để nhanh chóng nắm bắt công việc.
+* Quản lý dễ dàng giao việc (task) cho từng thành viên (assignee), quản lý tiến độ công việc, hỗ trợ nhân viên và báo cáo đánh giá chất lượng công việc.
 
 Giúp nâng cao năng suất, thực hiện một cách dễ dàng, chuyên nghiệp, và hiệu quả.
 
