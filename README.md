@@ -8,6 +8,8 @@
 ![Sponsors](https://img.shields.io/badge/Sponsor-0-lightgrey.svg)
 [![Open Mindmap](https://img.shields.io/badge/Mindmap-View%20Now-green)](https://hoanglong8.github.io/FoxAI-Data-Analyst/markmap.html)
 
+![Xu hướng AI](https://vdigital.vn/wp-content/uploads/2023/03/xu-huong-cong-nghe-tuong-lai-1-1024x538.png)
+
 # Dự thảo chiến lược phát triển sản phẩm khối AI trong giai đoạn 2025-2029
 
 ```mermaid
