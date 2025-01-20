@@ -8,7 +8,7 @@
 ![Sponsors](https://img.shields.io/badge/Sponsor-0-lightgrey.svg)
 [![Open Mindmap](https://img.shields.io/badge/Mindmap-View%20Now-green)](https://hoanglong8.github.io/FoxAI-Data-Analyst/markmap.html)
 
-!Cơ cấu TC 2025
+![Cơ cấu TC 2025](https://github.com/hoanglong8/FoxAI-Data-Analyst/blob/main/Image/FoxAI%20-%20C%C6%A1%20c%E1%BA%A5u%20d%E1%BB%B1%20ki%E1%BA%BFn%202025.png)
 
 # Dự thảo chiến lược phát triển sản phẩm khối AI trong giai đoạn 2025-2029
 
