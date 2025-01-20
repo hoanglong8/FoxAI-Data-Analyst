@@ -4,7 +4,7 @@
 
 ![Language](https://img.shields.io/badge/Language-Python-orange.svg?logo=Python&logoColor=yellow) ![Update](https://img.shields.io/badge/Update-Weekly-green.svg) ![Progress](https://img.shields.io/badge/progress-N%2F1049-brightgreen.svg) ![Sponsors](https://img.shields.io/badge/Sponsor-0-lightgrey.svg)
 
-# **Chiến lược phát triển Nhân Sự khối sản phẩm AI trong 5 năm tới**
+# **Chiến lược phát triển Nhân Sự khối sản phẩm AI 5 năm tới**
 
 ![Nhân sự](https://hbr.edu.vn/storage/news/2023/08/02/6-mo-hinh-6-buoc-xay-dung-chien-luoc-nhan-su-nen-hoc-hoi-4.webp)
 
@@ -21,10 +21,10 @@
 ## **2. Nhiệm vụ chính**
 
 ### **a. Bộ phận tư vấn triển khai**
-  - **AI Consultant (3 người):**
+  - **AI Consultant:**
     - Nhiệm vụ: Tư vấn khảo sát và đánh giá nhu cầu AI của khách hàng.
     - Yêu cầu: Có kinh nghiệm trong tư vấn giải pháp công nghệ, kỹ năng giao tiếp và trình bày tốt.
-  - **Project Manager (1 người):**
+  - **Project Manager:**
     - Nhiệm vụ: Quản lý tiến độ triển khai các dự án AI.
     - Yêu cầu: Có kinh nghiệm quản lý dự án công nghệ, am hiểu về AI là lợi thế.
 
@@ -34,10 +34,10 @@
   - Tư vấn chiến lược ứng dụng AI phù hợp với từng ngành.
 
 ### **b. Bộ phận Data Analyst**
-  - **Data Analyst (2 người):**
+  - **Data Analyst:**
     - Nhiệm vụ: Thu thập, phân tích dữ liệu khách hàng, xây dựng báo cáo và đưa ra insight.
     - Yêu cầu: Thành thạo SQL, Python hoặc R; có kinh nghiệm với các công cụ phân tích dữ liệu (Tableau, Power BI).
-  - **Data Engineer (1 người):**
+  - **Data Engineer:**
     - Nhiệm vụ: Xây dựng hệ thống ETL, làm sạch và tổ chức dữ liệu.
     - Yêu cầu: Kinh nghiệm với cơ sở dữ liệu lớn (Hadoop, Spark) và các nền tảng Cloud.
 
@@ -48,7 +48,7 @@
 
 
 ### **c. Bộ phận phát triển sản phẩm (AI Engineers)**
-  - **AI/ML Engineer (3 người):**
+  - **AI/ML Engineer:**
     - Nhiệm vụ: Phát triển và tối ưu hóa mô hình AI (như NLP, Computer Vision).
     - Yêu cầu: Thành thạo TensorFlow, PyTorch, hoặc các framework tương tự.
 
@@ -58,10 +58,10 @@
   - Hỗ trợ thử nghiệm và tối ưu hóa hệ thống.
 
 ### **d. Bộ phận hỗ trợ và bảo trì**
-  - **AI Trainer (2 người):**
+  - **AI Trainer:**
     - Nhiệm vụ: Đào tạo khách hàng sử dụng các công cụ AI.
     - Yêu cầu: Am hiểu các công cụ AI (ChatGPT, Gemini, AutoML) và kỹ năng sư phạm.
-  - **Technical Support (1 người):**
+  - **Technical Support:**
     - Nhiệm vụ: Hỗ trợ kỹ thuật sau bán hàng.
     - Yêu cầu: Kinh nghiệm trong hỗ trợ công nghệ, kỹ năng giải quyết vấn đề nhanh chóng.
 
