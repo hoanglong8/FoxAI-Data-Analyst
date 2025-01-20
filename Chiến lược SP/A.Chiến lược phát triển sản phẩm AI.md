@@ -36,11 +36,11 @@ flowchart LR
 
 **1.2. Triển khai giải pháp AI localhost:**
 
-* [Xây dựng và triển khai hệ thống AI localhost](https://github.com/hoanglong8/FoxAI-Data-Analyst/blob/main/Chi%E1%BA%BFn%20l%C6%B0%E1%BB%A3c%20SP/A.1.2.D%E1%BB%8Bch%20V%E1%BB%A5%3A%20X%C3%A2y%20D%E1%BB%B1ng%20H%E1%BB%87%20Th%E1%BB%91ng%20AI%20localhost.md) cho khách hàng có nhu cầu bảo mật dữ liệu ví dụ như sản xuất, tài chính ngân hàng...
+* [Xây dựng và huấn luyện hệ thống AI localhost](https://github.com/hoanglong8/FoxAI-Data-Analyst/blob/main/Chi%E1%BA%BFn%20l%C6%B0%E1%BB%A3c%20SP/A.1.2.D%E1%BB%8Bch%20V%E1%BB%A5%3A%20X%C3%A2y%20D%E1%BB%B1ng%20H%E1%BB%87%20Th%E1%BB%91ng%20AI%20localhost.md) cho khách hàng có nhu cầu bảo mật dữ liệu ví dụ như sản xuất, tài chính ngân hàng...
 
 **1.3. Triển khai giải pháp AI tích hợp sẵn:**
 
-* [Ứng dụng và triển Khai hệ thống AI có sẵn để tích hợp](https://github.com/hoanglong8/FoxAI-Data-Analyst/blob/main/Chi%E1%BA%BFn%20l%C6%B0%E1%BB%A3c%20SP/A.1.3.D%E1%BB%8Bch%20v%E1%BB%A5%3A%20Tri%E1%BB%83n%20khai%20AI%20t%C3%ADch%20h%E1%BB%A3p%20ho%E1%BA%B7c%20AI%20t%E1%BB%B1%20%C4%91%E1%BB%99ng.md) vào hệ thống phần mềm của khách hàng như SAP, ERP, Kế toán, Nhân sự, CRM, MRP... Trong đó ưu tiên xây dựng hệ thống Chatbot hỗ trợ sản phẩm SAP dùng cho đào tạo nội bộ FoxAI và chăm sóc khách hàng.
+* [Ứng dụng và tích hợp hệ thống AI của bên thứ 3](https://github.com/hoanglong8/FoxAI-Data-Analyst/blob/main/Chi%E1%BA%BFn%20l%C6%B0%E1%BB%A3c%20SP/A.1.3.D%E1%BB%8Bch%20v%E1%BB%A5%3A%20Tri%E1%BB%83n%20khai%20AI%20t%C3%ADch%20h%E1%BB%A3p%20ho%E1%BA%B7c%20AI%20t%E1%BB%B1%20%C4%91%E1%BB%99ng.md) vào hệ thống phần mềm của khách hàng như SAP, ERP, Kế toán, Nhân sự, CRM, MRP... Trong đó ưu tiên xây dựng hệ thống Chatbot hỗ trợ sản phẩm SAP dùng cho đào tạo nội bộ FoxAI và chăm sóc khách hàng.
 
 **1.4. Dịch vụ đào tạo và hỗ trợ khách hàng ứng dụng AI hiệu quả:**
 
