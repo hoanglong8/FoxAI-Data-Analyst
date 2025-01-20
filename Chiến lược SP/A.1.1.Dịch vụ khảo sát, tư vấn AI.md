@@ -43,8 +43,9 @@
 ## **II. Lộ trình thực hiện**
 
 ```mermaid
-Graph TD
-Khảo_sát_đánh_giá --> Đề_xuất_lộ_trình --> Thực_hiện_thử_nghiệm&cải_tiến
+graph TD;
+    1.Khảo_sát_đánh_giá --> 2.Đề_xuất_lộ_trình --> 3.Thực_hiện_thử_nghiệm --> 4.Áp_dụng_chính_thức&cải_tiến
+
 ```
 
 ### **Giai đoạn 1: Khảo sát và đánh giá hiện trạng**
