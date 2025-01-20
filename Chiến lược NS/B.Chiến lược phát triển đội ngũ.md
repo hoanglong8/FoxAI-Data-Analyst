@@ -6,6 +6,8 @@
 
 # **Chiến lược phát triển Nhân Sự khối sản phẩm AI trong 5 năm tới**
 
+![Nhân sự](https://hbr.edu.vn/storage/news/2023/08/02/6-mo-hinh-6-buoc-xay-dung-chien-luoc-nhan-su-nen-hoc-hoi-4.webp)
+
 ## **1. Định hướng nhân sự**
 - **Tăng trưởng nhân sự:** Tăng số lượng nhân sự tương ứng với quy mô khách hàng mỗi năm (~20-40%).
 - **Phân bổ nhân sự:** Chia thành 4 bộ phận chính:
@@ -83,12 +85,17 @@
 - **ChatGPT Plus (TK share 5 người): 2 tài khoản**  
   - Sử dụng để hỗ trợ viết báo cáo, tối ưu hóa tài liệu tư vấn, code...
   - Chi phí dự kiến: [12 triệu VNĐ/năm](https://fox.ai.vn/wp-content/uploads/2024/07/Logo_Original-1.png).
-
+- **Đăng ký lớp luyện AI**
+  - Tham gia cộng đồng học tập, luyện tập và chia sẻ kiến thức, kỹ năng sử dụng AI vào doanh nghiệp
+  - Chi phí dự kiến: [2 triệu VNĐ/tài khoản/năm](https://luyenai.vn/images/slide1.jpg)
+  ![Luyenai.vn](https://luyenai.vn/images/slide1.jpg)
 
 ### **c. Đào tạo nhân sự nội bộ**
 - Ưu tiên các chứng chỉ phổ biến từ [Google, Microsoft, AWS, IBM](https://fox.ai.vn/wp-content/uploads/2024/07/Logo_Original-1.png): Những chứng chỉ này mang lại giá trị cao, được công nhận toàn cầu và sát với nhu cầu thực tế.
-- Kết hợp các khóa học miễn phí trên [Deeplearning.ai, Datacampt, GitHub](https://fox.ai.vn/wp-content/uploads/2024/07/Logo_Original-1.png): Để giảm chi phí và khuyến khích học tập chủ động.
+- Kết hợp các khóa học miễn phí trên [Deeplearning.ai, Datacampt, GitHub](https://fox.ai.vn/wp-content/uploads/2024/07/Logo_Original-1.png): Miễn phí nhưng rất giá trị và khuyến khích học tập chủ động.
 - Chương trình [đào tạo nội bộ](https://fox.ai.vn/wp-content/uploads/2024/07/Logo_Original-1.png): FoxAI xây dựng các khóa học nội bộ, đưa lên Sharepoint để phục vụ E-learning và đào tạo hội nhập.
+
+![Rank luyenai](https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRYVv_m0zskHSF3duqC3eP4TYCsFiAHk6rUHw&s)
 
 ---
 
