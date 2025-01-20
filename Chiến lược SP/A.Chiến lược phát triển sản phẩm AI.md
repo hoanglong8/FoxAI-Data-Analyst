@@ -40,19 +40,20 @@ flowchart LR
 * [Xây dựng và huấn luyện hệ thống AI self-host](https://github.com/hoanglong8/FoxAI-Data-Analyst/blob/main/Chi%E1%BA%BFn%20l%C6%B0%E1%BB%A3c%20SP/A.1.2.D%E1%BB%8Bch%20V%E1%BB%A5%3A%20X%C3%A2y%20D%E1%BB%B1ng%20H%E1%BB%87%20Th%E1%BB%91ng%20AI%20localhost.md) cho khách hàng có nhu cầu bảo mật dữ liệu ví dụ như sản xuất, tài chính ngân hàng...
 * Một số giải pháp hiện nay:
     * PyTorch và Tensorflow để chạy các mô hình Machine Learning giúp phân loại và dự báo.
-    * Llama, Open Assistant và Deepseek để xây dựng chatbot AI và trợ lý ảo.
-    * OpenCV và YOLO để nhận diện và phân loại đối tượng trong xử lý hình ảnh Computer Vision.
-    * Stable Diffusion và ComfyUI để tạo hình ảnh từ văn bản text2image.
-    * ModelScope, CogVideo, DeepFloyd-IF để tạo video từ văn bản text2video.
-    * EbSynth, Deforum Stable Diffusion, Pix2Video để tạo video từ hình ảnh image2video.
-    * Apache Airflow, Prefect, Kedro, Luigi, N8N, Dify để tạo quy trình tự động auto-workflow.
-    * Elevenlabs, Google TTS, Amazon Polly, Typecast giúp tạo audio từ text TTS.
-    * Google STT, IBM Watson STT, AssemblyAI giúp tạo text từ audio STT.
+    * Chatbot và trợ lý ảo: Llama, Phi-4, Qwen và Deepseek.
+    * Xử lý hình ảnh Computer Vision: OpenCV và YOLO.
+    * text2image: Stable Diffusion và ComfyUI.
+    * text2video: ModelScope, CogVideo, DeepFloyd-IF.
+    * image2video: EbSynth, Deforum Stable Diffusion, Pix2Video.
+    * auto-workflow: Apache Airflow, Prefect, Kedro, Luigi, N8N, Dify.
+    * text2audio TTS: Elevenlabs, Google TTS, Amazon Polly, Typecast.
+    * audio2text: Google STT, IBM Watson STT, AssemblyAI.
 
 **1.3. Triển khai giải pháp AI tích hợp sẵn:**
 
 * [Ứng dụng và tích hợp hệ thống AI của bên thứ 3](https://github.com/hoanglong8/FoxAI-Data-Analyst/blob/main/Chi%E1%BA%BFn%20l%C6%B0%E1%BB%A3c%20SP/A.1.3.D%E1%BB%8Bch%20v%E1%BB%A5%3A%20Tri%E1%BB%83n%20khai%20AI%20t%C3%ADch%20h%E1%BB%A3p%20ho%E1%BA%B7c%20AI%20t%E1%BB%B1%20%C4%91%E1%BB%99ng.md) vào hệ thống phần mềm của khách hàng như SAP, ERP, Kế toán, Nhân sự, CRM, MRP... Trong đó ưu tiên xây dựng hệ thống Chatbot hỗ trợ sản phẩm SAP dùng cho đào tạo nội bộ FoxAI và chăm sóc khách hàng.
 * Một số giải pháp hiện nay:
+    * Chạy machine learning: Google Vertex AI, Amazon Web Services (AWS), Microsoft Azure, Google Colab, Kaggle Kernels.
     * Chatbot và trợ lý ảo: ChatGPT của OpenAI, Gemini của Google, Claude, Heygen, D-id
     * Xử lý hình ảnh OCR: Google Vision, Adobe Acrobat, ABBYY FineReader
     * Dịch văn bản tự động: Google Translate API, Translate.io, DeepL Translator
