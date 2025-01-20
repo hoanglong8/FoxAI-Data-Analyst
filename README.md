@@ -54,9 +54,4 @@ flowchart LR
     id1([Nhiệm_vụ_2025]) --> id5([4_Hoàn_thiện_tài_liệu_quy_trình_nội_bộ])
 ```
 
-Tóm tắt nội dung bài viết [tại đây](https://hoanglong8.github.io/FoxAI-Data-Analyst/markmap.html)
-
-![Hình ảnh](https://github.com/hoanglong8/FoxAI-Data-Analyst/blob/main/Image/Markmap.png)
-
-
 
