@@ -43,7 +43,7 @@
 ## **II. Lộ trình thực hiện**
 
 ```mermaid
-Chart TD
+Graph TD
 Khảo_sát_đánh_giá --> Đề_xuất_lộ_trình --> Thực_hiện_thử_nghiệm&cải_tiến
 ```
 
