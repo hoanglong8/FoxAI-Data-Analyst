@@ -23,6 +23,12 @@
 9. [Công cụ lưu trữ, quản lý tài liệu](#5-QUẢN-LÝ-TÀI-LIỆU)
     * [Git](#Công-cụ-Git)
 
+## Giới thiệu chung về GitHub
+
+- [GitHub](https://docs.github.com/en/get-started) là nền tảng quản lý mã nguồn (phiên bản), hỗ trợ cộng tác, chia sẻ và lưu trữ dự án với các tính năng chính: Repo kho lưu trữ, Issues, Task, Projects, Milestone, label...
+
+- Cách đăng ký: Truy cập [github.com](https://github.com/) rồi đăng ký bằng tài khoản của công ty, xác minh email và thiết lập bảo mật.
+
 ## Đối tượng sử dụng
 Tài liệu này được thiết kế dành cho nhân viên của FoxAI khi cần thực hiện các công việc như:
 * **Bộ phận lập trình viên** (Devs) [quản lý mã nguồn (source-code)](https://fox.ai.vn/wp-content/uploads/2024/07/Logo_Original-1.png) một cách tập trung, thống nhất (đặc biệt là khi cả nhóm cùng code);
@@ -34,40 +40,13 @@ Tài liệu này được thiết kế dành cho nhân viên của FoxAI khi c�
 ## Mục tiêu
 
 Người dùng sau khi đọc tài liệu này có thể:
-* **Biết cách** dùng công cụ [Repository (Bản lưu trữ)](https://fox.ai.vn/wp-content/uploads/2024/07/Logo_Original-1.png) để quản lý, chỉnh sửa, cập nhật tài liệu (Tab đầu tiên <Code>)
+* **Biết cách** dùng công cụ [Repository (Bản lưu trữ)](https://fox.ai.vn/wp-content/uploads/2024/07/Logo_Original-1.png) để quản lý, chỉnh sửa, cập nhật tài liệu (Tab đầu tiên Code)
 * **Nắm được** cách dùng công cụ [Issue, Task](https://fox.ai.vn/wp-content/uploads/2024/07/Logo_Original-1.png) để giao nhiệm vụ cho từng thành viên cụ thể.
 * **Thực hành được** các công cụ [Discussion](https://fox.ai.vn/wp-content/uploads/2024/07/Logo_Original-1.png) để thảo luận, đưa ra ý tưởng, đề xuất giải pháp, tạo cuộc bình chọn, hỏi đáp Q&A với các thành viên khác.
 * **Ứng dụng được** công cụ [Project, Milestone](https://fox.ai.vn/wp-content/uploads/2024/07/Logo_Original-1.png) để quản lý tiến độ các dự án đang triển khai.
 * **Hiểu được** công cụ [Insight (Hiểu biết sâu sắc dạng Dashboard)](https://fox.ai.vn/wp-content/uploads/2024/07/Logo_Original-1.png) để có cái nhìn tổng quát theo từng contributors, Traffic (mức độ quan tâm) theo từng bài viết, Folk (quản lý phiên bản)...
 
----
-
-## 1. Giới thiệu chung về GitHub
-
-1.1. **GitHub là gì?**  
-- Giải thích ngắn gọn GitHub là nền tảng quản lý mã nguồn (phiên bản), hỗ trợ cộng tác, chia sẻ và lưu trữ dự án.  
-- Giới thiệu các tính năng chính: kho lưu trữ (repository), Issues, Pull Requests, Projects…
-
-1.2. **Tài liệu tham khảo**  
-- [Bắt đầu với GitHub (Get started with GitHub)](https://docs.github.com/en/get-started)
-
----
-
-## 2. Tạo và thiết lập tài khoản GitHub
-
-2.1. **Đăng ký tài khoản**  
-- Hướng dẫn truy cập [github.com](https://github.com/) để đăng ký tài khoản.  
-- Xác minh email, thiết lập bảo mật.
-
-2.2. **Cài đặt cấu hình cơ bản**  
-- Thiết lập ảnh đại diện (avatar).  
-- Cài đặt tên hiển thị (profile name), tiểu sử (bio).  
-- (Tuỳ chọn) Kích hoạt xác thực hai yếu tố (2FA) để bảo mật.  
-- Tham khảo: [Managing your GitHub account settings](https://docs.github.com/en/account-and-profile/setting-up-and-managing-your-github-user-account)
-
----
-
-## 3. Tạo và quản lý kho lưu trữ (Repository)
+## 3. Quản lý kho lưu trữ [Repository](https://docs.github.com/en/get-started/quickstart/create-a-repo)
 
 3.1. **Tạo Repository**  
 - Nhấn nút **+** (New) ở góc trên bên phải → **New repository**.  
@@ -78,12 +57,7 @@ Người dùng sau khi đọc tài liệu này có thể:
 - Thiết lập **branch** chính (default branch) – thường là `main`.  
 - Thêm license, file .gitignore nếu cần.
 
-3.3. **Tài liệu tham khảo**  
-- [Creating a repository](https://docs.github.com/en/get-started/quickstart/create-a-repo)
-
----
-
-## 4. Giới thiệu về GitHub Projects
+## 4. Quản lý dự án GitHub [Projects](https://docs.github.com/en/issues/planning-and-tracking-with-projects)
 
 # Sơ đồ Quản lý Dự án
 
@@ -94,35 +68,28 @@ graph TD
   C --> D["Task - Nhiệm vụ"]
 ```
 
-4.1. **Các phiên bản Projects**  
-- **Projects Classic** và **Projects (Beta)**.  
-- Sự khác biệt: Projects Beta có nhiều tính năng hiện đại hơn (Board, Table, Roadmap…).
+4.1. [**Milestones**](https://docs.github.com/en/issues/tracking-your-work-with-issues/creating-issues)
+- Tạo milestone rồi gắn Issue vào milestone.  
+- GitHub hiển thị % công việc đã đóng (done) / tổng Issue.
 
-4.2. **Tạo Project mới**  
+4.2. [**Project**](https://docs.github.com/en/issues/tracking-your-work-with-issues/creating-issues)
 - Tại trang **Projects** (trong repository hoặc trong profile), nhấn **New project**.  
-- Đặt tên, chọn **Template** (nếu có).  
-- [Tài liệu chính thức về GitHub Projects](https://docs.github.com/en/issues/planning-and-tracking-with-projects)
+- Đặt tên, chọn **Template** (nếu có).
 
----
+4.3. [**Issue**](https://docs.github.com/en/issues/tracking-your-work-with-issues)
+- Tại tab **Issues** → **New issue**.  
+- Đặt tiêu đề, mô tả (có thể thêm checklist công việc con).  
+- Trong giao diện Issue, chọn **Projects** (phía bên phải), hoặc  
+- Vào giao diện Project → **+ Add item** → Nhập `#` + số Issue.
+- Gắn nhãn (label), người xử lý (assignee), milestone.  
+- Thêm comment, checklist…  
 
-## 5. Quản lý công việc bằng GitHub Projects
 
-### 5.1. Thêm công việc (Issue) vào Project
-
-1. **Tạo Issue**  
-   - Tại tab **Issues** → **New issue**.  
-   - Đặt tiêu đề, mô tả (có thể thêm checklist công việc con).  
-   - [Creating an issue](https://docs.github.com/en/issues/tracking-your-work-with-issues/creating-issues)
-
-2. **Thêm Issue vào Project**  
-   - Trong giao diện Issue, chọn **Projects** (phía bên phải), hoặc  
-   - Vào giao diện Project → **+ Add item** → Nhập `#` + số Issue.
 
 ### 5.2. Board (Kanban)  
 - Ở Projects Beta, chọn **Board view**.  
 - Sử dụng các cột (chẳng hạn: *To do*, *In progress*, *Done*).  
 - Kéo – thả các card (Issue) giữa các cột để cập nhật tiến độ.  
-- [Organizing your work with project boards](https://docs.github.com/en/issues/planning-and-tracking-with-projects/organizing-your-work-with-project-boards)
 
 ### 5.3. Roadmap  
 - Giúp xem các công việc theo **timeline** (thời gian).  
@@ -142,15 +109,10 @@ graph TD
 ## 6. Sử dụng Issues và Milestones
 
 6.1. **Quản lý Issue**  
-- Gắn nhãn (label), người xử lý (assignee), milestone.  
-- Thêm comment, checklist…  
-- [Tracking your work with issues](https://docs.github.com/en/issues/tracking-your-work-with-issues)
 
-6.2. **Milestones**  
-- Tạo milestone cho phiên bản (v1.0) hoặc giai đoạn (Sprint 1…).  
-- Gắn Issue vào milestone.  
-- GitHub hiển thị % công việc đã đóng (done) / tổng Issue.
+- [Tracking your work with issues]()
 
+6.2. 
 ---
 
 ## 7. Thảo luận và hợp tác
