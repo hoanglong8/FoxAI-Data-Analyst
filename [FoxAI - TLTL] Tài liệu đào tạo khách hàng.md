@@ -47,15 +47,18 @@
 
 ---
 
-## Đối tượng sử dụng báo cáo tại Công ty thuốc lá Thăng Long
-| Vai trò | Xem báo cáo trên các phân hệ |
-|---|---|
-| **Ban giám đốc điều hành**| |
-| **Bộ phận kế toán**||
-| **Bộ phận đầu tư**||
-| **Bộ phận sản xuất**||
-| **Bộ phận nhân sự**||
-
+## Phân quyền sử dụng báo cáo tại Công ty thuốc lá Thăng Long
+| Vai trò |Mua hàng|Đầu tư|Bán hàng|Sản xuất|Quản trị kho|Tài chính kế toán|Nhân sự tiền lương|
+|---|---|---|---|---|---|---|---|
+| Ban điều hành <br> Chánh VP HĐTV|x|x|x|x|x|x|x|
+| Ban KSNB|x|x|x|x|x|x|x|
+| TP.Tổ chức nhân sự|||||||x|
+| TP.Thị trường <br> TP.Tiêu thụ|||x||x|||
+| TP.|||x||x|||
+| TP.Kỹ thuật cơ điện|||||||x|
+| TP.Nghiên cứu phát triển|||||||x|
+| TP.Tiêu thụ|||||||x|
+| TP.Tiêu thụ|||||||x|
 
 # Phần 2. Hướng dẫn sử dụng trên máy tính
 
