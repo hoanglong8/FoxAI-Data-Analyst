@@ -61,7 +61,7 @@
 # Phần 2. Hướng dẫn sử dụng trên máy tính
 
 ## **Cài đặt Power BI**
-### **Hướng dẫn cài đặt Power BI Desktop:**
+### **[Hướng dẫn cài đặt Power BI Desktop:](https://www.microsoft.com/vi-vn/download/details.aspx?id=58494)**
 #### **Yêu cầu hệ thống:**
 - Hệ điều hành Windows 10/11.
 - Tài khoản Microsoft.
