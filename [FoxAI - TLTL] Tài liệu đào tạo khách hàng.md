@@ -78,6 +78,7 @@
 
 ## **Đăng nhập và làm quen với giao diện**
 ### **Đăng nhập Power BI:**
+<img src="https://github.com/hoanglong8/FoxAI-Data-Analyst/blob/main/Image/ManHinhDangNhapWeb.png" alt="Hình ảnh" width="100%" />
 - Đăng nhập bằng tài khoản công ty (email công việc).
 - Khắc phục các lỗi đăng nhập phổ biến.
 
@@ -126,6 +127,9 @@
 
 ## **Đăng nhập vào Power BI Mobile**
 1. Mở ứng dụng **Power BI Mobile**.
+
+  <img src="https://github.com/hoanglong8/FoxAI-Data-Analyst/blob/main/Image/DangNhapDT.jpg" alt="Hình ảnh" width="50%"/>
+
 2. Nhập **email công việc** (ví dụ: yourname@company.com) và nhấp **Next**.
 3. Nhập mật khẩu và nhấp **Sign In**.
 4. Nếu công ty yêu cầu xác thực đa yếu tố (MFA), hãy hoàn thành bước xác minh (qua ứng dụng Authenticator hoặc mã OTP).
@@ -134,6 +138,9 @@
 
 ## **Xem báo cáo Power BI**
 ### **Truy cập báo cáo**
+
+<img src="https://github.com/hoanglong8/FoxAI-Data-Analyst/blob/main/Image/1_TQ.jpg" alt="Hình ảnh" width="100%" />
+
 1. Từ màn hình chính, chọn **Workspace** hoặc **Apps**.
 2. Chọn **báo cáo** cần xem.
 3. Báo cáo sẽ hiển thị các trang (tabs) giống như trên Power BI Desktop.
@@ -150,6 +157,9 @@
 
 ## **Tải báo cáo ngoại tuyến**
 ### **Lưu báo cáo để xem ngoại tuyến**:
+
+<img src="https://github.com/hoanglong8/FoxAI-Data-Analyst/blob/main/Image/3TQ_MuaHang.jpg" alt="Hình ảnh" width="100%" />
+
 1. Trong Power BI Mobile, mở báo cáo cần lưu.
 2. Nhấn vào biểu tượng **Tải xuống ngoại tuyến (Offline)** nếu được admin cho phép.
 3. Báo cáo sẽ được lưu lại và bạn có thể xem mà không cần kết nối internet.
@@ -185,8 +195,8 @@
 ## Phần 4. Hỗ trợ và liên hệ
 
 - **Hỗ trợ kỹ thuật - phòng CNTT Công ty thuốc lá Thăng Long**:  
-  - Email: *[IT support email]*  
-  - Hotline: *[Số điện thoại]*  
+  - Họ và tên: Vũ Quang Minh
+  - Email: minhvq@thanglongtabac.vn
 - **Người phụ trách dự án - Công ty CP Công nghệ FoxAI** : 
   - Họ và tên: Nguyễn Minh Tiến
   - Email: tiennm@fox.ai.vn
