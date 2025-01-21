@@ -184,11 +184,12 @@
 
 ## Phần 4. Hỗ trợ và liên hệ
 
-- **Hỗ trợ kỹ thuật**:  
+- **Hỗ trợ kỹ thuật - phòng CNTT Công ty thuốc lá Thăng Long**:  
   - Email: *[IT support email]*  
   - Hotline: *[Số điện thoại]*  
-- **Người phụ trách dự án** (Bên FoxAI / Bên khách hàng):  
-  - Tên & Liên hệ…
+- **Người phụ trách dự án - Công ty CP Công nghệ FoxAI** : 
+  - Họ và tên: Nguyễn Minh Tiến
+  - Email: tiennm@fox.ai.vn
 
 ---
 <img src="https://fox.ai.vn/wp-content/uploads/2024/07/Logo_Original-1.png" alt="Hình ảnh" width="30%" />
