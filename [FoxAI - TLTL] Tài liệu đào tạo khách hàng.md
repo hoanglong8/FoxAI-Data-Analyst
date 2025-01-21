@@ -30,13 +30,20 @@
 ## Phần 1. Giới thiệu tổng quan
 
 ### **Hệ thống báo cáo quản trị thông minh Power BI**
-- Tổng quan về Power BI: công cụ phân tích và trực quan hóa dữ liệu.
-- Lợi ích của Power BI trong quản lý dữ liệu và ra quyết định.
+- Power BI là một công cụ phân tích và trực quan hóa dữ liệu thông minh, giúp doanh nghiệp dễ dàng tạo báo cáo, dashboard và chia sẻ thông tin một cách hiệu quả.
 
-### **Các phiên bản trong Power BI:**
-- **Power BI Desktop - phiên bản trên máy tính**.
-- **Power BI Service - phiên bản website**.
-- **Power BI Mobile App - phiên bản điện thoại, máy tính bảng**.
+![Hình ảnh](https://vinsep.com/wp-content/uploads/2020/11/power-BI-1024x576.png)
+
+- Lợi ích của Power BI trong quản lý dữ liệu và ra quyết định:
+  - **Phân tích dữ liệu nhanh chóng**: Kết nối nhiều nguồn dữ liệu (SAP, IBOSS, Excel) và cung cấp báo cáo tức thời.
+  - **Trực quan hóa dữ liệu**: Hiển thị dữ liệu dưới dạng biểu đồ, bảng biểu sinh động, dễ hiểu.
+  - **Ra quyết định thông minh**: Hỗ trợ phân tích xu hướng, dự báo, và giúp ban lãnh đạo đưa ra các quyết định dựa trên dữ liệu.
+  - **Chia sẻ linh hoạt**: Tích hợp dễ dàng với các ứng dụng doanh nghiệp và chia sẻ báo cáo qua nhiều nền tảng.
+
+### **Hệ thống Power BI có thể sử dụng trên 3 nền tảng:**
+- Power BI Desktop - phiên bản trên máy tính;
+- Power BI Service - phiên bản website;
+- Power BI Mobile App - phiên bản điện thoại, máy tính bảng;
 
 ---
 
