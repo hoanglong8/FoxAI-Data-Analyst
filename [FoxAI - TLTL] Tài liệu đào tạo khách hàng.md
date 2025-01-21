@@ -51,14 +51,12 @@
 | Vai trò |Mua hàng|Đầu tư|Bán hàng|Sản xuất|Quản trị kho|Tài chính kế toán|Nhân sự tiền lương|
 |---|---|---|---|---|---|---|---|
 | Ban điều hành <br> Chánh VP HĐTV|x|x|x|x|x|x|x|
-| Ban KSNB|x|x|x|x|x|x|x|
 | TP.Tổ chức nhân sự|||||||x|
 | TP.Thị trường <br> TP.Tiêu thụ|||x||x|||
-| TP.|||x||x|||
-| TP.Kỹ thuật cơ điện|||||||x|
-| TP.Nghiên cứu phát triển|||||||x|
-| TP.Tiêu thụ|||||||x|
-| TP.Tiêu thụ|||||||x|
+| TP.Kỹ thuật cơ điện <br> TP.Nghiên cứu phát triển <br> TP.Kỹ thuật công nghệ|||x||x|||
+| TP.Quản lý chất lượng <br> TP.Kho vận|x||x|x|x|||
+| TP.Đầu tư||x||||||
+| QĐ.Sợi <br> QĐ.Hợp tác QT <br> QĐ.Cuốn điếu <br> QĐ.Cơ điện||||x|x|||
 
 # Phần 2. Hướng dẫn sử dụng trên máy tính
 
