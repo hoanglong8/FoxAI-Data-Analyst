@@ -1,6 +1,6 @@
 # TÀI LIỆU HƯỚNG DẪN SỬ DỤNG PHẦN MỀM
 
-<img src="https://github.com/hoanglong8/FoxAI-Data-Analyst/blob/main/Image/LOGO_THANGLONG-TOBACO.png" alt="Hình ảnh" width="50%" />
+<img src="https://github.com/hoanglong8/FoxAI-Data-Analyst/blob/main/Image/Logo-Since1957-THANGLONG%202021%20(1).png" alt="Hình ảnh" width="30%" />
 
 ![Phiên_bản](https://img.shields.io/badge/Phiên_bản-1.0-brightgreen)
 ![Bản_quyền](https://img.shields.io/badge/Bản_quyền-FoxAI-blue)
