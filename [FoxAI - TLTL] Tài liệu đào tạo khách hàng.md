@@ -1,4 +1,4 @@
-# TÀI LIỆU HƯỚNG DẪN SỬ DỤNG PHẦN MỀM POWER BI
+# HƯỚNG DẪN SỬ DỤNG HỆ THỐNG BÁO CÁO QUẢN TRỊ THÔNG MINH POWER BI
 
 <img src="https://github.com/hoanglong8/FoxAI-Data-Analyst/blob/main/Image/Logo-Since1957-THANGLONG%202021%20(1).png" alt="Hình ảnh" width="30%" />
 
@@ -16,8 +16,18 @@
 **Ngày phát hành**: *[20/01/2025]*  
 
 ---
+## Nội dung
+1.[Giới thiệu tổng quan](#Phần-1:-Giới-thiệu-tổng-quan)
 
-## Phần 1. GIỚI THIỆU CHUNG
+2.[Sử dụng trên máy tính](#Phần-2:-Hướng-dẫn-sử-dụng-trên-máy-tính)
+
+3.[Sử dụng trên điện thoại, máy tính bảng](#Phần-3:-Hướng-dẫn-sử-dụng-trên-ứng-dụng-điện-thoại-và-máy-tính-bảng)
+
+4.[Hỗ trợ và liên hệ](#Phần-4:-Hỗ-trợ-và-liên-hệ)
+
+---
+
+## Phần 1: Giới thiệu tổng quan
 
 ## **Giới thiệu Power BI**
 ### **Power BI là gì?**
@@ -32,14 +42,16 @@
 ---
 
 ## Đối tượng sử dụng báo cáo tại Công ty thuốc lá Thăng Long
-- **Ban giám đốc điều hành**: Xem báo cáo trên các phân hệ ...
-- **Bộ phận kế toán**: Xem báo cáo trên các phân hệ ...
-- **Bộ phận đầu tư**: Xem báo cáo trên các phân hệ ...
-- **Bộ phận sản xuất**: Xem báo cáo trên các phân hệ ...
-- **Bộ phận nhân sự**: Xem báo cáo trên các phân hệ ...
+| Vai trò | Xem báo cáo trên các phân hệ |
+|---|---|
+| **Ban giám đốc điều hành**| |
+| **Bộ phận kế toán**||
+| **Bộ phận đầu tư**||
+| **Bộ phận sản xuất**||
+| **Bộ phận nhân sự**||
 
 
-# **Phần 2: Hướng dẫn sử dụng Power BI trên ứng dụng Desktop, Website**
+# Phần 2: Hướng dẫn sử dụng trên máy tính
 
 ## **Cài đặt Power BI**
 ### **Hướng dẫn cài đặt Power BI Desktop:**
@@ -88,7 +100,7 @@
 
 ---
 
-# **Phần 3: Hướng dẫn sử dụng Power BI trên ứng dụng điện thoại và máy tính bảng**
+# Phần 3: Hướng dẫn sử dụng trên ứng dụng điện thoại và máy tính bảng
 
 ## **Cài đặt ứng dụng Power BI Mobile**
 ### **Trên Android**
@@ -163,7 +175,7 @@
 
 ---
 
-## Phần 4: HỖ TRỢ VÀ LIÊN HỆ
+## Phần 4: Hỗ trợ và liên hệ
 
 - **Hỗ trợ kỹ thuật**:  
   - Email: *[IT support email]*  
