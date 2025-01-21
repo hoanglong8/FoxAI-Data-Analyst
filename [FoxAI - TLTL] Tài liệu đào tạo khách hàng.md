@@ -17,17 +17,17 @@
 
 ---
 ## Nội dung
-1.[Giới thiệu tổng quan](#Phần-1:-Giới-thiệu-tổng-quan)
+1. [Giới thiệu tổng quan](#Phần-1.-Giới-thiệu-tổng-quan)
 
-2.[Sử dụng trên máy tính](#Phần-2:-Hướng-dẫn-sử-dụng-trên-máy-tính)
+2. [Sử dụng trên máy tính](#Phần-2.-Hướng-dẫn-sử-dụng-trên-máy-tính)
 
-3.[Sử dụng trên điện thoại, máy tính bảng](#Phần-3:-Hướng-dẫn-sử-dụng-trên-ứng-dụng-điện-thoại-và-máy-tính-bảng)
+3. [Sử dụng trên điện thoại, máy tính bảng](#Phần-3.-Hướng-dẫn-sử-dụng-trên-ứng-dụng-điện-thoại-và-máy-tính-bảng)
 
-4.[Hỗ trợ và liên hệ](#Phần-4:-Hỗ-trợ-và-liên-hệ)
+4. [Hỗ trợ và liên hệ](#Phần-4.-Hỗ-trợ-và-liên-hệ)
 
 ---
 
-## Phần 1: Giới thiệu tổng quan
+## Phần 1. Giới thiệu tổng quan
 
 ## **Giới thiệu Power BI**
 ### **Power BI là gì?**
@@ -51,7 +51,7 @@
 | **Bộ phận nhân sự**||
 
 
-# Phần 2: Hướng dẫn sử dụng trên máy tính
+# Phần 2. Hướng dẫn sử dụng trên máy tính
 
 ## **Cài đặt Power BI**
 ### **Hướng dẫn cài đặt Power BI Desktop:**
@@ -100,7 +100,7 @@
 
 ---
 
-# Phần 3: Hướng dẫn sử dụng trên ứng dụng điện thoại và máy tính bảng
+# Phần 3. Hướng dẫn sử dụng trên ứng dụng điện thoại và máy tính bảng
 
 ## **Cài đặt ứng dụng Power BI Mobile**
 ### **Trên Android**
@@ -175,7 +175,7 @@
 
 ---
 
-## Phần 4: Hỗ trợ và liên hệ
+## Phần 4. Hỗ trợ và liên hệ
 
 - **Hỗ trợ kỹ thuật**:  
   - Email: *[IT support email]*  
