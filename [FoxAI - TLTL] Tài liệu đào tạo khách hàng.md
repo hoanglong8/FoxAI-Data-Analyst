@@ -29,15 +29,14 @@
 
 ## Phần 1. Giới thiệu tổng quan
 
-## **Giới thiệu Power BI**
-### **Power BI là gì?**
+### **Hệ thống báo cáo quản trị thông minh Power BI**
 - Tổng quan về Power BI: công cụ phân tích và trực quan hóa dữ liệu.
 - Lợi ích của Power BI trong quản lý dữ liệu và ra quyết định.
 
-### **Các thành phần chính trong Power BI:**
-- **Power BI Desktop**.
-- **Power BI Service** (phiên bản web).
-- **Power BI Mobile App**.
+### **Các phiên bản trong Power BI:**
+- **Power BI Desktop - phiên bản trên máy tính**.
+- **Power BI Service - phiên bản website**.
+- **Power BI Mobile App - phiên bản điện thoại, máy tính bảng**.
 
 ---
 
