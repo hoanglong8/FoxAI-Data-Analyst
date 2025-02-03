@@ -3,6 +3,8 @@
 ## 1. **Giới thiệu**
 Chatbot AI hỗ trợ khách hàng sử dụng SAP sẽ giúp tự động hóa các yêu cầu phổ biến, hướng dẫn người dùng thao tác trên hệ thống, xử lý sự cố và hỗ trợ các vấn đề liên quan đến quy trình nghiệp vụ.
 
+Mindmap [tại đây](https://hoanglong8.github.io/FoxAI-Data-Analyst/Chatbot_SAP.html)
+
 ---
 
 ## 2. **Nguồn Lực Cần Thiết**
