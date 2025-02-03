@@ -5,6 +5,8 @@ Chatbot AI hỗ trợ khách hàng sử dụng SAP sẽ giúp tự động hóa 
 
 Mindmap [tại đây](https://hoanglong8.github.io/FoxAI-Data-Analyst/Chatbot_SAP.html)
 
+![Hình ảnh](https://github.com/hoanglong8/FoxAI-Data-Analyst/blob/main/Image/Chatbot_SAP.png)
+
 ---
 
 ## 2. **Nguồn Lực Cần Thiết**
