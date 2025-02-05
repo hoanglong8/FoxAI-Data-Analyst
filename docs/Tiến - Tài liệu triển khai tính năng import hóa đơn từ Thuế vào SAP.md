@@ -3,8 +3,8 @@
 # Hướng Dẫn Xuất Danh Sách Hóa Đơn Mua hàng Từ gdt.gov.vn Sang .csv Để Import Vào SAP
 
 ```mermaid
-graph LR
-  Hóa-đơn-điện-tử-gdt --> File .csv --> Chứng-từ-bản-nháp-SAP --> Kế-toán-ghi-sổ
+graph LR;
+  Hóa_đơn_điện_tử_gdt --> Colab_xuất_file_.csv --> Import_CT_bản_nháp_SAP --> Kế_toán_kiểm_tra_ghi_sổ
 ```
 
 ## 1. Chuẩn Bị
