@@ -63,3 +63,8 @@ Mindmap [tại đây](https://hoanglong8.github.io/FoxAI-Data-Analyst/Chatbot_SA
 - **Live Chat Escalation**: Chuyển tiếp cuộc trò chuyện sang nhân viên hỗ trợ nếu chatbot không thể xử lý.
 
 Tham khảo cách triển khai cho từng nghiệp vụ [tại đây](https://chatgpt.com/share/67a95a4e-b5e8-8012-802d-c7bc49bca848)
+
+Phân công nghiên cứu giải pháp:
+- Sơn: Sử dụng N8N Automation để truy vấn và tạo phản hồi từ các dữ liệu private của khách hàng.
+- Thắng: Cài đặt và liên kết ChatGPT với API SAP B1 thông qua SAP Service Layer.
+- Ngọc: Cài đặt và liên kết ChatGPT với Zalo API để tạo giao diện người dùng, phản hồi kết quả bằng text, hình ảnh hoặc âm thanh.
