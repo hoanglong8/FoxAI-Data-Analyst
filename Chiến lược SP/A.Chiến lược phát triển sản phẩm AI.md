@@ -5,9 +5,11 @@
 ![Language](https://img.shields.io/badge/Language-Python-orange.svg?logo=Python&logoColor=yellow) ![Update](https://img.shields.io/badge/Update-Weekly-green.svg) ![Progress](https://img.shields.io/badge/progress-N%2F1049-brightgreen.svg) ![Sponsors](https://img.shields.io/badge/Sponsor-0-lightgrey.svg)
 
 # Nội dung
-1. [Chiến lược phát triển 4 loại hình dịch vụ](#1.Chiến-lược-phát-triển-khối-sản-phẩm-AI-giai-đoạn-5-năm-tới)
+1. [Quy trình triển khai hệ thống AI](#1.Chiến-lược-phát-triển-khối-sản-phẩm-AI-giai-đoạn-5-năm-tới)
 
-2. [Tổng quan 4 giải pháp AI cho ngành sản xuất, ngân hàng](#2.Giới-thiệu-tổng-quan-4-giải-pháp-AI-cho-lĩnh-vực-sản-xuất,-ngân-hàng)
+![Hình ảnh](https://github.com/hoanglong8/FoxAI-Data-Analyst/blob/main/Image/CLSP-002.png)
+
+2. [Các giải pháp AI trọng điểm cho ngành sản xuất, ngân hàng](#2.Giới-thiệu-tổng-quan-4-giải-pháp-AI-cho-lĩnh-vực-sản-xuất,-ngân-hàng)
     
     * [Chatbot AI hỗ trợ khách hàng](#2.Giới-thiệu-tổng-quan-4-giải-pháp-AI-cho-lĩnh-vực-sản-xuất,-ngân-hàng)
     
@@ -19,17 +21,9 @@
 
 ![Hình ảnh](https://github.com/hoanglong8/FoxAI-Data-Analyst/blob/main/Image/CLSP-001.png)
 
-# 1.Chiến lược phát triển khối sản phẩm AI giai đoạn 5 năm tới
+# 1.Quy trình triển khai hệ thống AI cho doanh nghiệp
 
-```mermaid
-flowchart LR
-    id1([4_nhóm_sản_phẩm]) --> id2([1_Dịch_vụ_tư_vấn_khảo_sát])
-    id1([4_nhóm_sản_phẩm]) --> id3([2_AI_Localhost])
-    id1([4_nhóm_sản_phẩm]) --> id4([3_AI_tích_hợp_sẵn])
-    id1([4_nhóm_sản_phẩm]) --> id5([4_Dịch_vụ_đào_tạo_AI])
-```
-
-**1.1. Dịch vụ khảo sát, tư vấn lộ trình ứng dụng AI cho doanh nghiệp:**
+**1.1. Khảo sát, tư vấn lộ trình ứng dụng AI cho doanh nghiệp:**
 
 * [Khảo sát, đánh giá nhu cầu và tư vấn lộ trình ứng dụng AI cho khách hàng](https://github.com/hoanglong8/FoxAI-Data-Analyst/blob/main/Chi%E1%BA%BFn%20l%C6%B0%E1%BB%A3c%20SP/A.1.1.D%E1%BB%8Bch%20v%E1%BB%A5%20kh%E1%BA%A3o%20s%C3%A1t%2C%20t%C6%B0%20v%E1%BA%A5n%20AI.md)
 
@@ -47,7 +41,7 @@ flowchart LR
     * text2audio TTS: Elevenlabs, Google TTS, Amazon Polly, Typecast.
     * audio2text: Google STT, IBM Watson STT, AssemblyAI.
 
-**1.3. Tích hợp giải pháp AI của bên thứ 3:**
+**1.3. Triển khai giải pháp AI Cloud:**
 
 * [Ứng dụng và tích hợp hệ thống AI của bên thứ 3](https://github.com/hoanglong8/FoxAI-Data-Analyst/blob/main/Chi%E1%BA%BFn%20l%C6%B0%E1%BB%A3c%20SP/A.1.3.D%E1%BB%8Bch%20v%E1%BB%A5%3A%20Tri%E1%BB%83n%20khai%20AI%20t%C3%ADch%20h%E1%BB%A3p%20ho%E1%BA%B7c%20AI%20t%E1%BB%B1%20%C4%91%E1%BB%99ng.md) vào hệ thống phần mềm của khách hàng như SAP, ERP, Kế toán, Nhân sự, CRM, MRP... Trong đó ưu tiên xây dựng hệ thống Chatbot hỗ trợ sản phẩm SAP dùng cho đào tạo nội bộ FoxAI và chăm sóc khách hàng.
 * Một số giải pháp hiện nay:
@@ -62,7 +56,7 @@ flowchart LR
     * Text2Speech: Coqui TTS, Mimic 3, Mozilla TTS, Applio, RVC
     * Speech2Text: Whisper, Vosk, Kaldi
 
-**1.4. Dịch vụ đào tạo và hỗ trợ khách hàng ứng dụng AI hiệu quả:**
+**1.4. Đào tạo, bảo trì và hỗ trợ khách hàng ứng dụng AI hiệu quả:**
 
 * [Đào tạo đội ngũ ban lãnh đạo, quản lý và nhân viên của khách hàng](https://github.com/hoanglong8/FoxAI-Data-Analyst/blob/main/Chi%E1%BA%BFn%20l%C6%B0%E1%BB%A3c%20SP/A.1.4.D%E1%BB%8Bch%20v%E1%BB%A5%3A%20%C4%90%C3%A0o%20t%E1%BA%A1o%20kh%C3%A1ch%20h%C3%A0ng%20s%E1%BB%AD%20d%E1%BB%A5ng%20AI.md) sử dụng công cụ AI để tăng hiệu quả công việc.
 
