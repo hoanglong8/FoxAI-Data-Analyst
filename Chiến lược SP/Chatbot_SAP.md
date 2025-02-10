@@ -25,6 +25,7 @@ Chatbot SAP giúp **tự động hóa từ 60% - 90%** công việc, giảm th�
 # 3.Kế hoạch triển khai cho bộ phận Hỗ trợ khách hàng (Sản phẩm trọng điểm - Chatbot SAP Assistant)
 
 Xây dựng chatbot tự động hỗ trợ khách hàng 24/7, giảm tải công việc cho nhân viên, cải thiện trải nghiệm người dùng.
+
 Chatbot AI hỗ trợ khách hàng sử dụng SAP sẽ giúp tự động hóa các yêu cầu phổ biến, hướng dẫn người dùng thao tác trên hệ thống, xử lý sự cố và hỗ trợ các vấn đề liên quan đến quy trình nghiệp vụ.
 
 Mindmap [tại đây](https://hoanglong8.github.io/FoxAI-Data-Analyst/Chatbot_SAP.html)
@@ -61,3 +62,4 @@ Mindmap [tại đây](https://hoanglong8.github.io/FoxAI-Data-Analyst/Chatbot_SA
   - **WhatsApp/Zalo**
 - **Live Chat Escalation**: Chuyển tiếp cuộc trò chuyện sang nhân viên hỗ trợ nếu chatbot không thể xử lý.
 
+Tham khảo cách triển khai cho từng nghiệp vụ [tại đây](https://chatgpt.com/share/67a95a4e-b5e8-8012-802d-c7bc49bca848)
