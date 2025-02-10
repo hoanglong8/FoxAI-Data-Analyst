@@ -17,9 +17,7 @@
     
     * [Hệ thống AI đánh giá chất lượng khoản vay LOS](#2.Giới-thiệu-tổng-quan-4-giải-pháp-AI-cho-lĩnh-vực-sản-xuất,-ngân-hàng)
 
-3. [Dự kiến kế hoạch tài chính](#3.Dự-kiến-kế-hoạch-tài-chính-5-năm-tới)
-
-![Hình ảnh](https://tiki.vn/blog/wp-content/uploads/2023/08/thumb-34.jpg)
+![Hình ảnh](https://github.com/hoanglong8/FoxAI-Data-Analyst/blob/main/Image/CLSP-001.png)
 
 # 1.Chiến lược phát triển khối sản phẩm AI giai đoạn 5 năm tới
 
@@ -389,20 +387,3 @@ flowchart LR
 | **Giai đoạn 6: Triển khai chính thức** | 1 tháng          | Tất cả các thành viên, đào tạo người dùng.                            |
 
 ---
-
-# 3.Dự kiến kế hoạch tài chính 5 năm tới
-
-## 3.1. Giả định
-- **Doanh thu dự kiến:** Tổng doanh thu từ cả 4 gói sản phẩm.
-- **Chi phí vận hành:** Dự kiến khoảng 60% tổng doanh thu (bao gồm nhân sự, công nghệ, marketing, vận hành).
-- **Lợi nhuận:** 40% tổng doanh thu (sau chi phí).
-- **Tăng trưởng khách hàng hàng năm:** Trung bình 20-50%/năm.
-- **Số lượng nhân sự cần thiết:** Tăng tương ứng với quy mô khách hàng (1 nhân sự quản lý 3-5 khách hàng).
-
-## 3.2. Các gói sản phẩm và giá bán dự kiến
-| **Gói sản phẩm**                           | **Giá trung bình/dự án (VNĐ)** |
-|-------------------------------------------|--------------------------------|
-| Dịch vụ tư vấn, khảo sát AI              | 50-100 triệu                |
-| Giải pháp AI localhost tùy chỉnh         | 1,5 tỷ                        |
-| Giải pháp AI tích hợp sẵn           | 1 tỷ                          |
-| Dịch vụ đào tạo và hỗ trợ AI                    | 100-150 triệu                      |
