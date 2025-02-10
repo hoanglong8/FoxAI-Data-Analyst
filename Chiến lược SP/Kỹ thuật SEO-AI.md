@@ -1,4 +1,9 @@
-# Hướng dẫn SEO Website Fox.ai.vn để tối ưu hiển thị trên ChatGPT và Search Engines
+# Nội dung
+
+* SEO từ khóa để tối ưu hiển thị trên công cụ search Google
+* SAIO từ khóa để tối ưu hiển thị kết quả trên ChatGPT
+
+# Hướng dẫn SEO Website Fox.ai.vn để tối ưu hiển thị trên Google Search Engines
 
 ✅ Các bước để ChatGPT và Google dễ tìm thấy Fox.ai.vn:
 * Thêm Schema Markup vào website công ty (Google sẽ hiểu nội dung tốt hơn).
