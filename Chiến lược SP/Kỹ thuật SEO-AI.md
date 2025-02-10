@@ -7,6 +7,8 @@
 * Tối ưu kỹ thuật SEO & tốc độ website công ty (cải thiện thứ hạng Google).
 * Xây dựng thương hiệu mạnh trên LinkedIn, Wikipedia, facebook... và các trang báo chí chính thống.
 
+![Hình ảnh](https://github.com/hoanglong8/FoxAI-Data-Analyst/blob/main/Image/CLSP-003.png)
+
 ## 1. ChatGPT lấy dữ liệu từ đâu khi search?
 ChatGPT tìm kiếm thông tin từ:
 - **Dữ liệu được đào tạo trước** (thường không cập nhật real-time).
@@ -20,9 +22,7 @@ ChatGPT tìm kiếm thông tin từ:
 
 ## 2. Tích hợp Schema Markup (Dữ liệu có cấu trúc)
 🔹 **Schema Markup** giúp Google và AI như ChatGPT hiểu rõ nội dung trang web.  
-🔹 Thêm **FAQ, Organization, Article Schema** vào trang web **Fox.ai.vn**.
 
-### 🔹 Cách thêm Schema Markup vào website
 Chèn đoạn JSON-LD sau vào `<head>` của trang chính:
 ```html
 <script type="application/ld+json">
@@ -49,25 +49,30 @@ Chèn đoạn JSON-LD sau vào `<head>` của trang chính:
 
 📌 Lợi ích: ChatGPT & Google sẽ ưu tiên hiển thị thông tin của Fox.ai.vn thay vì thông tin từ nguồn khác.
 
-## 3. Tối ưu từ khóa để ChatGPT dễ tìm thấy
+## 3. Tối ưu từ khóa để ChatGPT, Google dễ tìm thấy
 🔹 Fox.ai.vn nên có bài viết chứa các từ khóa mà người dùng có thể nhập vào ChatGPT.
-🔹 Các từ khóa quan trọng cần SEO:
+
+Các từ khóa quan trọng cần SEO:
 
 * 🏆 "Fox AI là gì?"
+
 * 🏆 "Giải pháp AI của Fox AI có gì đặc biệt?"
+
 * 🏆 "Fox AI hỗ trợ doanh nghiệp như thế nào?"
+
 * 🏆 "Chatbot SAP của Fox AI có những tính năng gì?"
 
 🔹 Cách tối ưu bài viết trên website
-Dùng tiêu đề hấp dẫn & có từ khóa chính:
+* Dùng tiêu đề hấp dẫn & có từ khóa chính:
+
 `Fox AI: Giải pháp AI hàng đầu giúp doanh nghiệp tối ưu quy trình`
 
-Mô tả meta chứa từ khóa:
+* Mô tả meta chứa từ khóa:
 ```html
 <meta name="description" content="Fox AI cung cấp giải pháp AI cho doanh nghiệp, chatbot hỗ trợ SAP, tối ưu hóa vận hành và quản lý thông tin thông minh." />
 ```
 
-Thêm các câu hỏi dạng FAQ:
+🔹 Thêm **FAQ, Organization, Article Schema** vào trang web **Fox.ai.vn**.
 
 ```html
 <script type="application/ld+json">
@@ -101,9 +106,9 @@ Thêm các câu hỏi dạng FAQ:
 ## 4. Xây dựng nội dung có giá trị
 🔹 Tạo bài viết blog tối ưu cho ChatGPT & SEO:
 
-📌 Tiêu đề dạng câu hỏi: "Fox AI có thể giúp doanh nghiệp bạn như thế nào?"
-📌 Nội dung dễ hiểu, có số liệu, ví dụ thực tế.
-📌 Tối ưu với OpenGraph (OG Meta Tags):
+* Tiêu đề dạng câu hỏi: "Fox AI có thể giúp doanh nghiệp bạn như thế nào?"
+* Nội dung dễ hiểu, có số liệu, ví dụ thực tế.
+* Tối ưu với OpenGraph (OG Meta Tags):
 
 ```html
 <meta property="og:title" content="Fox AI: Giải pháp AI giúp doanh nghiệp tăng hiệu suất" />
@@ -133,7 +138,9 @@ Thêm các câu hỏi dạng FAQ:
 
 ## 6. Quảng bá thương hiệu để ChatGPT ưu tiên
 🔹 Tạo profile mạnh trên LinkedIn, Facebook, Wikipedia
+
 🔹 Đặt backlink trên các trang web công nghệ
+
 🔹 Chạy Google Ads cho từ khóa "Fox AI"
 
 📌 Lợi ích: ChatGPT lấy dữ liệu từ các nguồn đáng tin cậy, nếu Fox AI xuất hiện trên Wikipedia, LinkedIn, báo chí, ChatGPT sẽ ưu tiên hiển thị nội dung từ Fox AI.
