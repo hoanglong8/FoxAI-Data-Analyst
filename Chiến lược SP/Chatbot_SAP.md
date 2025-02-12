@@ -45,7 +45,7 @@ Ngoài ra, **càng nhiều người sử dụng chatbot này** sẽ tăng thứ 
 
 **3.2.Đối với sản phẩm Chatbot Private**
 
-Chatbot Private đòi hỏi tính bảo mật, do đó sẽ giao tiếp với các phần mềm khác thông qua API, có sự phân quyền đối với từng người dùng, có tự động hóa với N8N Automation và truy vấn dữ liệu với RAG.
+Chatbot Private đòi hỏi tính bảo mật, do đó có sự phân quyền đối với từng người dùng, có tự động hóa với N8N Automation, giao tiếp truy vấn dữ liệu có cấu trúc qua API và truy vấn dữ liệu phi cấu trúc trên localhost với RAG (Retrieval-Augmented Generation).
 
 Mindmap [tại đây](https://hoanglong8.github.io/FoxAI-Data-Analyst/Chatbot_SAP.html)
 
@@ -62,25 +62,14 @@ Mindmap [tại đây](https://hoanglong8.github.io/FoxAI-Data-Analyst/Chatbot_SA
 
 **Lưu ý quan trọng khi triển khai:**
 
-✅ **Tích hợp dữ liệu SAP CRM**: Để chatbot truy xuất thông tin khách hàng.  
-✅ **Xử lý ngôn ngữ tự nhiên (NLP)**: Sử dụng OpenAI API để chatbot hiểu câu hỏi linh hoạt.  
-✅ **Giám sát hiệu suất chatbot**: Sử dụng Google Analytics/Zalo API để theo dõi mức độ tương tác.  
-✅ **Bảo mật dữ liệu khách hàng**: Áp dụng **OAuth2.0**, **RBAC (Role-Based Access Control)** để phân quyền.  
-
-3.1. **Giao Diện Người Dùng**
-- **Web-based chat UI**: Xây dựng chatbot tích hợp trên web portal nội bộ của công ty.
-- **Mobile App Integration**: Hỗ trợ chatbot trên ứng dụng di động.
-- **Voice Assistant**: Kết nối chatbot với trợ lý ảo như Google Assistant hoặc Alexa.
-
-3.2. **Tính Năng Giao Tiếp**
-- **Multi-Channel Support**: Chatbot có thể hoạt động trên:
-  - **Microsoft Teams**
-  - **Slack**
-  - **Email**
-  - **WhatsApp/Zalo**
-- **Live Chat Escalation**: Chuyển tiếp cuộc trò chuyện sang nhân viên hỗ trợ nếu chatbot không thể xử lý.
+✅ **Tích hợp AI Agent để tự động hóa**: Các Agent AI như N8N, Make, Zapier... đóng vai trò là trợ lý giám sát giúp tự động hóa workflow. 
+✅ **Xử lý ngôn ngữ tự nhiên (NLP)**: Các LLMs như ChatGPT, Claude, LLaMA... chính là bộ não phiên dịch để hiểu được câu hỏi của người dùng một cách linh hoạt và trả lời đầy đủ, chính xác.
+✅ **Truy xuất dữ liệu thông minh**: Phương thức Vector Database như Pincore, FAISS, ChromaDB, Weaviate... giúp truy xuất các đoạn văn bản có liên quan từ dữ liệu có cấu trúc và phi cấu trúc.  
+✅ **Bảo mật dữ liệu khách hàng**: Sử dụng "Xác thực OAuth2"/"JWT" để kiểm tra danh tính, ngăn chặn người ngoài DN; RBAC (Role-Based Access Control) để phân quyền Admin, Manager, Nhân viên... trong công ty; Mã hóa dữ liệu nhạy cảm AES-256/Hashing...
 
 Tham khảo cách triển khai cho từng nghiệp vụ [tại đây](https://chatgpt.com/share/67a95a4e-b5e8-8012-802d-c7bc49bca848)
+
+Tham khảo cách bảo mật dữ liệu [tài đây](https://chatgpt.com/c/67a99d9c-1bcc-8012-b032-146e50f14235)
 
 Phân công nghiên cứu giải pháp:
 - Sơn: Sử dụng N8N Automation để truy vấn và tạo phản hồi từ các dữ liệu private của khách hàng.
