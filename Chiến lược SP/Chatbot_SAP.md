@@ -1,8 +1,16 @@
 # 1.Chiến lược sản phẩm Chatbot AI
-**Nguyên tắc:** Đứng trên vai những người khổng lồ.
+**Nguyên tắc xây dựng sản phẩm:** Đứng trên vai những người khổng lồ, tức là sử dụng lõi LLMs của các nhà phát triển lớn (OpenAI, Google, Meta, Anthropic...), xây dựng thêm các tính năng vệ tinh trên đó để tạo giá trị gia tăng cho từng nhóm khách hàng cụ thể.
+
+**Mục tiêu:** Vừa đảm bảo hỗ trợ công việc cho các bộ phận trong Doanh nghiệp, vừa đảm bảo phân quyền bảo mật thông tin dữ liệu khách hàng.
 
 Sơ thảo chiến lược xây dựng Chatbot AI xem [tại đây: ](https://hoanglong8.github.io/FoxAI-Data-Analyst/Chien_luoc_chatbot_FoxAI.html)
 ![Hình ảnh:](https://github.com/hoanglong8/FoxAI-Data-Analyst/blob/main/docs/Chi%E1%BA%BFn%20l%C6%B0%E1%BB%A3c%20chatbot%20AI.png)
+
+Như vậy, FoxAI đang nghiên cứu xây dựng 2 sản phẩm Chatbot Public và Private:
+* Chatbot Public:
+* Chatbot Private:
+![Hình ảnh](https://github.com/hoanglong8/FoxAI-Data-Analyst/blob/main/Image/Workflow_Chatbot_Private.png)
+
 
 # 2.Giá trị của Chatbot AI đối với từng bộ phận trong Doanh Nghiệp
 
