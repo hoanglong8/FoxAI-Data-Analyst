@@ -63,15 +63,19 @@ Mindmap [tại đây](https://hoanglong8.github.io/FoxAI-Data-Analyst/Chatbot_SA
 **Lưu ý quan trọng khi triển khai:**
 
 ✅ **Tích hợp AI Agent để tự động hóa**: Các Agent AI như N8N, Make, Zapier... đóng vai trò là trợ lý giám sát giúp tự động hóa workflow. 
+
 ✅ **Xử lý ngôn ngữ tự nhiên (NLP)**: Các LLMs như ChatGPT, Claude, LLaMA... chính là bộ não phiên dịch để hiểu được câu hỏi của người dùng một cách linh hoạt và trả lời đầy đủ, chính xác.
+
 ✅ **Truy xuất dữ liệu thông minh**: Phương thức Vector Database như Pincore, FAISS, ChromaDB, Weaviate... giúp truy xuất các đoạn văn bản có liên quan từ dữ liệu có cấu trúc và phi cấu trúc.  
+
 ✅ **Bảo mật dữ liệu khách hàng**: Sử dụng "Xác thực OAuth2"/"JWT" để kiểm tra danh tính, ngăn chặn người ngoài DN; RBAC (Role-Based Access Control) để phân quyền Admin, Manager, Nhân viên... trong công ty; Mã hóa dữ liệu nhạy cảm AES-256/Hashing...
 
 Tham khảo cách triển khai cho từng nghiệp vụ [tại đây](https://chatgpt.com/share/67a95a4e-b5e8-8012-802d-c7bc49bca848)
 
 Tham khảo cách bảo mật dữ liệu [tài đây](https://chatgpt.com/c/67a99d9c-1bcc-8012-b032-146e50f14235)
 
-Phân công nghiên cứu giải pháp:
-- Sơn: Sử dụng N8N Automation để truy vấn và tạo phản hồi từ các dữ liệu private của khách hàng.
-- Thắng: Cài đặt và liên kết ChatGPT với API SAP B1 thông qua SAP Service Layer.
-- Ngọc: Cài đặt và liên kết ChatGPT với Zalo API để tạo giao diện người dùng, phản hồi kết quả bằng text, hình ảnh hoặc âm thanh.
+**Team AI phân công nghiên cứu giải pháp:**
+- Tạo và đưa dữ liệu SAP vào Chatbot trên GPT Stores => Long done!
+- Sử dụng N8N Automation để truy vấn và tạo phản hồi từ các dữ liệu phi cấu trúc trên localhost => Sơn done!
+- Kết nối ChatGPT với API SAP B1 thông qua SAP Service Layer để trả về json => Thắng done! => Sơn nghiên cứu tích hợp 2 workflow này làm 1 trên N8N.
+- Đang cần 1 Dev Front-end: Kết nối ChatGPT với Telegram/Zalo API, Website, Mobile App... để tạo giao diện người dùng, test phản hồi kết quả bằng text, hình ảnh hoặc âm thanh.
