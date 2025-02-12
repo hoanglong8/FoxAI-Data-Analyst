@@ -230,6 +230,9 @@
         <mxCell id="Vu26FfdGvB85rxgYKQYP-7" value="Dịch từ json sang ngôn ngữ tự nhiên" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="525" y="292" width="110" height="30" as="geometry" />
         </mxCell>
+        <mxCell id="Vu26FfdGvB85rxgYKQYP-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.983;entryY=0.517;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="a1hQxXgVuY8dCBBikamt-49" target="a1hQxXgVuY8dCBBikamt-48">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
