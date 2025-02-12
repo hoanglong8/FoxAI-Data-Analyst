@@ -3,17 +3,17 @@
 
 **Mục tiêu:** Vừa đảm bảo hỗ trợ công việc cho các bộ phận trong Doanh nghiệp, vừa đảm bảo phân quyền bảo mật thông tin dữ liệu khách hàng.
 
-Như vậy để đáp ứng được mục tiêu và nguyên tắc trên, FoxAI đang nghiên cứu xây dựng 2 sản phẩm Chatbot AI là Public (công khai) và Private (Bảo mật), chi tiết xem [tại đây: ](https://hoanglong8.github.io/FoxAI-Data-Analyst/Chien_luoc_chatbot_FoxAI.html)
+Như vậy để đáp ứng được mục tiêu và nguyên tắc trên, FoxAI đang nghiên cứu xây dựng 2 sản phẩm Chatbot AI là **Public (công khai)** và **Private (Bảo mật)**, chi tiết xem [tại đây: ](https://hoanglong8.github.io/FoxAI-Data-Analyst/Chien_luoc_chatbot_FoxAI.html)
 ![Hình ảnh:](https://github.com/hoanglong8/FoxAI-Data-Analyst/blob/main/docs/Chi%E1%BA%BFn%20l%C6%B0%E1%BB%A3c%20chatbot%20AI.png)
 
-* Chatbot Public:
+* **Chatbot Public:** hướng dẫn người dùng các tính năng và cách khắc phục các lỗi phổ biến khi sử dụng SAP và các sản phẩm FoxAI cung cấp, giúp bộ phận bảo trì FoxAI giảm thiểu thời gian, công sức hỗ trợ
 ![Hình ảnh](https://github.com/hoanglong8/FoxAI-Data-Analyst/blob/main/Image/Chatbot_Public_GPTStores.png)
 
-* Chatbot Private:
+* **Chatbot Private:** hỗ trợ các bộ phận trong doanh nghiệp thực hiện các tác vụ chuyên sâu và có tính bảo mật thông tin cao như doanh thu, chi phí, lãi lỗ, công nợ, tồn kho... (xem chi tiết trong phần 2)
 ![Hình ảnh](https://github.com/hoanglong8/FoxAI-Data-Analyst/blob/main/Image/Workflow_Chatbot_Private.png)
 
 
-# 2.Giá trị của Chatbot AI đối với từng bộ phận trong Doanh Nghiệp
+# 2.Các tác vụ chuyên sâu Chatbot Private có thể hỗ trợ đối với từng bộ phận trong Doanh Nghiệp
 
 | **Bộ phận**            | **Giải pháp Chatbot hỗ trợ**                                  | **Công cụ triển khai**                                      | **% Tự động hóa so với trước đây** |
 |------------------------|------------------------------------------------|---------------------------------------------------|----------------------------------|
@@ -29,27 +29,35 @@ Như vậy để đáp ứng được mục tiêu và nguyên tắc trên, FoxAI
 | **Quản lý tài liệu**   | Tìm kiếm tài liệu nội bộ, hướng dẫn sử dụng hệ thống, đào tạo nhân viên | Google Drive API, SharePoint API, OpenAI API      | 85%                              |
 
 🔹 **Tóm tắt**
-Chatbot SAP giúp **tự động hóa từ 60% - 90%** công việc, giảm thời gian xử lý thủ công và tăng hiệu suất làm việc của doanh nghiệp.
+Chatbot Private có thể giúp doanh nghiệp **tự động hóa từ 60% - 90%** công việc, giảm thời gian xử lý thủ công và tăng hiệu suất làm việc.
 
-# 3.Kế hoạch triển khai cho bộ phận Hỗ trợ khách hàng (Sản phẩm trọng điểm - Chatbot SAP Assistant)
+# 3.Dự kiến lộ trình xây dựng sản phẩm Chatbot SAP Assistant FoxAI
 
-Xây dựng chatbot tự động hỗ trợ khách hàng 24/7, giảm tải công việc cho nhân viên, cải thiện trải nghiệm người dùng.
+**3.1. Đối với sản phẩm Chatbot Public**
 
-Chatbot AI hỗ trợ khách hàng sử dụng SAP sẽ giúp tự động hóa các yêu cầu phổ biến, hướng dẫn người dùng thao tác trên hệ thống, xử lý sự cố và hỗ trợ các vấn đề liên quan đến quy trình nghiệp vụ.
+Hiện nay, FoxAI đã xây dựng xong chatbot trên GPT Stores [tại địa chỉ sau](https://chatgpt.com/g/g-6780c0bb3d4481919022c62333bb8046-sap-assistant-foxai)
+
+Hình ảnh
+
+Chatbot này sẽ hỗ trợ khách hàng sử dụng SAP, giúp tự động hóa các yêu cầu phổ biến, hướng dẫn người dùng thao tác trên hệ thống, xử lý sự cố và hỗ trợ các vấn đề liên quan đến quy trình nghiệp vụ. Ngoài ra, **càng nhiều người sử dụng chatbot này** sẽ tăng thứ hạng trên GPT Stores, tăng độ nhận diện của thương hiệu FoxAI.
+
+**3.2.Đối với sản phẩm Chatbot Private**
+
+Chatbot Private đòi hỏi tính bảo mật, do đó sẽ giao tiếp với các phần mềm khác thông qua API, có sự phân quyền đối với từng người dùng, có tự động hóa với N8N Automation và truy vấn dữ liệu với RAG.
 
 Mindmap [tại đây](https://hoanglong8.github.io/FoxAI-Data-Analyst/Chatbot_SAP.html)
 
 ![Hình ảnh](https://github.com/hoanglong8/FoxAI-Data-Analyst/blob/main/Image/Chatbot_SAP.png)
 
-| **Giai đoạn**                     | **Thời gian** | **Chi tiết công việc**                                                                                                                                  | **Công cụ triển khai**                                 | **Nhân lực cần thiết**              | **Tài chính dự kiến (VNĐ)** |
-|------------------------------------|--------------|------------------------------------------------------------------------------------------------------------------------------------------------------|------------------------------------------------------|--------------------------------|-----------------------------|
-| **1. Nghiên cứu & Phân tích**      | Tuần 1-2     | - Thu thập câu hỏi thường gặp của khách hàng (FAQ)  <br>- Xác định kênh chatbot (Zalo, Facebook, Website, Email)  <br>- Phân tích quy trình CSKH hiện tại | Google Forms (khảo sát), SAP CRM, Excel              | 1 Trưởng dự án, 1 Nhân viên CSKH, 1 Kỹ sư AI | 0 (Nội bộ thực hiện)         |
-| **2. Lập kế hoạch & Thiết kế**     | Tuần 3       | - Xây dựng kịch bản hội thoại chatbot <br>- Phân loại khách hàng theo nhóm vấn đề <br>- Xác định API cần tích hợp (SAP, Zalo API, OpenAI API)        | Lucidchart (vẽ luồng hội thoại), Notion (tài liệu thiết kế) | 1 Chuyên viên AI, 1 Nhân viên CSKH    | 0 (Nội bộ thực hiện)         |
-| **3. Phát triển Chatbot (MVP)**    | Tuần 4-6     | - Lập trình chatbot (Kết nối OpenAI API, SAP CRM, Zalo API)  <br>- Xây dựng cơ sở dữ liệu trả lời <br>- Test thử nghiệm với dữ liệu giả lập            | Python, Flask/FastAPI, OpenAI API, Zalo API, SAP Service Layer | 2 Lập trình viên, 1 Nhân viên kiểm thử (QA) | 15 - 20 triệu               |
-| **4. Kiểm thử & Tối ưu**           | Tuần 7-8     | - Test chatbot với khách hàng nội bộ <br>- Điều chỉnh kịch bản hội thoại <br>- Tối ưu tốc độ phản hồi                                                 | Postman (Test API), Google Sheets (Thu thập feedback) | 1 QA, 2 Nhân viên CSKH       | 5 - 10 triệu                |
-| **5. Triển khai & Đào tạo**        | Tuần 9       | - Tích hợp chatbot vào hệ thống chính thức <br>- Hướng dẫn nhân viên CSKH sử dụng <br>- Chuẩn bị tài liệu hướng dẫn nội bộ                           | Google Docs (hướng dẫn sử dụng), Notion (FAQs), Zalo API | 1 Trưởng dự án, 1 Nhân viên CSKH | 0 (Nội bộ thực hiện)         |
-| **6. Giám sát & Cải tiến**         | Tuần 10-12   | - Thu thập phản hồi từ khách hàng thực tế <br>- Cập nhật cơ sở dữ liệu chatbot <br>- Tích hợp thêm ngôn ngữ mới nếu cần                              | Google Analytics (theo dõi chatbot), SAP CRM         | 1 Nhân viên CSKH, 1 Kỹ sư AI  | 5 - 10 triệu                |
-| **Tổng thời gian & chi phí**       | 12 tuần (3 tháng) | Hoàn thành chatbot hỗ trợ khách hàng tự động                                                                                                     | Tích hợp API, Test hệ thống, Triển khai             | 4 - 6 nhân sự                | **25 - 40 triệu VNĐ**        |
+| **Giai đoạn**                     | **Thời gian** | **Chi tiết công việc**                                                                                                                                  | **Công cụ triển khai**                                 | **Nhân lực cần thiết**              |
+|---|---|---|---|---|
+| **1. Chuẩn hóa dữ liệu huấn luyện**      | Tuần 1-2     | - Thu thập câu hỏi thường gặp của khách hàng (FAQ)  <br>- Xác định kênh chatbot (Zalo, Facebook, Telegram, Website, App Mobile...)  <br>- Chuẩn hóa quy trình CSKH, bảo trì hỗ trợ SP | Google Forms (khảo sát), Docs , Excel, Pdf, SAP Community...              | 2 NV tư vấn triển khai <br>2 Nhân viên bảo trì <br>1 Kỹ sư AI |
+| **2. Lập kế hoạch & Thiết kế**     | Tuần 3       | - Xây dựng kịch bản hội thoại chatbot <br>- Phân loại khách hàng theo nhóm vấn đề <br>- Xác định API cần tích hợp (SAP, Zalo API, OpenAI API)        | Lucidchart (vẽ luồng hội thoại), Notion (tài liệu thiết kế) | 1 Chuyên viên AI, 1 Nhân viên CSKH    | 
+| **3. Phát triển Chatbot (MVP)**    | Tuần 4-6     | - Lập trình chatbot (Kết nối OpenAI API, SAP CRM, Zalo API)  <br>- Xây dựng cơ sở dữ liệu trả lời <br>- Test thử nghiệm với dữ liệu giả lập            | Python, Flask/FastAPI, OpenAI API, Zalo API, SAP Service Layer | 2 Lập trình viên, 1 Nhân viên kiểm thử (QA) |
+| **4. Kiểm thử & Tối ưu**           | Tuần 7-8     | - Test chatbot với khách hàng nội bộ <br>- Điều chỉnh kịch bản hội thoại <br>- Tối ưu tốc độ phản hồi                                                 | Postman (Test API), Google Sheets (Thu thập feedback) | 1 QA, 2 Nhân viên CSKH       |
+| **5. Triển khai & Đào tạo**        | Tuần 9       | - Tích hợp chatbot vào hệ thống chính thức <br>- Hướng dẫn nhân viên CSKH sử dụng <br>- Chuẩn bị tài liệu hướng dẫn nội bộ                           | Google Docs (hướng dẫn sử dụng), Notion (FAQs), Zalo API | 1 Trưởng dự án, 1 Nhân viên CSKH |
+| **6. Giám sát & Cải tiến**         | Tuần 10-12   | - Thu thập phản hồi từ khách hàng thực tế <br>- Cập nhật cơ sở dữ liệu chatbot <br>- Tích hợp thêm ngôn ngữ mới nếu cần                              | Google Analytics (theo dõi chatbot), SAP CRM         | 1 Nhân viên CSKH, 1 Kỹ sư AI  |
+| **Tổng thời gian & chi phí**       | 12 tuần (3 tháng) | Hoàn thành chatbot hỗ trợ khách hàng tự động                                                                                                     | Tích hợp API, Test hệ thống, Triển khai             | 4 - 6 nhân sự                |
 
 **Lưu ý quan trọng khi triển khai:**
 
