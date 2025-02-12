@@ -1,7 +1,7 @@
 # 1.Chiến lược sản phẩm Chatbot AI
-**Nguyên tắc xây dựng sản phẩm:** Đứng trên vai những người khổng lồ, tức là sử dụng lõi LLMs của các nhà phát triển lớn (OpenAI, Google, Meta, Anthropic...), xây dựng thêm các tính năng vệ tinh trên đó để tạo giá trị gia tăng cho từng nhóm khách hàng cụ thể.
+**1.1.Nguyên tắc xây dựng sản phẩm:** Đứng trên vai những người khổng lồ, tức là sử dụng lõi LLMs của các nhà phát triển lớn (OpenAI, Google, Meta, Anthropic...), xây dựng thêm các tính năng vệ tinh trên đó để tạo giá trị gia tăng cho từng nhóm khách hàng cụ thể.
 
-**Mục tiêu:** Vừa đảm bảo hỗ trợ công việc cho các bộ phận trong Doanh nghiệp, vừa đảm bảo phân quyền bảo mật thông tin dữ liệu khách hàng.
+**1.2.Mục tiêu:** Vừa đảm bảo hỗ trợ công việc cho các bộ phận trong Doanh nghiệp, vừa đảm bảo phân quyền bảo mật thông tin dữ liệu khách hàng.
 
 Như vậy để đáp ứng được mục tiêu và nguyên tắc trên, FoxAI đang nghiên cứu xây dựng 2 sản phẩm Chatbot AI là **Public (công khai)** và **Private (Bảo mật)**, chi tiết xem [tại đây: ](https://hoanglong8.github.io/FoxAI-Data-Analyst/Chien_luoc_chatbot_FoxAI.html)
 ![Hình ảnh:](https://github.com/hoanglong8/FoxAI-Data-Analyst/blob/main/docs/Chi%E1%BA%BFn%20l%C6%B0%E1%BB%A3c%20chatbot%20AI.png)
@@ -37,9 +37,11 @@ Chatbot Private có thể giúp doanh nghiệp **tự động hóa từ 60% - 90
 
 Hiện nay, FoxAI đã xây dựng xong chatbot trên GPT Stores [tại địa chỉ sau](https://chatgpt.com/g/g-6780c0bb3d4481919022c62333bb8046-sap-assistant-foxai)
 
-Hình ảnh
+![Hình ảnh](https://github.com/hoanglong8/FoxAI-Data-Analyst/blob/e69cf721be5d386ef3a260e3661932258d0daa2b/Image/ChatGPT_Stores.png)
 
-Chatbot này sẽ hỗ trợ khách hàng sử dụng SAP, giúp tự động hóa các yêu cầu phổ biến, hướng dẫn người dùng thao tác trên hệ thống, xử lý sự cố và hỗ trợ các vấn đề liên quan đến quy trình nghiệp vụ. Ngoài ra, **càng nhiều người sử dụng chatbot này** sẽ tăng thứ hạng trên GPT Stores, tăng độ nhận diện của thương hiệu FoxAI.
+Chatbot này sẽ hỗ trợ khách hàng sử dụng SAP, giúp tự động hóa các yêu cầu phổ biến, hướng dẫn người dùng thao tác trên hệ thống, xử lý sự cố và hỗ trợ các vấn đề liên quan đến quy trình nghiệp vụ. Chatbot được huấn luyện dựa trên những tài liệu được FoxAI nạp vào và thông qua giao tiếp với người dùng. 
+
+Ngoài ra, **càng nhiều người sử dụng chatbot này** sẽ tăng thứ hạng trên GPT Stores, tăng độ nhận diện của thương hiệu FoxAI.
 
 **3.2.Đối với sản phẩm Chatbot Private**
 
@@ -51,13 +53,12 @@ Mindmap [tại đây](https://hoanglong8.github.io/FoxAI-Data-Analyst/Chatbot_SA
 
 | **Giai đoạn**                     | **Thời gian** | **Chi tiết công việc**                                                                                                                                  | **Công cụ triển khai**                                 | **Nhân lực cần thiết**              |
 |---|---|---|---|---|
-| **1. Chuẩn hóa dữ liệu huấn luyện**      | Tuần 1-2     | - Thu thập câu hỏi thường gặp của khách hàng (FAQ)  <br>- Xác định kênh chatbot (Zalo, Facebook, Telegram, Website, App Mobile...)  <br>- Chuẩn hóa quy trình CSKH, bảo trì hỗ trợ SP | Google Forms (khảo sát), Docs , Excel, Pdf, SAP Community...              | 2 NV tư vấn triển khai <br>2 Nhân viên bảo trì <br>1 Kỹ sư AI |
-| **2. Lập kế hoạch & Thiết kế**     | Tuần 3       | - Xây dựng kịch bản hội thoại chatbot <br>- Phân loại khách hàng theo nhóm vấn đề <br>- Xác định API cần tích hợp (SAP, Zalo API, OpenAI API)        | Lucidchart (vẽ luồng hội thoại), Notion (tài liệu thiết kế) | 1 Chuyên viên AI, 1 Nhân viên CSKH    | 
-| **3. Phát triển Chatbot (MVP)**    | Tuần 4-6     | - Lập trình chatbot (Kết nối OpenAI API, SAP CRM, Zalo API)  <br>- Xây dựng cơ sở dữ liệu trả lời <br>- Test thử nghiệm với dữ liệu giả lập            | Python, Flask/FastAPI, OpenAI API, Zalo API, SAP Service Layer | 2 Lập trình viên, 1 Nhân viên kiểm thử (QA) |
-| **4. Kiểm thử & Tối ưu**           | Tuần 7-8     | - Test chatbot với khách hàng nội bộ <br>- Điều chỉnh kịch bản hội thoại <br>- Tối ưu tốc độ phản hồi                                                 | Postman (Test API), Google Sheets (Thu thập feedback) | 1 QA, 2 Nhân viên CSKH       |
-| **5. Triển khai & Đào tạo**        | Tuần 9       | - Tích hợp chatbot vào hệ thống chính thức <br>- Hướng dẫn nhân viên CSKH sử dụng <br>- Chuẩn bị tài liệu hướng dẫn nội bộ                           | Google Docs (hướng dẫn sử dụng), Notion (FAQs), Zalo API | 1 Trưởng dự án, 1 Nhân viên CSKH |
-| **6. Giám sát & Cải tiến**         | Tuần 10-12   | - Thu thập phản hồi từ khách hàng thực tế <br>- Cập nhật cơ sở dữ liệu chatbot <br>- Tích hợp thêm ngôn ngữ mới nếu cần                              | Google Analytics (theo dõi chatbot), SAP CRM         | 1 Nhân viên CSKH, 1 Kỹ sư AI  |
-| **Tổng thời gian & chi phí**       | 12 tuần (3 tháng) | Hoàn thành chatbot hỗ trợ khách hàng tự động                                                                                                     | Tích hợp API, Test hệ thống, Triển khai             | 4 - 6 nhân sự                |
+| **1. Chuẩn hóa cấu hình kiến thức**      | Tuần 1     | - Thu thập câu hỏi thường gặp của khách hàng (FAQ)  <br>- Xác định kênh chatbot (Zalo, Facebook, Telegram, Website, App Mobile...)  <br>- Chuẩn hóa quy trình CSKH, bảo trì hỗ trợ SP | Google Forms (khảo sát), Docs , Excel, Pdf, SAP Community...              | 2 NV tư vấn triển khai <br>2 Nhân viên bảo trì <br>1 Kỹ sư thiết kế hệ thống|
+| **2. Xây dựng kịch bản hội thoại**     | Tuần 2       | - Xây dựng kịch bản hội thoại chatbot <br>- Phân loại khách hàng theo nhóm vấn đề <br>- Xác định API cần tích hợp (SAP API, Zalo API, OpenAI API...)        | Vẽ luồng hội thoại (Lucidchart, Draw.io), Viết tài liệu thiết kế (Notion, GitHub) | 1 Prompt Engineer <br>1 Nhân viên bảo trì <br>1 Kỹ sư thiết kế hệ thống| 
+| **3. Hoàn thiện giải pháp Back-end**    | Tuần 3     | - Lập trình chatbot kết nối OpenAI API, SAP Service Layer API, N8N, Pincore...  <br>- Kiểm thử với các tình huống câu hỏi bằng ngôn ngữ tự nhiên <br>- Test dữ liệu trả về json với dữ liệu demo giả lập            | Python, Flask/FastAPI, OpenAI API, SAP Service Layer, N8N... | 1 Lập trình viên back-end <br> 1 Nhân viên kiểm thử (QA) |
+| **4. Hoàn thiện giải pháp Front-end**           | Tuần 4     | - Xây dựng giao diện người dùng (giai đoạn đầu thì chỉ cần phản hồi 2 chiều bằng text <br>- Lập trình chatbot kết nối OpenAI API với Telegram API (giai đoạn 1)...)<br>- Tối ưu tốc độ phản hồi <br>Tùy chỉnh ngữ cảnh, giọng điều phản hồi  | Postman (Test API), Zalo, Fb, Telegram, HTML, Google Sheets (Thu thập feedback) | 1 Lập trình viên front-end <br>1 QA <br>1 Nhân viên bảo trì  |
+| **5. Triển khai dùng thử**        | Tuần 5       | - Điều chỉnh kịch bản hội thoại <br>- Hướng dẫn khách hàng sử dụng <br>- Viết tài liệu hướng dẫn                           | Google Docs, GitHub (hướng dẫn sử dụng), Notion (FAQs) | 1 NV tư vấn triển khai, 1 Nhân viên bảo trì |
+| **6. Cải tiến & nâng cấp**         | Tuần 6 trở đi   | - Thu thập phản hồi từ khách hàng thực tế để cập nhật kịch bản hội thoại <br>- Cập nhật giao diện còn lại (Zalo, Fb, Website, Mobile App...), tích hợp ngôn ngữ tiếng Anh, Lào, Thái... <br>- Tích hợp tính năng cho phép phản hồi 2 chiều bằng Image, Voice... <br>- Cho phép người dùng có thể thay đổi mô hình LLMs khác như Claude, Gemini, DeepSeek...| Google Analytics (theo dõi chatbot), SAP        | 1 Nhân viên bảo trì, 1 Dev Back, 1 Dev Front  |
 
 **Lưu ý quan trọng khi triển khai:**
 
