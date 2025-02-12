@@ -7,7 +7,7 @@ Như vậy để đáp ứng được mục tiêu và nguyên tắc trên, FoxAI
 ![Hình ảnh:](https://github.com/hoanglong8/FoxAI-Data-Analyst/blob/main/docs/Chi%E1%BA%BFn%20l%C6%B0%E1%BB%A3c%20chatbot%20AI.png)
 
 * Chatbot Public:
-[Hình ảnh](https://github.com/hoanglong8/FoxAI-Data-Analyst/blob/main/Image/Chatbot_Public_GPTStores.png)
+![Hình ảnh](https://github.com/hoanglong8/FoxAI-Data-Analyst/blob/main/Image/Chatbot_Public_GPTStores.png)
 
 * Chatbot Private:
 ![Hình ảnh](https://github.com/hoanglong8/FoxAI-Data-Analyst/blob/main/Image/Workflow_Chatbot_Private.png)
