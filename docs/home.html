@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Trang chính</title>
+    <script>
+        if (sessionStorage.getItem("accessGranted") !== "true") {
+            window.location.href = "index.html"; // Nếu chưa nhập mật khẩu, chuyển về trang đăng nhập
+        }
+    </script>
+</head>
+<body>
+    <h1>🎉 Chào mừng bạn đến với website!</h1>
+    <p>Đây là trang chính, chỉ truy cập được nếu nhập đúng mật khẩu.</p>
+</body>
+</html>
