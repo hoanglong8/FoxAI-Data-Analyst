@@ -4,7 +4,7 @@
 
 ![Language](https://img.shields.io/badge/Language-Python-orange.svg?logo=Python&logoColor=yellow) ![Update](https://img.shields.io/badge/Update-Weekly-green.svg) ![Progress](https://img.shields.io/badge/progress-N%2F1049-brightgreen.svg) ![Sponsors](https://img.shields.io/badge/Sponsor-0-lightgrey.svg)
 
-# **Chiến lược phát triển Nhân Sự khối sản phẩm AI 5 năm tới**
+# **Chiến lược phát triển Nhân Sự khối sản phẩm AI**
 
 ![Nhân sự](https://hbr.edu.vn/storage/news/2023/08/02/6-mo-hinh-6-buoc-xay-dung-chien-luoc-nhan-su-nen-hoc-hoi-4.webp)
 
@@ -94,10 +94,6 @@
 ### **c. Đào tạo nhân sự nội bộ**
 - Ưu tiên các chứng chỉ phổ biến từ [Google, Microsoft, AWS, IBM](https://fox.ai.vn/wp-content/uploads/2024/07/Logo_Original-1.png): Những chứng chỉ này mang lại giá trị cao, được công nhận toàn cầu và sát với nhu cầu thực tế.
 - Kết hợp các khóa học miễn phí trên [Deeplearning.ai, Datacampt, GitHub](https://fox.ai.vn/wp-content/uploads/2024/07/Logo_Original-1.png): Miễn phí nhưng rất giá trị và khuyến khích học tập chủ động.
-- Chương trình [đào tạo nội bộ](https://fox.ai.vn/wp-content/uploads/2024/07/Logo_Original-1.png): FoxAI xây dựng các khóa học nội bộ, đưa lên Sharepoint để phục vụ E-learning và đào tạo hội nhập.
-
-![Rank luyenai](https://scontent.fhan17-1.fna.fbcdn.net/v/t39.30808-6/470663341_10162320360584914_6155765893060574674_n.jpg?stp=dst-jpg_p180x540_tt6&_nc_cat=104&ccb=1-7&_nc_sid=aa7b47&_nc_eui2=AeFm_SrK9NjAYMhaFDwnXCGGnAL7NB0tNQOcAvs0HS01AyyO3ymbORDKCcmetTOepXk&_nc_ohc=VkHqtoQKSHYQ7kNvgEtZi-_&_nc_oc=AdjVYE3Vd0TyGEN_is-wzs9tklziMMEcAjRbc-Ol3um20rTO-1eCmUL1HTXQrMIsUCo&_nc_zt=23&_nc_ht=scontent.fhan17-1.fna&_nc_gid=AYnxiMYCxCIOKSC2PRLDEYN&oh=00_AYDXV84ME4yXE2Fw4U5vCYi2rA5mLBIFZaMEfkvW_nxJBA&oe=6793A632)
+- Chương trình [đào tạo nội bộ](https://fox.ai.vn/wp-content/uploads/2024/07/Logo_Original-1.png): FoxAI xây dựng các website khóa học nội bộ (GitPages, Google...) có theo dõi tiến trình & thành tích học tập để phục vụ E-learning, đào tạo hội nhập.
 
 ---
-
-FoxAI cần tập trung tuyển dụng nhân sự chất lượng cao, xây dựng hệ thống hạ tầng mạnh mẽ và đầu tư vào đào tạo nội bộ để đáp ứng nhu cầu triển khai AI tại Việt Nam. Với đội ngũ tinh gọn và chiến lược rõ ràng, FoxAI sẽ tạo lợi thế cạnh tranh bền vững trong ngành AI.
