@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Đăng nhập</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            text-align: center;
+            padding: 50px;
+        }
+        .login-box {
+            max-width: 300px;
+            margin: 0 auto;
+            padding: 20px;
+            border: 1px solid #ddd;
+            border-radius: 5px;
+            box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.1);
+        }
+        input {
+            width: 90%;
+            padding: 10px;
+            margin: 10px 0;
+        }
+        button {
+            padding: 10px 20px;
+            cursor: pointer;
+        }
+    </style>
+</head>
+<body>
+    <h2>🔒 Vui lòng nhập mật khẩu để truy cập</h2>
+    <div class="login-box">
+        <input type="password" id="password" placeholder="Nhập mật khẩu..." />
+        <button onclick="checkPassword()">Đăng nhập</button>
+    </div>
+
+    <script>
+        function checkPassword() {
+            var password = document.getElementById("password").value;
+            var correctPassword = "mật khẩu của bạn"; // Thay đổi mật khẩu tại đây
+
+            if (password === correctPassword) {
+                sessionStorage.setItem("accessGranted", "true"); 
+                window.location.href = "home.html"; // Chuyển hướng tới trang chính
+            } else {
+                alert("❌ Mật khẩu không đúng! Vui lòng thử lại.");
+            }
+        }
+    </script>
+</body>
+</html>
