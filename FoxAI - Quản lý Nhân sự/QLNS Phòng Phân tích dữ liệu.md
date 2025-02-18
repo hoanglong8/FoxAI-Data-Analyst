@@ -8,7 +8,7 @@ Tuyển --> Dạy --> Dùng --> Giữ --> Thải --> Tuyển
 ## 1.Công tác Tuyển dụng
 - Kế hoạch tuyển dụng
 - Mô tả công việc JDs [tại đây](https://github.com/hoanglong8/FoxAI-Data-Analyst/blob/main/FoxAI%20-%20Qu%E1%BA%A3n%20l%C3%BD%20Nh%C3%A2n%20s%E1%BB%B1/1.C%C3%B4ng%20t%C3%A1c%20Tuy%E1%BB%83n%20d%E1%BB%A5ng%20%26%20JD.md)
-- Bộ câu hỏi phỏng vấn tại đây
+- Bộ câu hỏi phỏng vấn [tại đây](https://github.com/hoanglong8/FoxAI-Data-Analyst/blob/main/FoxAI%20-%20Qu%E1%BA%A3n%20l%C3%BD%20Nh%C3%A2n%20s%E1%BB%B1/1.1.B%E1%BB%99%20c%C3%A2u%20h%E1%BB%8Fi%20ph%E1%BB%8Fng%20v%E1%BA%A5n%20Data%20Analyst.md)
 
 ## 2.Công tác Đào tạo
 - Kế hoạch đào tạo học việc
