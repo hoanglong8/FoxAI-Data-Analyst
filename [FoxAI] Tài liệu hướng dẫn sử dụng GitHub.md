@@ -38,6 +38,8 @@ Tài liệu này được thiết kế dành cho nhân viên của FoxAI khi c�
 * **Các thành viên** trong dự án có thể dễ dàng theo dõi lại nội dung các [biên bản cuộc họp (Issue)](https://fox.ai.vn/wp-content/uploads/2024/07/Logo_Original-1.png), cùng nhau trao đổi tương tác qua Discussion, thành viên mới có thể xem lại dữ liệu History commit để nhanh chóng nắm bắt công việc.
 * **Leader** dễ dàng giao việc (task) cho từng thành viên (assignee), [quản lý tiến độ công việc](https://fox.ai.vn/wp-content/uploads/2024/07/Logo_Original-1.png), hỗ trợ nhân viên và báo cáo đánh giá chất lượng công việc.
 
+![Hình ảnh đối tượng](https://github.com/hoanglong8/FoxAI-Data-Analyst/blob/main/Image/Qu%E1%BA%A3n%20l%C3%BD%20d%E1%BB%B1%20%C3%A1n%20tr%C3%AAn%20GitHub%20-%201.1.png)
+
 ### 1.2.Mục tiêu tài liệu
 
 Người dùng sau khi đọc tài liệu này có thể:
@@ -46,8 +48,6 @@ Người dùng sau khi đọc tài liệu này có thể:
 * **Thực hành được** các công cụ [Discussion](https://fox.ai.vn/wp-content/uploads/2024/07/Logo_Original-1.png) để thảo luận, đưa ra ý tưởng, đề xuất giải pháp, tạo cuộc bình chọn, hỏi đáp Q&A với các thành viên khác.
 * **Ứng dụng được** công cụ [Project, Milestone](https://fox.ai.vn/wp-content/uploads/2024/07/Logo_Original-1.png) để quản lý tiến độ các dự án đang triển khai.
 * **Hiểu được** công cụ [Insight (Hiểu biết sâu sắc dạng Dashboard)](https://fox.ai.vn/wp-content/uploads/2024/07/Logo_Original-1.png) để có cái nhìn tổng quát theo từng contributors, Traffic (mức độ quan tâm) theo từng bài viết, Folk (quản lý phiên bản)...
-
-![Hình ảnh đối tượng](https://github.com/hoanglong8/FoxAI-Data-Analyst/blob/main/Image/Qu%E1%BA%A3n%20l%C3%BD%20d%E1%BB%B1%20%C3%A1n%20tr%C3%AAn%20GitHub%20-%201.1.png)
 
 ### 1.3.Quản lý kho lưu trữ [Repository](https://docs.github.com/en/get-started/quickstart/create-a-repo)
 
@@ -87,18 +87,23 @@ Người dùng sau khi đọc tài liệu này có thể:
 
 ```mermaid
 graph TD
-  A["Milestone - Giai đoạn"] --> B["Project - Dự án"]
+  A["Project - Dự án"] --> B["Milestones - Giai đoạn"]
   B --> C["Issue - Công việc"]
   C --> D["Task - Nhiệm vụ"]
 ```
 
-2.1. [**Milestones**](https://docs.github.com/en/issues/tracking-your-work-with-issues/creating-issues)
-- Tạo milestone rồi gắn Issue vào milestone.  
-- GitHub hiển thị % công việc đã đóng (done) / tổng Issue.
+2.1. [**Project**](https://docs.github.com/en/issues/tracking-your-work-with-issues/creating-issues)
+![Hình ảnh Project](https://lh3.googleusercontent.com/BZYCW3xKmzU3XfrqSvA-gnPjMaoDR3njiRXckKbs-mvKY22HJjklo7_scmf7C31R8o5s63y5cNllEO_pUtRb_DCdiA=s1280-w1280-h800)
 
-2.2. [**Project**](https://docs.github.com/en/issues/tracking-your-work-with-issues/creating-issues)
-- Tại trang **Projects** (trong repository hoặc trong profile), nhấn **New project**.  
-- Đặt tên, chọn **Template** (nếu có).
+- Ý nghĩa: Để quản lý tổng thể các công việc, tài liệu đào tạo, giải pháp kỹ thuật và hỗ trợ đối với 1 khách hàng
+- Thao tác: Tại trang **Projects** (trong repository hoặc trong profile), nhấn **New project**, chọn **Template** (nếu có).
+
+2.2. [**Milestones**](https://docs.github.com/en/issues/tracking-your-work-with-issues/creating-issues)
+![Hình ảnh Milestones](https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSOBTwuyEnpJKJtwxaQRAl8LPPXrKjCkG1Enw&s)
+
+- Ý nghĩa: Để quản lý **giai đoạn** của dự án, **sản phẩm** trong dự án hoặc **phiên bản** của source code.
+- Thao tác: Tạo milestones rồi gắn Issue vào milestones.  
+- GitHub hiển thị % công việc đã đóng (done) / tổng Issue.
 
 2.3. [**Issue**](https://docs.github.com/en/issues/tracking-your-work-with-issues)
 - Tại tab **Issues** → **New issue**.  
