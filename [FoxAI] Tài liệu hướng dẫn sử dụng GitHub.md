@@ -56,30 +56,30 @@ Người dùng sau khi đọc tài liệu này có thể:
 **1.3.1.Các trạng thái của một repo:**
 ![Hình ảnh repo](https://sfdctechie.wordpress.com/wp-content/uploads/2019/12/github.png)
 
-* Working dir: là nơi bạn thực hiện các thao tác biên soạn, chỉnh sửa tài liệu.
+* **Working copy**: là nơi người dùng thực hiện các thao tác biên soạn, chỉnh sửa tài liệu trên máy trạm.
 
-* Stagging area: là những sự thay đổi của file được lưu lại, giống như khi ấn Save.
+* **Local Repo**: là những sự thay đổi của file được lưu lại ở máy chủ.
 
-* Git directory: là nơi lưu trữ tài liệu trên cloud (github).
+* **Remote Repo**: là nơi lưu trữ tài liệu trên Cloud của Github.
 
 **1.3.2.Các thao tác với tài liệu trên Repo:**
 ![Thao tác Repo](https://freetuts.net/upload/tut_post/images/2017/10/09/1071/basic-remote-workflow.png)
 
-* Add hoặc Upload file: mặc định file đầu tiên là `readme.md` viết bằng ngôn ngữ Markdown - một ngôn ngữ ghi chú nhanh, rất nhỏ gọn và thuận tiện (xem hướng dẫn tại đây).
+* **Add/Upload file**: mặc định file đầu tiên là `readme.md` viết bằng ngôn ngữ Markdown - một ngôn ngữ ghi chú nhanh, rất nhỏ gọn và thuận tiện (xem hướng dẫn tại đây).
 
-* Commit: tương tự tính năng lưu (Save file)
+* **Commit**: tương tự tính năng lưu (Save file)
 
-* History: cho phép nền tảng lưu lại tất cả những thay đổi trên tài liệu và có thể quay về bất kỳ thời điểm nào
+* **History**: cho phép nền tảng lưu lại tất cả những thay đổi trên tài liệu và có thể quay về bất kỳ thời điểm nào
 
-* Branch - Phân nhánh: là một quá trình 1 người dùng khác tạo ra bản sao của kho tài liệu để chỉnh sửa mà không làm ảnh hưởng đến bản gốc
+* **Clone - Phân nhánh**: là một quá trình người dùng B tạo ra bản sao `branch` của kho tài liệu để chỉnh sửa mà không làm ảnh hưởng đến bản chính `main`
 
-* Pull Request - Yêu cầu kéo: là quá trình 1 người dùng khác gửi đề xuất hợp nhất vào bản gốc
+* **Pull Request - Yêu cầu kéo**: là quá trình người dùng B gửi đề xuất hợp nhất vào bản chính `main`
 
-* Merge - Hợp nhất: là quá trình admin phê duyệt áp dụng những thay đổi của bản sao `branch` vào nhánh chính `main`
+* **Merge - Hợp nhất**: là quá trình người dùng A phê duyệt áp dụng những thay đổi của bản sao `branch` vào nhánh chính `main`
 
-* Push: Đẩy file từ máy trạm lên server (nếu dùng bản desktop)
+* **Push**: Đẩy file từ máy trạm lên server (nếu dùng bản desktop)
 
-* Pull: đồng bộ trạng thái từ server về máy trạm (nếu dùng bản desktop)
+* **Pull**: đồng bộ trạng thái từ server về máy trạm (nếu dùng bản desktop)
 
 ## 2. Quản lý dự án GitHub [Projects](https://docs.github.com/en/issues/planning-and-tracking-with-projects)
 
