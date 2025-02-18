@@ -24,6 +24,8 @@ Tuyển --> Dạy --> Dùng --> Giữ --> Thải --> Tuyển
 - Quản lý tài liệu, biên bản nghiệm thu dự án [tại Sharepoint](https://foxai.sharepoint.com/sites/TaiLieuTTSXFoxAI/Shared%20Documents/Forms/AllItems.aspx) và tài liệu kỹ thuật [tại GitHub Code](https://github.com/hoanglong8/FoxAI-Data-Analyst)
 
 ## 4.Công tác Đánh giá nhân sự
+- Kế hoạch và chỉ tiêu KPI công ty giao
+- Quy tắc và tài liệu đánh giá KPI [tại đây](https://github.com/hoanglong8/FoxAI-Data-Analyst/blob/main/FoxAI%20-%20Qu%E1%BA%A3n%20l%C3%BD%20Nh%C3%A2n%20s%E1%BB%B1/3.C%C3%B4ng%20t%C3%A1c%20%C4%91%C3%A1nh%20gi%C3%A1%20NS.md)
 
 ## 5.Công tác hành chính khác
 
