@@ -18,6 +18,8 @@
 3. [Các dạng xem báo cáo Kanban, Table, Roadmap](#3-Xem-bao-cao)
 4. [Các tiện ích mở rộng](#4-Thao-luan)
 
+<img src="https://github.com/hoanglong8/FoxAI-Data-Analyst/blob/main/Image/GitHub1.png">
+
 ## 1.Giới thiệu chung về GitHub
 
 - [GitHub](https://docs.github.com/en/get-started) là nền tảng quản lý mã nguồn (phiên bản), hỗ trợ cộng tác, chia sẻ và lưu trữ dự án với các tính năng chính: Repository (kho lưu trữ mã nguồn), Issues (Công việc), Task (Nhiệm vụ), Projects (Dự án), Milestone (Phiên bản), Label (Nhãn), Team (Nhóm, bộ phận)...
@@ -26,11 +28,11 @@
 
 - Cách đăng ký: Truy cập [github.com](https://github.com/) rồi đăng ký bằng tài khoản email (công ty hoặc cá nhân). `Lưu ý`: Ghi rõ họ và tên (có dấu) và thông tin `công ty CP Công nghệ FoxAI` để tránh lẫn sau này.
 
-<img src="https://imgur.com/a/ZwglOg1">
+<img src="https://github.com/hoanglong8/FoxAI-Data-Analyst/blob/main/Image/GitHub3.png">
 
 - Xác minh email:
 
-<img src="https://imgur.com/a/3whuKDY">
+<img src="https://github.com/hoanglong8/FoxAI-Data-Analyst/blob/main/Image/GitHub4.png">
 
 ### 1.1.Đối tượng sử dụng
 Tài liệu này được thiết kế dành cho nhân viên của FoxAI khi cần thực hiện các công việc như:
@@ -51,7 +53,7 @@ Người dùng sau khi đọc tài liệu này có thể:
 * **Ứng dụng được** công cụ [Project, Milestone](https://fox.ai.vn/wp-content/uploads/2024/07/Logo_Original-1.png) để quản lý tiến độ các dự án đang triển khai.
 * **Hiểu được** công cụ [Insight (Hiểu biết sâu sắc dạng Dashboard)](https://fox.ai.vn/wp-content/uploads/2024/07/Logo_Original-1.png) để có cái nhìn tổng quát theo từng contributors, Traffic (mức độ quan tâm) theo từng bài viết, Folk (quản lý phiên bản)...
 
-<img src="https://imgur.com/a/3whuKDY">
+<img src="https://github.com/hoanglong8/FoxAI-Data-Analyst/blob/main/Image/GitHub5.png">
 
 ### 1.3.Quản lý kho lưu trữ [Repository](https://docs.github.com/en/get-started/quickstart/create-a-repo)
 
