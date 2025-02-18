@@ -1,8 +1,8 @@
 # Quản lý công tác nhân sự của Phòng Data Analyst
 
 ```mermaid
-Graph LR
-Tuyển --> Dạy --> Dùng --> Giữ --> Thải
+   Graph LR;
+   Tuyển --> Dạy --> Dùng --> Giữ --> Thải
 ```
 
 ## 1.Công tác Tuyển dụng
