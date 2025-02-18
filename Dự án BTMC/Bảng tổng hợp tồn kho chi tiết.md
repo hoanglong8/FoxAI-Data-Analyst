@@ -1,14 +1,14 @@
 Bảng tổng hợp tồn kho chi tiết:
 
     SELECT 
-BCTK.[Loại chứng từ],
-Branch.BranchName AS [Têm chi nhánh],
-Counters.Name AS [Tên quầy],
-OIBT.ItmsGrpName AS [Tên nhóm hàng hóa],
-OITM.ItemName AS [Tên hàng hóa],
-BCTK.[Khối lượng],
-BCTK.[Ngày chứng từ],
-BCTK.[Mã hóa đơn],
+	BCTK.[Loại chứng từ],
+	Branch.BranchName AS [Têm chi nhánh],
+	Counters.Name AS [Tên quầy],
+	OIBT.ItmsGrpName AS [Tên nhóm hàng hóa],
+	OITM.ItemName AS [Tên hàng hóa],
+	BCTK.[Khối lượng],
+	BCTK.[Ngày chứng từ],
+	BCTK.[Mã hóa đơn],
     CASE 
 		WHEN BCTK.[Loại đối tượng] = 13 THEN N'Hóa đơn bán hàng'
         WHEN BCTK.[Loại đối tượng] = 18 THEN N'Hóa đơn mua hàng'
