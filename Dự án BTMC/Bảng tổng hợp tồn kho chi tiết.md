@@ -18,7 +18,7 @@ Bảng tổng hợp tồn kho chi tiết:
 		        WHEN BCTK.[Loại đối tượng] = 26 THEN N'Đặt hàng'
 		        WHEN BCTK.[Loại đối tượng] = 67 THEN N'Chuyển kho nội bộ'
 		        ELSE N'Khác'
-		    END AS [Loại chứng từ],
+		    END AS [Loại chứng từ CASE],  -- Đổi tên cột này
 		    CASE 
 		        WHEN BCTK.[Loại đối tượng] = 13 AND ODOC.Status = 'O' THEN N'Chờ thanh toán'
 		        WHEN BCTK.[Loại đối tượng] = 13 AND ODOC.Status = 'CP' THEN N'Đã thanh toán (Trừ kho)'
@@ -36,9 +36,9 @@ Bảng tổng hợp tồn kho chi tiết:
 		        ELSE N'Khác'
 		    END AS [Trạng thái],
 		    CASE
-		        WHEN BCTK.[Loại đối tượng] = 19 AND DOC1.ActionType = 'IN' THEN N'Nhập kho'
-		        WHEN BCTK.[Loại đối tượng] = 19 AND DOC1.ActionType = 'W' THEN N'Sản phẩm cần thanh toán tiền'
-		        WHEN BCTK.[Loại đối tượng] = 19 AND DOC1.ActionType = 'OUT' THEN N'Xuất kho'
+		        WHEN BCTK.[Loại đối tượng] = 19 AND ODOC.Status = 'IN' THEN N'Nhập kho'
+		        WHEN BCTK.[Loại đối tượng] = 19 AND ODOC.Status = 'W' THEN N'Sản phẩm cần thanh toán tiền'
+		        WHEN BCTK.[Loại đối tượng] = 19 AND ODOC.Status = 'OUT' THEN N'Xuất kho'
 		        ELSE N'Không có'
 		    END AS [Hành động],
 		    BCTK.[Nhập trong kỳ],
@@ -74,5 +74,5 @@ Bảng tổng hợp tồn kho chi tiết:
 		    BCTK.[Nhập trong kỳ],
 		    BCTK.[Nhập trong kỳ khác],
 		    BCTK.[Xuất trong kỳ],
-		    BCTK.[Xuất trong kỳ khác],
-			DOC1.ActionType
+		    BCTK.[Xuất trong kỳ khác]
+
