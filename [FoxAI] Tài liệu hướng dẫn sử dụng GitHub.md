@@ -30,7 +30,7 @@
 
 ![Hình ảnh đăng ký](https://blogchiasekienthuc.com/wp-content/uploads/2020/12/cai-github-desktop-de-quan-ly-ma-nguon-mo-2.png)
 
-### Đối tượng sử dụng
+### 1.1.Đối tượng sử dụng
 Tài liệu này được thiết kế dành cho nhân viên của FoxAI khi cần thực hiện các công việc như:
 * **Bộ phận lập trình viên** (Devs) [quản lý mã nguồn (source-code)](https://fox.ai.vn/wp-content/uploads/2024/07/Logo_Original-1.png) một cách tập trung, thống nhất (đặc biệt là khi cả nhóm cùng code);
 * **Bộ phận tư vấn triển khai** (Colsutant) cập nhật, sửa đổi và phát hành [tài liệu đào tạo, hỗ trợ khách hàng](https://fox.ai.vn/wp-content/uploads/2024/07/Logo_Original-1.png) một cách nhanh chóng (đặc biệt là khi cả nhóm cùng sửa từng phần trên cùng tài liệu);
@@ -38,7 +38,7 @@ Tài liệu này được thiết kế dành cho nhân viên của FoxAI khi c�
 * **Các thành viên** trong dự án có thể dễ dàng theo dõi lại nội dung các [biên bản cuộc họp (Issue)](https://fox.ai.vn/wp-content/uploads/2024/07/Logo_Original-1.png), cùng nhau trao đổi tương tác qua Discussion, thành viên mới có thể xem lại dữ liệu History commit để nhanh chóng nắm bắt công việc.
 * **Leader** dễ dàng giao việc (task) cho từng thành viên (assignee), [quản lý tiến độ công việc](https://fox.ai.vn/wp-content/uploads/2024/07/Logo_Original-1.png), hỗ trợ nhân viên và báo cáo đánh giá chất lượng công việc.
 
-### Mục tiêu tài liệu
+### 1.2.Mục tiêu tài liệu
 
 Người dùng sau khi đọc tài liệu này có thể:
 * **Biết cách** dùng công cụ [Repository (Bản lưu trữ)](https://fox.ai.vn/wp-content/uploads/2024/07/Logo_Original-1.png) để quản lý, chỉnh sửa, cập nhật tài liệu (Tab đầu tiên Code)
@@ -49,12 +49,12 @@ Người dùng sau khi đọc tài liệu này có thể:
 
 ![Hình ảnh đối tượng](https://github.com/hoanglong8/FoxAI-Data-Analyst/blob/main/Image/Qu%E1%BA%A3n%20l%C3%BD%20d%E1%BB%B1%20%C3%A1n%20tr%C3%AAn%20GitHub%20-%201.1.png)
 
-### Quản lý kho lưu trữ [Repository](https://docs.github.com/en/get-started/quickstart/create-a-repo)
+### 1.3.Quản lý kho lưu trữ [Repository](https://docs.github.com/en/get-started/quickstart/create-a-repo)
 
 **Repository**, hay **Repo**, là một kho lưu trữ cloud nhằm thực hiện và quản lý các thay đổi đối với tài liệu (nhiều người cùng chỉnh sửa) hoặc source code (nhiều Devs cùng code).
 
-**Ba trạng thái của một repo:**
-![Hình ảnh repo](https://camo.githubusercontent.com/f0280ea795233822f706a6d197ef4538864c529b8b1c3c0865e4d069a86179e5/687474703a2f2f692e696d6775722e636f6d2f716b6d644a53522e706e67)
+**1.3.1.Các trạng thái của một repo:**
+![Hình ảnh repo](https://sfdctechie.wordpress.com/wp-content/uploads/2019/12/github.png)
 
 * Working dir: là nơi bạn thực hiện các thao tác biên soạn, chỉnh sửa tài liệu.
 
@@ -62,7 +62,8 @@ Người dùng sau khi đọc tài liệu này có thể:
 
 * Git directory: là nơi lưu trữ tài liệu trên cloud (github).
 
-**Các thao tác với tài liệu trên Repo:**
+**1.3.2.Các thao tác với tài liệu trên Repo:**
+![Thao tác Repo](https://freetuts.net/upload/tut_post/images/2017/10/09/1071/basic-remote-workflow.png)
 
 * Add hoặc Upload file: mặc định file đầu tiên là `readme.md` viết bằng ngôn ngữ Markdown - một ngôn ngữ ghi chú nhanh, rất nhỏ gọn và thuận tiện (xem hướng dẫn tại đây).
 
