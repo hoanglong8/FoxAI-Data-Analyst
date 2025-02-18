@@ -9,7 +9,7 @@
 ![Hotline](https://img.shields.io/badge/Liên_hệ-info@foxai.vn-red)
 
 # Nội dung
-1. [Quản lý kho lưu trữ Repository](https://docs.github.com/en/get-started/quickstart)
+1. [Giới thiệu chung về GitHub và kho lưu trữ Repo](https://docs.github.com/en/get-started/quickstart)
 
 2. [Công cụ quản lý dự án](https://docs.github.com/en/issues/planning-and-tracking-with-projects)
    * [Milestone](#2-1-Milestone)
@@ -20,7 +20,7 @@
 4. [Thảo luận và Tiện ích mở rộng](#4-Thao-luan)
 5. [Một số mẹo và kinh nghiệm](#3-TỰ-ĐỒNG-BỘ-TẠO-BOOK-ONLINE)
 
-## Giới thiệu chung về GitHub
+## 1.Giới thiệu chung về GitHub
 
 - [GitHub](https://docs.github.com/en/get-started) là nền tảng quản lý mã nguồn (phiên bản), hỗ trợ cộng tác, chia sẻ và lưu trữ dự án với các tính năng chính: Repository (kho lưu trữ mã nguồn), Issues (Công việc), Task (Nhiệm vụ), Projects (Dự án), Milestone (Phiên bản), Label (Nhãn), Team (Nhóm, bộ phận)...
 
@@ -28,7 +28,9 @@
 
 ![Hình ảnh đăng ký](https://blogchiasekienthuc.com/wp-content/uploads/2020/12/cai-github-desktop-de-quan-ly-ma-nguon-mo-2.png)
 
-## Đối tượng sử dụng
+![Hình ảnh](https://github.com/hoanglong8/FoxAI-Data-Analyst/blob/main/Image/Qu%E1%BA%A3n%20l%C3%BD%20d%E1%BB%B1%20%C3%A1n%20tr%C3%AAn%20GitHub%20-%201.1.png)
+
+### Đối tượng sử dụng
 Tài liệu này được thiết kế dành cho nhân viên của FoxAI khi cần thực hiện các công việc như:
 * **Bộ phận lập trình viên** (Devs) [quản lý mã nguồn (source-code)](https://fox.ai.vn/wp-content/uploads/2024/07/Logo_Original-1.png) một cách tập trung, thống nhất (đặc biệt là khi cả nhóm cùng code);
 * **Bộ phận tư vấn triển khai** (Colsutant) cập nhật, sửa đổi và phát hành [tài liệu đào tạo, hỗ trợ khách hàng](https://fox.ai.vn/wp-content/uploads/2024/07/Logo_Original-1.png) một cách nhanh chóng (đặc biệt là khi cả nhóm cùng sửa từng phần trên cùng tài liệu);
@@ -36,7 +38,7 @@ Tài liệu này được thiết kế dành cho nhân viên của FoxAI khi c�
 * **Các thành viên** trong dự án có thể dễ dàng theo dõi lại nội dung các [biên bản cuộc họp (Issue)](https://fox.ai.vn/wp-content/uploads/2024/07/Logo_Original-1.png), cùng nhau trao đổi tương tác qua Discussion, thành viên mới có thể xem lại dữ liệu History commit để nhanh chóng nắm bắt công việc.
 * **Leader** dễ dàng giao việc (task) cho từng thành viên (assignee), [quản lý tiến độ công việc](https://fox.ai.vn/wp-content/uploads/2024/07/Logo_Original-1.png), hỗ trợ nhân viên và báo cáo đánh giá chất lượng công việc.
 
-## Mục tiêu
+### Mục tiêu tài liệu
 
 Người dùng sau khi đọc tài liệu này có thể:
 * **Biết cách** dùng công cụ [Repository (Bản lưu trữ)](https://fox.ai.vn/wp-content/uploads/2024/07/Logo_Original-1.png) để quản lý, chỉnh sửa, cập nhật tài liệu (Tab đầu tiên Code)
@@ -45,7 +47,7 @@ Người dùng sau khi đọc tài liệu này có thể:
 * **Ứng dụng được** công cụ [Project, Milestone](https://fox.ai.vn/wp-content/uploads/2024/07/Logo_Original-1.png) để quản lý tiến độ các dự án đang triển khai.
 * **Hiểu được** công cụ [Insight (Hiểu biết sâu sắc dạng Dashboard)](https://fox.ai.vn/wp-content/uploads/2024/07/Logo_Original-1.png) để có cái nhìn tổng quát theo từng contributors, Traffic (mức độ quan tâm) theo từng bài viết, Folk (quản lý phiên bản)...
 
-## 1. Quản lý kho lưu trữ [Repository](https://docs.github.com/en/get-started/quickstart/create-a-repo)
+### Quản lý kho lưu trữ [Repository](https://docs.github.com/en/get-started/quickstart/create-a-repo)
 
 **Tạo Repository**  
 - Nhấn nút **+** (New) ở góc trên bên phải → **New repository**.  
