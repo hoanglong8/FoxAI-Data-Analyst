@@ -13,7 +13,7 @@ Bảng tổng hợp tồn kho chi tiết:
     FROM [dbo].[BaoCaoTonKhoChiTiet] (
     '20250201',
     '20250217',
-    'GoldExchang',
+    'GoldExchange',
     17,
     58,
     27,
