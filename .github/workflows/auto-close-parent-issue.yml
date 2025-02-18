@@ -4,11 +4,14 @@ on:
   issues:
     types: [closed]
 
+permissions:
+  issues: write  # Cấp quyền chỉnh sửa issue
+
 jobs:
   check-parent-issue:
     runs-on: ubuntu-latest
     steps:
-      - name: Lấy danh sách sub-issues
+      - name: Lấy danh sách sub-issues và đóng issue cha nếu cần
         uses: actions/github-script@v6
         with:
           github-token: ${{ secrets.GITHUB_TOKEN }}
