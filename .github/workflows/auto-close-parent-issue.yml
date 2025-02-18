@@ -1,0 +1,65 @@
+name: Auto Close Parent Issue
+
+on:
+  issues:
+    types: [closed]
+
+jobs:
+  check-parent-issue:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Lấy danh sách sub-issues
+        uses: actions/github-script@v6
+        with:
+          github-token: ${{ secrets.GITHUB_TOKEN }}
+          script: |
+            const issue_number = context.payload.issue.number;
+            const owner = context.repo.owner;
+            const repo = context.repo.repo;
+
+            // Lấy danh sách comments để kiểm tra có issue cha không
+            const comments = await github.rest.issues.listComments({
+              owner,
+              repo,
+              issue_number
+            });
+
+            let parentIssueNumber = null;
+            for (const comment of comments.data) {
+              const match = comment.body.match(/Parent Issue: #(\d+)/);
+              if (match) {
+                parentIssueNumber = parseInt(match[1]);
+                break;
+              }
+            }
+
+            if (!parentIssueNumber) {
+              console.log("Không tìm thấy issue cha. Kết thúc job.");
+              return;
+            }
+
+            console.log(`Issue cha được tìm thấy: #${parentIssueNumber}`);
+
+            // Lấy danh sách tất cả issues trong repo
+            const issues = await github.rest.issues.listForRepo({
+              owner,
+              repo,
+              state: "open"
+            });
+
+            let subIssuesOpen = issues.data.filter(issue => 
+              issue.body.includes(`Parent Issue: #${parentIssueNumber}`) && 
+              issue.state === "open"
+            );
+
+            if (subIssuesOpen.length === 0) {
+              console.log(`Tất cả sub-issues đã đóng. Đóng issue cha #${parentIssueNumber}.`);
+              await github.rest.issues.update({
+                owner,
+                repo,
+                issue_number: parentIssueNumber,
+                state: "closed"
+              });
+            } else {
+              console.log(`Vẫn còn ${subIssuesOpen.length} sub-issue đang mở.`);
+            }
