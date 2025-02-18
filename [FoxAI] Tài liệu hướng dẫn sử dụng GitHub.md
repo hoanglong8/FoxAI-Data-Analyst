@@ -26,11 +26,11 @@
 
 - Cách đăng ký: Truy cập [github.com](https://github.com/) rồi đăng ký bằng tài khoản email (công ty hoặc cá nhân). `Lưu ý`: Ghi rõ họ và tên (có dấu) và thông tin `công ty CP Công nghệ FoxAI` để tránh lẫn sau này.
 
-![Hình ảnh đăng ký](https://caodang.fpt.edu.vn/wp-content/uploads/12-9.png)
+<img src="https://imgur.com/a/ZwglOg1">
 
 - Xác minh email:
 
-![Hình ảnh email](https://caodang.fpt.edu.vn/wp-content/uploads/13-4.png)
+<img src="https://imgur.com/a/3whuKDY">
 
 ### 1.1.Đối tượng sử dụng
 Tài liệu này được thiết kế dành cho nhân viên của FoxAI khi cần thực hiện các công việc như:
@@ -50,6 +50,8 @@ Người dùng sau khi đọc tài liệu này có thể:
 * **Thực hành được** các công cụ [Discussion](https://fox.ai.vn/wp-content/uploads/2024/07/Logo_Original-1.png) để thảo luận, đưa ra ý tưởng, đề xuất giải pháp, tạo cuộc bình chọn, hỏi đáp Q&A với các thành viên khác.
 * **Ứng dụng được** công cụ [Project, Milestone](https://fox.ai.vn/wp-content/uploads/2024/07/Logo_Original-1.png) để quản lý tiến độ các dự án đang triển khai.
 * **Hiểu được** công cụ [Insight (Hiểu biết sâu sắc dạng Dashboard)](https://fox.ai.vn/wp-content/uploads/2024/07/Logo_Original-1.png) để có cái nhìn tổng quát theo từng contributors, Traffic (mức độ quan tâm) theo từng bài viết, Folk (quản lý phiên bản)...
+
+![Hình ảnh](https://imgur.com/a/ZAJGQ3a)
 
 ### 1.3.Quản lý kho lưu trữ [Repository](https://docs.github.com/en/get-started/quickstart/create-a-repo)
 
