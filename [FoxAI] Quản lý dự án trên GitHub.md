@@ -26,13 +26,7 @@
 
 - Github có bản free và mất phí. Với Github free thì source code của bạn sẽ công khai, có nghĩa là ai cũng có thể xem code của bạn. Nó phù hợp với các phần mềm nguồn mở, và cũng có thể trở thành một blog cá nhân của chính các bạn như các trang blogspot, wordpress,...
 
-- Cách đăng ký: Truy cập [github.com](https://github.com/) rồi đăng ký bằng tài khoản email (công ty hoặc cá nhân). `Lưu ý`: Ghi rõ họ và tên (có dấu) và thông tin `công ty CP Công nghệ FoxAI` để tránh lẫn sau này.
-
-<img src="https://github.com/hoanglong8/FoxAI-Data-Analyst/blob/main/Image/GitHub3.png">
-
-- Xác minh email:
-
-<img src="https://github.com/hoanglong8/FoxAI-Data-Analyst/blob/main/Image/GitHub4.png">
+![Hình ảnh đối tượng](https://github.com/hoanglong8/FoxAI-Data-Analyst/blob/main/Image/Qu%E1%BA%A3n%20l%C3%BD%20d%E1%BB%B1%20%C3%A1n%20tr%C3%AAn%20GitHub%20-%201.1.png)
 
 ### 1.1.Đối tượng sử dụng
 Tài liệu này được thiết kế dành cho nhân viên của FoxAI khi cần thực hiện các công việc như:
@@ -41,8 +35,6 @@ Tài liệu này được thiết kế dành cho nhân viên của FoxAI khi c�
 * **Bộ phận hành chính nhân sự** cập nhật tài liệu, quy trình, quy định để [truyền thông nội bộ](https://fox.ai.vn/wp-content/uploads/2024/07/Logo_Original-1.png) một cách hiệu quả (với tài liệu lớn thì lưu trên Sharepoint rồi gắn link), tránh phân tán tài liệu ở nhiều nơi.
 * **Các thành viên** trong dự án có thể dễ dàng theo dõi lại nội dung các [biên bản cuộc họp (Issue)](https://fox.ai.vn/wp-content/uploads/2024/07/Logo_Original-1.png), cùng nhau trao đổi tương tác qua Discussion, thành viên mới có thể xem lại dữ liệu History commit để nhanh chóng nắm bắt công việc.
 * **Leader** dễ dàng giao việc (task) cho từng thành viên (assignee), [quản lý tiến độ công việc](https://fox.ai.vn/wp-content/uploads/2024/07/Logo_Original-1.png), hỗ trợ nhân viên và báo cáo đánh giá chất lượng công việc.
-
-![Hình ảnh đối tượng](https://github.com/hoanglong8/FoxAI-Data-Analyst/blob/main/Image/Qu%E1%BA%A3n%20l%C3%BD%20d%E1%BB%B1%20%C3%A1n%20tr%C3%AAn%20GitHub%20-%201.1.png)
 
 ### 1.2.Mục tiêu tài liệu
 
@@ -55,11 +47,23 @@ Người dùng sau khi đọc tài liệu này có thể:
 
 <img src="https://github.com/hoanglong8/FoxAI-Data-Analyst/blob/main/Image/GitHub5.png">
 
-### 1.3.Quản lý kho lưu trữ [Repository](https://docs.github.com/en/get-started/quickstart/create-a-repo)
+### 1.4.Đăng ký tài khoản
+
+- Cách đăng ký: Truy cập [github.com](https://github.com/) rồi đăng ký bằng tài khoản email (công ty hoặc cá nhân).
+
+`Lưu ý`: Ghi rõ họ và tên (có dấu) và thông tin `công ty CP Công nghệ FoxAI` để tránh lẫn sau này.
+
+<img src="https://github.com/hoanglong8/FoxAI-Data-Analyst/blob/main/Image/GitHub3.png">
+
+- Xác minh email và có thể thiết lập bảo mật 2 bước 2FA:
+
+<img src="https://github.com/hoanglong8/FoxAI-Data-Analyst/blob/main/Image/GitHub4.png">
+
+### 1.4.Quản lý kho lưu trữ [Repository](https://docs.github.com/en/get-started/quickstart/create-a-repo)
 
 **Repository**, hay **Repo**, là một kho lưu trữ cloud nhằm thực hiện và quản lý các thay đổi đối với tài liệu (nhiều người cùng chỉnh sửa) hoặc source code (nhiều Devs cùng code).
 
-**1.3.1.Các trạng thái của một repo:**
+**1.4.1.Các trạng thái của một repo:**
 ![Hình ảnh repo](https://sfdctechie.wordpress.com/wp-content/uploads/2019/12/github.png)
 
 * **Working copy**: là nơi người dùng thực hiện các thao tác biên soạn, chỉnh sửa tài liệu trên máy trạm.
@@ -68,7 +72,7 @@ Người dùng sau khi đọc tài liệu này có thể:
 
 * **Remote Repo**: là nơi lưu trữ tài liệu trên Cloud của Github.
 
-**1.3.2.Các thao tác với tài liệu trên Repo:**
+**1.4.2.Các thao tác với tài liệu trên Repo:**
 ![Thao tác Repo](https://freetuts.net/upload/tut_post/images/2017/10/09/1071/basic-remote-workflow.png)
 
 * **Add/Upload file**: mặc định file đầu tiên là `readme.md` viết bằng ngôn ngữ Markdown - một ngôn ngữ ghi chú nhanh, rất nhỏ gọn và thuận tiện (xem hướng dẫn viết tài liệu [tại đây](https://github.com/hoanglong8/HDSD_markdown_GitHub/blob/master/README.md)).
