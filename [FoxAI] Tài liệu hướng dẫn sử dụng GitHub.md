@@ -10,15 +10,13 @@
 
 # Nội dung
 1. [Giới thiệu chung về GitHub và kho lưu trữ Repo](https://docs.github.com/en/get-started/quickstart)
-
 2. [Công cụ quản lý dự án](https://docs.github.com/en/issues/planning-and-tracking-with-projects)
    * [Milestone](#2-1-Milestone)
    * [Project](#2-2-Project)
    * [Issue](#2-3-Issues)
    * [Task](#2-4-Task)
 3. [Các dạng xem báo cáo Kanban, Table, Roadmap](#3-Xem-bao-cao)
-4. [Thảo luận và Tiện ích mở rộng](#4-Thao-luan)
-5. [Một số mẹo và kinh nghiệm](#3-TỰ-ĐỒNG-BỘ-TẠO-BOOK-ONLINE)
+4. [Các tiện ích mở rộng](#4-Thao-luan)
 
 ## 1.Giới thiệu chung về GitHub
 
@@ -26,9 +24,13 @@
 
 - Github có bản free và mất phí. Với Github free thì source code của bạn sẽ công khai, có nghĩa là ai cũng có thể xem code của bạn. Nó phù hợp với các phần mềm nguồn mở, và cũng có thể trở thành một blog cá nhân của chính các bạn như các trang blogspot, wordpress,...
 
-- Cách đăng ký: Truy cập [github.com](https://github.com/) rồi đăng ký bằng tài khoản của công ty, xác minh email và thiết lập bảo mật.
+- Cách đăng ký: Truy cập [github.com](https://github.com/) rồi đăng ký bằng tài khoản email (công ty hoặc cá nhân). `Lưu ý`: Ghi rõ họ và tên (có dấu) và thông tin `công ty CP Công nghệ FoxAI` để tránh lẫn sau này.
 
-![Hình ảnh đăng ký](https://blogchiasekienthuc.com/wp-content/uploads/2020/12/cai-github-desktop-de-quan-ly-ma-nguon-mo-2.png)
+![Hình ảnh đăng ký](https://caodang.fpt.edu.vn/wp-content/uploads/12-9.png)
+
+- Xác minh email:
+
+![Hình ảnh email](https://caodang.fpt.edu.vn/wp-content/uploads/13-4.png)
 
 ### 1.1.Đối tượng sử dụng
 Tài liệu này được thiết kế dành cho nhân viên của FoxAI khi cần thực hiện các công việc như:
@@ -69,7 +71,7 @@ Người dùng sau khi đọc tài liệu này có thể:
 
 * **Commit**: tương tự tính năng lưu (Save file)
 
-* **History**: cho phép nền tảng lưu lại tất cả những thay đổi trên tài liệu và có thể quay về bất kỳ thời điểm nào
+* **History**: cho phép GitHub Snapshot - chụp ảnh các bước commit nhằm lưu lại nội dung tập tin, thư mục để tham chiếu, khôi phục lại sau này nếu cần.
 
 * **Clone - Phân nhánh**: là một quá trình người dùng B tạo ra bản sao `branch` của kho tài liệu để chỉnh sửa mà không làm ảnh hưởng đến bản chính `main`
 
@@ -78,6 +80,8 @@ Người dùng sau khi đọc tài liệu này có thể:
 * **Merge - Hợp nhất**: là quá trình người dùng A phê duyệt áp dụng những thay đổi của bản sao `branch` vào nhánh chính `main`
 
 * **Push**: Đẩy file từ máy trạm lên server (nếu dùng bản desktop)
+
+* **Fetch**: lệnh sử dụng trên kho lưu trữ server, giúp di chuyển toàn bộ dữ liệu trên kho server về desktop để tích hợp dữ liệu vào `branch`.
 
 * **Pull**: đồng bộ trạng thái từ server về máy trạm (nếu dùng bản desktop)
 
@@ -112,26 +116,37 @@ graph TD
 ![Hình ảnh Issue](https://github.com/images/modules/site/issues/fp24/features-bento-3.webp)
 
 - Ý nghĩa: Để quản lý các công việc của GĐTT giao xuống cho từng phòng.
-- Thao tác: Tại tab **Issues** → **New issue** (có thể thêm comment, checklist công việc con).  
-- Gắn nhãn (label), người xử lý (assignee), milestone (tuần/tháng).
-
-![Hình ảnh Issue2](https://media.techmaster.vn/api/static/53/bs97f3c51cob9t3q7lj0)
+- Thao tác: Giám đốc trung tâm tạo **New issue**, thêm comment, Start-date là ngày đầu tuần.
+- Gắn nhóm **"Trung tâm Sản xuất"**, người xử lý (assignee), milestone (tuần/tháng).
+- Trong description, sử dụng mã Markdown -[] để tạo checklist box tương ứng với 1 Task.
+  Ví dụ: Trong dự án Power BI BTMC, GĐTT giao xuống 2 việc cho 2 phòng như sau:
+  * Tuần 3 tháng 2, Phòng tư vấn triển khai chuẩn bị dữ liệu đào tạo cho khách hàng
+  * Tuần 3 tháng 2, Phòng phân tích dữ liệu thiết kế giao diện báo cáo trên Power BI
 
 2.4. [**Task - Nhiệm vụ của nhân viên**](https://docs.github.com/en/issues/tracking-your-work-with-issues)
-- Là công việc con trong từng Issue, có thể chuyển thành Issue để quản lý tiến độ.
-- Trong description, sử dụng mã Markdown -[] để tạo checklist box tương ứng với 1 Task. 
 
-# 3.Cách dạng xem báo cáo
+![Hình ảnh Task](https://media.techmaster.vn/api/static/53/bs97f3c51cob9t3q7lj0)
+
+- Ý nghĩa: Để quản lý các công việc của trưởng phòng giao xuống cho từng nhân viên.
+- Thao tác: Từ checklist tạo Sub-Issue, gắn số thứ tự của parent Issue (ví dụ: #2)
+- Trong description, vẫn tiếp tục sử dụng mã Markdown -[] để tạo checklist box nếu muốn tạo nhiều việc con nữa.
+  Ví dụ: Trưởng phòng Phân tích dữ liệu giao 2 việc xuống cho:
+  * Tuần 3 tháng 2, Tiến - kết nối dữ liệu SQL và dựng báo cáo tồn kho
+  * Tuần 3 tháng 2, Ngân - dựng báo cáo mua hàng, bán hàng
+
+## 3.Cách dạng xem báo cáo
 
 ### 3.1. Board (Kanban)  
-- Ở Projects Beta, chọn **Board view**.  
-- Sử dụng các cột (chẳng hạn: *To do*, *In progress*, *Done*).  
-- Kéo – thả các card (Issue) giữa các cột để cập nhật tiến độ.  
+
+![Hình ảnh Board](https://images.viblo.asia/7a1d4b2c-87e7-4471-b9fb-72d8b40a47df.png)
+
+- Lọc theo tên người assignee, xem theo các Tab: To do (phải làm), Doing (đang làm), Done (Hoàn thành)...
 
 ### 3.2. Roadmap  
-- Giúp xem các công việc theo **timeline** (thời gian).  
-- Gán **start date**, **due date** cho mỗi Issue.  
-- Thuận tiện cho việc sắp xếp thứ tự ưu tiên, theo dõi deadline.
+- Giúp xem các công việc theo **timeline** (thời gian).
+- Gán **start date**, **due date** cho mỗi Issue.
+
+![Hình ảnh Roadmap](https://img.officetimeline.com/website/Content/website/roadmaps/templates/strategy-roadmap-powerpoint-template.png)
 
 ### 3.3. Backlog  
 - Nơi tập hợp những công việc chờ xử lý/ý tưởng.  
@@ -141,7 +156,7 @@ graph TD
 - Dạng bảng, hiển thị fields (các trường) như assignee, labels, due date…  
 - Tùy biến field (custom fields) để hiển thị chỉ số, % hoàn thành (nhập tay), v.v.
 
-## 4. Thảo luận và một số tiện ích mở rộng
+## 4. Một số tiện ích mở rộng
 
 4.1. **Discussions**  
 - Tạo không gian chung để trao đổi, hỏi đáp, thảo luận.  
@@ -162,16 +177,9 @@ graph TD
 - [About GitHub Pages](https://docs.github.com/en/pages)
 
 
-## 5. Một số mẹo và kinh nghiệm
-
-5.1. **Workflow cơ bản**  
-- Tạo Issue → Thêm vào Project → Thảo luận → Pull Request → Merge → Đóng Issue.
-
-5.2. **Sử dụng nhãn (Label)**  
+4.5. **Sử dụng nhãn (Label)**  
 - Tạo nhãn `bug`, `enhancement`, `priority-high`, v.v. để dễ lọc.
 
-5.3. **Regular review**  
-- Thường xuyên rà soát Project (Board/Roadmap) theo tuần/sprint để cập nhật tiến độ, sắp xếp lại độ ưu tiên.
 - [Hướng dẫn bảo mật tài khoản GitHub](https://docs.github.com/en/authentication/keeping-your-account-and-data-secure)
 
 ---
