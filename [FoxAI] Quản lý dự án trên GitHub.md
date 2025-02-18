@@ -18,15 +18,22 @@
 3. [Các dạng xem báo cáo Kanban, Table, Roadmap](#3-Xem-bao-cao)
 4. [Các tiện ích mở rộng](#4-Thao-luan)
 
-<img src="https://github.com/hoanglong8/FoxAI-Data-Analyst/blob/main/Image/GitHub2.jpg">
+<img src="https://github.com/hoanglong8/FoxAI-Data-Analyst/blob/main/Image/GitHub2.jpg" alt="Hình ảnh" width="70%" />
 
 ## 1.Giới thiệu chung về GitHub
 
-- [GitHub](https://docs.github.com/en/get-started) là nền tảng quản lý mã nguồn (phiên bản), hỗ trợ cộng tác, chia sẻ và lưu trữ dự án với các tính năng chính: Repository (kho lưu trữ mã nguồn), Issues (Công việc), Task (Nhiệm vụ), Projects (Dự án), Milestone (Phiên bản), Label (Nhãn), Team (Nhóm, bộ phận)...
+- [GitHub](https://docs.github.com/en/get-started) là nền tảng quản lý mã nguồn (phiên bản), hỗ trợ cộng tác, chia sẻ và lưu trữ dự án với các tính năng chính:
+  * Repository (kho lưu trữ tài liệu),
+  * Issues (Công việc),
+  * Task (Nhiệm vụ/Công việc con),
+  * Projects (Dự án),
+  * Milestone (Giai đoạn),
+  * Label (Nhãn),
+  * Team (Nhóm, bộ phận)...
 
-- Github có bản free và mất phí. Với Github free thì source code của bạn sẽ công khai, có nghĩa là ai cũng có thể xem code của bạn. Nó phù hợp với các phần mềm nguồn mở, và cũng có thể trở thành một blog cá nhân của chính các bạn như các trang blogspot, wordpress,...
+- Github có bản free và mất phí. Với Github free thì source code của bạn sẽ công khai, có nghĩa là ai cũng có thể xem code của bạn. Nó phù hợp với các phần mềm nguồn mở, và cũng có thể trở thành một blog cá nhân của chính các bạn như các trang `Blogspot`, `Wordpress`...
 
-![Hình ảnh đối tượng](https://github.com/hoanglong8/FoxAI-Data-Analyst/blob/main/Image/Qu%E1%BA%A3n%20l%C3%BD%20d%E1%BB%B1%20%C3%A1n%20tr%C3%AAn%20GitHub%20-%201.1.png)
+<img src="https://github.com/hoanglong8/FoxAI-Data-Analyst/blob/main/Image/Qu%E1%BA%A3n%20l%C3%BD%20d%E1%BB%B1%20%C3%A1n%20tr%C3%AAn%20GitHub%20-%201.1.png" alt="Hình ảnh" width="70%" />
 
 ### 1.1.Đối tượng sử dụng
 Tài liệu này được thiết kế dành cho nhân viên của FoxAI khi cần thực hiện các công việc như:
@@ -45,7 +52,7 @@ Người dùng sau khi đọc tài liệu này có thể:
 * **Ứng dụng được** công cụ [Project, Milestone](https://fox.ai.vn/wp-content/uploads/2024/07/Logo_Original-1.png) để quản lý tiến độ các dự án đang triển khai.
 * **Hiểu được** công cụ [Insight (Hiểu biết sâu sắc dạng Dashboard)](https://fox.ai.vn/wp-content/uploads/2024/07/Logo_Original-1.png) để có cái nhìn tổng quát theo từng contributors, Traffic (mức độ quan tâm) theo từng bài viết, Folk (quản lý phiên bản)...
 
-<img src="https://github.com/hoanglong8/FoxAI-Data-Analyst/blob/main/Image/GitHub5.png">
+<img src="https://github.com/hoanglong8/FoxAI-Data-Analyst/blob/main/Image/GitHub5.png" alt="Hình ảnh" width="70%" />
 
 ### 1.4.Đăng ký tài khoản
 
@@ -53,18 +60,19 @@ Người dùng sau khi đọc tài liệu này có thể:
 
 `Lưu ý`: Ghi rõ họ và tên (có dấu) và thông tin `công ty CP Công nghệ FoxAI` để tránh lẫn sau này.
 
-<img src="https://github.com/hoanglong8/FoxAI-Data-Analyst/blob/main/Image/GitHub3.png">
+<img src="https://github.com/hoanglong8/FoxAI-Data-Analyst/blob/main/Image/GitHub3.png" alt="Hình ảnh" width="70%" />
 
 - Xác minh email và có thể thiết lập bảo mật 2 bước 2FA:
 
-<img src="https://github.com/hoanglong8/FoxAI-Data-Analyst/blob/main/Image/GitHub4.png">
+<img src="https://github.com/hoanglong8/FoxAI-Data-Analyst/blob/main/Image/GitHub4.png" alt="Hình ảnh" width="70%" />
 
 ### 1.4.Quản lý kho lưu trữ [Repository](https://docs.github.com/en/get-started/quickstart/create-a-repo)
 
 **Repository**, hay **Repo**, là một kho lưu trữ cloud nhằm thực hiện và quản lý các thay đổi đối với tài liệu (nhiều người cùng chỉnh sửa) hoặc source code (nhiều Devs cùng code).
 
 **1.4.1.Các trạng thái của một repo:**
-![Hình ảnh repo](https://sfdctechie.wordpress.com/wp-content/uploads/2019/12/github.png)
+
+<img src="https://sfdctechie.wordpress.com/wp-content/uploads/2019/12/github.png" alt="Hình ảnh" width="70%" />
 
 * **Working copy**: là nơi người dùng thực hiện các thao tác biên soạn, chỉnh sửa tài liệu trên máy trạm.
 
@@ -73,7 +81,8 @@ Người dùng sau khi đọc tài liệu này có thể:
 * **Remote Repo**: là nơi lưu trữ tài liệu trên Cloud của Github.
 
 **1.4.2.Các thao tác với tài liệu trên Repo:**
-![Thao tác Repo](https://freetuts.net/upload/tut_post/images/2017/10/09/1071/basic-remote-workflow.png)
+
+<img src="https://freetuts.net/upload/tut_post/images/2017/10/09/1071/basic-remote-workflow.png" alt="Hình ảnh" width="70%" />
 
 * **Add/Upload file**: mặc định file đầu tiên là `readme.md` viết bằng ngôn ngữ Markdown - một ngôn ngữ ghi chú nhanh, rất nhỏ gọn và thuận tiện (xem hướng dẫn viết tài liệu [tại đây](https://github.com/hoanglong8/HDSD_markdown_GitHub/blob/master/README.md)).
 
@@ -106,7 +115,7 @@ graph TD
 
 2.1. [**Project - Dự án**](https://docs.github.com/en/issues/tracking-your-work-with-issues/creating-issues)
 
-![Hình ảnh Project](https://lh3.googleusercontent.com/BZYCW3xKmzU3XfrqSvA-gnPjMaoDR3njiRXckKbs-mvKY22HJjklo7_scmf7C31R8o5s63y5cNllEO_pUtRb_DCdiA=s1280-w1280-h800)
+<img src="https://lh3.googleusercontent.com/BZYCW3xKmzU3XfrqSvA-gnPjMaoDR3njiRXckKbs-mvKY22HJjklo7_scmf7C31R8o5s63y5cNllEO_pUtRb_DCdiA=s1280-w1280-h800" alt="Hình ảnh" width="70%" />
 
 - Ý nghĩa: Để quản lý tổng thể các công việc, tài liệu đào tạo, giải pháp kỹ thuật và hỗ trợ đối với 1 khách hàng
 - Thao tác: Tại trang **Projects** (trong repository hoặc trong profile), nhấn **New project**, chọn **Template** (nếu có).
@@ -121,7 +130,7 @@ graph TD
 
 2.3. [**Issue - Công việc của phòng**](https://docs.github.com/en/issues/tracking-your-work-with-issues)
 
-![Hình ảnh Issue](https://github.com/images/modules/site/issues/fp24/features-bento-3.webp)
+<img src="https://github.com/images/modules/site/issues/fp24/features-bento-3.webp" alt="Hình ảnh" width="70%" />
 
 - Ý nghĩa: Để quản lý các công việc của GĐTT giao xuống cho từng phòng.
 - Thao tác: Giám đốc trung tâm tạo **New issue**, thêm comment, Start-date là ngày đầu tuần.
@@ -133,7 +142,7 @@ graph TD
 
 2.4. [**Task - Nhiệm vụ của nhân viên**](https://docs.github.com/en/issues/tracking-your-work-with-issues)
 
-![Hình ảnh Task](https://media.techmaster.vn/api/static/53/bs97f3c51cob9t3q7lj0)
+<img src="https://media.techmaster.vn/api/static/53/bs97f3c51cob9t3q7lj0" alt="Hình ảnh" width="70%" />
 
 - Ý nghĩa: Để quản lý các công việc của trưởng phòng giao xuống cho từng nhân viên.
 - Thao tác: Từ checklist tạo Sub-Issue, gắn số thứ tự của parent Issue (ví dụ: #2)
@@ -146,7 +155,7 @@ graph TD
 
 ### 3.1. Board (Kanban)  
 
-![Hình ảnh Board](https://images.viblo.asia/7a1d4b2c-87e7-4471-b9fb-72d8b40a47df.png)
+<img src="https://images.viblo.asia/7a1d4b2c-87e7-4471-b9fb-72d8b40a47df.png" alt="Hình ảnh" width="70%" />
 
 - Lọc theo tên người assignee, xem theo các Tab: To do (phải làm), Doing (đang làm), Done (Hoàn thành)...
 
@@ -154,14 +163,14 @@ graph TD
 - Giúp xem các công việc theo **timeline** (thời gian).
 - Gán **start date**, **due date** cho mỗi Issue.
 
-![Hình ảnh Roadmap](https://img.officetimeline.com/website/Content/website/roadmaps/templates/strategy-roadmap-powerpoint-template.png)
+<img src="https://img.officetimeline.com/website/Content/website/roadmaps/templates/strategy-roadmap-powerpoint-template.png" alt="Hình ảnh" width="70%" />
 
 ### 3.3. Backlog  
 - Nơi tập hợp những công việc chờ xử lý/ý tưởng.  
 - Chọn lọc các công việc cần làm trong giai đoạn sắp tới và chuyển chúng vào Board/Roadmap.
 
 ### 3.4. Table view  
-- Dạng bảng, hiển thị fields (các trường) như assignee, labels, due date…  
+- Dạng bảng danh sách, có thể lọc theo các trường như assignee, labels, due date…  
 - Tùy biến field (custom fields) để hiển thị chỉ số, % hoàn thành (nhập tay), v.v.
 
 ## 4. Một số tiện ích mở rộng
