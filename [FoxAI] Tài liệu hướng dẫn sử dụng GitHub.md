@@ -24,6 +24,8 @@
 
 - [GitHub](https://docs.github.com/en/get-started) là nền tảng quản lý mã nguồn (phiên bản), hỗ trợ cộng tác, chia sẻ và lưu trữ dự án với các tính năng chính: Repository (kho lưu trữ mã nguồn), Issues (Công việc), Task (Nhiệm vụ), Projects (Dự án), Milestone (Phiên bản), Label (Nhãn), Team (Nhóm, bộ phận)...
 
+- Github có bản free và mất phí. Với Github free thì source code của bạn sẽ công khai, có nghĩa là ai cũng có thể xem code của bạn. Nó phù hợp với các phần mềm nguồn mở, và cũng có thể trở thành một blog cá nhân của chính các bạn như các trang blogspot, wordpress,...
+
 - Cách đăng ký: Truy cập [github.com](https://github.com/) rồi đăng ký bằng tài khoản của công ty, xác minh email và thiết lập bảo mật.
 
 ![Hình ảnh đăng ký](https://blogchiasekienthuc.com/wp-content/uploads/2020/12/cai-github-desktop-de-quan-ly-ma-nguon-mo-2.png)
@@ -49,11 +51,34 @@ Người dùng sau khi đọc tài liệu này có thể:
 
 ### Quản lý kho lưu trữ [Repository](https://docs.github.com/en/get-started/quickstart/create-a-repo)
 
-**Tạo Repository**  
-- Nhấn nút **+** (New) ở góc trên bên phải → **New repository**.  
-- Chọn Public/Private, đặt tên, mô tả.  
-- Chọn “Initialize this repository with a README” hoặc để trống nếu muốn tạo rỗng.
-- Thiết lập **branch** chính (default branch) – thường là `main`.  
+**Repository**, hay **Repo**, là một kho lưu trữ cloud nhằm thực hiện và quản lý các thay đổi đối với tài liệu (nhiều người cùng chỉnh sửa) hoặc source code (nhiều Devs cùng code).
+
+**Ba trạng thái của một repo:**
+![Hình ảnh repo](https://camo.githubusercontent.com/f0280ea795233822f706a6d197ef4538864c529b8b1c3c0865e4d069a86179e5/687474703a2f2f692e696d6775722e636f6d2f716b6d644a53522e706e67)
+
+* Working dir: là nơi bạn thực hiện các thao tác biên soạn, chỉnh sửa tài liệu.
+
+* Stagging area: là những sự thay đổi của file được lưu lại, giống như khi ấn Save.
+
+* Git directory: là nơi lưu trữ tài liệu trên cloud (github).
+
+**Các thao tác với tài liệu trên Repo:**
+
+* Add hoặc Upload file: mặc định file đầu tiên là `readme.md` viết bằng ngôn ngữ Markdown - một ngôn ngữ ghi chú nhanh, rất nhỏ gọn và thuận tiện (xem hướng dẫn tại đây).
+
+* Commit: tương tự tính năng lưu (Save file)
+
+* History: cho phép nền tảng lưu lại tất cả những thay đổi trên tài liệu và có thể quay về bất kỳ thời điểm nào
+
+* Branch - Phân nhánh: là một quá trình 1 người dùng khác tạo ra bản sao của kho tài liệu để chỉnh sửa mà không làm ảnh hưởng đến bản gốc
+
+* Pull Request - Yêu cầu kéo: là quá trình 1 người dùng khác gửi đề xuất hợp nhất vào bản gốc
+
+* Merge - Hợp nhất: là quá trình admin phê duyệt áp dụng những thay đổi của bản sao `branch` vào nhánh chính `main`
+
+* Push: Đẩy file từ máy trạm lên server (nếu dùng bản desktop)
+
+* Pull: đồng bộ trạng thái từ server về máy trạm (nếu dùng bản desktop)
 
 ## 2. Quản lý dự án GitHub [Projects](https://docs.github.com/en/issues/planning-and-tracking-with-projects)
 
