@@ -14,9 +14,14 @@ Tuyển --> Dạy --> Dùng --> Giữ --> Thải --> Tuyển
 - Kế hoạch đào tạo học việc
 - Kế hoạch đào tạo thử việc
 - Kế hoạch đào tạo nhân sự chính thức
-- Tài liệu đào tạo [tại đây](https://github.com/hoanglong8/FoxAI-Data-Analyst/blob/main/FoxAI%20-%20Qu%E1%BA%A3n%20l%C3%BD%20Nh%C3%A2n%20s%E1%BB%B1/2.C%C3%B4ng%20t%C3%A1c%20%C4%91%C3%A0o%20t%E1%BA%A1o%20-%20Ch%E1%BB%A9ng%20ch%E1%BB%89%20%C4%91%E1%BA%A7u%20ra.md)
+- Tài liệu Data Science [tại đây](https://github.com/hoanglong8/Document-Data-science)
+- Tài liệu sử dụng trong các khóa đào tạo [tại đây](https://github.com/hoanglong8/FoxAI-Data-Analyst/blob/main/FoxAI%20-%20Qu%E1%BA%A3n%20l%C3%BD%20Nh%C3%A2n%20s%E1%BB%B1/2.C%C3%B4ng%20t%C3%A1c%20%C4%91%C3%A0o%20t%E1%BA%A1o%20-%20Ch%E1%BB%A9ng%20ch%E1%BB%89%20%C4%91%E1%BA%A7u%20ra.md)
 
 ## 3.Phân công công việc và quản lý tiến độ, chất lượng công việc
+- Biên bản họp giao ban hàng tuần của Trung tâm Sản xuất [tại GitHub Pages](https://github.com/hoanglong8/FoxAI-SEO-AI/blob/main/README.md)
+- Phân công công việc, nhận việc, phản hồi liên quan đến các dự án [tại GitHub Projects](https://github.com/hoanglong8/FoxAI-Data-Analyst/projects?query=is%3Aopen)
+- Quản lý danh sách công việc [tại GitHub Issues](https://github.com/hoanglong8/FoxAI-Data-Analyst/issues)
+- Quản lý tài liệu, biên bản nghiệm thu dự án [tại Sharepoint](https://foxai.sharepoint.com/sites/TaiLieuTTSXFoxAI/Shared%20Documents/Forms/AllItems.aspx) và tài liệu kỹ thuật [tại GitHub Code](https://github.com/hoanglong8/FoxAI-Data-Analyst)
 
 ## 4.Công tác Đánh giá nhân sự
 
