@@ -35,7 +35,7 @@ Chatbot Private có thể giúp doanh nghiệp **tự động hóa từ 60% - 90
 
 **3.1. Đối với sản phẩm Chatbot Public**
 
-Hiện nay, FoxAI đã xây dựng xong chatbot trên GPT Stores [tại địa chỉ sau](https://chatgpt.com/g/g-6780c0bb3d4481919022c62333bb8046-sap-assistant-foxai)
+Hiện nay, FoxAI đã xây dựng xong chatbot trên GPT Stores [tại địa chỉ sau](https://chatgpt.com/g/g-6780c0bb3d4481919022c62333bb8046-foxai-chat)
 
 ![Hình ảnh](https://github.com/hoanglong8/FoxAI-Data-Analyst/blob/e69cf721be5d386ef3a260e3661932258d0daa2b/Image/ChatGPT_Stores.png)
 
