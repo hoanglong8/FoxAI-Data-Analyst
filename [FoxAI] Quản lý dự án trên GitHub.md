@@ -70,6 +70,8 @@ Người dùng sau khi đọc tài liệu này có thể:
 
 **Repository**, hay **Repo**, là một kho lưu trữ cloud nhằm thực hiện và quản lý các thay đổi đối với tài liệu (nhiều người cùng chỉnh sửa) hoặc source code (nhiều Devs cùng code).
 
+Ví dụ: Project BTMC tại link: https://github.com/users/hoanglong8/projects/6
+
 **1.4.1.Các trạng thái của một repo:**
 
 <img src="https://sfdctechie.wordpress.com/wp-content/uploads/2019/12/github.png" alt="Hình ảnh" width="70%" />
