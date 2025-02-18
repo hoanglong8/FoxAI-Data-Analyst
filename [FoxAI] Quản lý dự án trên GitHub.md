@@ -1,4 +1,4 @@
-# HƯỚNG DẪN SỬ DỤNG GITHUB QUẢN LÝ DỰ ÁN
+# QUẢN LÝ DỰ ÁN TRÊN GITHUB
 
 <img src="https://fox.ai.vn/wp-content/uploads/2024/07/Logo_Original-1.png" alt="Hình ảnh" width="30%" />
 
@@ -69,7 +69,7 @@ Người dùng sau khi đọc tài liệu này có thể:
 **1.3.2.Các thao tác với tài liệu trên Repo:**
 ![Thao tác Repo](https://freetuts.net/upload/tut_post/images/2017/10/09/1071/basic-remote-workflow.png)
 
-* **Add/Upload file**: mặc định file đầu tiên là `readme.md` viết bằng ngôn ngữ Markdown - một ngôn ngữ ghi chú nhanh, rất nhỏ gọn và thuận tiện (xem hướng dẫn tại đây).
+* **Add/Upload file**: mặc định file đầu tiên là `readme.md` viết bằng ngôn ngữ Markdown - một ngôn ngữ ghi chú nhanh, rất nhỏ gọn và thuận tiện (xem hướng dẫn viết tài liệu [tại đây](https://github.com/hoanglong8/HDSD_markdown_GitHub/blob/master/README.md)).
 
 * **Commit**: tương tự tính năng lưu (Save file)
 
