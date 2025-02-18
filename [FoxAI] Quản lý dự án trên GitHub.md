@@ -18,7 +18,7 @@
 3. [Các dạng xem báo cáo Kanban, Table, Roadmap](#3-Xem-bao-cao)
 4. [Các tiện ích mở rộng](#4-Thao-luan)
 
-<img src="https://github.com/hoanglong8/FoxAI-Data-Analyst/blob/main/Image/GitHub1.png">
+<img src="https://github.com/hoanglong8/FoxAI-Data-Analyst/blob/main/Image/GitHub2.jpg">
 
 ## 1.Giới thiệu chung về GitHub
 
