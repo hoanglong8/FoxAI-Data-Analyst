@@ -13,8 +13,8 @@ Tuyển --> Dạy --> Dùng --> Giữ --> Thải --> Tuyển
 ## 2.Công tác Đào tạo
 - Kế hoạch đào tạo học việc
 - Kế hoạch đào tạo thử việc
-- Kế hoạch đào tạo đội ngũ chính thức
-- Tài liệu đào tạo tại đây
+- Kế hoạch đào tạo nhân sự chính thức
+- Tài liệu đào tạo [tại đây](https://github.com/hoanglong8/FoxAI-Data-Analyst/blob/main/FoxAI%20-%20Qu%E1%BA%A3n%20l%C3%BD%20Nh%C3%A2n%20s%E1%BB%B1/2.C%C3%B4ng%20t%C3%A1c%20%C4%91%C3%A0o%20t%E1%BA%A1o%20-%20Ch%E1%BB%A9ng%20ch%E1%BB%89%20%C4%91%E1%BA%A7u%20ra.md)
 
 ## 3.Phân công công việc và quản lý tiến độ, chất lượng công việc
 
