@@ -92,28 +92,32 @@ graph TD
   C --> D["Task - Nhiệm vụ"]
 ```
 
-2.1. [**Project**](https://docs.github.com/en/issues/tracking-your-work-with-issues/creating-issues)
+2.1. [**Project - Dự án**](https://docs.github.com/en/issues/tracking-your-work-with-issues/creating-issues)
+
 ![Hình ảnh Project](https://lh3.googleusercontent.com/BZYCW3xKmzU3XfrqSvA-gnPjMaoDR3njiRXckKbs-mvKY22HJjklo7_scmf7C31R8o5s63y5cNllEO_pUtRb_DCdiA=s1280-w1280-h800)
 
 - Ý nghĩa: Để quản lý tổng thể các công việc, tài liệu đào tạo, giải pháp kỹ thuật và hỗ trợ đối với 1 khách hàng
 - Thao tác: Tại trang **Projects** (trong repository hoặc trong profile), nhấn **New project**, chọn **Template** (nếu có).
 
-2.2. [**Milestones**](https://docs.github.com/en/issues/tracking-your-work-with-issues/creating-issues)
+2.2. [**Milestones - Giai đoạn**](https://docs.github.com/en/issues/tracking-your-work-with-issues/creating-issues)
+
 ![Hình ảnh Milestones](https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSOBTwuyEnpJKJtwxaQRAl8LPPXrKjCkG1Enw&s)
 
-- Ý nghĩa: Để quản lý **giai đoạn** của dự án, **sản phẩm** trong dự án hoặc **phiên bản** của source code.
+- Ý nghĩa: Để quản lý **giai đoạn** của dự án, **khoảng thời gian** (tuần, tháng, quý), **sản phẩm** trong dự án hoặc **phiên bản** của source code.
 - Thao tác: Tạo milestones rồi gắn Issue vào milestones.  
-- GitHub hiển thị % công việc đã đóng (done) / tổng Issue.
+- GitHub hiển thị % công việc đã đóng (done)/tổng Issue.
 
-2.3. [**Issue**](https://docs.github.com/en/issues/tracking-your-work-with-issues)
-- Tại tab **Issues** → **New issue**.  
-- Đặt tiêu đề, mô tả (có thể thêm checklist công việc con).  
-- Trong giao diện Issue, chọn **Projects** (phía bên phải), hoặc  
-- Vào giao diện Project → **+ Add item** → Nhập `#` + số Issue.
-- Gắn nhãn (label), người xử lý (assignee), milestone.  
-- Thêm comment, checklist…
+2.3. [**Issue - Công việc của phòng**](https://docs.github.com/en/issues/tracking-your-work-with-issues)
 
-2.4. [**Task**](https://docs.github.com/en/issues/tracking-your-work-with-issues)
+![Hình ảnh Issue](https://github.com/images/modules/site/issues/fp24/features-bento-3.webp)
+
+- Ý nghĩa: Để quản lý các công việc của GĐTT giao xuống cho từng phòng.
+- Thao tác: Tại tab **Issues** → **New issue** (có thể thêm comment, checklist công việc con).  
+- Gắn nhãn (label), người xử lý (assignee), milestone (tuần/tháng).
+
+![Hình ảnh Issue2](https://media.techmaster.vn/api/static/53/bs97f3c51cob9t3q7lj0)
+
+2.4. [**Task - Nhiệm vụ của nhân viên**](https://docs.github.com/en/issues/tracking-your-work-with-issues)
 - Là công việc con trong từng Issue, có thể chuyển thành Issue để quản lý tiến độ.
 - Trong description, sử dụng mã Markdown -[] để tạo checklist box tương ứng với 1 Task. 
 
