@@ -1,0 +1,4 @@
+      - name: Debug GITHUB_TOKEN
+        run: echo "Token is available"
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
