@@ -37,7 +37,7 @@ Chatbot Private có thể giúp doanh nghiệp **tự động hóa từ 60% - 90
 
 Hiện nay, FoxAI đã xây dựng xong chatbot trên GPT Stores [tại địa chỉ sau](https://chatgpt.com/g/g-6780c0bb3d4481919022c62333bb8046-foxai-chat)
 
-![Hình ảnh](https://github.com/hoanglong8/FoxAI-Data-Analyst/blob/e69cf721be5d386ef3a260e3661932258d0daa2b/Image/ChatGPT_Stores.png)
+![Hình ảnh 1](https://github.com/hoanglong8/FoxAI-Data-Analyst/blob/main/Image/ChatGPT_Stores.png)
 
 Chatbot này sẽ hỗ trợ khách hàng sử dụng SAP, giúp tự động hóa các yêu cầu phổ biến, hướng dẫn người dùng thao tác trên hệ thống, xử lý sự cố và hỗ trợ các vấn đề liên quan đến quy trình nghiệp vụ. Chatbot được huấn luyện dựa trên những tài liệu được FoxAI nạp vào và thông qua giao tiếp với người dùng. 
 
