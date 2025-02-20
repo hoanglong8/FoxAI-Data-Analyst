@@ -1,4 +1,4 @@
-# Cấu trúc 1 prompt đầy đủ
+# Cấu trúc 1 prompt đầy đủ, dạng giao diện chat
 
 * **Ngữ cảnh:** Tình trạng hiện tại, tôi là ai, tôi đang có những gì…
 
@@ -10,7 +10,19 @@
 
 * **Đầu ra:** Định dạng (markdown, văn bản, bảng), độ dài ký tự, phong cách…
 
-Một số ví dụ về prompt chi tiết: [Vidtools.online](https://vidtools.online/prompt/?fbclid=IwY2xjawH52xNleHRuA2FlbQIxMAABHQmUnsLgM-KtlYNExUHshjohNp7ldi_waccPqsetSl14KGrD4tP5HgdQLg_aem__6ueV2_du0xoyIEVOOC-IA)
+![Hình ảnh](https://github.com/hoanglong8/FoxAI-Data-Analyst/blob/main/Image/Prompt_Engineer_1.png)
+
+# Cấu trúc 1 prompt dạng lệnh code qua API
+
+* Temperature: Mức độ sáng tạo của mô hình (t = 0 là không sáng tạo, t = 2 là sáng tạo tối đa).
+
+* Max token output: Giới hạn số token đầu ra tối đa cho 1 lần phản hồi để tránh ảnh hưởng tới hệ thống, thường từ 2.000 - 5.000 token (khoảng 4.000 từ tiếng Việt).
+
+* Top-p: 
+
+* Top-k: 
+
+# Một số ví dụ về prompt chi tiết: [Vidtools.online](https://vidtools.online/prompt/?fbclid=IwY2xjawH52xNleHRuA2FlbQIxMAABHQmUnsLgM-KtlYNExUHshjohNp7ldi_waccPqsetSl14KGrD4tP5HgdQLg_aem__6ueV2_du0xoyIEVOOC-IA)
 
 ## Sản phẩm
 ```
