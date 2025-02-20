@@ -60,7 +60,7 @@ Mindmap [tại đây](https://hoanglong8.github.io/FoxAI-Data-Analyst/Chatbot_SA
 | **5. Triển khai dùng thử**        | Tuần 5       | - Điều chỉnh kịch bản hội thoại <br>- Hướng dẫn khách hàng sử dụng <br>- Viết tài liệu hướng dẫn                           | Google Docs, GitHub (hướng dẫn sử dụng), Notion (FAQs) | 1 NV tư vấn triển khai, 1 Nhân viên bảo trì |
 | **6. Cải tiến & nâng cấp**         | Tuần 6 trở đi   | - Thu thập phản hồi từ khách hàng thực tế để cập nhật kịch bản hội thoại <br>- Cập nhật giao diện còn lại (Zalo, Fb, Website, Mobile App...), tích hợp ngôn ngữ tiếng Anh, Lào, Thái... <br>- Tích hợp tính năng cho phép phản hồi 2 chiều bằng Image, Voice... <br>- Cho phép người dùng có thể thay đổi mô hình LLMs khác như Claude, Gemini, DeepSeek...| Google Analytics (theo dõi chatbot), SAP        | 1 Nhân viên bảo trì, 1 Dev Back, 1 Dev Front  |
 
-**Lưu ý quan trọng khi triển khai:**
+**Tóm lại:**
 
 ✅ **Tích hợp AI Agent để tự động hóa**: Các Agent AI như N8N, Make, Zapier... đóng vai trò là trợ lý giám sát giúp tự động hóa workflow. 
 
@@ -70,12 +70,22 @@ Mindmap [tại đây](https://hoanglong8.github.io/FoxAI-Data-Analyst/Chatbot_SA
 
 ✅ **Bảo mật dữ liệu khách hàng**: Sử dụng "Xác thực OAuth2"/"JWT" để kiểm tra danh tính, ngăn chặn người ngoài DN; RBAC (Role-Based Access Control) để phân quyền Admin, Manager, Nhân viên... trong công ty; Mã hóa dữ liệu nhạy cảm AES-256/Hashing...
 
+![Hình ảnh n8n](https://lh7-rt.googleusercontent.com/docsz/AD_4nXc_O_ATF-L1_OMa2uhbmSleibIbGf87Swg9jp5tjRAjsGVdZJztFXwVjEqODpS0X1aLZFiEH1JUJi35FU6wl3mygDDHTe8kqtWQHRrMAEcF3s-FdIDqaGCSVMw9XzpPTnCyDhpQ?key=jkRWBvulaU0mlb-0kab9IZfI)
+
+Trong ảnh trên:
+
+* **Giao diện người dùng:** Tất cả tin nhắn do người dùng gửi từ thanh bên trò chuyện của trợ lý đều được gửi đến **"Web AI Service"**, đây là một dịch vụ web riêng biệt được lưu trữ nội bộ/công khai.
+* **Web AI Service:** Xử lý xác thực cho các yêu cầu đến và gọi n8n webhook cùng với xác thực để đảm bảo chỉ chấp nhận thực thi các yêu cầu từ Web AI Service, đặt giới hạn thực hiện tối đa n lệnh/phút để tránh nghẽn server.
+* **Luồng công việc:** Luồng công việc chính (Gateway) chấp nhận các cuộc gọi webhook và định tuyến đến một tác nhân cụ thể, dựa trên yêu cầu của người dùng. Tiếp theo có bốn tác nhân riêng biệt xử lý các trường hợp cụ thể, việc định tuyến được thực hiện bằng nút Chuyển đổi của n8n đến một trong bốn tác nhân trên. Nhược điểm duy nhất của workflow này là sau khi một tác nhân đã bắt đầu trò chuyện với người dùng, nó không thể chuyển sang tác nhân khác, do đó người dùng cần phải bắt đầu 1 phiên chat mới.
+
 Tham khảo cách triển khai cho từng nghiệp vụ [tại đây](https://chatgpt.com/share/67a95a4e-b5e8-8012-802d-c7bc49bca848)
 
-Tham khảo cách bảo mật dữ liệu [tài đây](https://chatgpt.com/c/67a99d9c-1bcc-8012-b032-146e50f14235)
+Tham khảo cách bảo mật dữ liệu [tại đây](https://chatgpt.com/c/67a99d9c-1bcc-8012-b032-146e50f14235)
 
-**Team AI phân công nghiên cứu giải pháp:**
-- Tạo và đưa dữ liệu SAP vào Chatbot trên GPT Stores => Long done!
-- Sử dụng N8N Automation để truy vấn và tạo phản hồi từ các dữ liệu phi cấu trúc trên localhost => Sơn done!
-- Kết nối ChatGPT với API SAP B1 thông qua SAP Service Layer để trả về json => Thắng done! => Sơn nghiên cứu tích hợp 2 workflow này làm 1 trên N8N.
-- Đang cần 1 Dev Front-end: Kết nối ChatGPT với Telegram/Zalo API, Website, Mobile App... để tạo giao diện người dùng, test phản hồi kết quả bằng text, hình ảnh hoặc âm thanh.
+![Hình ảnh n8n](https://lh7-rt.googleusercontent.com/docsz/AD_4nXdcsobtdG4fsXiwAFIjm0TGSCKaxSFe7_nY6qzsTUBAoKdDODrgXsStieQ4ff4_5u2O1p5CIWIexce-NdeSnktxVOqaCrx9-mTSJK-RVW8fr1c8mmOTLXr3UnSIQjLh0DQp8QL7wg?key=jkRWBvulaU0mlb-0kab9IZfI)
+
+Trong ảnh trên:
+
+* **Chat model:** Bộ não để xử lý ngôn ngữ tự nhiên, có thể thay thế bằng các LLMs khác như Claude, Gemini, DeepSeek...
+* **Memory:** Bộ nhớ đoạn chat trò chuyện của mô hình, có thể sử dụng các công cụ để lưu trữ như Redis, ChromaDB...
+* **Tool:** Thiết lập mô hình tìm kiếm thông tin Retrieval Augmented Generation (RAG) trong Documents (tài liệu đã vector hóa), Forum (Diễn đàn kiến thức trên internet), current workflow... để tạo phản hồi.
