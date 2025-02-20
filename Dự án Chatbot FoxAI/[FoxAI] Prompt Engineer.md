@@ -1,6 +1,17 @@
-Link nguồn: [Vidtools.online](https://vidtools.online/prompt/?fbclid=IwY2xjawH52xNleHRuA2FlbQIxMAABHQmUnsLgM-KtlYNExUHshjohNp7ldi_waccPqsetSl14KGrD4tP5HgdQLg_aem__6ueV2_du0xoyIEVOOC-IA)
+# Cấu trúc 1 prompt đầy đủ
 
-# Marketing
+* **Ngữ cảnh:** Tình trạng hiện tại, tôi là ai, tôi đang có những gì…
+
+* **Mục tiêu:** Tôi cần gì, tôi muốn đi đến đâu…
+
+* **Vai trò:** Bạn là một chuyên gia trong lĩnh vực…
+
+* **Hành động:** Tìm kiếm thông tin (fact, không thêm, không bịa), sáng tạo (creative, tính mới), phân tích (analyst, giải thích lý do), tư vấn (advice, dự báo), tóm tắt, tổng hợp...
+
+* **Đầu ra:** Định dạng (markdown, văn bản, bảng), độ dài ký tự, phong cách…
+
+Một số ví dụ về prompt chi tiết: [Vidtools.online](https://vidtools.online/prompt/?fbclid=IwY2xjawH52xNleHRuA2FlbQIxMAABHQmUnsLgM-KtlYNExUHshjohNp7ldi_waccPqsetSl14KGrD4tP5HgdQLg_aem__6ueV2_du0xoyIEVOOC-IA)
+
 ## Sản phẩm
 ```
 Vui lòng cung cấp danh sách chi tiết các tiêu đề quảng cáo sáng tạo sẽ thu hút sự chú ý trên phương tiện truyền thông xã hội cho sản phẩm [[TÊN SẢN PHẨM]]. Hãy cân nhắc đến đối tượng mục tiêu [[ĐỐI TƯỢNG MỤC TIÊU]], xu hướng hiện tại [[XU HƯỚNG HIỆN TẠI]] và các điểm bán hàng độc đáo của sản phẩm [[ĐIỂM BÁN HÀNG ĐỘC ĐÁO]]. Các tiêu đề phải hấp dẫn, sáng tạo và phù hợp với các nền tảng như Facebook, Instagram hoặc Twitter. Bao gồm một lời giải thích ngắn gọn cho mỗi tiêu đề về lý do tại sao nó sẽ có hiệu quả trong việc thu hút sự quan tâm của đối tượng.
