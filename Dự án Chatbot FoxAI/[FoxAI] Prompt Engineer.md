@@ -1,3 +1,29 @@
+# Prompt Engineering
+
+## Cấu trúc 1 prompt đầy đủ dạng UI (giao diện người dùng)
+
+![Hình ảnh 1](https://github.com/hoanglong8/FoxAI-Data-Analyst/blob/main/Image/Prompt_UI.png)
+
+## Cấu trúc 1 prompt dạng lệnh code qua API
+
+![Hình ảnh 2](https://github.com/hoanglong8/FoxAI-Data-Analyst/blob/main/Image/Prompt_API.png)
+
+* **Temperature:** Mức độ sáng tạo và tính ngẫu nhiên của mô hình (t = 0 là không sáng tạo, t = 2 là sáng tạo tối đa).
+
+* **Max token output:** Giới hạn số token đầu ra tối đa cho 1 lần phản hồi để tránh ảnh hưởng tới hệ thống, thường từ 2.000 - 5.000 token (khoảng 4.000 từ tiếng Việt).
+
+* **Top-p:** Điều chỉnh xác suất dự đoán cho từ (token) tiếp theo, p càng cao càng giúp tạo ra phản hồi đa dạng, trôi chảy và tự nhiên hơn (p ~ 100% là tự do, đa dạng lựa chọn nhất, thường để p = 0,95).
+
+* **Top-k:** Giới hạn số lượng lựa chọn cho từ (token) tiếp theo, giúp tăng tốc quá trình tạo và có thể cải thiện chất lượng của văn bản được tạo (k thường để mặc định từ 40-50 lựa chọn cho từ tiếp theo).
+
+* **Repetition Penalty (lỗi lặp lại):** Thường đặt = 1 để giảm khả năng lặp lại hoặc bị kẹt trong vòng lặp phản hồi.
+
+* **stop:** Phản hồi sẽ dừng lại khi gặp ký tự nào, ví dụ: dấu kết thúc câu `<｜end▁of▁sentence｜>`.
+
+* **role:** Vai trò của mô hình, ví dụ như là 1 chuyên gia về lĩnh vực ...
+
+* **stream=True:** Phản hồi được viết ra liên tục giống như đang có người gõ chữ.
+
 # Cấu trúc 1 prompt đầy đủ, dạng giao diện chat
 
 * **Ngữ cảnh:** Tình trạng hiện tại, tôi là ai, tôi đang có những gì…
@@ -12,17 +38,7 @@
 
 ![Hình ảnh](https://github.com/hoanglong8/FoxAI-Data-Analyst/blob/main/Image/Prompt_Engineer_1.png)
 
-# Cấu trúc 1 prompt dạng lệnh code qua API
-
-* Temperature: Mức độ sáng tạo của mô hình (t = 0 là không sáng tạo, t = 2 là sáng tạo tối đa).
-
-* Max token output: Giới hạn số token đầu ra tối đa cho 1 lần phản hồi để tránh ảnh hưởng tới hệ thống, thường từ 2.000 - 5.000 token (khoảng 4.000 từ tiếng Việt).
-
-* Top-p: 
-
-* Top-k: 
-
-# Một số ví dụ về prompt chi tiết: [Vidtools.online](https://vidtools.online/prompt/?fbclid=IwY2xjawH52xNleHRuA2FlbQIxMAABHQmUnsLgM-KtlYNExUHshjohNp7ldi_waccPqsetSl14KGrD4tP5HgdQLg_aem__6ueV2_du0xoyIEVOOC-IA)
+## Một số ví dụ về prompt chi tiết: [Vidtools.online](https://vidtools.online/prompt/?fbclid=IwY2xjawH52xNleHRuA2FlbQIxMAABHQmUnsLgM-KtlYNExUHshjohNp7ldi_waccPqsetSl14KGrD4tP5HgdQLg_aem__6ueV2_du0xoyIEVOOC-IA)
 
 ## Sản phẩm
 ```
