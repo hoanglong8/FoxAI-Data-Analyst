@@ -1,0 +1,2 @@
+pip install telebot google-generativeai openai python-dotenv
+
