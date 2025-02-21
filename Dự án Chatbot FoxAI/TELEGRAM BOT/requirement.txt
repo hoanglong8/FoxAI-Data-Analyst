@@ -1,3 +1,2 @@
-python-telegram-bot
-python-dotenv
-python-OpenAi
+pip install telebot google-generativeai openai python-dotenv
+
