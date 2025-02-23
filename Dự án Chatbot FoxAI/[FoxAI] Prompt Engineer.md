@@ -1,8 +1,8 @@
-# Prompt Engineering
+# Kỹ thuật Prompt Engineering để tối ưu hóa phản hồi
 
 ## 1.Cấu trúc 1 prompt đầy đủ dạng UI (giao diện người dùng)
 
-Mô hình DeepSeek R1 [tại đây](https://www.together.ai/models/deepseek-r1)
+Sử dụng mô hình DeepSeek R1 [tại đây](https://www.together.ai/models/deepseek-r1)
 
 ![Hình ảnh 1](https://github.com/hoanglong8/FoxAI-Data-Analyst/blob/main/Image/Prompt_UI.png)
 
