@@ -2,11 +2,11 @@
 
 ## Nội dung
 
-1.[Prompt](https://github.com/hoanglong8/FoxAI-Data-Analyst/edit/main/D%E1%BB%B1%20%C3%A1n%20Chatbot%20FoxAI/%5BFoxAI%5D%20Prompt%20Engineer.md) và các khái niệm liên quan
+1.[Prompt và các khái niệm liên quan](https://github.com/hoanglong8/FoxAI-Data-Analyst/edit/main/D%E1%BB%B1%20%C3%A1n%20Chatbot%20FoxAI/%5BFoxAI%5D%20Prompt%20Engineer.md)
 
-2.Các dạng [cấu trúc](https://github.com/hoanglong8/FoxAI-Data-Analyst/edit/main/D%E1%BB%B1%20%C3%A1n%20Chatbot%20FoxAI/%5BFoxAI%5D%20Prompt%20Engineer.md) của 1 prompt
+2.[Các dạng cấu trúc của 1 prompt](https://github.com/hoanglong8/FoxAI-Data-Analyst/edit/main/D%E1%BB%B1%20%C3%A1n%20Chatbot%20FoxAI/%5BFoxAI%5D%20Prompt%20Engineer.md)
 
-3.Một số [ví dụ](https://github.com/hoanglong8/FoxAI-Data-Analyst/edit/main/D%E1%BB%B1%20%C3%A1n%20Chatbot%20FoxAI/%5BFoxAI%5D%20Prompt%20Engineer.md) tham khảo
+3.[Nguồn tham khảo ví dụ prompt theo từng ngành](https://github.com/hoanglong8/FoxAI-Data-Analyst/edit/main/D%E1%BB%B1%20%C3%A1n%20Chatbot%20FoxAI/%5BFoxAI%5D%20Prompt%20Engineer.md)
 
 4.[Thực hành](https://github.com/hoanglong8/FoxAI-Data-Analyst/edit/main/D%E1%BB%B1%20%C3%A1n%20Chatbot%20FoxAI/%5BFoxAI%5D%20Prompt%20Engineer.md)
 
@@ -28,7 +28,7 @@ Ví dụ:
 
 Mô hình ngôn ngữ như ChatGPT hoạt động dựa trên dự đoán `từ tiếp theo`, và quá trình phản hồi prompt lại trải qua các bước như sau:
 
-🔹 Bước 1: Nhận diện và mã hóa Prompt thành Token
+🔹 **Bước 1: Nhận diện và mã hóa Prompt thành Token**
 
 Token là đơn vị nhỏ nhất mà mô hình xử lý khi phân tích văn bản. Một token có thể là một từ, một phần của từ, hoặc một ký tự. Khi bạn nhập một prompt, LLM sẽ chuyển đổi câu hỏi thành token (đơn vị xử lý ngôn ngữ).
 
@@ -40,51 +40,74 @@ Mô hình sẽ tách thành các token, ví dụ:
 
 ["Tóm", " tắt", " bài", " viết", " về", " trí", " tuệ", " nhân", " tạo", "."]
 
-🔹 Bước 2: Phân tích ngữ cảnh
+🔹 **Bước 2: Phân tích ngữ cảnh**
+
 Dựa trên các token, mô hình sẽ:
-Xác định loại yêu cầu (tóm tắt, giải thích, tạo nội dung, v.v.).
-Hiểu từ khóa chính trong câu (ví dụ: trí tuệ nhân tạo).
-Định hướng phản hồi dựa trên yêu cầu của prompt (ví dụ: tóm tắt thay vì mô tả chi tiết).
+* Xác định loại yêu cầu (tóm tắt, giải thích, tạo nội dung, v.v.).
+* Hiểu từ khóa chính trong câu (ví dụ: trí tuệ nhân tạo).
+* Định hướng phản hồi dựa trên yêu cầu của prompt (ví dụ: tóm tắt thay vì mô tả chi tiết).
+
 📌 Nếu prompt thiếu ngữ cảnh, mô hình có thể đoán sai hoặc đưa ra câu trả lời không mong muốn.
 
 💡 Ví dụ:
+
 ❌ "Tóm tắt bài viết." → Quá mơ hồ, AI không biết bài viết nào.
+
 ✅ "Tóm tắt bài viết về trí tuệ nhân tạo trong 100 từ." → Rõ ràng hơn.
 
-🔹 Bước 3: Truy vấn bộ nhớ ngữ cảnh (Context Window)
-LLM sử dụng bộ nhớ ngữ cảnh (Context Window) để nhớ nội dung trước đó trong cuộc trò chuyện.
-GPT-4 có thể ghi nhớ khoảng 8.000 token (~6.000 từ), GPT-4 Turbo có thể lên đến 128.000 token.
-Điều này giúp mô hình:
-Nhớ những gì bạn đã hỏi trước đó.
-Duy trì mạch logic của cuộc hội thoại.
+🔹 **Bước 3: Truy vấn bộ nhớ ngữ cảnh (Context Window)**
+
+LLM sử dụng bộ nhớ ngữ cảnh (Context Window) để nhớ nội dung `trước đó` trong cuộc trò chuyện.
+
+ChatGPT-4 có thể ghi nhớ khoảng 8.000 token (~6.000 từ), GPT-4 Turbo có thể lên đến 128.000 token.
+Điều này sẽ giúp mô hình:
+* Nhớ những gì bạn đã hỏi trước đó.
+* Duy trì mạch logic của cuộc hội thoại.
+
 📌 Lưu ý: Nếu prompt quá dài và vượt quá giới hạn token, mô hình có thể "quên" thông tin ban đầu.
 
-🔹 Bước 4: Dự đoán và tạo phản hồi
-Dựa trên ngữ cảnh của prompt, LLM tính toán xác suất của từ tiếp theo có thể xuất hiện.
-Ví dụ:
-Nếu prompt là: "Trí tuệ nhân tạo là"
-Mô hình có thể dự đoán các từ tiếp theo như:
-"một lĩnh vực khoa học máy tính..." (80% xác suất)
-"một công nghệ tiên tiến..." (15% xác suất)
-"rất quan trọng trong thời đại số..." (5% xác suất)
-Mô hình chọn câu trả lời có xác suất cao nhất.
-🔹 Bước 5: Tối ưu hóa phản hồi (Temperature, Top-k, Top-p)
-Temperature: Quyết định độ sáng tạo của câu trả lời.
-0.0 → Logic, ít sáng tạo.
-1.0 → Đa dạng, sáng tạo hơn.
-Top-k Sampling: Giới hạn số lượng từ dự đoán để tránh câu trả lời không hợp lý.
-Top-p Sampling (Nucleus Sampling): Chỉ chọn những từ có xác suất cộng dồn cao hơn một ngưỡng nhất định.
-💡 Ví dụ:
+🔹 **Bước 4: Dự đoán và tạo phản hồi**
 
-Với Temperature = 0.2 → "AI là một công nghệ giúp máy tính học hỏi từ dữ liệu."
-Với Temperature = 1.0 → "AI là bộ não kỹ thuật số giúp con người sáng tạo ra những điều tuyệt vời."
-🔹 Bước 6: Kiểm tra và điều chỉnh đầu ra
+Ví dụ phản hồi với mô hình DeepSeek R1 [tại đây](https://www.together.ai/models/deepseek-r1)
+
+![Giao diện UI](https://github.com/hoanglong8/FoxAI-Data-Analyst/blob/main/Image/Prompt_UI.png)
+
+Dựa trên ngữ cảnh của prompt, LLM tính toán xác suất của từ tiếp theo có thể xuất hiện.
+
+Ví dụ: Nếu prompt là: "Trí tuệ nhân tạo là" thì Mô hình có thể dự đoán các từ tiếp theo như:
+* "một lĩnh vực khoa học máy tính..." (80% xác suất)
+* "một công nghệ tiên tiến..." (15% xác suất)
+* "rất quan trọng trong thời đại số..." (5% xác suất)
+
+Mô hình thường sẽ chọn câu trả lời có xác suất cao nhất.
+
+🔹 **Bước 5: Tối ưu hóa phản hồi (Temperature, Top-k, Top-p...)**
+
+![Code prompt API](https://github.com/hoanglong8/FoxAI-Data-Analyst/blob/main/Image/Prompt_API.png)
+
+* **Temperature:** Quyết định mức độ sáng tạo và tính ngẫu nhiên của mô hình (t = 0 là logic, không sáng tạo; t = 2 là sáng tạo tối đa).
+
+* **Max token output:** Giới hạn số token đầu ra tối đa cho 1 lần phản hồi để tránh ảnh hưởng tới hệ thống, thường từ 5.000 - 8.000 token (khoảng 4.000-6.000 từ tiếng Việt).
+
+* **Top-p:** Giới hạn `rổ từ để đoán` về mặt `tổng xác suất`, p càng cao thì rổ từ để lựa chọn càng nhiều, câu văn càng đa dạng, sáng tạo. Thông thường p=0,95.
+
+* **Top-k:** Giới hạn `rổ từ để đoán` về mặt `số lượng`, k thường để mặc định từ 40-50 lựa chọn cho từ tiếp theo.
+
+* **stop:** Phản hồi của mô hình sẽ dừng lại khi gặp ký tự nào, ví dụ: dấu kết thúc câu `<｜end▁of▁sentence｜>`.
+
+* **role:** Vai trò của mô hình, ví dụ `bạn đóng vai trò là 1 chuyên gia về lĩnh vực ...`
+
+* **stream=True:** Phản hồi được viết ra liên tục giống như đang có người gõ chữ.
+
+🔹 **Bước 6: Kiểm tra và điều chỉnh đầu ra**
+
 Sau khi tạo phản hồi, LLM sẽ kiểm tra:
-Có lỗi logic không?
-Có phù hợp với prompt không?
-Có vi phạm chính sách không?
-Nếu cần, mô hình có thể điều chỉnh lại câu trả lời trước khi hiển thị cho người dùng.
-3. Cách tối ưu Prompt để có phản hồi tốt nhất
+* Có lỗi logic không?
+* Có phù hợp với prompt không?
+* Có vi phạm chính sách không?
+* Mô hình có thể điều chỉnh lại câu trả lời.
+
+1.3. Cách tối ưu Prompt để có phản hồi tốt nhất
 1️⃣ Rõ ràng, cụ thể:
 
 ❌ "Viết bài về AI."
@@ -106,29 +129,11 @@ Nếu cần, mô hình có thể điều chỉnh lại câu trả lời trước
 
 ## 2.Cấu trúc 1 prompt đầy đủ dạng UI (giao diện người dùng)
 
-Sử dụng mô hình DeepSeek R1 [tại đây](https://www.together.ai/models/deepseek-r1)
 
-![Hình ảnh 1](https://github.com/hoanglong8/FoxAI-Data-Analyst/blob/main/Image/Prompt_UI.png)
 
 ## 2.Cấu trúc 1 prompt dạng lệnh code qua API
 
-![Hình ảnh 2](https://github.com/hoanglong8/FoxAI-Data-Analyst/blob/main/Image/Prompt_API.png)
 
-* **Temperature:** Mức độ sáng tạo và tính ngẫu nhiên của mô hình (t = 0 là không sáng tạo, t = 2 là sáng tạo tối đa).
-
-* **Max token output:** Giới hạn số token đầu ra tối đa cho 1 lần phản hồi để tránh ảnh hưởng tới hệ thống, thường từ 2.000 - 5.000 token (khoảng 4.000 từ tiếng Việt).
-
-* **Top-p:** Điều chỉnh xác suất dự đoán cho từ (token) tiếp theo, p càng cao càng giúp tạo ra phản hồi đa dạng, trôi chảy và tự nhiên hơn (p ~ 100% là tự do, đa dạng lựa chọn nhất, thường để p = 0,95).
-
-* **Top-k:** Giới hạn số lượng lựa chọn cho từ (token) tiếp theo, giúp tăng tốc quá trình tạo và có thể cải thiện chất lượng của văn bản được tạo (k thường để mặc định từ 40-50 lựa chọn cho từ tiếp theo).
-
-* **Repetition Penalty (lỗi lặp lại):** Thường đặt = 1 để giảm khả năng lặp lại hoặc bị kẹt trong vòng lặp phản hồi.
-
-* **stop:** Phản hồi sẽ dừng lại khi gặp ký tự nào, ví dụ: dấu kết thúc câu `<｜end▁of▁sentence｜>`.
-
-* **role:** Vai trò của mô hình, ví dụ như là 1 chuyên gia về lĩnh vực ...
-
-* **stream=True:** Phản hồi được viết ra liên tục giống như đang có người gõ chữ.
 
 ## 3.Cấu trúc 1 prompt đầy đủ
 
