@@ -103,6 +103,8 @@ Sau khi tạo phản hồi, LLM sẽ kiểm tra:
 
 ### 1.3. Viết prompt đủ cấu trúc là cách tối ưu phản hồi
 
+![Hình ảnh](https://github.com/hoanglong8/FoxAI-Data-Analyst/blob/main/Image/Prompt_Engineer_1.png)
+
 1️⃣ **Ngữ cảnh:** Tình trạng hiện tại, tôi là ai, tôi đang có những gì…
 
     * ❌ "Viết bài về AI."
@@ -129,8 +131,6 @@ Sau khi tạo phản hồi, LLM sẽ kiểm tra:
 
     * 📌 "Tóm tắt bài viết thành một bảng gồm 3 cột: Ý chính, Giải thích, Ví dụ."
     * 📌 "Tạo danh sách 5 lợi ích của AI, mỗi lợi ích không quá 20 từ."
-
-![Hình ảnh](https://github.com/hoanglong8/FoxAI-Data-Analyst/blob/main/Image/Prompt_Engineer_1.png)
 
 ## 4.Tham khảo một số prompt mẫu
 
