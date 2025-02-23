@@ -1,6 +1,110 @@
-# Kỹ thuật Prompt Engineering để tối ưu hóa phản hồi
+# Kỹ thuật Prompt Engineering để tối ưu hóa phản hồi trên các mô hình ngôn ngữ lớn LLM
 
-## 1.Cấu trúc 1 prompt đầy đủ dạng UI (giao diện người dùng)
+## Nội dung
+
+1.[Prompt](https://github.com/hoanglong8/FoxAI-Data-Analyst/edit/main/D%E1%BB%B1%20%C3%A1n%20Chatbot%20FoxAI/%5BFoxAI%5D%20Prompt%20Engineer.md) và các khái niệm liên quan
+
+2.Các dạng [cấu trúc](https://github.com/hoanglong8/FoxAI-Data-Analyst/edit/main/D%E1%BB%B1%20%C3%A1n%20Chatbot%20FoxAI/%5BFoxAI%5D%20Prompt%20Engineer.md) của 1 prompt
+
+3.Một số [ví dụ](https://github.com/hoanglong8/FoxAI-Data-Analyst/edit/main/D%E1%BB%B1%20%C3%A1n%20Chatbot%20FoxAI/%5BFoxAI%5D%20Prompt%20Engineer.md) tham khảo
+
+4.[Thực hành](https://github.com/hoanglong8/FoxAI-Data-Analyst/edit/main/D%E1%BB%B1%20%C3%A1n%20Chatbot%20FoxAI/%5BFoxAI%5D%20Prompt%20Engineer.md)
+
+## 1.Prompt và các khái niệm liên quan (token, temperature...)
+
+### 1.1. Khái niệm Prompt
+
+Prompt là lời nhắc, câu lệnh hoặc câu hỏi mà người dùng nhập vào để tương tác với mô hình ngôn ngữ lớn (LLM - Large Language Model) như ChatGPT. Nói cách khác, prompt là cách bạn hướng dẫn AI để nhận được câu trả lời mong muốn.
+
+Ví dụ:
+
+👉 Prompt đơn giản: "Hãy giải thích khái niệm AI là gì?"
+
+👉 Prompt nâng cao: "Hãy giải thích AI theo cách dễ hiểu cho một học sinh lớp 10, sử dụng ví dụ thực tế."
+
+💡 Lưu ý: Cùng một câu hỏi, nhưng cách đặt prompt khác nhau có thể dẫn đến các câu trả lời hoàn toàn khác!
+
+### 1.2. Cơ chế LLMs nhận diện và phản hồi Prompt
+
+Mô hình ngôn ngữ như ChatGPT hoạt động dựa trên dự đoán `từ tiếp theo`, và quá trình phản hồi prompt lại trải qua các bước như sau:
+
+🔹 Bước 1: Nhận diện và mã hóa Prompt thành Token
+
+Token là đơn vị nhỏ nhất mà mô hình xử lý khi phân tích văn bản. Một token có thể là một từ, một phần của từ, hoặc một ký tự. Khi bạn nhập một prompt, LLM sẽ chuyển đổi câu hỏi thành token (đơn vị xử lý ngôn ngữ).
+
+Ví dụ, bạn nhập:
+
+👉 "Tóm tắt bài viết về trí tuệ nhân tạo."
+
+Mô hình sẽ tách thành các token, ví dụ:
+
+["Tóm", " tắt", " bài", " viết", " về", " trí", " tuệ", " nhân", " tạo", "."]
+
+🔹 Bước 2: Phân tích ngữ cảnh
+Dựa trên các token, mô hình sẽ:
+Xác định loại yêu cầu (tóm tắt, giải thích, tạo nội dung, v.v.).
+Hiểu từ khóa chính trong câu (ví dụ: trí tuệ nhân tạo).
+Định hướng phản hồi dựa trên yêu cầu của prompt (ví dụ: tóm tắt thay vì mô tả chi tiết).
+📌 Nếu prompt thiếu ngữ cảnh, mô hình có thể đoán sai hoặc đưa ra câu trả lời không mong muốn.
+
+💡 Ví dụ:
+❌ "Tóm tắt bài viết." → Quá mơ hồ, AI không biết bài viết nào.
+✅ "Tóm tắt bài viết về trí tuệ nhân tạo trong 100 từ." → Rõ ràng hơn.
+
+🔹 Bước 3: Truy vấn bộ nhớ ngữ cảnh (Context Window)
+LLM sử dụng bộ nhớ ngữ cảnh (Context Window) để nhớ nội dung trước đó trong cuộc trò chuyện.
+GPT-4 có thể ghi nhớ khoảng 8.000 token (~6.000 từ), GPT-4 Turbo có thể lên đến 128.000 token.
+Điều này giúp mô hình:
+Nhớ những gì bạn đã hỏi trước đó.
+Duy trì mạch logic của cuộc hội thoại.
+📌 Lưu ý: Nếu prompt quá dài và vượt quá giới hạn token, mô hình có thể "quên" thông tin ban đầu.
+
+🔹 Bước 4: Dự đoán và tạo phản hồi
+Dựa trên ngữ cảnh của prompt, LLM tính toán xác suất của từ tiếp theo có thể xuất hiện.
+Ví dụ:
+Nếu prompt là: "Trí tuệ nhân tạo là"
+Mô hình có thể dự đoán các từ tiếp theo như:
+"một lĩnh vực khoa học máy tính..." (80% xác suất)
+"một công nghệ tiên tiến..." (15% xác suất)
+"rất quan trọng trong thời đại số..." (5% xác suất)
+Mô hình chọn câu trả lời có xác suất cao nhất.
+🔹 Bước 5: Tối ưu hóa phản hồi (Temperature, Top-k, Top-p)
+Temperature: Quyết định độ sáng tạo của câu trả lời.
+0.0 → Logic, ít sáng tạo.
+1.0 → Đa dạng, sáng tạo hơn.
+Top-k Sampling: Giới hạn số lượng từ dự đoán để tránh câu trả lời không hợp lý.
+Top-p Sampling (Nucleus Sampling): Chỉ chọn những từ có xác suất cộng dồn cao hơn một ngưỡng nhất định.
+💡 Ví dụ:
+
+Với Temperature = 0.2 → "AI là một công nghệ giúp máy tính học hỏi từ dữ liệu."
+Với Temperature = 1.0 → "AI là bộ não kỹ thuật số giúp con người sáng tạo ra những điều tuyệt vời."
+🔹 Bước 6: Kiểm tra và điều chỉnh đầu ra
+Sau khi tạo phản hồi, LLM sẽ kiểm tra:
+Có lỗi logic không?
+Có phù hợp với prompt không?
+Có vi phạm chính sách không?
+Nếu cần, mô hình có thể điều chỉnh lại câu trả lời trước khi hiển thị cho người dùng.
+3. Cách tối ưu Prompt để có phản hồi tốt nhất
+1️⃣ Rõ ràng, cụ thể:
+
+❌ "Viết bài về AI."
+✅ "Viết bài 500 từ về lịch sử và ứng dụng AI trong y tế."
+2️⃣ Cung cấp ngữ cảnh:
+
+❌ "Dịch đoạn văn này."
+✅ "Dịch đoạn văn này sang tiếng Anh với giọng văn trang trọng."
+3️⃣ Sử dụng định dạng hướng dẫn:
+
+📌 "Tạo danh sách 5 lợi ích của AI, mỗi lợi ích không quá 20 từ."
+4️⃣ Kết hợp vai trò và phong cách viết:
+
+📌 "Bạn là một chuyên gia AI, hãy giải thích AI như đang giảng dạy cho sinh viên năm nhất."
+5️⃣ Yêu cầu định dạng đầu ra:
+
+📌 "Tóm tắt bài viết thành một bảng gồm 3 cột: Ý chính, Giải thích, Ví dụ."
+
+
+## 2.Cấu trúc 1 prompt đầy đủ dạng UI (giao diện người dùng)
 
 Sử dụng mô hình DeepSeek R1 [tại đây](https://www.together.ai/models/deepseek-r1)
 
