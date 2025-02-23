@@ -18,11 +18,9 @@ Prompt là lời nhắc, câu lệnh hoặc câu hỏi mà người dùng nhập
 
 Ví dụ:
 
-👉 Prompt đơn giản: "Hãy giải thích khái niệm AI là gì?"
-
-👉 Prompt nâng cao: "Hãy giải thích AI theo cách dễ hiểu cho một học sinh lớp 10, sử dụng ví dụ thực tế."
-
-💡 Lưu ý: Cùng một câu hỏi, nhưng cách đặt prompt khác nhau có thể dẫn đến các câu trả lời hoàn toàn khác!
+    * 👉 Prompt đơn giản: "Hãy giải thích khái niệm AI là gì?"
+    * 👉 Prompt nâng cao: "Hãy giải thích AI theo cách dễ hiểu cho một học sinh lớp 10, sử dụng ví dụ thực tế."
+    * 💡 Lưu ý: Cùng một câu hỏi, nhưng cách đặt prompt khác nhau có thể dẫn đến các câu trả lời hoàn toàn khác!
 
 ### 1.2. Cơ chế LLMs nhận diện và phản hồi Prompt
 
@@ -32,13 +30,10 @@ Mô hình ngôn ngữ như ChatGPT hoạt động dựa trên dự đoán `từ 
 
 Token là đơn vị nhỏ nhất mà mô hình xử lý khi phân tích văn bản. Một token có thể là một từ, một phần của từ, hoặc một ký tự. Khi bạn nhập một prompt, LLM sẽ chuyển đổi câu hỏi thành token (đơn vị xử lý ngôn ngữ).
 
-Ví dụ, bạn nhập:
+Ví dụ:
 
-👉 "Tóm tắt bài viết về trí tuệ nhân tạo."
-
-Mô hình sẽ tách thành các token, ví dụ:
-
-["Tóm", " tắt", " bài", " viết", " về", " trí", " tuệ", " nhân", " tạo", "."]
+    * Bạn nhập 👉: "Tóm tắt bài viết về trí tuệ nhân tạo."
+    * Mô hình sẽ tách thành các token như 👉:["Tóm", " tắt", " bài", " viết", " về", " trí", " tuệ", " nhân", " tạo", "."]
 
 🔹 **Bước 2: Phân tích ngữ cảnh**
 
@@ -49,20 +44,19 @@ Dựa trên các token, mô hình sẽ:
 
 📌 Nếu prompt thiếu ngữ cảnh, mô hình có thể đoán sai hoặc đưa ra câu trả lời không mong muốn.
 
-💡 Ví dụ:
+Ví dụ:
 
-❌ "Tóm tắt bài viết." → Quá mơ hồ, AI không biết bài viết nào.
-
-✅ "Tóm tắt bài viết về trí tuệ nhân tạo trong 100 từ." → Rõ ràng hơn.
+    * ❌ "Tóm tắt bài viết." → Quá mơ hồ, AI không biết bài viết nào.
+    * ✅ "Tóm tắt bài viết về trí tuệ nhân tạo trong 100 từ." → Rõ ràng hơn.
 
 🔹 **Bước 3: Truy vấn bộ nhớ ngữ cảnh (Context Window)**
 
 LLM sử dụng bộ nhớ ngữ cảnh (Context Window) để nhớ nội dung `trước đó` trong cuộc trò chuyện.
 
-ChatGPT-4 có thể ghi nhớ khoảng 8.000 token (~6.000 từ), GPT-4 Turbo có thể lên đến 128.000 token.
-Điều này sẽ giúp mô hình:
-* Nhớ những gì bạn đã hỏi trước đó.
-* Duy trì mạch logic của cuộc hội thoại.
+    ChatGPT-4 có thể ghi nhớ khoảng 8.000 token (~6.000 từ), GPT-4 Turbo có thể lên đến 128.000 token.
+    Điều này sẽ giúp mô hình:
+    * Nhớ những gì bạn đã hỏi trước đó.
+    * Duy trì mạch logic của cuộc hội thoại.
 
 📌 Lưu ý: Nếu prompt quá dài và vượt quá giới hạn token, mô hình có thể "quên" thông tin ban đầu.
 
@@ -107,45 +101,34 @@ Sau khi tạo phản hồi, LLM sẽ kiểm tra:
 * Có vi phạm chính sách không?
 * Mô hình có thể điều chỉnh lại câu trả lời.
 
-1.3. Cách tối ưu Prompt để có phản hồi tốt nhất
-1️⃣ Rõ ràng, cụ thể:
+### 1.3. Viết prompt đủ cấu trúc là cách tối ưu phản hồi
 
-❌ "Viết bài về AI."
-✅ "Viết bài 500 từ về lịch sử và ứng dụng AI trong y tế."
-2️⃣ Cung cấp ngữ cảnh:
+1️⃣ **Ngữ cảnh:** Tình trạng hiện tại, tôi là ai, tôi đang có những gì…
 
-❌ "Dịch đoạn văn này."
-✅ "Dịch đoạn văn này sang tiếng Anh với giọng văn trang trọng."
-3️⃣ Sử dụng định dạng hướng dẫn:
+    * ❌ "Viết bài về AI."
+    * ✅ "Viết bài 500 từ về lịch sử và ứng dụng AI trong y tế."
 
-📌 "Tạo danh sách 5 lợi ích của AI, mỗi lợi ích không quá 20 từ."
-4️⃣ Kết hợp vai trò và phong cách viết:
+2️⃣ **Mục tiêu:** Tôi cần gì, tôi muốn đi đến đâu…
 
-📌 "Bạn là một chuyên gia AI, hãy giải thích AI như đang giảng dạy cho sinh viên năm nhất."
-5️⃣ Yêu cầu định dạng đầu ra:
+    * ❌ "Dịch đoạn văn này."
+    * ✅ "Dịch đoạn văn này sang tiếng Anh với giọng văn trang trọng."
 
-📌 "Tóm tắt bài viết thành một bảng gồm 3 cột: Ý chính, Giải thích, Ví dụ."
+3️⃣ **Vai trò:** Bạn là một chuyên gia trong lĩnh vực…
 
+    * 📌 "Bạn là một chuyên gia AI, hãy giải thích AI như đang giảng dạy cho sinh viên năm nhất."
 
-## 2.Cấu trúc 1 prompt đầy đủ dạng UI (giao diện người dùng)
+4️⃣ **Hành động:** Bạn muốn mô hình làm gì?
 
+    * Tìm kiếm thông tin (fact, không thêm, không bịa),
+    * Sáng tạo (creative, tính mới),
+    * Phân tích (analyst, giải thích lý do),
+    * Tư vấn (advice, dự báo),
+    * Tóm tắt, tổng hợp, dịch thuật...
 
+5️⃣ **Đầu ra:** Yêu cầu định dạng (markdown, văn bản, bảng), độ dài ký tự, phong cách viết…
 
-## 2.Cấu trúc 1 prompt dạng lệnh code qua API
-
-
-
-## 3.Cấu trúc 1 prompt đầy đủ
-
-* **Ngữ cảnh:** Tình trạng hiện tại, tôi là ai, tôi đang có những gì…
-
-* **Mục tiêu:** Tôi cần gì, tôi muốn đi đến đâu…
-
-* **Vai trò:** Bạn là một chuyên gia trong lĩnh vực…
-
-* **Hành động:** Tìm kiếm thông tin (fact, không thêm, không bịa), sáng tạo (creative, tính mới), phân tích (analyst, giải thích lý do), tư vấn (advice, dự báo), tóm tắt, tổng hợp...
-
-* **Đầu ra:** Định dạng (markdown, văn bản, bảng), độ dài ký tự, phong cách…
+    * 📌 "Tóm tắt bài viết thành một bảng gồm 3 cột: Ý chính, Giải thích, Ví dụ."
+    * 📌 "Tạo danh sách 5 lợi ích của AI, mỗi lợi ích không quá 20 từ."
 
 ![Hình ảnh](https://github.com/hoanglong8/FoxAI-Data-Analyst/blob/main/Image/Prompt_Engineer_1.png)
 
