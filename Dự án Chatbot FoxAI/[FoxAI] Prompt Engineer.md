@@ -2,9 +2,9 @@
 
 ## Nội dung
 
-1.[Prompt và các khái niệm liên quan](https://github.com/hoanglong8/FoxAI-Data-Analyst/edit/main/D%E1%BB%B1%20%C3%A1n%20Chatbot%20FoxAI/%5BFoxAI%5D%20Prompt%20Engineer.md)
+1.[Prompt và cơ chế nhận diện - phản hồi của LLM](https://github.com/hoanglong8/FoxAI-Data-Analyst/edit/main/D%E1%BB%B1%20%C3%A1n%20Chatbot%20FoxAI/%5BFoxAI%5D%20Prompt%20Engineer.md)
 
-2.[Các dạng cấu trúc của 1 prompt](https://github.com/hoanglong8/FoxAI-Data-Analyst/edit/main/D%E1%BB%B1%20%C3%A1n%20Chatbot%20FoxAI/%5BFoxAI%5D%20Prompt%20Engineer.md)
+2.[Cấu trúc của 1 prompt đầy đủ](https://github.com/hoanglong8/FoxAI-Data-Analyst/edit/main/D%E1%BB%B1%20%C3%A1n%20Chatbot%20FoxAI/%5BFoxAI%5D%20Prompt%20Engineer.md)
 
 3.[Nguồn tham khảo ví dụ prompt theo từng ngành](https://github.com/hoanglong8/FoxAI-Data-Analyst/edit/main/D%E1%BB%B1%20%C3%A1n%20Chatbot%20FoxAI/%5BFoxAI%5D%20Prompt%20Engineer.md)
 
@@ -24,58 +24,96 @@ Ví dụ:
 
 ### 1.2. Cơ chế LLMs nhận diện và phản hồi Prompt
 
-Mô hình ngôn ngữ như ChatGPT hoạt động dựa trên dự đoán `từ tiếp theo`, và quá trình phản hồi prompt lại trải qua các bước như sau:
+Mô hình ngôn ngữ như ChatGPT hoạt động dựa trên dự đoán `từ tiếp theo`, khi người dùng đưa ra 1 prompt thì quá trình LLM phản hồi sẽ trải qua `6 bước`, chúng ta cùng xem 1 ví dụ như sau:
 
-🔹 **Bước 1: Nhận diện và mã hóa Prompt thành Token**
+👉 Giả sử chúng ta có 1 Chatbot FoxAI chuyên hỗ trợ **Tư vấn triển khai phần mềm SAP**, và người dùng nhập `prompt` sau vào hệ thống:
 
-Token là đơn vị nhỏ nhất mà mô hình xử lý khi phân tích văn bản. Một token có thể là một từ, một phần của từ, hoặc một ký tự. Khi bạn nhập một prompt, LLM sẽ chuyển đổi câu hỏi thành token (đơn vị xử lý ngôn ngữ).
+`"Trong quá trình triển khai SAP Business One, một trong những bước quan trọng nhất là thiết lập..."`
 
-Ví dụ:
+🔹 **Bước 1: Nhận diện và chia Prompt thành Token**
 
-    * Bạn nhập 👉: "Tóm tắt bài viết về trí tuệ nhân tạo."
-    * Mô hình sẽ tách thành các token như 👉:["Tóm", " tắt", " bài", " viết", " về", " trí", " tuệ", " nhân", " tạo", "."]
+Token - đơn vị nhỏ nhất mà mô hình hiểu được như từ, dấu câu...
 
-🔹 **Bước 2: Phân tích ngữ cảnh**
+| Token    | Từ gốc   |
+|----------|---------|
+| Trong    | Trong   |
+| quá      | quá     |
+| trình    | trình   |
+| triển    | triển   |
+| khai     | khai    |
+|...|...|
+| thiết    | thiết   |
+| lập      | lập     |
+| ...      | (từ cần đoán) |
 
-Dựa trên các token, mô hình sẽ:
-* Xác định loại yêu cầu (tóm tắt, giải thích, tạo nội dung, v.v.).
-* Hiểu từ khóa chính trong câu (ví dụ: trí tuệ nhân tạo).
-* Định hướng phản hồi dựa trên yêu cầu của prompt (ví dụ: tóm tắt thay vì mô tả chi tiết).
+🔹 **Bước 2: Xác định ngữ cảnh và trọng số của các từ liên quan**
 
-📌 Nếu prompt thiếu ngữ cảnh, mô hình có thể đoán sai hoặc đưa ra câu trả lời không mong muốn.
+- Mô hình sẽ nhìn vào **toàn bộ ngữ cảnh trước đó** để hiểu nội dung của câu.
+- Các keyword quan trọng như **"triển khai", "SAP Business One", "bước quan trọng", "thiết lập"** sẽ có **trọng số cao hơn**, vì chúng giúp xác định từ tiếp theo hợp lý nhất.
+- Xác định **loại yêu cầu**: tìm kiếm thông tin, tóm tắt, giải thích, sáng tạo, v.v..
+
+📌 Nếu prompt thiếu `ngữ cảnh`, mô hình có thể đoán sai hoặc đưa ra câu trả lời không mong muốn.
 
 Ví dụ:
 
     * ❌ "Tóm tắt bài viết." → Quá mơ hồ, AI không biết bài viết nào.
     * ✅ "Tóm tắt bài viết về trí tuệ nhân tạo trong 100 từ." → Rõ ràng hơn.
 
-🔹 **Bước 3: Truy vấn bộ nhớ ngữ cảnh (Context Window)**
-
-LLM sử dụng bộ nhớ ngữ cảnh (Context Window) để nhớ nội dung `trước đó` trong cuộc trò chuyện.
+LLM sử dụng bộ nhớ ngữ cảnh (Context Window) để nhớ nội dung trong `cuộc trò chuyện trước đó` => Trước khi đưa ra `yêu cầu`, hãy hỏi về các `bài viết`, `công trình nghiên cứu` và `tổ chức uy tín` liên quan đến lĩnh vực muốn hỏi để tạo `ngữ cảnh`.
 
     ChatGPT-4 có thể ghi nhớ khoảng 8.000 token (~6.000 từ), GPT-4 Turbo có thể lên đến 128.000 token.
-    Điều này sẽ giúp mô hình:
-    * Nhớ những gì bạn đã hỏi trước đó.
-    * Duy trì mạch logic của cuộc hội thoại.
 
 📌 Lưu ý: Nếu prompt quá dài và vượt quá giới hạn token, mô hình có thể "quên" thông tin ban đầu.
 
-🔹 **Bước 4: Dự đoán và tạo phản hồi**
+🔹 **Bước 3: Tính toán xác suất cho các từ tiếp theo**
 
-Ví dụ phản hồi với mô hình DeepSeek R1 [tại đây](https://www.together.ai/models/deepseek-r1)
+Mô hình sẽ xem xét hàng triệu câu từ dữ liệu đã được huấn luyện để **dự đoán các từ tiếp theo với xác suất tương ứng** như sau:
+
+| **Từ dự đoán**    | **Xác suất (%)** |
+|------------------|----------------|
+| **cấu hình**    | 35%            |
+| **tài khoản**   | 20%            |
+| **cơ sở dữ liệu** | 15%           |
+| **người dùng**  | 10%            |
+| **quyền hạn**   | 7%             |
+| **môi trường**  | 5%             |
+| **báo cáo**     | 3%             |
+| **khác**        | 5%             |
+
+
+🔹 **Bước 4: Chọn từ có xác suất cao nhất để tạo phản hồi**
+
+Mô hình thường chọn từ **"cấu hình"** vì có xác suất cao nhất (35%).
+
+👉 Câu được hoàn thiện thành:  
+`"Trong quá trình triển khai SAP Business One, một trong những bước quan trọng nhất là thiết lập cấu hình"`
+
+🔹 **Bước 5: Tiếp tục dự đoán từ tiếp theo**
+
+Sau khi đã điền từ "cấu hình", mô hình tiếp tục đoán từ tiếp theo:
+
+- **Cấu hình** → hệ thống (40%)  
+- **Cấu hình** → ban đầu (25%)  
+- **Cấu hình** → tài khoản (15%)  
+- **Cấu hình** → dữ liệu (10%)  
+- **Cấu hình** → người dùng (10%)  
+
+👉 Mô hình có thể tiếp tục hoàn thiện câu thành:  
+`"Trong quá trình triển khai SAP Business One, một trong những bước quan trọng nhất là thiết lập cấu hình hệ thống."`
+
+LLM tiếp tục **lặp lại quá trình này** để tạo ra văn bản hợp lý và chỉ dừng lại khi đủ `max token output` hoặc gặp dấu hiệu `stop`.
+
+[DeepSeek R1](https://www.together.ai/models/deepseek-r1)
 
 ![Giao diện UI](https://github.com/hoanglong8/FoxAI-Data-Analyst/blob/main/Image/Prompt_UI.png)
 
-Dựa trên ngữ cảnh của prompt, LLM tính toán xác suất của từ tiếp theo có thể xuất hiện.
+🔹 **Bước 6: Kiểm tra và tối ưu hóa phản hồi**
 
-Ví dụ: Nếu prompt là: "Trí tuệ nhân tạo là" thì Mô hình có thể dự đoán các từ tiếp theo như:
-* "một lĩnh vực khoa học máy tính..." (80% xác suất)
-* "một công nghệ tiên tiến..." (15% xác suất)
-* "rất quan trọng trong thời đại số..." (5% xác suất)
-
-Mô hình thường sẽ chọn câu trả lời có xác suất cao nhất.
-
-🔹 **Bước 5: Tối ưu hóa phản hồi (Temperature, Top-k, Top-p...)**
+Sau khi tạo phản hồi, LLM sẽ kiểm tra:
+* Có lỗi logic không?
+* Có phù hợp với prompt không?
+* Có vi phạm chính sách không?
+* Mô hình có thể điều chỉnh lại câu trả lời bằng cách tùy chỉnh `Temperature, Top-k, Top-p...`
 
 ![Code prompt API](https://github.com/hoanglong8/FoxAI-Data-Analyst/blob/main/Image/Prompt_API.png)
 
@@ -92,14 +130,6 @@ Mô hình thường sẽ chọn câu trả lời có xác suất cao nhất.
 * **role:** Vai trò của mô hình, ví dụ `bạn đóng vai trò là 1 chuyên gia về lĩnh vực ...`
 
 * **stream=True:** Phản hồi được viết ra liên tục giống như đang có người gõ chữ.
-
-🔹 **Bước 6: Kiểm tra và điều chỉnh đầu ra**
-
-Sau khi tạo phản hồi, LLM sẽ kiểm tra:
-* Có lỗi logic không?
-* Có phù hợp với prompt không?
-* Có vi phạm chính sách không?
-* Mô hình có thể điều chỉnh lại câu trả lời.
 
 ### 1.3. Viết prompt đủ cấu trúc là cách tối ưu phản hồi
 
