@@ -1,4 +1,4 @@
-# Tài liệu tham khảo
+## Tài liệu tham khảo
 
 1. **API của OpenAI**:  
    [API OpenAI](https://platform.openai.com/docs/api-reference/chat/create)
@@ -11,7 +11,9 @@
 
 ---
 
-## MỤC TIÊU
+## Một số tính năng cần phát triển trên Chatbot FoxAI
+
+[Chatbot FoxAI trên GPT Stores](https://chatgpt.com/g/g-6780c0bb3d4481919022c62333bb8046-foxai-chat)
 
 - **Sử dụng các mô hình có sẵn**: Mượn các mô hình từ Gemini, ChatGPT, Deepseek, v.v. để tạo ra bot hỗ trợ khách hàng. (ĐÃ HOÀN THÀNH)
   
@@ -22,3 +24,11 @@
 - **Nhớ dữ liệu cuộc hội thoại**: Bot cần lưu trữ và sử dụng dữ liệu từ các cuộc hội thoại trước đây để cung cấp các câu trả lời phù hợp hơn. (TẠM THỜI)
 
 - **Training mô hình**: Có máy chủ lưu trữ lịch sử chat của khách hàng nhằm đưa vào mô hình nhằm vector hoá dữ liệu. Tiến hành training thêm vào các file dữ liệu để mô hình hoạt động mạnh mẽ hơn và có thể trả lời theo ý tưởng của người lập trình.
+
+## Một số Chatbot tham khảo
+
+1.[Gein AI](https://app.gein.ai/)
+
+2.[LovinBot AI](https://app.lovinbot.ai/)
+
+3.[Chatbase](https://www.chatbase.co/)
