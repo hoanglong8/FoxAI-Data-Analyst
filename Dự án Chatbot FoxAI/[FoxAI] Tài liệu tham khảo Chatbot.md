@@ -32,3 +32,7 @@
 2.[LovinBot AI](https://app.lovinbot.ai/)
 
 3.[Chatbase](https://www.chatbase.co/)
+
+4.[Genspark AI](https://www.genspark.ai/agents?type=moa_chat)
+
+5.[Monica](https://monica.im/en/bots)
