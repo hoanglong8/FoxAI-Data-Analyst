@@ -36,3 +36,6 @@
 4.[Genspark AI](https://www.genspark.ai/agents?type=moa_chat)
 
 5.[Monica](https://monica.im/en/bots)
+Có tính năng tạo bot, nhận diện hình ảnh giống như ChatGPT
+
+
