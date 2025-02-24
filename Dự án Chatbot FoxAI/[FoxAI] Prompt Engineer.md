@@ -92,11 +92,13 @@ Mô hình thường chọn từ **"cấu hình"** vì có xác suất cao nhất
 
 Sau khi đã điền từ "cấu hình", mô hình tiếp tục đoán từ tiếp theo:
 
-- **Cấu hình** → hệ thống (40%)  
-- **Cấu hình** → ban đầu (25%)  
-- **Cấu hình** → tài khoản (15%)  
-- **Cấu hình** → dữ liệu (10%)  
-- **Cấu hình** → người dùng (10%)  
+| **Từ dự đoán**    | **Xác suất (%)** |
+|------------------|----------------|
+| **hệ thống**    | 40%            |
+| **ban đầu**   | 25%            |
+| **tài khoản** | 15%           |
+| **dữ liệu**  | 10%            |
+| **người dùng**   | 10%             |
 
 👉 Mô hình có thể tiếp tục hoàn thiện câu thành:  
 `"Trong quá trình triển khai SAP Business One, một trong những bước quan trọng nhất là thiết lập cấu hình hệ thống."`
