@@ -193,3 +193,9 @@ Nghiên cứu chân dung khách hàng phù hợp với sản phẩm A. Bạn c�
 ## 4.Thực hành với Chatbot FoxAI
 
 Tài liệu [Chatbot FoxAI](https://github.com/hoanglong8/FoxAI-Data-Analyst/blob/main/D%E1%BB%B1%20%C3%A1n%20Chatbot%20FoxAI/K%E1%BA%BF%20ho%E1%BA%A1ch%20Chatbot%20FoxAI.md)
+
+Thông tin tài khoản ChatGPT chung của FoxAI:
+```
+Tài khoản ChatGPT dùng chung: congtycophan001@gmail.com
+Pass: Fox@12345678
+```
