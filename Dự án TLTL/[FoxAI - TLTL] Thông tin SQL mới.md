@@ -8,7 +8,7 @@
   
 - IBOSS
 
-    Địa chỉ: 64.64.64.3/mssqlservertl
+    Địa chỉ: 64.64.64.3\MSSQLSERVERTL
   
     Tài khoản: powerbi
   
