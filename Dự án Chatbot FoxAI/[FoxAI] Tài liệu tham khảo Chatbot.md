@@ -31,7 +31,13 @@
 
 2.[LovinBot AI](https://app.lovinbot.ai/)
 
-3.[Chatbase](https://www.chatbase.co/)
+3.[Chatbase](https://www.chatbase.co/dashboard/nguyn-hong-longs-team/chatbot/CC7ZcOJ9n_t-yX6INSSlI)
+
+```
+<script>
+(function(){if(!window.chatbase||window.chatbase("getState")!=="initialized"){window.chatbase=(...arguments)=>{if(!window.chatbase.q){window.chatbase.q=[]}window.chatbase.q.push(arguments)};window.chatbase=new Proxy(window.chatbase,{get(target,prop){if(prop==="q"){return target.q}return(...args)=>target(prop,...args)}})}const onLoad=function(){const script=document.createElement("script");script.src="https://www.chatbase.co/embed.min.js";script.id="CC7ZcOJ9n_t-yX6INSSlI";script.domain="www.chatbase.co";document.body.appendChild(script)};if(document.readyState==="complete"){onLoad()}else{window.addEventListener("load",onLoad)}})();
+</script>
+```
 
 4.[Genspark AI](https://www.genspark.ai/agents?type=moa_chat)
 
