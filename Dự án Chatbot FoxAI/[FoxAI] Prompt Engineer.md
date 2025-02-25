@@ -139,38 +139,30 @@ Sau khi tạo phản hồi, LLM sẽ kiểm tra:
 
 Có thể sử dụng công thức **FOXAI** để viết Prompt hiệu quả:
 
-🔹 F - Focus (Mục tiêu): Xác định rõ ràng mục đích của mình
-🔹 O - Orientation (Vai trò): Chỉ định AI đóng vai trò nào (chuyên gia, nhà tư vấn, giảng viên...)
-🔹 X - Xuất phát điểm (Ngữ cảnh): Cung cấp thông tin nền để AI hiểu rõ (.
-🔹 A - Action (Hành động): Chỉ định AI thực hiện điều gì cụ thể (tìm kiếm, phân tích, liệt kê...)
-🔹 I - Impact (Đầu ra): Xác định dạng kết quả mong muốn (bài viết, danh sách, bảng biểu, code...)
+🔹 **F - Focus (Mục tiêu):** Xác định rõ ràng mục đích của mình (tôi muốn làm gì, viết cho đối tượng nào, phong cách viết...)
 
-💡 Ví dụ:
+🔹 **O - Output (Đầu ra):** Xác định dạng kết quả mong muốn (bài viết, danh sách, bảng biểu, code, độ dài ký tự...)
 
+🔹 **X - Context (Ngữ cảnh):** Cung cấp thông tin nền để AI hiểu rõ (bạn là ai, bạn đang ở đâu, bạn có gì...)
+
+🔹 **A - Action (Hành động):** Chỉ định AI thực hiện điều gì cụ thể (tìm kiếm thông tin - facts, sáng tạo - creative, phân tích - analyst, liệt kê, tư vấn, dự báo, tóm tắt, tổng hợp, dịch thuật...)
+
+🔹 **I - Identity (Vai trò):** Chỉ định AI đóng vai trò nào (chuyên gia, nhà tư vấn, giảng viên...)
+
+👉 Công thức viết prompt theo FOXAI:
+`"Hãy đóng vai trò [I], dựa trên ngữ cảnh [X] với mục tiêu [F], hãy hành động [A] và cung cấp kết quả [O]."`
+
+💡 Ví dụ 1:
+"Hãy đóng vai trò là **một chuyên gia SAP B1 (I)**, hãy **viết (A)** tài liệu hướng dẫn cài đặt SAP dưới **dạng danh sách từng bước (O)**, dành cho **quản trị viên IT (F)** của **công ty sản xuất quy mô vừa đang sử dụng SQL (X)**"
+
+💡 Ví dụ 2:
+```
 📌 **F - Focus (Mục tiêu):** Viết hướng dẫn triển khai SAP Business One cho doanh nghiệp bán lẻ.  
 🎭 **O - Orientation (Vai trò):** Bạn là chuyên gia tư vấn SAP Business One với 10 năm kinh nghiệm.  
 📖 **X - Xuất phát điểm (Ngữ cảnh):** Công ty có 3 kho hàng, sử dụng nền tảng Microsoft SQL Server.  
 ✍️ **A - Action (Hành động):** Hướng dẫn cần trình bày theo từng bước, bao gồm cả các lỗi thường gặp.  
 📜 **I - Impact (Đầu ra):** Nội dung dài khoảng 500 từ, dễ hiểu, trình bày dưới dạng checklist.  
-
-1️⃣ Mục tiêu thường bao gồm các khía cạnh:
-   * Muốn làm gì?
-   * Viết cho đối tượng nào?
-   * Phong cách viết?
-
-
-4️⃣ **Hành động:**
-
-    * Tìm kiếm thông tin (fact, không thêm, không bịa),
-    * Sáng tạo (creative, tính mới),
-    * Phân tích (analyst, giải thích lý do),
-    * Tư vấn (advice, dự báo),
-    * Tóm tắt, tổng hợp, dịch thuật...
-
-5️⃣ **Đầu ra:** Yêu cầu định dạng (markdown, văn bản, bảng), độ dài ký tự, phong cách viết…
-
-    * 📌 "Tóm tắt bài viết thành một bảng gồm 3 cột: Ý chính, Giải thích, Ví dụ."
-    * 📌 "Tạo danh sách 5 lợi ích của AI, mỗi lợi ích không quá 20 từ."
+```
 
 ## 3.Tham khảo một số prompt mẫu
 
