@@ -133,7 +133,7 @@ Sau khi tạo phản hồi, LLM sẽ kiểm tra:
 
 * **stream=True:** Phản hồi được viết ra liên tục giống như đang có người gõ chữ.
 
-### 1.3. Viết prompt đủ cấu trúc là cách tối ưu phản hồi
+## 2. Viết prompt đủ cấu trúc là cách tối ưu phản hồi
 
 ![Hình ảnh](https://github.com/hoanglong8/FoxAI-Data-Analyst/blob/main/Image/Prompt_Engineer_1.png)
 
@@ -164,7 +164,7 @@ Sau khi tạo phản hồi, LLM sẽ kiểm tra:
     * 📌 "Tóm tắt bài viết thành một bảng gồm 3 cột: Ý chính, Giải thích, Ví dụ."
     * 📌 "Tạo danh sách 5 lợi ích của AI, mỗi lợi ích không quá 20 từ."
 
-## 4.Tham khảo một số prompt mẫu
+## 3.Tham khảo một số prompt mẫu
 
 1.[Vidtools.online](https://vidtools.online/prompt/?fbclid=IwY2xjawH52xNleHRuA2FlbQIxMAABHQmUnsLgM-KtlYNExUHshjohNp7ldi_waccPqsetSl14KGrD4tP5HgdQLg_aem__6ueV2_du0xoyIEVOOC-IA)
 
@@ -183,3 +183,7 @@ Nghiên cứu chân dung khách hàng phù hợp với sản phẩm A. Bạn c�
 ```
 
 2.[Prompts.chat](https://prompts.chat/)
+
+## 4.Thực hành với Chatbot FoxAI
+
+Tài liệu [Chatbot FoxAI](https://github.com/hoanglong8/FoxAI-Data-Analyst/blob/main/D%E1%BB%B1%20%C3%A1n%20Chatbot%20FoxAI/K%E1%BA%BF%20ho%E1%BA%A1ch%20Chatbot%20FoxAI.md)
