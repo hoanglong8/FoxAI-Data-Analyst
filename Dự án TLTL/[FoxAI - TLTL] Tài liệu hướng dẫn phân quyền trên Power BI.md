@@ -14,7 +14,7 @@
 ---
 
 ## 1. MỤC ĐÍCH TÀI LIỆU
-- Tài liệu này nhằm hướng dẫn bộ phận CNTT **Công ty thuốc lá Thăng Long** phân quyền hệ thống người dùng trên Power BI.
+✅ Hướng dẫn chi tiết về cách phân quyền trong Power BI, đảm bảo người dùng chỉ có quyền truy cập vào dữ liệu phù hợp với vai trò của họ.
 
 
 ---
