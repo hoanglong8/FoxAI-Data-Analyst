@@ -133,25 +133,33 @@ Sau khi tạo phản hồi, LLM sẽ kiểm tra:
 
 * **stream=True:** Phản hồi được viết ra liên tục giống như đang có người gõ chữ.
 
-## 2. Viết prompt đủ cấu trúc là cách tối ưu phản hồi
+## 2. Viết prompt đủ cấu trúc là cách tốt nhất để tối ưu phản hồi
 
 ![Hình ảnh](https://github.com/hoanglong8/FoxAI-Data-Analyst/blob/main/Image/Prompt_Engineer_1.png)
 
-1️⃣ **Ngữ cảnh:** Tình trạng hiện tại, tôi là ai, tôi đang có những gì…
+Có thể sử dụng công thức **FOXAI** để viết Prompt hiệu quả:
 
-    * ❌ "Viết bài về AI."
-    * ✅ "Viết bài 500 từ về lịch sử và ứng dụng AI trong y tế."
+🔹 F - Focus (Mục tiêu): Xác định rõ ràng mục đích của mình
+🔹 O - Orientation (Vai trò): Chỉ định AI đóng vai trò nào (chuyên gia, nhà tư vấn, giảng viên...)
+🔹 X - Xuất phát điểm (Ngữ cảnh): Cung cấp thông tin nền để AI hiểu rõ (.
+🔹 A - Action (Hành động): Chỉ định AI thực hiện điều gì cụ thể (tìm kiếm, phân tích, liệt kê...)
+🔹 I - Impact (Đầu ra): Xác định dạng kết quả mong muốn (bài viết, danh sách, bảng biểu, code...)
 
-2️⃣ **Mục tiêu:** Tôi cần gì, tôi muốn đi đến đâu…
+💡 Ví dụ:
 
-    * ❌ "Dịch đoạn văn này."
-    * ✅ "Dịch đoạn văn này sang tiếng Anh với giọng văn trang trọng."
+📌 **F - Focus (Mục tiêu):** Viết hướng dẫn triển khai SAP Business One cho doanh nghiệp bán lẻ.  
+🎭 **O - Orientation (Vai trò):** Bạn là chuyên gia tư vấn SAP Business One với 10 năm kinh nghiệm.  
+📖 **X - Xuất phát điểm (Ngữ cảnh):** Công ty có 3 kho hàng, sử dụng nền tảng Microsoft SQL Server.  
+✍️ **A - Action (Hành động):** Hướng dẫn cần trình bày theo từng bước, bao gồm cả các lỗi thường gặp.  
+📜 **I - Impact (Đầu ra):** Nội dung dài khoảng 500 từ, dễ hiểu, trình bày dưới dạng checklist.  
 
-3️⃣ **Vai trò:** Bạn là một chuyên gia trong lĩnh vực…
+1️⃣ Mục tiêu thường bao gồm các khía cạnh:
+   * Muốn làm gì?
+   * Viết cho đối tượng nào?
+   * Phong cách viết?
 
-    * 📌 "Bạn là một chuyên gia AI, hãy giải thích AI như đang giảng dạy cho sinh viên năm nhất."
 
-4️⃣ **Hành động:** Bạn muốn mô hình làm gì?
+4️⃣ **Hành động:**
 
     * Tìm kiếm thông tin (fact, không thêm, không bịa),
     * Sáng tạo (creative, tính mới),
