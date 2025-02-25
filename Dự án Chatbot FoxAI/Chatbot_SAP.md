@@ -1,4 +1,4 @@
-# 1.Chiến lược sản phẩm Chatbot AI
+# 1.Kế hoạch xây dựng sản phẩm Chatbot FoxAI
 **1.1.Nguyên tắc xây dựng sản phẩm:** Đứng trên vai những người khổng lồ, tức là sử dụng lõi LLMs của các nhà phát triển lớn (OpenAI, Google, Meta, Anthropic...), xây dựng thêm các tính năng vệ tinh trên đó để tạo giá trị gia tăng cho từng nhóm khách hàng cụ thể.
 
 **1.2.Mục tiêu:** Vừa đảm bảo hỗ trợ công việc cho các bộ phận trong Doanh nghiệp, vừa đảm bảo phân quyền bảo mật thông tin dữ liệu khách hàng.
@@ -89,3 +89,14 @@ Trong ảnh trên:
 * **Chat model:** Bộ não để xử lý ngôn ngữ tự nhiên, có thể thay thế bằng các LLMs khác như Claude, Gemini, DeepSeek...
 * **Memory:** Bộ nhớ đoạn chat trò chuyện của mô hình, có thể sử dụng các công cụ để lưu trữ như Redis, ChromaDB...
 * **Tool:** Thiết lập mô hình tìm kiếm thông tin Retrieval Augmented Generation (RAG) trong Documents (tài liệu đã vector hóa), Forum (Diễn đàn kiến thức trên internet), current workflow... để tạo phản hồi.
+
+
+# 4.Cập nhật lộ trình sản phẩm
+
+4.1.Giao diện Chatbot trên Telegram
+
+Link [Telegram](https://t.me/foxaichatbot)
+
+4.2.Giao diện Chatbot trên Zalo
+
+Link [OA Zalo](https://oa.zalo.me/1274288992880251848)
