@@ -150,6 +150,12 @@ Có thể sử dụng công thức **FOXAI** để viết Prompt hiệu quả:
 🔹 **I - Identity (Vai trò):** Chỉ định AI đóng vai trò nào (chuyên gia, nhà tư vấn, giảng viên...)
 
 👉 Công thức viết prompt theo FOXAI:
+
+```mermaid
+graph LR;
+    A["Hãy đóng vai trò (I)"] --> B["dựa trên ngữ cảnh (X)"] --> C["với mục tiêu (F)"] --> D["hãy hành động (A)"] --> E["và cung cấp kết quả (O)"]
+```
+
 `"Hãy đóng vai trò [I], dựa trên ngữ cảnh [X] với mục tiêu [F], hãy hành động [A] và cung cấp kết quả [O]."`
 
 💡 Ví dụ 1:
@@ -157,11 +163,11 @@ Có thể sử dụng công thức **FOXAI** để viết Prompt hiệu quả:
 
 💡 Ví dụ 2:
 ```
-📌 **F - Focus (Mục tiêu):** Viết hướng dẫn triển khai SAP Business One cho doanh nghiệp bán lẻ.  
-🎭 **O - Orientation (Vai trò):** Bạn là chuyên gia tư vấn SAP Business One với 10 năm kinh nghiệm.  
-📖 **X - Xuất phát điểm (Ngữ cảnh):** Công ty có 3 kho hàng, sử dụng nền tảng Microsoft SQL Server.  
-✍️ **A - Action (Hành động):** Hướng dẫn cần trình bày theo từng bước, bao gồm cả các lỗi thường gặp.  
-📜 **I - Impact (Đầu ra):** Nội dung dài khoảng 500 từ, dễ hiểu, trình bày dưới dạng checklist.  
+📌 **F-Focus (Mục tiêu):** Viết hướng dẫn triển khai SAP Business One cho doanh nghiệp bán lẻ.  
+🎭 **O-Output (Đầu ra):** Nội dung dài khoảng 500 từ, dễ hiểu, trình bày dưới dạng checklist.
+📖 **X-Context (Ngữ cảnh):** Công ty có 3 kho hàng, sử dụng nền tảng Microsoft SQL Server.  
+✍️ **A-Action (Hành động):** Hướng dẫn cần trình bày theo từng bước, bao gồm cả các lỗi thường gặp.  
+📜 **I-Identity (Vai trò):** Bạn là chuyên gia tư vấn SAP Business One với 10 năm kinh nghiệm.  
 ```
 
 ## 3.Tham khảo một số prompt mẫu
