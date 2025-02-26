@@ -30,31 +30,45 @@
 📌 **Thực hiện các bước sau để cấp quyền truy cập vào báo cáo Power BI:**
 
 1️⃣ **Đăng nhập** vào **Power BI Service** tại [app.powerbi.com](https://app.powerbi.com).
-
-2️⃣ Truy cập vào **Không gian làm việc** (_Workspace_).  
-3️⃣ Tìm đến **Mô hình ngữ nghĩa của báo cáo** cần phân quyền.  
-4️⃣ Nhấn vào biểu tượng **"..."** và chọn **"Quản lý quyền"**.  
-5️⃣ Trong phần **"Truy nhập trực tiếp"**, nhấn vào **"Thêm người dùng"**.  
-6️⃣ **Nhập email** của người trong tổ chức.  
+<img src="https://github.com/hoanglong8/FoxAI-Data-Analyst/blob/main/Image/ManHinhDangNhapWeb.png" alt="Hình ảnh" width="100%" />
+2️⃣ Truy cập vào **Không gian làm việc** (_Workspace_).
+<img src="https://github.com/hoanglong8/FoxAI-Data-Analyst/blob/main/Image/V%C3%A0o%20kh%C3%B4ng%20gian%20l%C3%A0m%20vi%E1%BB%87c.jpg" alt="Hình ảnh" width="100%" />
+3️⃣ Tìm đến **Mô hình ngữ nghĩa của báo cáo** cần phân quyền.
+<img src="https://github.com/hoanglong8/FoxAI-Data-Analyst/blob/main/Image/Ch%E1%BB%8Dn%20d%E1%BA%A5u%20.(..)jpg.jpg" alt="Hình ảnh" width="100%" />
+4️⃣ Nhấn vào biểu tượng **"..."** và chọn **"Quản lý quyền"**.
+<img src="https://github.com/hoanglong8/FoxAI-Data-Analyst/blob/main/Image/Qu%E1%BA%A3n%20l%C3%BD%20quy%E1%BB%81n.jpg" alt="Hình ảnh" width="100%" />
+5️⃣ Trong phần **"Truy nhập trực tiếp"**, nhấn vào **"Thêm người dùng"**.
+<img src="https://github.com/hoanglong8/FoxAI-Data-Analyst/blob/main/Image/Th%C3%AAm%20ng%C6%B0%E1%BB%9Di%20d%C3%B9ng%20c%C3%B3%20quy%E1%BB%81n%20truy%20c%E1%BA%ADp%20v%C3%A0o%20Power%20BI.jpg" alt="Hình ảnh" width="100%" />
+6️⃣ **Nhập email** của người trong tổ chức.
+<img src="https://github.com/hoanglong8/FoxAI-Data-Analyst/blob/main/Image/%C4%90i%E1%BB%81n%20Email%20v%C3%A0%20c%E1%BA%A5p%20quy%E1%BB%81n%20truy%20c%E1%BA%ADp.jpg" alt="Hình ảnh" width="100%" />
 7️⃣ **Chọn quyền phù hợp** (_Có thể chọn cả 3 quyền_):
    - ✅ **Cho phép người nhận chia sẻ mô hình ngữ nghĩa này.**  
    - ✅ **Cho phép người nhận tạo nội dung từ dữ liệu này.**  
-   - ✅ **Gửi thông báo qua email.**  
+   - ✅ **Gửi thông báo qua email.**
+<img src="https://github.com/hoanglong8/FoxAI-Data-Analyst/blob/main/Image/%C4%90i%E1%BB%81n%20Email%20v%C3%A0%20c%E1%BA%A5p%20quy%E1%BB%81n%20truy%20c%E1%BA%ADp.jpg" alt="Hình ảnh" width="100%" />
 8️⃣ Nhấn **"Cấp quyền truy cập"** để hoàn tất.  
-
+<img src="https://github.com/hoanglong8/FoxAI-Data-Analyst/blob/main/Image/%C4%90i%E1%BB%81n%20Email%20v%C3%A0%20c%E1%BA%A5p%20quy%E1%BB%81n%20truy%20c%E1%BA%ADp.jpg" alt="Hình ảnh" width="100%" />
+<img src="https://github.com/hoanglong8/FoxAI-Data-Analyst/blob/main/Image/Th%C3%B4ng%20b%C3%A1o%20quy%E1%BB%81n%20truy%20c%E1%BA%ADp%20%C4%91%C6%B0%E1%BB%A3c%20c%E1%BA%A5p%20th%C3%A0nh%20c%C3%B4ng.jpg" alt="Hình ảnh" width="100%" />
 ---
 
 ### **🔹 2.2. Xóa quyền truy cập**
 📌 **Thực hiện các bước sau để thu hồi hoặc xóa quyền truy cập của người dùng:**  
 
-1️⃣ **Truy cập lại** phần **"Mô hình ngữ nghĩa"** của báo cáo.  
-2️⃣ Nhấn vào biểu tượng **"..."** và chọn **"Quản lý quyền"**.  
+1️⃣ **Truy cập lại** phần **"Mô hình ngữ nghĩa"** của báo cáo.
+<img src="https://github.com/hoanglong8/FoxAI-Data-Analyst/blob/main/Image/Ch%E1%BB%8Dn%20d%E1%BA%A5u%20.(..)jpg.jpg" alt="Hình ảnh" width="100%" />
+2️⃣ Nhấn vào biểu tượng **"..."** và chọn **"Quản lý quyền"**. 
+<img src="https://github.com/hoanglong8/FoxAI-Data-Analyst/blob/main/Image/Qu%E1%BA%A3n%20l%C3%BD%20quy%E1%BB%81n.jpg" alt="Hình ảnh" width="100%" />
 3️⃣ Vào phần **"Truy nhập trực tiếp"** để xem danh sách người dùng có quyền truy cập.  
-4️⃣ Tại cột **"Quyền"**, nhấn vào biểu tượng **"..."** cạnh tên người dùng cần chỉnh sửa.  
+<img src="https://github.com/hoanglong8/FoxAI-Data-Analyst/blob/main/Image/Th%C3%AAm%20ng%C6%B0%E1%BB%9Di%20d%C3%B9ng%20c%C3%B3%20quy%E1%BB%81n%20truy%20c%E1%BA%ADp%20v%C3%A0o%20Power%20BI.jpg" alt="Hình ảnh" width="100%" />
+4️⃣ Tại cột **"Quyền"**, nhấn vào biểu tượng **"..."** cạnh tên người dùng cần chỉnh sửa. 
+<img src="https://github.com/hoanglong8/FoxAI-Data-Analyst/blob/main/Image/L%E1%BB%B1a%20ch%E1%BB%8Dn%20x%C3%B3a%20quy%E1%BB%81n%20truy%20c%E1%BA%ADp.jpg" alt="Hình ảnh" width="100%" />
 5️⃣ Chọn **một trong các tùy chọn sau**:
    - ❌ **Xóa chia sẻ lại** (Có thể thêm lại nếu cần).  
    - ❌ **Thu hồi quyền tạo nội dung** (Người dùng vẫn có thể xem nhưng không chỉnh sửa).  
-   - ❌ **Xóa hoàn toàn quyền truy cập** (Người dùng bị loại bỏ hoàn toàn khỏi báo cáo).  
+   - ❌ **Xóa hoàn toàn quyền truy cập** (Người dùng bị loại bỏ hoàn toàn khỏi báo cáo).
+<img src="https://github.com/hoanglong8/FoxAI-Data-Analyst/blob/main/Image/L%E1%BB%B1a%20ch%E1%BB%8Dn%20x%C3%B3a%20quy%E1%BB%81n%20truy%20c%E1%BA%ADp.jpg" alt="Hình ảnh" width="100%" />
+Thông báo Xóa quyền truy nhập sẽ hiện ra, nhấn vào **xóa quyền truy cập để xóa**
+ <img src="https://github.com/hoanglong8/FoxAI-Data-Analyst/blob/main/Image/X%C3%B3a%20quy%E1%BB%81n%20truy%20c%E1%BA%ADp%20ng%C6%B0%E1%BB%9Di%20d%C3%B9ng.jpg" alt="Hình ảnh" width="100%" />
 
 📌 **Lưu ý:** Chỉ những người có quyền **Quản trị (Admin)** mới có thể thay đổi quyền truy cập của người khác.  
 
