@@ -126,6 +126,8 @@ Xem thêm:
 
 [StackEdit](https://stackedit.io/app#) là một công cụ Markdown mạnh mẽ, giúp bạn viết, chỉnh sửa, đồng bộ và xuất bản nội dung một cách chuyên nghiệp.
 
+Kết quả đầu ra:
+
 ![Ảnh](https://github.com/hoanglong8/FoxAI-Data-Analyst/blob/main/Image/Stackedit.png)
 
 ## 2-CÁC CÔNG CỤ TRỰC QUAN HÓA
@@ -183,7 +185,7 @@ mindmap
         Ngành: bán lẻ, dịch vụ, thương mại điện tử
 ```
 
-### Công cụ Planttext
+### 2-2-Công cụ Planttext
 [Planttext](https://planttext.com/) là nền tảng giúp chuyển đổi code plantUML thành dạng biểu đồ giúp trực quan hóa mô hình.
 
 ```
@@ -209,9 +211,9 @@ E : Em trai của A
 ```
 Kết quả đầu ra:
 
+![Ảnh](https://github.com/hoanglong8/FoxAI-Data-Analyst/blob/main/Image/Planttext%20UML.png)
 
-
-### 2-2-Công cụ Markmap
+### 2-3-Công cụ Markmap
 
 [Markmap.js](https://markmap.js.org/repl) là một nền tảng giúp chuyển đổi Markdown thành **mindmap (sơ đồ tư duy)** trực quan và tương tác, sử dụng trực tiếp trên trình duyệt (dưới dạng HTML).
 
@@ -315,7 +317,7 @@ Ví dụ:
 ## 4-TỰ ĐỒNG BỘ TẠO SLIDE
 [⬆️](#nội-dung)
 
-### Công cụ HackMD
+### 4-1-Công cụ HackMD
 [HackMD](https://hackmd.io/) là nền tảng soạn thảo Markdown online, hỗ trợ chế độ trình chiếu (Slide mode) dựa trên Reveal.js.
 Bạn có thể dán file Markdown (copy/paste) hoặc sync một phần với GitHub (chức năng “Import from GitHub” hoặc “Publish to GitHub”).
 
@@ -340,7 +342,7 @@ Bạn có thể dán file Markdown (copy/paste) hoặc sync một phần với G
 
 <img src="https://github.com/hoanglong8/FoxAI-Data-Analyst/blob/main/Image/HackMD.gif" width="100%" />
 
-### Công cụ Napkin AI
+### 4-2-Công cụ Napkin AI
 [Napkin](https://www.napkin.ai/) là công cụ hỗ trợ ghi chú ý tưởng và tư duy sáng tạo thông qua AI, giúp người dùng ghi chú, sắp xếp và kết nối thông tin một cách thông minh.
 
 ### Các bước thực hiện:
@@ -355,7 +357,7 @@ Bạn có thể dán file Markdown (copy/paste) hoặc sync một phần với G
 ## 5-QUẢN LÝ TÀI LIỆU
 [⬆️](#nội-dung)
 
-### Công cụ GitHub
+### 5-1-Công cụ GitHub
 
 [Git](https://git-scm.com/) là Hệ thống Quản lý Phiên bản VCS (Version Control System) giúp quản lý tài liệu, theo dõi phiên bản thay đổi, chia sẻ việc sửa cho nhóm và giữ được lịch sử chỉnh sửa tài liệu thông qua một số nền tảng: GitHub, GitLab, hoặc Bitbucket.
 
@@ -375,7 +377,7 @@ git clone https://github.com/username/repository-name.git
 - Hợp nhất thay đổi (merge) hoặc phê duyệt thay đổi tài liệu
 - Nếu nhiều người cùng chỉnh sửa một file, Git sẽ báo xung đột để tạo ra 2 phiên bản khác
 
-### Công cụ GitLab
+### 5-2-Công cụ GitLab
 [GitLab](https://gitlab.com/) là một nền tảng mã nguồn mở cung cấp giải pháp quản lý mã nguồn, CI/CD (Tích hợp liên tục & Triển khai liên tục), bảo mật và cộng tác nhóm phát triển phần mềm, giúp:
 
 * Tối ưu hóa quy trình phát triển phần mềm nhờ CI/CD mạnh mẽ.
