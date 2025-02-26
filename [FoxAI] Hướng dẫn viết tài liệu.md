@@ -15,11 +15,12 @@
    * [StackEdit](https://stackedit.io/app#)
 3. [Công cụ trực quan hóa](#2-CÁC-CÔNG-CỤ-TRỰC-QUAN-HÓA)
    * [Mermaid](#2-1-Công-cụ-Mermaid)
+   * [Planttext](https://planttext.com/)
    * [Markmap](#2-2-Công-cụ-Markmap)
-   * [Badge](#2-3-Công-cụ-Badge)
    * [Kroki](#2-4-Công-cụ-Kroki)
 5. [Công cụ xuất bản tài liệu](#3-TỰ-ĐỒNG-BỘ-TẠO-BOOK-ONLINE)
    * [GitBook](#Công-cụ-GitBook)
+   * [Badge](#2-3-Công-cụ-Badge)
 7. [Công cụ hỗ trợ thuyết trình](#4-TỰ-ĐỒNG-BỘ-TẠO-SLIDE)
    * [Napkin](#Công-cụ-Napkin)
    * [HackMD](#Công-cụ-HackMD)
@@ -182,6 +183,34 @@ mindmap
         Ngành: bán lẻ, dịch vụ, thương mại điện tử
 ```
 
+### Công cụ Planttext
+[Planttext](https://planttext.com/) là nền tảng giúp chuyển đổi code plantUML thành dạng biểu đồ giúp trực quan hóa mô hình.
+
+```
+@startuml
+title Sơ đồ phả hệ gia đình
+
+' Định nghĩa các cá nhân
+A - B : Kết hôn
+A --|> C : Con
+B --|> C : Con
+A --|> D : Con
+B --|> D : Con
+E --|> A : Em trai
+
+' Định dạng hiển thị
+A : Cha
+B : Mẹ
+C : Con trai
+D : Con gái
+E : Em trai của A
+
+@enduml
+```
+Kết quả đầu ra:
+
+
+
 ### 2-2-Công cụ Markmap
 
 [Markmap.js](https://markmap.js.org/repl) là một nền tảng giúp chuyển đổi Markdown thành **mindmap (sơ đồ tư duy)** trực quan và tương tác, sử dụng trực tiếp trên trình duyệt (dưới dạng HTML).
@@ -224,18 +253,6 @@ Bạn có thể tải file mindmap về dưới dạng .html, rồi tải lên [
 
 <img src="https://github.com/hoanglong8/FoxAI-Data-Analyst/blob/main/Image/Markmap.png" alt="Hình ảnh" width="70%" />
 
-### 2-3-Công cụ Badge
-
-[Badge](https://shields.io/) là các biểu tượng/huy hiệu hiển thị trạng thái, thông tin hoặc số liệu quan trọng, thường được sử dụng trong `README.md` để cung cấp thông tin nhanh (ví dụ: tình trạng dự án, phiên bản của tài liệu, cấp độ bảo mật, license...) và tăng tính chuyên nghiệp, dễ đọc, hiện đại và bắt mắt hơn.
-
-Ví dụ:
-### [FoxAI] Tài liệu triển khai dự án ABC...
-![Version](https://img.shields.io/badge/Version-1.0-blue)
-![License](https://img.shields.io/badge/License-MIT-yellow)
-![Build Status](https://img.shields.io/badge/Build-Passing-brightgreen)
-![GitHub stars](https://img.shields.io/github/stars/<username>/<repo>)
-![Codecov](https://img.shields.io/codecov/c/github/<username>/<repo>)
-
 ### 2-4-Công cụ Kroki
 
 [Kroki](https://kroki.io/) là nền tảng cho phép bạn tạo URL để nhúng sơ đồ PlantUML, GraphViz... bằng cách dán mã Markdown để tạo hình ảnh dưới dạng .png, .jpg, .svg, .pdf, .txt hoặc	base64. Điểm mạnh so với Mermaid là có thể tạo đa dạng sơ đồ hơn nhưng hạn chế là không thể chỉnh sửa trực tiếp ngay trong GitHub.
@@ -267,21 +284,33 @@ https://kroki.io/plantuml/svg/eNpzKC5JLCrJzcxLyU0s4NKKVvYvSsxLT41VcM7PyS8q5tICCu
 ## 3-TỰ ĐỒNG BỘ TẠO BOOK ONLINE
 [⬆️](#nội-dung)
 
-### Công cụ GitBook
+### 3-1-Công cụ GitBook
 [GitBook](https://www.gitbook.com/) là nền tảng giúp bạn tạo trang tài liệu/sách online chuyên nghiệp, có thể mời người khác cộng tác chỉnh sửa và chia sẻ cho khách hàng.
 
 GitBook có thể sync từ file Markdown từ GitHub, khi chỉnh sửa trên GitHub thì GitBook tự động cập nhật theo.
 
-### Các bước thực hiện:
+Các bước thực hiện:
 * Tạo Space trên GitBook
 * Thêm Page và sync đồng bộ từ GitHub
 * Edit changes, chia sẻ và publish to web.
 
-### Kết quả đầu ra:
+Kết quả đầu ra:
 
 ![1](https://img.shields.io/badge/Xem_demo-orange) [here](https://foxai-data-analyst.gitbook.io/tai-lieu-dong-bo-tu-github-foxai)
 
 <img src="https://github.com/hoanglong8/FoxAI-Data-Analyst/blob/main/Image/GitBook.gif" width="100%" />
+
+### 3-2-Công cụ Badge
+
+[Badge](https://shields.io/) là các biểu tượng/huy hiệu hiển thị trạng thái, thông tin hoặc số liệu quan trọng, thường được sử dụng trong `README.md` để cung cấp thông tin nhanh (ví dụ: tình trạng dự án, phiên bản của tài liệu, cấp độ bảo mật, license...) và tăng tính chuyên nghiệp, dễ đọc, hiện đại và bắt mắt hơn.
+
+Ví dụ:
+### [FoxAI] Tài liệu triển khai dự án ABC...
+![Version](https://img.shields.io/badge/Version-1.0-blue)
+![License](https://img.shields.io/badge/License-MIT-yellow)
+![Build Status](https://img.shields.io/badge/Build-Passing-brightgreen)
+![GitHub stars](https://img.shields.io/github/stars/<username>/<repo>)
+![Codecov](https://img.shields.io/codecov/c/github/<username>/<repo>)
 
 ## 4-TỰ ĐỒNG BỘ TẠO SLIDE
 [⬆️](#nội-dung)
