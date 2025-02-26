@@ -25,6 +25,7 @@
    * [HackMD](#Công-cụ-HackMD)
 9. [Công cụ lưu trữ, quản lý tài liệu](#5-QUẢN-LÝ-TÀI-LIỆU)
     * [GitHub](#Công-cụ-GitHub)
+    * [GitLab](https://about.gitlab.com/)
     * [Sharepoint](#Công-cụ-Sharepoint)
 
 ## Đối tượng sử dụng
