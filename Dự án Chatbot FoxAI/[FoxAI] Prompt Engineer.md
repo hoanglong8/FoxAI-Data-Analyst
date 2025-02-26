@@ -203,10 +203,10 @@ Pass: Fox@12345678
 ## 5.Cập nhật các tính năng mới
 
 - Ngày 26/02/2025: Google Gemini ra mắt chức năng 'branching' vào AI Studio. 
-* Tác dụng: khi chat quá dài AI thường bị lú nên user phải copy ngữ cảnh ở đầu đoạn chat để nhắc AI. Có branching thì không cần làm thế. Sau khi cho nó xem ngữ cảnh có thể tách chat thành các nhánh nhỏ để chat về một `khía cạnh` cụ thể. Sau đó quay lại chat ban đầu và tạo thêm nhánh mới nếu cần chat cụ thể. Ngữ cảnh ban đầu kiểu được `pin` vào bộ nhớ của Gemini.
+   * Tác dụng: khi chat quá dài AI thường bị lú nên user phải copy ngữ cảnh ở đầu đoạn chat để nhắc AI. Có branching thì không cần làm thế. Sau khi cho nó xem ngữ cảnh có thể tách chat thành các nhánh nhỏ để chat về một `khía cạnh` cụ thể. Sau đó quay lại chat ban đầu và tạo thêm nhánh mới nếu cần chat cụ thể. Ngữ cảnh ban đầu kiểu được `pin` vào bộ nhớ của Gemini.
 
 - Ngày 26/02/2025: Claude 3.7 Sonnet là phiên bản mới nhất trong gia đình Claude 3, hỗ trợ hai chế độ chính:
-* Standard mode: Phù hợp với các tác vụ thông dụng: tạo nội dung, viết code cơ bản, chatbot hỗ trợ,…
+   * Standard mode: Phù hợp với các tác vụ thông dụng: tạo nội dung, viết code cơ bản, chatbot hỗ trợ,…
 Mô hình cho ra kết quả cuối cùng mà không hiển thị “luồng suy luận” nội bộ.
-* Extended thinking mode (chế độ suy luận mở rộng): Cho phép Claude hiển thị quá trình suy luận trước khi đưa ra câu trả lời cuối.
+   * Extended thinking mode (chế độ suy luận mở rộng): Cho phép Claude hiển thị quá trình suy luận trước khi đưa ra câu trả lời cuối.
 Đặc biệt hữu ích khi bạn cần phân tích sâu, kiểm chứng logic, hoặc tối ưu hoá nhiều ràng buộc phức tạp.
