@@ -91,4 +91,18 @@ The ebook should synthesize cutting-edge prompt engineering techniques while mai
 <book_parameters>
 ```
 
+- Ngày 27/02/2025: Giao thức tương tác nói chuyện giữa 2 LLM trên 2 điện thoại ([GGwave](https://github.com/ggerganov/ggwave))
+
+- Ngày 25/02/2025: Open-source [Scira search](https://github.com/zaidmukaddam/scira) like Grok2
+
+- Ngày 24/02/2025: Trang web của Trung Quốc [Wingzero](https://tools.wingzero.tw/article/sn/3231) chuyên tổng hợp các AI tiêu biểu
+
+- Ngày 21/02/2025: Trình biên dịch [ComfyUI workflow](https://github.com/pydn/ComfyUI-to-Python-Extension) từ Python
+
+- Ngày 22/02/2025: Tự tạo chatbot bằng RAG ([Drop-Rag](https://github.com/bangoc123/drop-rag))
+
+- Ngày 26/02/2025: Trình đọc [OCR](https://github.com/allenai/olmocr) quang học
+
+- Ngày 27/02/2025: AI Agent tự động viết bài [Omnitool](https://github.com/microsoft/OmniParser/tree/master/omnitool) của Microsoft
+
 - 
