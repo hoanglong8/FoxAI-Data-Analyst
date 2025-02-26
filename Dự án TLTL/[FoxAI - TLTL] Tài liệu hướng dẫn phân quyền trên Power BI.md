@@ -46,7 +46,7 @@
    - ✅ **Cho phép người nhận tạo nội dung từ dữ liệu này.**  
    - ✅ **Gửi thông báo qua email.**
 <img src="https://github.com/hoanglong8/FoxAI-Data-Analyst/blob/main/Image/%C4%90i%E1%BB%81n%20Email%20v%C3%A0%20c%E1%BA%A5p%20quy%E1%BB%81n%20truy%20c%E1%BA%ADp.jpg" alt="Hình ảnh" width="100%" />
-8️⃣ Nhấn **Cấp quyền truy cập** để hoàn tất.  
+8️⃣ Nhấn vào **Cấp quyền truy nhập** để hoàn tất.  
 <img src="https://github.com/hoanglong8/FoxAI-Data-Analyst/blob/main/Image/%C4%90i%E1%BB%81n%20Email%20v%C3%A0%20c%E1%BA%A5p%20quy%E1%BB%81n%20truy%20c%E1%BA%ADp.jpg" alt="Hình ảnh" width="100%" />
 <img src="https://github.com/hoanglong8/FoxAI-Data-Analyst/blob/main/Image/Th%C3%B4ng%20b%C3%A1o%20quy%E1%BB%81n%20truy%20c%E1%BA%ADp%20%C4%91%C6%B0%E1%BB%A3c%20c%E1%BA%A5p%20th%C3%A0nh%20c%C3%B4ng.jpg" alt="Hình ảnh" width="100%" />
 ---
