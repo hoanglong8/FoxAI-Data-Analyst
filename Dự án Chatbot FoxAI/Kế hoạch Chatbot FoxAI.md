@@ -95,16 +95,16 @@ Trong ảnh trên:
 
 4.1.Giao diện Chatbot trên Telegram
 
-Link [Telegram](https://t.me/foxaichatbot) (hiện nay đã có thể nhận diện hình ảnh, bộ nhớ tạm thời của history chat thì phải lưu thủ công trên máy chủ).
+  Link [Telegram](https://t.me/foxaichatbot) (hiện nay đã có thể nhận diện hình ảnh, bộ nhớ tạm thời của history chat thì phải lưu thủ công trên máy chủ).
 
 4.2.Giao diện Chatbot trên Zalo
 
-Link [OA Zalo](https://oa.zalo.me/1274288992880251848) (hiện mới chỉ chat với Official Account, chưa thể add chatbot vào group chat).
+  Link [OA Zalo](https://oa.zalo.me/1274288992880251848) (hiện mới chỉ chat với Official Account, chưa thể add chatbot vào group chat).
 
 4.3.Giao diện Chatbot trên Website
 
-Link [Website](https://fox.ai.vn/) (hiện đã có thể nhận diện hình ảnh, bộ nhớ tạm thời của history chat đang lưu trên Cache của trình duyệt website).
+  Link [Website](https://fox.ai.vn/) (hiện đã có thể nhận diện hình ảnh, bộ nhớ tạm thời của history chat đang lưu trên Cache của trình duyệt website).
 
 4.4.Giao diện Chatbot app Mobile
 
-... Đang cập nhật
+  ... Đang cập nhật
