@@ -18,6 +18,29 @@
 
 
 ---
+## 2. HƯỚNG DẪN PHÂN QUYỀN
+B1: Đăng nhập vào Power BI trên trình duyệt web
+B2: Vào phần Không gian làm việc
+B3: Vào phần mô hình ngữ nghĩa của báo cáo tương ứng
+Nhấp vào dấu ... và chọn Quản lý quyền
+B4: Trong phần quản lý quyền, vào mục Truy nhập trực tiếp
+B5: Nhấn vào thêm người dùng để cho phép người dùng trong tổ chức có quyền truy cập vào báo cáo
+B6: Nhập email của người trong tổ chức vào phần Nhập tên hoặc địa chỉ Email (Chủ yếu là Email)
+Có 3 tùy chọn có thể lựa chọn cấp cho người dùng:
++ Cho phép người nhận chia sẻ mô hình ngữ nghĩa này
++ Cho phép người nhận tạo nội dung với dữ liệu được liên kết với mô hình ngữ nghĩa này
++ Gửi thông báo qua email
+ Có thể chọn cả 3 lựa chọn nếu muốn
+B7: Sau khi điền và chọn các tùy chọn, nhấn vào Cấp quyền truy cập
+## 3. HƯỚNG DẪN XÓA QUYỀN TRUY CẬP
+B1: Vào phần mô hình ngữ nghĩa của báo cáo tương ứng
+Nhấp vào dấu ... và chọn Quản lý quyền
+B2: Trong phần quản lý quyền, vào mục Truy nhập trực tiếp
+B3: Trong danh sách người có quyền truy nhập, ở cột Quyền,có dấu ... với mỗi người
+B4: Lựa chọn xóa quyền của người dùng
++ Xóa chia sẻ lại (Có thể thêm lại nếu muốn)
++ Thu hồi quyền tạo (Có thể thêm lại nếu muốn)
++ Xóa quyền truy cập (Lựa chọn này sẽ xóa toàn bộ quyền của người dùng)
 
 ## Phần 4. Hỗ trợ và liên hệ
 
