@@ -1,4 +1,4 @@
-# TÀI LIỆU HƯỚNG DẪN PHÂN QUYỀN TRÊN POWER BI
+# TÀI LIỆU HƯỚNG DẪN PHÂN QUYỀN TRUY CẬP BÁO CÁO TRÊN POWER BI
 
 <img src="https://github.com/hoanglong8/FoxAI-Data-Analyst/blob/main/Image/Logo-Since1957-THANGLONG%202021%20(1).png" alt="Hình ảnh" width="30%" />
 
