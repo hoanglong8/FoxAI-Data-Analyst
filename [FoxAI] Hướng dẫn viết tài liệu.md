@@ -120,6 +120,12 @@ Xem thêm:
 - [HTML cơ bản - W3Schools](https://www.w3schools.com/html/)  
 - [Markdown trên GitHub](https://guides.github.com/features/mastering-markdown/)  
 
+### 1-3-Công cụ StackEdit
+
+[StackEdit](https://stackedit.io/app#) là một công cụ Markdown mạnh mẽ, giúp bạn viết, chỉnh sửa, đồng bộ và xuất bản nội dung một cách chuyên nghiệp.
+
+![Ảnh](https://github.com/hoanglong8/FoxAI-Data-Analyst/blob/main/Image/Stackedit.png)
+
 ## 2-CÁC CÔNG CỤ TRỰC QUAN HÓA
 [⬆️](#nội-dung)
 
@@ -148,7 +154,7 @@ graph LR;
 
 <img src="https://github.com/hoanglong8/FoxAI-Data-Analyst/blob/main/Image/Mermaid.gif" width="100%" />
 
-Ngoài ra, Mermaid cũng hỗ trợ tạo sơ đồ Mindmap như sau:
+Ngoài ra, [Mermaid](https://mermaid.live) cũng hỗ trợ tạo sơ đồ Mindmap như sau:
 
 ```mermaid
 mindmap
@@ -319,7 +325,7 @@ Bạn có thể dán file Markdown (copy/paste) hoặc sync một phần với G
 ## 5-QUẢN LÝ TÀI LIỆU
 [⬆️](#nội-dung)
 
-### Công cụ Git
+### Công cụ GitHub
 
 [Git](https://git-scm.com/) là Hệ thống Quản lý Phiên bản VCS (Version Control System) giúp quản lý tài liệu, theo dõi phiên bản thay đổi, chia sẻ việc sửa cho nhóm và giữ được lịch sử chỉnh sửa tài liệu thông qua một số nền tảng: GitHub, GitLab, hoặc Bitbucket.
 
@@ -339,7 +345,15 @@ git clone https://github.com/username/repository-name.git
 - Hợp nhất thay đổi (merge) hoặc phê duyệt thay đổi tài liệu
 - Nếu nhiều người cùng chỉnh sửa một file, Git sẽ báo xung đột để tạo ra 2 phiên bản khác
 
-**3.Một số cách thức quản lý tài liệu hiệu quả**
+### Công cụ GitLab
+[GitLab](https://gitlab.com/) là một nền tảng DevOps mã nguồn mở cung cấp giải pháp quản lý mã nguồn, CI/CD (Tích hợp liên tục & Triển khai liên tục), bảo mật và cộng tác nhóm phát triển phần mềm, giúp:
+
+* Tối ưu hóa quy trình phát triển phần mềm nhờ CI/CD mạnh mẽ.
+* Cộng tác hiệu quả giữa các nhóm lập trình viên, QA, DevOps.
+* Bảo mật chặt chẽ với các công cụ kiểm tra mã nguồn tự động.
+* Giải pháp all-in-one thay thế các công cụ riêng lẻ như GitHub, Jenkins, Jira.
+
+**Một số cách thức quản lý tài liệu hiệu quả**
 
 Quy tắc:
 * Quy định rõ cấu trúc tài liệu (ví dụ: đặt tên file, thư mục).
