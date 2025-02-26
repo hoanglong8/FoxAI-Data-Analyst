@@ -347,7 +347,7 @@ git clone https://github.com/username/repository-name.git
 - Nếu nhiều người cùng chỉnh sửa một file, Git sẽ báo xung đột để tạo ra 2 phiên bản khác
 
 ### Công cụ GitLab
-[GitLab](https://gitlab.com/) là một nền tảng DevOps mã nguồn mở cung cấp giải pháp quản lý mã nguồn, CI/CD (Tích hợp liên tục & Triển khai liên tục), bảo mật và cộng tác nhóm phát triển phần mềm, giúp:
+[GitLab](https://gitlab.com/) là một nền tảng mã nguồn mở cung cấp giải pháp quản lý mã nguồn, CI/CD (Tích hợp liên tục & Triển khai liên tục), bảo mật và cộng tác nhóm phát triển phần mềm, giúp:
 
 * Tối ưu hóa quy trình phát triển phần mềm nhờ CI/CD mạnh mẽ.
 * Cộng tác hiệu quả giữa các nhóm lập trình viên, QA, DevOps.
