@@ -9,20 +9,23 @@
 ![Hotline](https://img.shields.io/badge/Liên_hệ-info@foxai.vn-red)
 
 # Nội dung
-1. [Công cụ soạn thảo](#1-CÁC-CÔNG-CỤ-SOẠN-THẢO-TÀI-LIỆU)
+1. [Công cụ và ngôn ngữ soạn thảo](#1-CÁC-CÔNG-CỤ-SOẠN-THẢO-TÀI-LIỆU)
    * [Markdown](#1-1-Ngôn-ngữ-Markdown)
    * [HTML](#1-2-Ngôn-ngữ-HTML)
+   * [StackEdit](https://stackedit.io/app#)
 3. [Công cụ trực quan hóa](#2-CÁC-CÔNG-CỤ-TRỰC-QUAN-HÓA)
    * [Mermaid](#2-1-Công-cụ-Mermaid)
    * [Markmap](#2-2-Công-cụ-Markmap)
    * [Badge](#2-3-Công-cụ-Badge)
    * [Kroki](#2-4-Công-cụ-Kroki)
-5. [Công cụ tự đồng bộ tạo Book Online](#3-TỰ-ĐỒNG-BỘ-TẠO-BOOK-ONLINE)
+5. [Công cụ xuất bản tài liệu](#3-TỰ-ĐỒNG-BỘ-TẠO-BOOK-ONLINE)
    * [GitBook](#Công-cụ-GitBook)
-7. [Công cụ tự đồng bộ tạo Slide](#4-TỰ-ĐỒNG-BỘ-TẠO-SLIDE)
+7. [Công cụ hỗ trợ thuyết trình](#4-TỰ-ĐỒNG-BỘ-TẠO-SLIDE)
+   * [Napkin](#Công-cụ-Napkin)
    * [HackMD](#Công-cụ-HackMD)
 9. [Công cụ lưu trữ, quản lý tài liệu](#5-QUẢN-LÝ-TÀI-LIỆU)
-    * [Git](#Công-cụ-Git)
+    * [GitHub](#Công-cụ-GitHub)
+    * [Sharepoint](#Công-cụ-Sharepoint)
 
 ## Đối tượng sử dụng
 Tài liệu này được thiết kế dành cho nhân viên của FoxAI khi cần thực hiện các công việc như:
@@ -300,6 +303,18 @@ Bạn có thể dán file Markdown (copy/paste) hoặc sync một phần với G
 ![2](https://img.shields.io/badge/Slideview-blue) [here](https://hackmd.io/@DCs5idhtQRK_cmFBAVRcSw/B1WDl3NPyl#/)
 
 <img src="https://github.com/hoanglong8/FoxAI-Data-Analyst/blob/main/Image/HackMD.gif" width="100%" />
+
+### Công cụ Napkin AI
+[Napkin](https://www.napkin.ai/) là công cụ hỗ trợ ghi chú ý tưởng và tư duy sáng tạo thông qua AI, giúp người dùng ghi chú, sắp xếp và kết nối thông tin một cách thông minh.
+
+### Các bước thực hiện:
+* Đăng ký & Đăng nhập Napkin
+* Viết ghi chú ngắn gọn, nhập ý tưởng hoặc tải tài liệu lên
+* AI gợi ý cách kết nối ý tưởng và mở rộng nội dung
+* Tạo bản đồ tư duy từ các ý tưởng
+
+### Kết quả đầu ra:
+![4](https://github.com/hoanglong8/FoxAI-Data-Analyst/blob/main/Image/Napkin.gif)
 
 ## 5-QUẢN LÝ TÀI LIỆU
 [⬆️](#nội-dung)
