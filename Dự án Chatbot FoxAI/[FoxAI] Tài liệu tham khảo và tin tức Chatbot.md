@@ -73,6 +73,8 @@ Có tính năng tạo bot, nhận diện hình ảnh giống như ChatGPT
 
 15.[Rasa](https://github.com/RasaHQ/rasa) Mã nguồn mở và không sử dụng core LLMs
 
+16.[DeepClaude](https://deepclaude.com/chat) Kết hợp khả năng suy luận của DeepSeek và khả năng code/sáng tạo của Claude (yêu cầu phải có API của cả 2 mới dùng được).
+
 ## 4.Tin tức về AI
 - Ngày 26/02/2025: Google Gemini ra mắt chức năng 'branching' vào AI Studio. 
    * Tác dụng: khi chat quá dài AI thường bị lú nên user phải copy ngữ cảnh ở đầu đoạn chat để nhắc AI. Có branching thì không cần làm thế. Sau khi cho nó xem ngữ cảnh có thể tách chat thành các nhánh nhỏ để chat về một `khía cạnh` cụ thể. Sau đó quay lại chat ban đầu và tạo thêm nhánh mới nếu cần chat cụ thể. Ngữ cảnh ban đầu kiểu được `pin` vào bộ nhớ của Gemini.
