@@ -57,7 +57,7 @@ Có tính năng tạo bot, nhận diện hình ảnh giống như ChatGPT
 
 ![Hình ảnh](https://www.fahimai.com/wp-content/uploads/2024/08/Fahim-AI-32.png)
 
-8.Openrouter
+8.[Openrouter chat](https://openrouter.ai/chat)
 
 9.[Fastbots.ai](https://fastbots.ai/)
 
