@@ -41,8 +41,35 @@
 
 4.[Genspark AI](https://www.genspark.ai/agents?type=moa_chat)
 
+![Hình ảnh](https://lnm.vn/wp-content/uploads/2025/02/479733843_1991307984698998_8110658406358291341_n-750x450.jpg)
+
 5.[Monica](https://monica.im/en/bots)
 Có tính năng tạo bot, nhận diện hình ảnh giống như ChatGPT
+
+![Hình ảnh](https://assets.monica.im/low-code/img/ai-chat-f322e278-0fb6-45e2-9bdc-947df953120b.jpg)
+
+6.[POE](https://poe.com/)
+Có tính năng tạo bot, nhận diện hình ảnh giống như ChatGPT
+
+![Hình ảnh](https://www.cdotrends.com/sites/default/files/2024-04/pasted_image_20240417171648.png)
+
+7.[Merlin](https://www.getmerlin.in/chat)
+
+![Hình ảnh](https://www.fahimai.com/wp-content/uploads/2024/08/Fahim-AI-32.png)
+
+8.Openrouter
+
+9.[Fastbots.ai](https://fastbots.ai/)
+
+10.[nweb.ai](https://nweb.ai/) của Việt Nam
+
+11.[Chatsimple](https://www.chatsimple.ai/)
+
+12.[Chatbot.com](https://www.chatbot.com/) không trả lời được bằng tiếng Việt
+
+13.[HuggingFace chat](https://huggingface.co/chat)
+
+14.[Gemini DeepSearch](https://gemini.0est.com/)
 
 ## 4.Tin tức về AI
 - Ngày 26/02/2025: Google Gemini ra mắt chức năng 'branching' vào AI Studio. 
