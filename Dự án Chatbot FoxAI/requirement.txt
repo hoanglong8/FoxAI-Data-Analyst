@@ -1,2 +1,5 @@
-pip install telebot google-generativeai openai python-dotenv
+PyMuPDF==1.25.3
+openai==1.63.2
+pyTelegramBotAPI==4.26.0
+python-dotenv==1.0.1
 

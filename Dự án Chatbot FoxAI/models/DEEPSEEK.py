@@ -1,7 +1,7 @@
 from openai import OpenAI
 
 def configure_deepseek(deepseek_token):
-    client = OpenAI(api_key=deepseek_token, base_url="https://api.deepseek.com/v1")
+    client = OpenAI(api_key=deepseek_token, base_url="https://api.deepseek.com/v3")
     return client
 
 def get_deepseek_response(client, user_message):
