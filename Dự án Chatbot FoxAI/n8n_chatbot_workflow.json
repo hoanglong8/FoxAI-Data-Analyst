@@ -1,0 +1,1039 @@
+{
+  "name": "Private chatbot with redis full",
+  "nodes": [
+    {
+      "parameters": {
+        "httpMethod": "POST",
+        "path": "/chatbot",
+        "authentication": "basicAuth",
+        "responseMode": "responseNode",
+        "options": {}
+      },
+      "type": "n8n-nodes-base.webhook",
+      "typeVersion": 2,
+      "position": [
+        -1680,
+        -460
+      ],
+      "id": "16c46808-1ba3-4a24-ad8f-e7d0ee89e50a",
+      "name": "Webhook",
+      "webhookId": "762c9334-5de5-47b3-bc5d-60940a335a21",
+      "credentials": {
+        "httpBasicAuth": {
+          "id": "PT8OGfWFkfNyDbDu",
+          "name": "Admin credential"
+        }
+      }
+    },
+    {
+      "parameters": {
+        "method": "POST",
+        "url": "https://api.openai.com/v1/chat/completions",
+        "authentication": "predefinedCredentialType",
+        "nodeCredentialType": "openAiApi",
+        "sendBody": true,
+        "bodyParameters": {
+          "parameters": [
+            {
+              "name": "model",
+              "value": "gpt-4"
+            },
+            {
+              "name": "temperature",
+              "value": "={{ parseFloat(0.5) }}"
+            },
+            {
+              "name": "messages",
+              "value": "={{ [ \n{\n\"role\": \"system\",\n\"content\": \"You are a helpful assistant that helps with rephrasing and structuring sentences into a question in need of answer if possbile. You can return that it's invalid if rephrasing to a question is impossible\"\n},\n{\n\"role\": \"user\",\n\"content\": $('Qstn').item.json.userMessage\n} \n]  }}"
+            }
+          ]
+        },
+        "options": {}
+      },
+      "type": "n8n-nodes-base.httpRequest",
+      "typeVersion": 4.2,
+      "position": [
+        60,
+        -940
+      ],
+      "id": "fc64c543-2f18-4709-ac5e-dcd12ebf1dd9",
+      "name": "HTTP Request",
+      "credentials": {
+        "openAiApi": {
+          "id": "noEGoeWS6fLDogMb",
+          "name": "OpenAi account"
+        }
+      }
+    },
+    {
+      "parameters": {
+        "promptType": "define",
+        "text": "={{ $json.choices[0].message.content }}",
+        "options": {
+          "systemMessage": "You are a helpful, concise customer service chatbot. Always provide clear answers and ask follow-up questions if needed. Avoid technical jargon unless requested. Respond thoughtfully, maintaining context. Respond must and only using word 'unable' when you can't provide an answer."
+        }
+      },
+      "type": "@n8n/n8n-nodes-langchain.agent",
+      "typeVersion": 1.7,
+      "position": [
+        340,
+        -940
+      ],
+      "id": "9619a08a-8efb-47e1-b959-1774a8ac233c",
+      "name": "AI Agent"
+    },
+    {
+      "parameters": {
+        "model": {
+          "__rl": true,
+          "mode": "list",
+          "value": "gpt-4o-mini"
+        },
+        "options": {
+          "maxTokens": 500,
+          "responseFormat": "text",
+          "temperature": 0.7
+        }
+      },
+      "type": "@n8n/n8n-nodes-langchain.lmChatOpenAi",
+      "typeVersion": 1.2,
+      "position": [
+        140,
+        -680
+      ],
+      "id": "7afead95-9031-4680-b0a8-d8a22cd95768",
+      "name": "OpenAI Chat Model",
+      "credentials": {
+        "openAiApi": {
+          "id": "noEGoeWS6fLDogMb",
+          "name": "OpenAi account"
+        }
+      }
+    },
+    {
+      "parameters": {
+        "sessionIdType": "customKey",
+        "sessionKey": "={{ $('Webhook').item.json.headers[\"postman-token\"] }}"
+      },
+      "type": "@n8n/n8n-nodes-langchain.memoryBufferWindow",
+      "typeVersion": 1.3,
+      "position": [
+        240,
+        -540
+      ],
+      "id": "036c0abc-7b55-4025-822a-33847bd38989",
+      "name": "Window Buffer Memory"
+    },
+    {
+      "parameters": {
+        "name": "company_db",
+        "description": "Retrieve information from company documents stored in vector database"
+      },
+      "type": "@n8n/n8n-nodes-langchain.toolVectorStore",
+      "typeVersion": 1,
+      "position": [
+        540,
+        -680
+      ],
+      "id": "b4155512-0372-4a50-a192-c2c0193abbd3",
+      "name": "Answer questions with a vector store"
+    },
+    {
+      "parameters": {
+        "model": {
+          "__rl": true,
+          "mode": "list",
+          "value": "gpt-4o-mini"
+        },
+        "options": {
+          "maxTokens": 500,
+          "temperature": 0.7
+        }
+      },
+      "type": "@n8n/n8n-nodes-langchain.lmChatOpenAi",
+      "typeVersion": 1.2,
+      "position": [
+        800,
+        -420
+      ],
+      "id": "4d8407a1-c804-48f7-8b14-e972f79e10f6",
+      "name": "OpenAI Chat Model1",
+      "credentials": {
+        "openAiApi": {
+          "id": "noEGoeWS6fLDogMb",
+          "name": "OpenAi account"
+        }
+      }
+    },
+    {
+      "parameters": {
+        "model": "text-embedding-ada-002",
+        "options": {}
+      },
+      "type": "@n8n/n8n-nodes-langchain.embeddingsOpenAi",
+      "typeVersion": 1.2,
+      "position": [
+        280,
+        -180
+      ],
+      "id": "bba7656a-3c14-4099-8d12-0cd3944097bf",
+      "name": "Embeddings OpenAI",
+      "credentials": {
+        "openAiApi": {
+          "id": "noEGoeWS6fLDogMb",
+          "name": "OpenAi account"
+        }
+      }
+    },
+    {
+      "parameters": {
+        "conditions": {
+          "options": {
+            "caseSensitive": true,
+            "leftValue": "",
+            "typeValidation": "strict",
+            "version": 2
+          },
+          "conditions": [
+            {
+              "id": "c06c8a7d-9705-4baa-931f-ae2c042ac303",
+              "leftValue": "={{ $json.output }}",
+              "rightValue": "unable",
+              "operator": {
+                "type": "string",
+                "operation": "contains"
+              }
+            }
+          ],
+          "combinator": "and"
+        },
+        "options": {}
+      },
+      "type": "n8n-nodes-base.if",
+      "typeVersion": 2.2,
+      "position": [
+        700,
+        -940
+      ],
+      "id": "e132893b-217f-4f0e-bf3e-72072b07a70d",
+      "name": "If"
+    },
+    {
+      "parameters": {
+        "method": "POST",
+        "url": "https://api.openai.com/v1/chat/completions",
+        "authentication": "predefinedCredentialType",
+        "nodeCredentialType": "openAiApi",
+        "sendBody": true,
+        "bodyParameters": {
+          "parameters": [
+            {
+              "name": "model",
+              "value": "gpt-4"
+            },
+            {
+              "name": "temperature",
+              "value": "={{ parseFloat(0.5) }}"
+            },
+            {
+              "name": "messages",
+              "value": "={{ [ \n{\n\"role\": \"system\",\n\"content\": \"You are a helpful assistant that helps with rephrasing and structuring sentences into a question in need of answer if possbile. You can return that it's invalid if rephrasing to a question is impossible\"\n},\n{\n\"role\": \"user\",\n\"content\": $('Qstn').item.json.userMessage\n} \n]  }}"
+            }
+          ]
+        },
+        "options": {}
+      },
+      "type": "n8n-nodes-base.httpRequest",
+      "typeVersion": 4.2,
+      "position": [
+        1140,
+        -1100
+      ],
+      "id": "f6f1d03c-99c5-4c81-90d7-99eceb6b21b8",
+      "name": "HTTP Request1",
+      "credentials": {
+        "openAiApi": {
+          "id": "noEGoeWS6fLDogMb",
+          "name": "OpenAi account"
+        }
+      }
+    },
+    {
+      "parameters": {
+        "method": "POST",
+        "url": "https://api.openai.com/v1/chat/completions",
+        "authentication": "predefinedCredentialType",
+        "nodeCredentialType": "openAiApi",
+        "sendBody": true,
+        "bodyParameters": {
+          "parameters": [
+            {
+              "name": "model",
+              "value": "gpt-4"
+            },
+            {
+              "name": "temperature",
+              "value": "={{ parseFloat(0.5) }}"
+            },
+            {
+              "name": "messages",
+              "value": "={{ [ \n{\n\"role\": \"system\",\n\"content\": \"You are a helpful, concise customer service chatbot. Always provide clear answers and ask follow-up questions if needed. Avoid technical jargon unless requested. Respond thoughtfully, maintaining context.  Respond must and only using word 'unable' when you can't provide an answer.\" \n},\n{\n\"role\": \"user\",\n\"content\": $('Qstn').item.json.userMessage\n} \n]  }}"
+            }
+          ]
+        },
+        "options": {}
+      },
+      "type": "n8n-nodes-base.httpRequest",
+      "typeVersion": 4.2,
+      "position": [
+        1400,
+        -1100
+      ],
+      "id": "353ebd26-83c1-48d5-ac4e-ed27a3724b31",
+      "name": "HTTP Request2",
+      "credentials": {
+        "openAiApi": {
+          "id": "noEGoeWS6fLDogMb",
+          "name": "OpenAi account"
+        }
+      }
+    },
+    {
+      "parameters": {
+        "fileSelector": "/tmp/Neo_schema.json",
+        "options": {}
+      },
+      "type": "n8n-nodes-base.readWriteFile",
+      "typeVersion": 1,
+      "position": [
+        -1620,
+        -1260
+      ],
+      "id": "f611fd08-e3aa-4203-b146-a6f88413a3ce",
+      "name": "Read/Write Files from Disk1",
+      "executeOnce": true
+    },
+    {
+      "parameters": {
+        "method": "POST",
+        "url": "https://api.openai.com/v1/chat/completions",
+        "authentication": "predefinedCredentialType",
+        "nodeCredentialType": "openAiApi",
+        "sendBody": true,
+        "bodyParameters": {
+          "parameters": [
+            {
+              "name": "model",
+              "value": "gpt-4-0613"
+            },
+            {
+              "name": "temperature",
+              "value": "={{ parseFloat(0.2) }}"
+            },
+            {
+              "name": "messages",
+              "value": "={{ [ \n{\n\"role\": \"system\",\n\"content\": \"You are an expert SQL assistant specialized in SAP Business One (SAP B1) databases. Your task is to rephrase user questions into valid SQL queries based on the default SAP B1 database structure.\\n\\nUse the following standard SAP B1 tables and relationships:\\n\\n'ORDR': Sales Order Header (key: `DocEntry`, order number: `DocNum`)\\n\\n'RDR1': Sales Order Lines (linked by `DocEntry`) \\n\\n'OINV': Invoice Header \\n\\n- 'INV1': Invoice Lines \\n\\n'OCRD': Business Partner Master Data (customers/vendors) (`CardCode`, `CardName`) \\n\\n'OITM': Item Master Data (`ItemCode`, `ItemName`, `OnHand`) \\n\\n'OPOR': Purchase Order Header \\n\\n'POR1': Purchase Order Lines \\n\\n'OITW': Item Warehouse Data \\n\\n'OACT': Chart of Accounts \\n\\n'JDT1': Journal Entry Lines \\n\\n Rules to Follow: \\n\\n1. Write SQL queries using the default SAP B1 schema. \\n\\n2. Assume typical field names if not explicitly provided. \\n\\n3. If the user’s request lacks sufficient detail (e.g., missing filters), make logical assumptions. \\n\\n4. Rephrase vague questions into structured SQL queries where possible. \\n\\n5. If a question can't be converted to SQL, respond: 'Unable to form a valid SQL query.' \\n\\n Example:  \\n\\nUser question: 'Get all open sales orders from January 2024.' \\n\\nSQL: \\n\\n```sql \\n\\nSELECT DocNum, CardCode, CardName, DocDate, DocTotal, DocStatus \\n\\nFROM ORDR \\n\\nWHERE DocStatus = 'O' \\n\\n'AND DocDate BETWEEN '2024-01-01' AND '2024-01-31';\"\n},\n{\n\"role\": \"user\",\n\"content\": \" User question: $json.choices[0].message.content\"\n} \n]  }}"
+            }
+          ]
+        },
+        "options": {}
+      },
+      "type": "n8n-nodes-base.httpRequest",
+      "typeVersion": 4.2,
+      "position": [
+        -960,
+        -280
+      ],
+      "id": "5949024a-7074-4519-80e3-ca06733c9cb9",
+      "name": "HTTP Request3",
+      "credentials": {
+        "openAiApi": {
+          "id": "noEGoeWS6fLDogMb",
+          "name": "OpenAi account"
+        }
+      },
+      "disabled": true
+    },
+    {
+      "parameters": {
+        "operation": "fromJson",
+        "destinationKey": "schema",
+        "options": {}
+      },
+      "type": "n8n-nodes-base.extractFromFile",
+      "typeVersion": 1,
+      "position": [
+        -1380,
+        -1260
+      ],
+      "id": "ee4a1903-4a4c-4970-af30-174c7e3533f0",
+      "name": "Extract from File"
+    },
+    {
+      "parameters": {
+        "method": "POST",
+        "url": "https://api.openai.com/v1/chat/completions",
+        "authentication": "predefinedCredentialType",
+        "nodeCredentialType": "openAiApi",
+        "sendBody": true,
+        "bodyParameters": {
+          "parameters": [
+            {
+              "name": "model",
+              "value": "gpt-4"
+            },
+            {
+              "name": "temperature",
+              "value": "={{ parseFloat(0.5) }}"
+            },
+            {
+              "name": "messages",
+              "value": "={{ [ \n{\n\"role\": \"system\",\n\"content\": \"You are a helpful assistant that helps with rephrasing and structuring sentences into a question in need of answer if possbile. You can return that it's invalid if rephrasing to a question is impossible\"\n},\n{\n\"role\": \"user\",\n\"content\": $('Qstn').item.json.userMessage\n} \n]  }}"
+            }
+          ]
+        },
+        "options": {}
+      },
+      "type": "n8n-nodes-base.httpRequest",
+      "typeVersion": 4.2,
+      "position": [
+        -1160,
+        -280
+      ],
+      "id": "59bba2ab-4136-4733-aba4-2a95b346e98f",
+      "name": "HTTP Request4",
+      "credentials": {
+        "openAiApi": {
+          "id": "noEGoeWS6fLDogMb",
+          "name": "OpenAi account"
+        }
+      },
+      "disabled": true
+    },
+    {
+      "parameters": {
+        "operation": "executeQuery",
+        "query": "{{ $json.choices[0].message.content }}"
+      },
+      "type": "n8n-nodes-base.microsoftSql",
+      "typeVersion": 1.1,
+      "position": [
+        -480,
+        -300
+      ],
+      "id": "ea9aea5b-dbb0-4c8f-96fb-463418e8cfed",
+      "name": "Microsoft SQL",
+      "alwaysOutputData": false,
+      "credentials": {
+        "microsoftSql": {
+          "id": "PxJfoBuCUX8HP1tK",
+          "name": "Neo DB"
+        }
+      }
+    },
+    {
+      "parameters": {
+        "conditions": {
+          "options": {
+            "caseSensitive": true,
+            "leftValue": "",
+            "typeValidation": "strict",
+            "version": 2
+          },
+          "conditions": [
+            {
+              "id": "5823b33c-60a9-401e-8048-4a8217a0bb23",
+              "leftValue": "={{ $json.choices[0].message.content }}",
+              "rightValue": "Unable",
+              "operator": {
+                "type": "string",
+                "operation": "contains"
+              }
+            }
+          ],
+          "combinator": "and"
+        },
+        "options": {}
+      },
+      "type": "n8n-nodes-base.if",
+      "typeVersion": 2.2,
+      "position": [
+        -700,
+        -460
+      ],
+      "id": "fb44761a-0b8e-4c07-b120-7e8a55dd061a",
+      "name": "If2"
+    },
+    {
+      "parameters": {
+        "content": "## Read database structure json file\n\n**Double click** to edit me. [Guide](https://docs.n8n.io/workflows/sticky-notes/)",
+        "height": 320,
+        "width": 500
+      },
+      "type": "n8n-nodes-base.stickyNote",
+      "position": [
+        -1680,
+        -1380
+      ],
+      "typeVersion": 1,
+      "id": "be6b2a70-1a34-4861-98ba-e6bd8a9c5f90",
+      "name": "Sticky Note"
+    },
+    {
+      "parameters": {
+        "content": "## Look for answer in private vector database\n**Double click** to edit me. [Guide](https://docs.n8n.io/workflows/sticky-notes/)",
+        "height": 1060,
+        "width": 940
+      },
+      "type": "n8n-nodes-base.stickyNote",
+      "position": [
+        20,
+        -1060
+      ],
+      "typeVersion": 1,
+      "id": "8b6fc1c0-f1bd-4259-826f-4daeee2e3924",
+      "name": "Sticky Note1"
+    },
+    {
+      "parameters": {
+        "content": "## Ask public model if no answer given previously\n**Double click** to edit me. [Guide](https://docs.n8n.io/workflows/sticky-notes/)",
+        "height": 320,
+        "width": 520
+      },
+      "type": "n8n-nodes-base.stickyNote",
+      "position": [
+        1080,
+        -1220
+      ],
+      "typeVersion": 1,
+      "id": "57b9f8b7-085f-458b-add6-53ce964ecb6c",
+      "name": "Sticky Note2"
+    },
+    {
+      "parameters": {
+        "content": "## Attempt to transform request into SQL query\n**Double click** to edit me. [Guide](https://docs.n8n.io/workflows/sticky-notes/)",
+        "height": 480,
+        "width": 960
+      },
+      "type": "n8n-nodes-base.stickyNote",
+      "position": [
+        -1240,
+        -560
+      ],
+      "typeVersion": 1,
+      "id": "4821b1f6-e803-485c-9a7c-2e9e0f55f62e",
+      "name": "Sticky Note3"
+    },
+    {
+      "parameters": {
+        "respondWith": "text",
+        "responseBody": "={{ $json.choices[0].message.content }}",
+        "options": {}
+      },
+      "type": "n8n-nodes-base.respondToWebhook",
+      "typeVersion": 1.1,
+      "position": [
+        1720,
+        -1100
+      ],
+      "id": "06750838-5c7f-4671-9ab9-def3f70272b6",
+      "name": "Respond to Webhook"
+    },
+    {
+      "parameters": {
+        "respondWith": "text",
+        "responseBody": "= {{ $json.choices[0].message.content }}",
+        "options": {}
+      },
+      "type": "n8n-nodes-base.respondToWebhook",
+      "typeVersion": 1.1,
+      "position": [
+        -220,
+        60
+      ],
+      "id": "d8b0adee-db4d-47a6-a18d-5eb0e43237ad",
+      "name": "Respond to Webhook1"
+    },
+    {
+      "parameters": {
+        "respondWith": "text",
+        "responseBody": "={{ $('If').item }}",
+        "options": {}
+      },
+      "type": "n8n-nodes-base.respondToWebhook",
+      "typeVersion": 1.1,
+      "position": [
+        1080,
+        -640
+      ],
+      "id": "2de217ac-fef6-4f4d-aa90-a0c8380fca36",
+      "name": "Respond to Webhook2"
+    },
+    {
+      "parameters": {
+        "operation": "keys",
+        "keyPattern": "abc"
+      },
+      "type": "n8n-nodes-base.redis",
+      "typeVersion": 1,
+      "position": [
+        -440,
+        -920
+      ],
+      "id": "f732c0e9-aed0-4423-8993-3f0ab29d075a",
+      "name": "Redis",
+      "credentials": {
+        "redis": {
+          "id": "egDOBsfQnf42hAdU",
+          "name": "Redis account"
+        }
+      }
+    },
+    {
+      "parameters": {
+        "pineconeIndex": {
+          "__rl": true,
+          "value": "v2",
+          "mode": "list",
+          "cachedResultName": "v2"
+        },
+        "options": {}
+      },
+      "type": "@n8n/n8n-nodes-langchain.vectorStorePinecone",
+      "typeVersion": 1,
+      "position": [
+        360,
+        -420
+      ],
+      "id": "0950ee98-b1e5-4b59-9265-397a6fa0fc8b",
+      "name": "Pinecone Vector Store",
+      "credentials": {
+        "pineconeApi": {
+          "id": "UqPNrec7kBDDUIGH",
+          "name": "PineconeApi account"
+        }
+      }
+    },
+    {
+      "parameters": {
+        "method": "POST",
+        "url": "https://api.openai.com/v1/chat/completions",
+        "authentication": "predefinedCredentialType",
+        "nodeCredentialType": "openAiApi",
+        "sendBody": true,
+        "bodyParameters": {
+          "parameters": [
+            {
+              "name": "model",
+              "value": "gpt-4"
+            },
+            {
+              "name": "temperature",
+              "value": "={{ parseFloat(0.5) }}"
+            },
+            {
+              "name": "messages",
+              "value": "={{ [ \n{\n\"role\": \"system\",\n\"content\": \"You are a helpful assistant that transforms user queries into valid API queries for SAP. Given the user input, return the appropriate SAP API query. \\n\\nExamples:\\n\\n1. User: 'What is the company name and address' => Query: SELECT CompnyName, Addr1, Addr2, Addr3, City, State, Country, ZipCode FROM OADM; \\n\\n 2. User: 'What is the company name and address' => Query: SELECT CompnyName, Addr1, Addr2, Addr3, City, State, Country, ZipCode FROM OADM; \\n\\n 3. User: 'What is the company name and address' => Query: SELECT CompnyName, Addr1, Addr2, Addr3, City, State, Country, ZipCode FROM OADM; \\n\\n 4. User: 'What is the company name and address' => Query: SELECT CompnyName, Addr1, Addr2, Addr3, City, State, Country, ZipCode FROM OADM; \\n\\n  5. User: 'What is the company name and address' => Query: SELECT CompnyName, Addr1, Addr2, Addr3, City, State, Country, ZipCode FROM OADM; \\n\\n  6. User: 'What is the company name and address' => Query: SELECT CompnyName, Addr1, Addr2, Addr3, City, State, Country, ZipCode FROM OADM; \\n\\n  7. User: 'What is the company name and address' => Query: SELECT CompnyName, Addr1, Addr2, Addr3, City, State, Country, ZipCode FROM OADM; \\n\\n  8. User: 'What is the company name and address' => Query: SELECT CompnyName, Addr1, Addr2, Addr3, City, State, Country, ZipCode FROM OADM; \\n\\n  9. User: 'What is the company name and address' => Query: SELECT CompnyName, Addr1, Addr2, Addr3, City, State, Country, ZipCode FROM OADM; \\n\\n  10. User: 'What is the company name and address' => Query: SELECT CompnyName, Addr1, Addr2, Addr3, City, State, Country, ZipCode FROM OADM; \\n\\n  11. User: 'What is the company name and address' => Query: SELECT CompnyName, Addr1, Addr2, Addr3, City, State, Country, ZipCode FROM OADM; \\n\\n  12. User: 'What is the company name and address' => Query: SELECT CompnyName, Addr1, Addr2, Addr3, City, State, Country, ZipCode FROM OADM; \\n\\n  13. User: 'What is the company name and address' => Query: SELECT CompnyName, Addr1, Addr2, Addr3, City, State, Country, ZipCode FROM OADM; \\n\\n  14. User: 'What is the company name and address' => Query: SELECT CompnyName, Addr1, Addr2, Addr3, City, State, Country, ZipCode FROM OADM; \\n\\n  15. User: 'What is the company name and address' => Query: SELECT CompnyName, Addr1, Addr2, Addr3, City, State, Country, ZipCode FROM OADM; \\n\\n  16. User: 'What is the company name and address' => Query: SELECT CompnyName, Addr1, Addr2, Addr3, City, State, Country, ZipCode FROM OADM; \\n\\n  17. User: 'What is the company name and address' => Query: SELECT CompnyName, Addr1, Addr2, Addr3, City, State, Country, ZipCode FROM OADM; \\n\\n  18. User: 'What is the company name and address' => Query: SELECT CompnyName, Addr1, Addr2, Addr3, City, State, Country, ZipCode FROM OADM; \\n\\n  19. User: 'What is the company name and address' => Query: SELECT CompnyName, Addr1, Addr2, Addr3, City, State, Country, ZipCode FROM OADM; \\n\\n  20. User: 'What is the company name and address' => Query: SELECT CompnyName, Addr1, Addr2, Addr3, City, State, Country, ZipCode FROM OADM; \\n\\n  21. User: 'What is the company name and address' => Query: SELECT CompnyName, Addr1, Addr2, Addr3, City, State, Country, ZipCode FROM OADM; \\n\\n  22. User: 'What is the company name and address' => Query: SELECT CompnyName, Addr1, Addr2, Addr3, City, State, Country, ZipCode FROM OADM; \\n\\n  23. User: 'What is the company name and address' => Query: SELECT CompnyName, Addr1, Addr2, Addr3, City, State, Country, ZipCode FROM OADM; \\n\\n  24. User: 'What is the company name and address' => Query: SELECT CompnyName, Addr1, Addr2, Addr3, City, State, Country, ZipCode FROM OADM; \\n\\n  25. User: 'What is the company name and address' => Query: SELECT CompnyName, Addr1, Addr2, Addr3, City, State, Country, ZipCode FROM OADM; \\n\\n  26. User: 'What is the company name and address' => Query: SELECT CompnyName, Addr1, Addr2, Addr3, City, State, Country, ZipCode FROM OADM; \\n\\n  27. User: 'What is the company name and address' => Query: SELECT CompnyName, Addr1, Addr2, Addr3, City, State, Country, ZipCode FROM OADM; \\n\\n  28. User: 'What is the company name and address' => Query: SELECT CompnyName, Addr1, Addr2, Addr3, City, State, Country, ZipCode FROM OADM; \\n\\n  29. User: 'What is the company name and address' => Query: SELECT CompnyName, Addr1, Addr2, Addr3, City, State, Country, ZipCode FROM OADM; \\n\\n  30. User: 'What is the company name and address' => Query: SELECT CompnyName, Addr1, Addr2, Addr3, City, State, Country, ZipCode FROM OADM; \"\n},\n{\n\"role\": \"user\",\n\"content\": $('Qstn').item.json.userMessage\n} \n]  }}"
+            }
+          ]
+        },
+        "options": {}
+      },
+      "type": "n8n-nodes-base.httpRequest",
+      "typeVersion": 4.2,
+      "position": [
+        -1140,
+        -760
+      ],
+      "id": "9f9001a8-cb78-4c97-a141-71236960359b",
+      "name": "HTTP Request5",
+      "credentials": {
+        "openAiApi": {
+          "id": "noEGoeWS6fLDogMb",
+          "name": "OpenAi account"
+        }
+      },
+      "disabled": true
+    },
+    {
+      "parameters": {
+        "method": "POST",
+        "url": "https://api.openai.com/v1/chat/completions",
+        "authentication": "predefinedCredentialType",
+        "nodeCredentialType": "openAiApi",
+        "sendBody": true,
+        "bodyParameters": {
+          "parameters": [
+            {
+              "name": "model",
+              "value": "gpt-4"
+            },
+            {
+              "name": "temperature",
+              "value": "={{ parseFloat(0.5) }}"
+            },
+            {
+              "name": "messages",
+              "value": "={{ [ \n{\n\"role\": \"system\",\n\"content\": \" You are an AI assistant that specializes in understanding and analyzing SAP Business One SQL database structures. \\n\\nSAP Business One (SAP B1) is an ERP system that stores data in a relational SQL database. The database consists of multiple tables that store business data related to finance, inventory, sales, purchasing, and more. \\n\\n## **Database Structure Context:** \\n\\n- The primary tables include: \\n\\n  - **OINV**: Stores sales invoices (Invoice Header) \\n\\n  - **INV1**: Stores line items for invoices (Invoice Details) \\n\\n  - **ORDR**: Stores sales orders \\n\\n  - **RDR1**: Stores line items for sales orders \\n\\n  - **OPOR**: Stores purchase orders \\n\\n  - **POR1**: Stores purchase order line items \\n\\n  - **OITM**: Stores item master data (Products, SKUs) \\n\\n  - **OCRD**: Stores business partner data (Customers, Vendors) \\n\\n  - **OJDT**: Stores journal entries (Financial transactions) \\n\\n  - **JDT1**: Stores journal entry line details  \\n\\n### **Key Relationships:** \\n\\n- **OINV (Invoices)** links to **INV1 (Invoice Lines)** through `OINV.DocEntry = INV1.DocEntry`.  \\n\\n - **ORDR (Sales Orders)** links to **RDR1 (Sales Order Lines)** through `ORDR.DocEntry = RDR1.DocEntry`.  \\n\\n - **OPOR (Purchase Orders)** links to **POR1 (Purchase Order Lines)** through `OPOR.DocEntry = POR1.DocEntry`.  \\n\\n- **OITM (Items)** links to **Inventory Transactions** via `OITM.ItemCode`. \\n\\n- **OCRD (Business Partners)** links to transactions via `OCRD.CardCode`.  \\n\\n### **Data Types & Naming Conventions:** \\n\\n- `DocEntry`: A unique identifier for transactions. \\n\\n- `DocNum`: A document number (user-facing). \\n\\n- `ItemCode`: A unique identifier for items. \\n\\n- `CardCode`: A unique identifier for customers/vendors. \\n\\n- `Quantity`: Numeric field representing quantity. \\n\\n- `Price`: Numeric field representing item price. \\n\\n\\n\\nI need you to transform user questions into well-formed SQL queries that can be executed directly on the SAP B1 database. Generate only a raw SQL query without any code blocks, markdown formatting, or explanations. Only return the SQL query as plain text. Ensure that the queries correctly reference the appropriate tables and fields based on SAP B1's standard schema. \\n\\nHere are the frequently question asked in business: \\n\\n1. What is the company name and address? \\n\\n2. What is the company's tax identification number? \\n\\n2. What are the registered phone numbers of the company? \\n\\n3. How many customers do we have? \\n\\n4. List all active customers and their contact details. \\n\\n5. Who are our top 10 customers by total sales? \\n\\n6. How many vendors do we have? \\n\\n7. Which customers have overdue invoices? \\n\\n8. What was the total sales revenue last month? \\n\\n9. What are the top 5 best-selling products by quantity? \\n\\n10. List all sales invoices from last week. \\n\\n11. Which sales invoices are still unpaid? \\n\\n12. What is the average invoice amount per customer? \\n\\n13. What was the total amount spent on purchases last quarter? \\n\\n14. Who are the top 5 suppliers by purchase amount? \\n\\n15. List all purchase orders that are still open. \\n\\n16. How many purchase orders were created this month? \\n\\n17. What is the current stock level of all items? \\n\\n18. Which items have less stock than their minimum level? \\n\\n19. Which items are out of stock? \\n\\n20. What is the total inventory value? \\n\\n21. Which warehouses have the highest stock levels? \\n\\n22. What is the company's current account balance? \\n\\n23. Which customers have exceeded their credit limit? \\n\\n24. List all journal entries for the past month. \\n\\n25. What is the total amount of outstanding payments to suppliers? \\n\\n26. How many employees does the company have? \\n\\n27. List all employees and their job positions. \\n\\n28. What is the total payroll expense for the last month? \\n\\n29. Which employees have upcoming birthdays? \\n\\n  For each question, provide the rephrased SQL query and only SQL query (without '\\n') in a structured and optimized format. If necessary, include joins, grouping, filtering, or calculations to ensure accurate results.\"\n},\n{\n\"role\": \"user\",\n\"content\": $('Qstn').item.json.userMessage\n} \n]  }}"
+            }
+          ]
+        },
+        "options": {}
+      },
+      "type": "n8n-nodes-base.httpRequest",
+      "typeVersion": 4.2,
+      "position": [
+        -1060,
+        -460
+      ],
+      "id": "6a4aa05f-eed6-4d83-84e0-0d28e83785b2",
+      "name": "HTTP Request6",
+      "credentials": {
+        "openAiApi": {
+          "id": "noEGoeWS6fLDogMb",
+          "name": "OpenAi account"
+        }
+      }
+    },
+    {
+      "parameters": {
+        "jsCode": "return [{\n  json: {\n    userMessage: $input.first().json.query.text.toLowerCase().trim()\n  }\n}];"
+      },
+      "type": "n8n-nodes-base.code",
+      "typeVersion": 2,
+      "position": [
+        -1480,
+        -460
+      ],
+      "id": "2a6dcf50-f993-4c5e-be65-25216ef39b53",
+      "name": "Qstn"
+    },
+    {
+      "parameters": {
+        "jsCode": "// Use $input.all() to get all incoming items from the previous node\nconst allItems = $input.all();\n\n// If no items, return early\nif (!allItems || allItems.length === 0) {\n  return [{ json: { prompt: \"No data available to process.\" } }];\n}\n\n// Build a dynamic prompt\nlet prompt =  \"Convert the following database result into a clear and natural language response to this question '\"\n\nprompt += $('Qstn').first().json.userMessage \n  \nprompt += \"' :\\n\\n\";\n\n// Loop through each item\nallItems.forEach((item, index) => {\n  // 'item.json' contains the actual row data from your SQL node\n  const row = item.json;\n\n  // row might have properties like row.ItemCode, row.ItemName, etc.\n  // We'll collect keys dynamically\n  const keys = Object.keys(row);\n\n  prompt += `${index + 1}. `;\n  keys.forEach((key) => {\n    prompt += `**${key}**: ${row[key]}\\n   `;\n  });\n  prompt += \"\\n\";\n}); \n\nprompt += \"Make the response informative and user-friendly.\";\n\n// Return the prompt as JSON\nreturn [{ json: { prompt } }];\n"
+      },
+      "type": "n8n-nodes-base.code",
+      "typeVersion": 2,
+      "position": [
+        -680,
+        60
+      ],
+      "id": "ec9be57d-0bbb-4c60-8ff3-269406a17b8b",
+      "name": "trns"
+    },
+    {
+      "parameters": {
+        "method": "POST",
+        "url": "https://api.openai.com/v1/chat/completions",
+        "authentication": "predefinedCredentialType",
+        "nodeCredentialType": "openAiApi",
+        "sendBody": true,
+        "bodyParameters": {
+          "parameters": [
+            {
+              "name": "model",
+              "value": "gpt-4"
+            },
+            {
+              "name": "temperature",
+              "value": "={{ parseFloat(0.7) }}"
+            },
+            {
+              "name": "messages",
+              "value": "={{ [ \n{\n\"role\": \"system\",\n\"content\": \"You are an AI assistant that converts structured data into human-readable summaries.\"\n},\n{\n\"role\": \"user\",\n\"content\": $json.prompt\n} \n] }}"
+            }
+          ]
+        },
+        "options": {}
+      },
+      "type": "n8n-nodes-base.httpRequest",
+      "typeVersion": 4.2,
+      "position": [
+        -460,
+        60
+      ],
+      "id": "6bc4ce48-3f81-4220-a4f9-f96da4748cfa",
+      "name": "HTTP Request8",
+      "credentials": {
+        "openAiApi": {
+          "id": "noEGoeWS6fLDogMb",
+          "name": "OpenAi account"
+        }
+      }
+    },
+    {
+      "parameters": {
+        "content": "##     Process and transform SQL query result into natural languge\n**Double click** to edit me. [Guide](https://docs.n8n.io/workflows/sticky-notes/)",
+        "height": 260,
+        "width": 640
+      },
+      "type": "n8n-nodes-base.stickyNote",
+      "position": [
+        -720,
+        -40
+      ],
+      "typeVersion": 1,
+      "id": "b7e791a4-3d69-410b-8598-b93d586d187e",
+      "name": "Sticky Note4"
+    }
+  ],
+  "pinData": {},
+  "connections": {
+    "Webhook": {
+      "main": [
+        [
+          {
+            "node": "Qstn",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "HTTP Request": {
+      "main": [
+        [
+          {
+            "node": "AI Agent",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "OpenAI Chat Model": {
+      "ai_languageModel": [
+        [
+          {
+            "node": "AI Agent",
+            "type": "ai_languageModel",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Window Buffer Memory": {
+      "ai_memory": [
+        [
+          {
+            "node": "AI Agent",
+            "type": "ai_memory",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Answer questions with a vector store": {
+      "ai_tool": [
+        [
+          {
+            "node": "AI Agent",
+            "type": "ai_tool",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "OpenAI Chat Model1": {
+      "ai_languageModel": [
+        [
+          {
+            "node": "Answer questions with a vector store",
+            "type": "ai_languageModel",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Embeddings OpenAI": {
+      "ai_embedding": [
+        [
+          {
+            "node": "Pinecone Vector Store",
+            "type": "ai_embedding",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "AI Agent": {
+      "main": [
+        [
+          {
+            "node": "If",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "If": {
+      "main": [
+        [
+          {
+            "node": "HTTP Request1",
+            "type": "main",
+            "index": 0
+          }
+        ],
+        [
+          {
+            "node": "Respond to Webhook2",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "HTTP Request1": {
+      "main": [
+        [
+          {
+            "node": "HTTP Request2",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Read/Write Files from Disk1": {
+      "main": [
+        [
+          {
+            "node": "Extract from File",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "HTTP Request3": {
+      "main": [
+        []
+      ]
+    },
+    "Extract from File": {
+      "main": [
+        []
+      ]
+    },
+    "HTTP Request4": {
+      "main": [
+        []
+      ]
+    },
+    "If2": {
+      "main": [
+        [
+          {
+            "node": "HTTP Request",
+            "type": "main",
+            "index": 0
+          }
+        ],
+        [
+          {
+            "node": "Microsoft SQL",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "HTTP Request2": {
+      "main": [
+        [
+          {
+            "node": "Respond to Webhook",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Microsoft SQL": {
+      "main": [
+        [
+          {
+            "node": "trns",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Pinecone Vector Store": {
+      "ai_vectorStore": [
+        [
+          {
+            "node": "Answer questions with a vector store",
+            "type": "ai_vectorStore",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "HTTP Request5": {
+      "main": [
+        []
+      ]
+    },
+    "HTTP Request6": {
+      "main": [
+        [
+          {
+            "node": "If2",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Qstn": {
+      "main": [
+        [
+          {
+            "node": "HTTP Request6",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "trns": {
+      "main": [
+        [
+          {
+            "node": "HTTP Request8",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "HTTP Request8": {
+      "main": [
+        [
+          {
+            "node": "Respond to Webhook1",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    }
+  },
+  "active": true,
+  "settings": {
+    "executionOrder": "v1",
+    "timezone": "Asia/Ho_Chi_Minh",
+    "callerPolicy": "workflowsFromSameOwner"
+  },
+  "versionId": "baf0ecb3-d5e8-4215-adc5-240ad6107b73",
+  "meta": {
+    "templateCredsSetupCompleted": true,
+    "instanceId": "3ce1b1048852920f15d7eaeccfc0de270db5b814b74b7f0e923b51f649d5bf3e"
+  },
+  "id": "Eruj3efbVGwb7slB",
+  "tags": []
+}
