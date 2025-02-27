@@ -13,18 +13,18 @@
    * [Markdown](#1-1-Ngôn-ngữ-Markdown)
    * [HTML](#1-2-Ngôn-ngữ-HTML)
    * [StackEdit](https://stackedit.io/app#)
-3. [Công cụ trực quan hóa](#2-CÁC-CÔNG-CỤ-TRỰC-QUAN-HÓA)
+2. [Công cụ trực quan hóa](#2-CÁC-CÔNG-CỤ-TRỰC-QUAN-HÓA)
    * [Mermaid](#2-1-Công-cụ-Mermaid)
    * [Planttext](https://planttext.com/)
    * [Markmap](#2-2-Công-cụ-Markmap)
    * [Kroki](#2-4-Công-cụ-Kroki)
-5. [Công cụ xuất bản tài liệu](#3-TỰ-ĐỒNG-BỘ-TẠO-BOOK-ONLINE)
+3. [Công cụ xuất bản tài liệu](#3-TỰ-ĐỒNG-BỘ-TẠO-BOOK-ONLINE)
    * [GitBook](#Công-cụ-GitBook)
    * [Badge](#2-3-Công-cụ-Badge)
-7. [Công cụ hỗ trợ thuyết trình](#4-TỰ-ĐỒNG-BỘ-TẠO-SLIDE)
+4. [Công cụ hỗ trợ thuyết trình](#4-TỰ-ĐỒNG-BỘ-TẠO-SLIDE)
    * [Napkin](#Công-cụ-Napkin)
    * [HackMD](#Công-cụ-HackMD)
-9. [Công cụ lưu trữ, quản lý tài liệu](#5-QUẢN-LÝ-TÀI-LIỆU)
+5. [Công cụ lưu trữ, quản lý tài liệu](#5-QUẢN-LÝ-TÀI-LIỆU)
     * [GitHub](#Công-cụ-GitHub)
     * [GitLab](https://about.gitlab.com/)
     * [Sharepoint](#Công-cụ-Sharepoint)
@@ -283,7 +283,7 @@ https://kroki.io/plantuml/svg/eNpzKC5JLCrJzcxLyU0s4NKKVvYvSsxLT41VcM7PyS8q5tICCu
 ![Mindmap](https://kroki.io/plantuml/svg/eNpzKC5JLCrJzcxLyU0s4NKKVvYvSsxLT41VcM7PyS8q5tICCuVkpmeUpBelpubFKriDKLCom5uTk7NzrEJQfnEqQllSTilQsxOQ5HJIBRoKNRgAE0MiXw==)
 
 
-## 3-TỰ ĐỒNG BỘ TẠO BOOK ONLINE
+## 3-CÔNG CỤ XUẤT BẢN TÀI LIỆU
 [⬆️](#nội-dung)
 
 ### 3-1-Công cụ GitBook
@@ -314,7 +314,7 @@ Ví dụ:
 ![GitHub stars](https://img.shields.io/github/stars/<username>/<repo>)
 ![Codecov](https://img.shields.io/codecov/c/github/<username>/<repo>)
 
-## 4-TỰ ĐỒNG BỘ TẠO SLIDE
+## 4-CÔNG CỤ HỖ TRỢ THUYẾT TRÌNH
 [⬆️](#nội-dung)
 
 ### 4-1-Công cụ HackMD
@@ -354,7 +354,7 @@ Bạn có thể dán file Markdown (copy/paste) hoặc sync một phần với G
 ### Kết quả đầu ra:
 ![4](https://github.com/hoanglong8/FoxAI-Data-Analyst/blob/main/Image/Napkin.gif)
 
-## 5-QUẢN LÝ TÀI LIỆU
+## 5-CÔNG CỤ QUẢN LÝ TÀI LIỆU, DỰ ÁN
 [⬆️](#nội-dung)
 
 ### 5-1-Công cụ GitHub
@@ -378,33 +378,17 @@ git clone https://github.com/username/repository-name.git
 - Nếu nhiều người cùng chỉnh sửa một file, Git sẽ báo xung đột để tạo ra 2 phiên bản khác
 
 ### 5-2-Công cụ GitLab
-[GitLab](https://gitlab.com/) là một nền tảng mã nguồn mở cung cấp giải pháp quản lý mã nguồn, CI/CD (Tích hợp liên tục & Triển khai liên tục), bảo mật và cộng tác nhóm phát triển phần mềm, giúp:
+[GitLab](https://gitlab.com/) là một nền tảng mã nguồn mở cung cấp giải pháp quản lý mã nguồn, CI/CD (Tích hợp liên tục & Triển khai liên tục) cho phép localhost, bảo mật và cộng tác nhóm phát triển phần mềm, giúp:
 
 * Tối ưu hóa quy trình phát triển phần mềm nhờ CI/CD mạnh mẽ.
 * Cộng tác hiệu quả giữa các nhóm lập trình viên, QA, DevOps.
 * Bảo mật chặt chẽ với các công cụ kiểm tra mã nguồn tự động.
 * Giải pháp all-in-one thay thế các công cụ riêng lẻ như GitHub, Jenkins, Jira.
 
-**Một số cách thức quản lý tài liệu hiệu quả**
-
-Quy tắc:
+Một số quy tắc quản lý tài liệu:
 * Quy định rõ cấu trúc tài liệu (ví dụ: đặt tên file, thư mục).
 * Quy định cách ghi chú thay đổi (changelog).
-
-Phân Quyền Rõ Ràng:
-* Ai có quyền chỉnh sửa, nhận xét, hoặc chỉ xem.
-* Sử dụng công cụ hỗ trợ phân quyền như Google Workspace, Confluence.
-
-Thiết lập Quy trình Kiểm Duyệt:
-* Áp dụng quy trình phê duyệt thay đổi trước khi ban hành.
-* Sử dụng Git (Pull Request) hoặc Google Docs (Suggested Edits).
-
-Đặt Lịch Kiểm Tra Định Kỳ:
-* Xác định ngày kiểm tra và cập nhật tài liệu định kỳ (hàng quý, hàng năm).
-* Sử dụng các công cụ nhắc lịch như Google Calendar hoặc Microsoft Outlook.
-
-Sử dụng các công cụ như Zapier hoặc Make (Integromat) để tự động:
-* Thông báo thay đổi tài liệu.
+* Thông báo email khi có thay đổi các phiên bản tài liệu.
 * Gửi tài liệu mới đến các bên liên quan (Lập trình viên, Tư vấn, Kinh doanh, Khách hàng...)
 
 ## Tóm tắt
