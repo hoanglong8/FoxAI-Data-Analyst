@@ -96,7 +96,7 @@ Trong ảnh trên:
 4.1.Giao diện Chatbot trên Telegram
 
   * Link [Telegram](https://t.me/foxaichatbot) (hiện nay đã có thể nhận diện hình ảnh, bộ nhớ tạm thời của history chat thì phải lưu thủ công trên máy chủ => Nghiên cứu tool tự động lưu trên máy chủ)
-![Hình ảnh](https://github.com/hoanglong8/FoxAI-Data-Analyst/blob/main/Image/Chatbot%20FoxAI%202.png)
+![Hình ảnh](https://github.com/hoanglong8/FoxAI-Data-Analyst/blob/main/Image/Chatbot%20FoxAI%204.png)
 
 4.2.Giao diện Chatbot trên Zalo
 
