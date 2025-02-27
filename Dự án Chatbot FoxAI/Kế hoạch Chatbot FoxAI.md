@@ -119,3 +119,5 @@ Trong ảnh trên:
 **4.5.Giao diện Add-on trên SAP B1**
 
   * ... Đang cập nhật
+
+Thông tin các ứng dụng chatbot khác để tham khảo [tại đây](https://github.com/hoanglong8/FoxAI-Data-Analyst/blob/main/D%E1%BB%B1%20%C3%A1n%20Chatbot%20FoxAI/%5BFoxAI%5D%20T%C3%A0i%20li%E1%BB%87u%20tham%20kh%E1%BA%A3o%20v%C3%A0%20tin%20t%E1%BB%A9c%20Chatbot.md)
