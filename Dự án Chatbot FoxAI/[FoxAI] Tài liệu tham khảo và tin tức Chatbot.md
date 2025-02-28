@@ -138,4 +138,6 @@ The ebook should synthesize cutting-edge prompt engineering techniques while mai
 
 - Ngày 27/02/2025: AI Agent tự động viết bài [Omnitool](https://github.com/microsoft/OmniParser/tree/master/omnitool) của Microsoft
 
+- Ngày 28/02/2025: [Open Deep Reasearch](https://github.com/dzhng/deep-research)
+
 - 
