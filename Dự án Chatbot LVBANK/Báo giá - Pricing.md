@@ -1,7 +1,9 @@
 # 📄 BÁO GIÁ DỊCH VỤ TRIỂN KHAI GIẢI PHÁP CHATBOT AI TÍCH HỢP TRÊN WEBSITE NGÂN HÀNG LVBANK
 
 **📌 Ngày báo giá:** .../.../2025 
+
 **📌 Khách hàng:** Ngân hàng LVBANK  
+
 **📌 Đơn vị cung cấp:** Công ty CP Công nghệ FoxAI  
 
 ---
