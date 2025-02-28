@@ -2,8 +2,8 @@
 
 ## 📍 1. THÔNG TIN DỰ ÁN
 - **Tên dự án:** Phát triển Chatbot AI hỗ trợ khách hàng ngân hàng LVBANK
-- **Thời gian triển khai:** 3 tháng
-- **Quản lý dự án:** [Tên PM]
+- **Thời gian triển khai:** 3 tuần
+- **Quản lý dự án:** Nguyễn Hoàng Long - Công ty CP Công nghệ FoxAI
 - **Mục tiêu:** 
   - Xây dựng chatbot thông minh hỗ trợ khách hàng 24/7
   - Tích hợp trực tiếp vào website ngân hàng LVBANK
@@ -16,18 +16,18 @@
 
 | **Giai đoạn**  | **Công việc chính** | **Thời gian** | **Trách nhiệm** |
 |--------------|------------------|------------|-------------|
-| **GĐ 1: Phân tích yêu cầu** | Khảo sát yêu cầu, xác định phạm vi chatbot | Tuần 1-2 | PM, BA |
-| **GĐ 2: Thiết kế & Kiến trúc** | Lên kịch bản hội thoại, thiết kế UI chatbot | Tuần 3-4 | Dev, Designer |
-| **GĐ 3: Phát triển chatbot** | Lập trình backend, huấn luyện AI với dữ liệu tiếng Lào | Tuần 5-8 | Dev, AI Engineer |
-| **GĐ 4: Tích hợp vào website** | Viết API kết nối chatbot với WordPress | Tuần 9-10 | Dev |
-| **GĐ 5: Kiểm thử & tối ưu** | Test chatbot, kiểm tra bảo mật dữ liệu | Tuần 11 | Tester, Dev |
-| **GĐ 6: Triển khai & Đào tạo** | Đưa chatbot vào hoạt động, hướng dẫn nhân viên ngân hàng | Tuần 12 | PM, CS Team |
+| **GĐ 1: Phân tích yêu cầu** | Khảo sát yêu cầu, xác định phạm vi chatbot | Tuần 1 | PM, BA |
+| **GĐ 2: Thiết kế & Kiến trúc** | Lên kịch bản hội thoại, thiết kế UI chatbot | Tuần 1 | Dev, Designer |
+| **GĐ 3: Phát triển chatbot** | Lập trình backend, huấn luyện AI với dữ liệu tiếng Lào | Tuần 2 | Dev, AI Engineer |
+| **GĐ 4: Tích hợp vào website** | Viết API kết nối chatbot với WordPress | Tuần 2 | Dev |
+| **GĐ 5: Kiểm thử & tối ưu** | Test chatbot, kiểm tra bảo mật dữ liệu | Tuần 3 | Tester, Dev |
+| **GĐ 6: Triển khai & Đào tạo** | Đưa chatbot vào hoạt động, hướng dẫn nhân viên ngân hàng | Tuần 3 | PM, CS Team |
 
 ---
 
 ## 📍 3. CHI TIẾT TRIỂN KHAI THEO GIAI ĐOẠN
 
-### 🚀 **Giai đoạn 1: Phân Tích Yêu Cầu (Week 1-2)**
+### 🚀 **Giai đoạn 1: Phân Tích Yêu Cầu (Tuần 1)**
 ✅ Thu thập yêu cầu từ ngân hàng về chatbot.  
 ✅ Xác định danh mục câu hỏi chatbot sẽ xử lý.  
 ✅ Phân tích nghiệp vụ ngân hàng, tích hợp chatbot với hệ thống hiện có.  
@@ -36,7 +36,7 @@
 
 ---
 
-### 🎨 **Giai đoạn 2: Thiết Kế & Kiến Trúc (Week 3-4)**
+### 🎨 **Giai đoạn 2: Thiết Kế & Kiến Trúc (Tuần 1)**
 ✅ Thiết kế kiến trúc chatbot (backend, NLP engine, database).  
 ✅ Thiết kế giao diện UI/UX chatbot trên website ngân hàng.  
 ✅ Xác định cách chatbot sẽ giao tiếp với API OpenAI.  
@@ -45,7 +45,7 @@
 
 ---
 
-### 🏗 **Giai đoạn 3: Phát Triển Chatbot (Week 5-8)**
+### 🏗 **Giai đoạn 3: Phát Triển Chatbot (Tuần 2)**
 ✅ Xây dựng API chatbot bằng Flask + OpenAI API.  
 ✅ Huấn luyện chatbot với dữ liệu tài chính & ngân hàng.  
 ✅ Xử lý ngữ cảnh hội thoại và lịch sử trò chuyện.  
@@ -54,7 +54,7 @@
 
 ---
 
-### 🔗 **Giai đoạn 4: Tích Hợp Vào Website (Week 9-10)**
+### 🔗 **Giai đoạn 4: Tích Hợp Vào Website (Tuần 2)**
 ✅ Viết API kết nối chatbot với website WordPress của LVBANK.  
 ✅ Tạo giao diện hộp chat (chat widget) trên website.  
 ✅ Cấu hình chatbot để nhận & gửi tin nhắn trực tiếp từ khách hàng.  
@@ -63,7 +63,7 @@
 
 ---
 
-### 🛠 **Giai đoạn 5: Kiểm Thử & Tối Ưu (Week 11)**
+### 🛠 **Giai đoạn 5: Kiểm Thử & Tối Ưu (Tuần 3)**
 ✅ Thực hiện kiểm thử chatbot với các tình huống thực tế.  
 ✅ Kiểm tra tính chính xác của câu trả lời trong các ngữ cảnh khác nhau.  
 ✅ Kiểm tra bảo mật dữ liệu và quyền truy cập.  
@@ -72,7 +72,7 @@
 
 ---
 
-### 🚀 **Giai đoạn 6: Triển Khai & Đào Tạo (Week 12)**
+### 🚀 **Giai đoạn 6: Triển Khai & Đào Tạo (Tuần 3)**
 ✅ Triển khai chatbot chính thức trên website ngân hàng.  
 ✅ Hướng dẫn nhân viên ngân hàng sử dụng chatbot.  
 ✅ Thu thập phản hồi khách hàng để cải thiện chatbot.  
@@ -93,23 +93,15 @@
 ---
 
 ## 📍 5. QUẢN LÝ & BÁO CÁO TIẾN ĐỘ
-✅ **Công cụ quản lý dự án:** Jira / Trello.  
+✅ **Công cụ quản lý dự án:** GitHub.  
 ✅ **Báo cáo tiến độ:** Gửi hàng tuần cho ban lãnh đạo.  
 ✅ **Check-in team:** Họp hàng tuần để đánh giá tiến độ & giải quyết vấn đề.  
 
 ---
 
-## 📍 6. CHÍNH SÁCH HỖ TRỢ & BẢO HÀNH
-- 🎯 **Bảo hành 12 tháng**, sửa lỗi miễn phí.  
-- 🎯 **Hỗ trợ kỹ thuật 24/7** qua email, hotline.  
-- 🎯 **Cập nhật AI miễn phí trong 6 tháng đầu**.  
+## 📍 6. CHÍNH SÁCH HỖ TRỢ & BẢO TRÌ
+- 🎯 **Bảo hành 12 tháng** 
+- 🎯 **Hỗ trợ kỹ thuật 24/7** qua email, hotline, Whatsapp. 
+- 🎯 **Cập nhật các công nghệ AI Engine mới nhất**.  
 
 ---
-
-## 📍 7. THÔNG TIN LIÊN HỆ
-📌 **Công ty:** [Tên công ty bạn]  
-📌 **Website:** [Website công ty]  
-📌 **Email:** [Email liên hệ]  
-📌 **Hotline:** [Số điện thoại]  
-
-🚀 **Liên hệ ngay để triển khai chatbot AI cho ngân hàng LVBANK!** 🚀
