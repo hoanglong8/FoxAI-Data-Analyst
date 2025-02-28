@@ -12,28 +12,10 @@
 
 ---
 
-## 📍 2. PHẠM VI DỰ ÁN
+## 📍 2. LỘ TRÌNH TRIỂN KHAI (ROADMAP)
 
-### 🔹 Tính năng chính của Chatbot
-- ✅ Hỗ trợ khách hàng tra cứu thông tin tài khoản, giao dịch, lãi suất, sản phẩm vay.
-- ✅ Trả lời tự động 24/7, hỗ trợ song ngữ Lào - Anh.
-- ✅ Kết nối với CSKH khi cần thiết.
-- ✅ Phân tích dữ liệu hội thoại để tối ưu chatbot theo thời gian.
-
-### 🔹 Công nghệ sử dụng
-| Thành phần               | Công nghệ                 |
-|--------------------------|--------------------------|
-| **NLP Engine**          | OpenAI GPT-4 API        |
-| **Backend API**         | Flask (Python)          |
-| **Giao diện người dùng**| JavaScript, HTML, CSS   |
-| **Hệ thống dữ liệu**    | PostgreSQL / Firebase   |
-| **Triển khai hạ tầng**  | AWS / Google Cloud / VPS |
-
----
-
-## 📍 3. LỘ TRÌNH TRIỂN KHAI (ROADMAP)
-| Giai đoạn  | Công việc chính | Thời gian | Trách nhiệm |
-|------------|----------------|-----------|-------------|
+| **Giai đoạn**  | **Công việc chính** | **Thời gian** | **Trách nhiệm** |
+|--------------|------------------|------------|-------------|
 | **GĐ 1: Phân tích yêu cầu** | Khảo sát yêu cầu, xác định phạm vi chatbot | Tuần 1-2 | PM, BA |
 | **GĐ 2: Thiết kế & Kiến trúc** | Lên kịch bản hội thoại, thiết kế UI chatbot | Tuần 3-4 | Dev, Designer |
 | **GĐ 3: Phát triển chatbot** | Lập trình backend, huấn luyện AI với dữ liệu tiếng Lào | Tuần 5-8 | Dev, AI Engineer |
@@ -43,45 +25,84 @@
 
 ---
 
-## 📍 4. CHI PHÍ TRIỂN KHAI
+## 📍 3. CHI TIẾT TRIỂN KHAI THEO GIAI ĐOẠN
 
-### 💰 **A. Chi phí triển khai (Trọn gói: 100.000.000 VNĐ)**
-| **Hạng mục** | **Mô tả chi tiết** | **Chi phí (VNĐ)** |
-|-------------|--------------------|----------------|
-| **1. Phân tích & thiết kế** | Xây dựng kịch bản hội thoại, UI chatbot | 20.000.000 |
-| **2. Cài đặt & tích hợp** | Tích hợp chatbot trên website LVBANK | 30.000.000 |
-| **3. Huấn luyện AI** | Đào tạo chatbot với dữ liệu tài chính & ngân hàng | 25.000.000 |
-| **4. Kiểm thử & tối ưu** | Chạy thử nghiệm, tinh chỉnh phản hồi chatbot | 15.000.000 |
-| **5. Đào tạo người dùng** | Hướng dẫn nhân viên sử dụng chatbot | 10.000.000 |
-| **🎯 Tổng chi phí triển khai** |  | **100.000.000** |
-
-### 🔄 **B. Phí duy trì hàng tháng (10.000.000 VNĐ/tháng)**
-| **Hạng mục** | **Mô tả chi tiết** | **Chi phí (VNĐ/tháng)** |
-|-------------|--------------------|----------------|
-| **1. Hosting & Server AI** | Chi phí máy chủ chạy chatbot (AWS, Google Cloud) | 4.000.000 |
-| **2. API OpenAI** | Chi phí sử dụng OpenAI GPT-4 API | 2.000.000 |
-| **3. Bảo trì & cập nhật** | Kiểm tra lỗi, cập nhật dữ liệu chatbot | 2.000.000 |
-| **4. Hỗ trợ kỹ thuật** | CSKH, hỗ trợ lỗi 24/7 | 2.000.000 |
-| **🎯 Tổng phí duy trì** |  | **10.000.000/tháng** |
-
-✅ **Hợp đồng tối thiểu 12 tháng**  
-✅ **Thanh toán theo quý (3 tháng/lần)**  
+### 🚀 **Giai đoạn 1: Phân Tích Yêu Cầu (Week 1-2)**
+✅ Thu thập yêu cầu từ ngân hàng về chatbot.  
+✅ Xác định danh mục câu hỏi chatbot sẽ xử lý.  
+✅ Phân tích nghiệp vụ ngân hàng, tích hợp chatbot với hệ thống hiện có.  
+✅ Lên danh sách các ngữ cảnh hội thoại phổ biến.  
+✅ Định nghĩa các chỉ số hiệu suất (KPI) của chatbot.  
 
 ---
 
-## 📍 5. QUẢN LÝ RỦI RO & GIẢI PHÁP
-| Rủi ro | Giải pháp |
-|--------|----------|
-| **Chatbot trả lời sai** | Kiểm thử kỹ, cải thiện dữ liệu huấn luyện |
-| **Hiệu suất chậm khi nhiều người dùng** | Triển khai hạ tầng cloud có khả năng mở rộng |
-| **Vấn đề bảo mật** | Đáp ứng tiêu chuẩn bảo mật PCI DSS, GDPR |
+### 🎨 **Giai đoạn 2: Thiết Kế & Kiến Trúc (Week 3-4)**
+✅ Thiết kế kiến trúc chatbot (backend, NLP engine, database).  
+✅ Thiết kế giao diện UI/UX chatbot trên website ngân hàng.  
+✅ Xác định cách chatbot sẽ giao tiếp với API OpenAI.  
+✅ Thiết kế kịch bản hội thoại và logic xử lý của chatbot.  
+✅ Chuẩn bị dữ liệu huấn luyện chatbot với nội dung tiếng Lào và tiếng Anh.  
 
 ---
 
-## 📍 6. TRIỂN KHAI & HỖ TRỢ
-- 🎯 **Bảo hành 12 tháng**, sửa lỗi miễn phí.
-- 🎯 **Hỗ trợ kỹ thuật 24/7** qua email, hotline.
-- 🎯 **Cập nhật AI miễn phí trong 6 tháng đầu**.
+### 🏗 **Giai đoạn 3: Phát Triển Chatbot (Week 5-8)**
+✅ Xây dựng API chatbot bằng Flask + OpenAI API.  
+✅ Huấn luyện chatbot với dữ liệu tài chính & ngân hàng.  
+✅ Xử lý ngữ cảnh hội thoại và lịch sử trò chuyện.  
+✅ Tạo cơ chế học hỏi (fine-tuning model nếu cần).  
+✅ Kiểm thử chatbot nội bộ trước khi tích hợp với website.  
+
+---
+
+### 🔗 **Giai đoạn 4: Tích Hợp Vào Website (Week 9-10)**
+✅ Viết API kết nối chatbot với website WordPress của LVBANK.  
+✅ Tạo giao diện hộp chat (chat widget) trên website.  
+✅ Cấu hình chatbot để nhận & gửi tin nhắn trực tiếp từ khách hàng.  
+✅ Tối ưu tốc độ phản hồi & hiệu suất của chatbot.  
+✅ Kiểm tra UI/UX trên desktop & mobile.  
+
+---
+
+### 🛠 **Giai đoạn 5: Kiểm Thử & Tối Ưu (Week 11)**
+✅ Thực hiện kiểm thử chatbot với các tình huống thực tế.  
+✅ Kiểm tra tính chính xác của câu trả lời trong các ngữ cảnh khác nhau.  
+✅ Kiểm tra bảo mật dữ liệu và quyền truy cập.  
+✅ Điều chỉnh chatbot dựa trên phản hồi thử nghiệm.  
+✅ Kiểm tra khả năng mở rộng của hệ thống khi có nhiều người dùng đồng thời.  
+
+---
+
+### 🚀 **Giai đoạn 6: Triển Khai & Đào Tạo (Week 12)**
+✅ Triển khai chatbot chính thức trên website ngân hàng.  
+✅ Hướng dẫn nhân viên ngân hàng sử dụng chatbot.  
+✅ Thu thập phản hồi khách hàng để cải thiện chatbot.  
+✅ Cập nhật dữ liệu AI để chatbot ngày càng thông minh hơn.  
+✅ Lập kế hoạch bảo trì và nâng cấp định kỳ cho chatbot.  
+
+---
+
+## 📍 4. QUẢN LÝ RỦI RO & GIẢI PHÁP
+
+| **Rủi ro** | **Giải pháp** |
+|------------|--------------|
+| **Chatbot trả lời sai hoặc không chính xác** | Kiểm thử kỹ càng, liên tục cập nhật dữ liệu |
+| **Chatbot không hiểu tiếng Lào tốt** | Cải thiện dataset, fine-tune model GPT |
+| **Vấn đề bảo mật thông tin khách hàng** | Mã hóa dữ liệu, tuân thủ GDPR, không lưu dữ liệu cá nhân |
+| **Hiệu suất chậm khi có nhiều người dùng** | Triển khai hạ tầng cloud có khả năng mở rộng |
+
+---
+
+## 📍 5. QUẢN LÝ & BÁO CÁO TIẾN ĐỘ
+✅ **Công cụ quản lý dự án:** Jira / Trello.  
+✅ **Báo cáo tiến độ:** Gửi hàng tuần cho ban lãnh đạo.  
+✅ **Check-in team:** Họp hàng tuần để đánh giá tiến độ & giải quyết vấn đề.  
+
+---
+
+## 📍 6. CHÍNH SÁCH HỖ TRỢ & BẢO HÀNH
+- 🎯 **Bảo hành 12 tháng**, sửa lỗi miễn phí.  
+- 🎯 **Hỗ trợ kỹ thuật 24/7** qua email, hotline.  
+- 🎯 **Cập nhật AI miễn phí trong 6 tháng đầu**.  
 
 ---
 
