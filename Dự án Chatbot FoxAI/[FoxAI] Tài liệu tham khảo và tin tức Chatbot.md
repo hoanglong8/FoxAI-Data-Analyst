@@ -9,6 +9,8 @@
 3. **Tài liệu về TelegramBot API**:  
    [Telegram Bot API Documentation](https://github.com/eternnoir/pyTelegramBotAPI)
 
+4. **Tài liệu về Deepseek API**
+   [https://api-docs.deepseek.com/]
 ---
 
 ## 2.Một số tính năng cần phát triển trên Chatbot FoxAI
