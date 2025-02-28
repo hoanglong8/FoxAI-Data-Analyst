@@ -82,3 +82,88 @@ Chatbot AI tích hợp website ngân hàng LVBANK là một trợ lý ảo thôn
 💰 **Chi phí triển khai:** **100.000.000 VNĐ (trọn gói)**  
 🔄 **Chi phí duy trì:** **10.000.000 VNĐ/tháng**  
 
+---
+
+# 📄 SERVICE QUOTATION FOR AI CHATBOT DEPLOYMENT ON LVBANK WEBSITE  
+
+**📌 Quotation Date:** .../.../2025  
+
+**📌 Customer:** LVBANK  
+
+**📌 Service Provider:** FoxAI Technology JSC  
+
+---
+
+## 📍 1. INTRODUCTION TO AI CHATBOT SOLUTION  
+
+### 🔹 Overview  
+The AI chatbot integrated into LVBANK's website is an intelligent virtual assistant that helps customers **retrieve information**, **assist with transactions**, and **provide product consultation** quickly and accurately.  
+
+### 🔹 Benefits of AI Chatbot  
+✅ **24/7 Automated Support** – Reduces workload for customer service staff.  
+✅ **Multi-language Support** – The chatbot can communicate in **Lao & English**.  
+✅ **Seamless Website Integration** – Easy to use, no need to install additional applications.  
+✅ **High Security** – Complies with banking security standards, does not store personal data.  
+✅ **Continuous Learning & Improvement** – The more it is used, the smarter it becomes.  
+
+### 🔹 Key Features  
+- **Customer Support:** Retrieve account information, interest rates, loan details, and transaction history.  
+- **Banking Product Consultation:** Guide customers on account opening, card registration, and loans.  
+- **Live Chat with Human Agents:** Connects to customer support when the chatbot cannot resolve queries.  
+- **Reporting & Analytics:** Tracks chat volume, response rates, and customer satisfaction.  
+
+---
+
+## 📍 2. SERVICE PRICING  
+
+### 🏗 A. Implementation Cost (One-time fee: **100,000,000 VND**)  
+💰 **One-time payment** – Covers all initial deployment tasks:  
+
+| **Category** | **Description** | **Cost (VND)** |
+|-------------|--------------------|----------------|
+| **1. Analysis & Design** | Requirement gathering, chatbot conversation flow, UI design | 20,000,000 |
+| **2. Installation & Integration** | Deploying chatbot on LVBANK’s WordPress website | 30,000,000 |
+| **3. AI Training** | Training chatbot with banking & financial data | 25,000,000 |
+| **4. Testing & Optimization** | Running tests, refining chatbot responses | 15,000,000 |
+| **5. User Training** | Training bank employees on chatbot usage | 10,000,000 |
+| **🎯 Total Implementation Cost** |  | **100,000,000** |
+
+✅ **Implementation Time:** 3 weeks  
+✅ **Payment Terms:** ...% upon contract signing, ...% upon chatbot acceptance  
+
+---
+
+### 🔄 B. Monthly Maintenance Fee (**10,000,000 VND/month**)  
+💰 **Fixed monthly cost** – Ensures chatbot performance, updates, and security.  
+
+| **Category** | **Description** | **Cost (VND/month)** |
+|-------------|--------------------|----------------|
+| **1. Hosting & AI Server** | Cloud server hosting for chatbot operations | 4,000,000 |
+| **2. API LLM Engines** | API usage cost for AI processing | 2,000,000 |
+| **3. Maintenance & Updates** | Regular bug fixes, AI improvements, and data updates | 2,000,000 |
+| **4. Technical Support** | 24/7 customer service and issue resolution | 2,000,000 |
+| **🎯 Total Monthly Fee** |  | **10,000,000/month** |
+
+✅ **Minimum contract duration:** ... months  
+✅ **Payment terms:** ...  
+
+---
+
+## 📍 3. SUPPORT & WARRANTY POLICY  
+- 🎯 **Warranty for ... months**  
+- 🎯 **24/7 technical support** via hotline, email, WhatsApp.  
+- 🎯 **Regular AI Engine updates & improvements**.  
+
+---
+
+## 📍 4. WHY CHOOSE OUR AI CHATBOT?  
+🔹 **Banking Expertise:** Proven experience in AI solutions for the financial sector.  
+🔹 **Cutting-Edge Technology:** Utilizes the latest LLMs for advanced chatbot intelligence.  
+🔹 **Seamless Integration:** Compatible with all website platforms & internal banking systems.  
+🔹 **Professional Support:** Dedicated technical team for ongoing assistance and updates.  
+
+---
+
+## 📍 5. CONCLUSION  
+💰 **Implementation Cost:** **100,000,000 VND (one-time fee)**  
+🔄 **Maintenance Cost:** **10,000,000 VND/month**  
