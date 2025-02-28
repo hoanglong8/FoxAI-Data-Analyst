@@ -1,8 +1,8 @@
 # 📄 BÁO GIÁ DỊCH VỤ TRIỂN KHAI GIẢI PHÁP CHATBOT AI TÍCH HỢP TRÊN WEBSITE NGÂN HÀNG LVBANK
 
-**📌 Ngày báo giá:** [Nhập ngày]  
+**📌 Ngày báo giá:** .../.../2025 
 **📌 Khách hàng:** Ngân hàng LVBANK  
-**📌 Đơn vị cung cấp:** [Tên công ty bạn]  
+**📌 Đơn vị cung cấp:** Công ty CP Công nghệ FoxAI  
 
 ---
 
@@ -40,8 +40,8 @@ Chatbot AI tích hợp website ngân hàng LVBANK là một trợ lý ảo thôn
 | **5. Đào tạo người dùng** | Hướng dẫn nhân viên ngân hàng sử dụng chatbot | 10.000.000 |
 | **🎯 Tổng chi phí triển khai** |  | **100.000.000** |
 
-✅ **Thời gian triển khai:** 6 - 8 tuần  
-✅ **Hình thức thanh toán:** 50% khi ký hợp đồng, 50% khi nghiệm thu chatbot  
+✅ **Thời gian triển khai:** 3 tuần  
+✅ **Hình thức thanh toán:** ...% khi ký hợp đồng, ...% khi nghiệm thu chatbot  
 
 ---
 
@@ -50,47 +50,33 @@ Chatbot AI tích hợp website ngân hàng LVBANK là một trợ lý ảo thôn
 
 | **Hạng mục** | **Mô tả chi tiết** | **Chi phí (VNĐ/tháng)** |
 |-------------|--------------------|----------------|
-| **1. Hosting & Server AI** | Chi phí máy chủ chạy chatbot (AWS, Google Cloud) | 4.000.000 |
-| **2. API OpenAI** | Chi phí sử dụng OpenAI GPT-4 API | 2.000.000 |
+| **1. Hosting & Server AI** | Chi phí máy chủ chạy chatbot (Cloud Server) | 4.000.000 |
+| **2. API LLM Engines** | Chi phí sử dụng API | 2.000.000 |
 | **3. Bảo trì & cập nhật** | Kiểm tra lỗi, cải thiện AI, nâng cấp dữ liệu chatbot | 2.000.000 |
 | **4. Hỗ trợ kỹ thuật** | CSKH, hỗ trợ lỗi 24/7 | 2.000.000 |
 | **🎯 Tổng phí duy trì** |  | **10.000.000/tháng** |
 
-✅ **Hợp đồng tối thiểu 12 tháng**  
-✅ **Hình thức thanh toán:** Thanh toán theo quý (3 tháng/lần)  
+✅ **Hợp đồng tối thiểu ... tháng**  
+✅ **Hình thức thanh toán:** Thanh toán ...
 
 ---
 
 ## 📍 3. CHÍNH SÁCH HỖ TRỢ & BẢO HÀNH
-- 🎯 **Bảo hành 12 tháng** kể từ ngày nghiệm thu, bao gồm sửa lỗi miễn phí.  
-- 🎯 **Hỗ trợ kỹ thuật 24/7** qua hotline, email.  
-- 🎯 **Cập nhật AI miễn phí trong 6 tháng đầu**, sau đó tính phí theo thỏa thuận.  
+- 🎯 **Bảo hành ... tháng**
+- 🎯 **Hỗ trợ kỹ thuật 24/7** qua hotline, email, Whatsapp.
+- 🎯 **Cập nhật AI Engines mới nhất**.
 
 ---
 
 ## 📍 4. LỢI THẾ KHI CHỌN CHATBOT CỦA CHÚNG TÔI
-🔹 **Chuyên môn ngân hàng:** Đã triển khai nhiều giải pháp AI cho lĩnh vực tài chính.  
-🔹 **Công nghệ tiên tiến:** Sử dụng OpenAI GPT-4, đảm bảo chatbot thông minh & linh hoạt.  
+🔹 **Chuyên môn ngân hàng:** Đã triển khai nhiều giải pháp AI cho lĩnh vực tài chính - ngân hàng.  
+🔹 **Công nghệ tiên tiến:** Sử dụng các mô hình LLMs mới nhất, đảm bảo chatbot thông minh & linh hoạt.  
 🔹 **Tích hợp dễ dàng:** Phù hợp với mọi nền tảng website & hệ thống nội bộ ngân hàng.  
 🔹 **Hỗ trợ chuyên nghiệp:** Đội ngũ kỹ thuật luôn sẵn sàng hỗ trợ, cập nhật liên tục.  
 
 ---
 
-## 📍 5. THÔNG TIN LIÊN HỆ
-📌 **Công ty:** [Tên công ty bạn]  
-📌 **Website:** [Website công ty]  
-📌 **Email:** [Email liên hệ]  
-📌 **Hotline:** [Số điện thoại]  
-
-💡 **Hãy liên hệ ngay để trải nghiệm chatbot AI hỗ trợ ngân hàng mạnh mẽ nhất! 🚀**  
-
----
-
-## 📍 6. KẾT LUẬN
+## 📍 5. KẾT LUẬN
 💰 **Chi phí triển khai:** **100.000.000 VNĐ (trọn gói)**  
 🔄 **Chi phí duy trì:** **10.000.000 VNĐ/tháng**  
 
-👉 **Bước tiếp theo:** Ký hợp đồng & bắt đầu triển khai giai đoạn phân tích yêu cầu.  
-🔗 **Liên hệ ngay để được tư vấn chi tiết hơn!**  
-
-🚀 **Chúng tôi cam kết mang đến giải pháp AI chatbot tốt nhất cho ngân hàng LVBANK!** 🚀
