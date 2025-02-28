@@ -9,7 +9,7 @@
 3. **Tài liệu về TelegramBot API**:  
    [Telegram Bot API Documentation](https://github.com/eternnoir/pyTelegramBotAPI)
 
-4. **Tài liệu về Deepseek API**
+4. **Tài liệu về Deepseek API**:
    [https://api-docs.deepseek.com/]
 ---
 
