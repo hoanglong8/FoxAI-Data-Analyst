@@ -1,4 +1,4 @@
-# 📌 KẾ HOẠCH TRIỂN KHAI CHATBOT AI TÍCH HỢP WEBSITE NGÂN HÀNG LVBANK
+# 📌 KẾ HOẠCH TRIỂN KHAI CHI TIẾT GIẢI PHÁP CHATBOT AI TÍCH HỢP TRÊN WEBSITE NGÂN HÀNG LVBANK
 
 ## 📍 1. THÔNG TIN DỰ ÁN
 - **Tên dự án:** Phát triển Chatbot AI hỗ trợ khách hàng ngân hàng LVBANK
