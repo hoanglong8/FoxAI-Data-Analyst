@@ -223,6 +223,6 @@
 
 ✅ Hệ thống ngân hàng hiện có: 1 website [laovietbank.com.la](https://laovietbank.com.la/la/) => tích hợp nhúng vào website này.
 
-✅ Chuẩn bị 1 website nội bộ để call api, giao diện tham khảo của BIDV hoặc Vietinbank.
+✅ Chuẩn bị 1 website nội bộ để call api, giao diện tham khảo của [BIDV](https://bidv.com.vn/) hoặc [Vietinbank](https://www.vietinbank.vn/).
 
 ✅ Engines dự kiến là Chatgpt 4o-mini để đọc được hình ảnh, dễ tinh chỉnh.
