@@ -213,3 +213,16 @@
 - 🎯 **Regular AI engine updates & model improvements**.  
 
 ---
+
+## Cập nhật thông tin:
+
+### Giai đoạn 1: Chuẩn bị và thu thập
+✅ Yêu cầu của ngân hàng LVBANK về chatbot: Hỗ trợ cung cấp thông tin về services, customers, policies, FAQ.
+
+✅ Chuẩn bị data câu hỏi chatbot và các ngữ cảnh hội thoại phổ biến: Chia làm 4 nhóm trên => Đã gửi file .csv để KH chuẩn bị.
+
+✅ Hệ thống ngân hàng hiện có: 1 website [laovietbank.com.la](https://laovietbank.com.la/la/) => tích hợp nhúng vào website này.
+
+✅ Chuẩn bị 1 website nội bộ để call api, giao diện tham khảo của BIDV hoặc Vietinbank.
+
+✅ Engines dự kiến là Chatgpt 4o-mini để đọc được hình ảnh, dễ tinh chỉnh.
