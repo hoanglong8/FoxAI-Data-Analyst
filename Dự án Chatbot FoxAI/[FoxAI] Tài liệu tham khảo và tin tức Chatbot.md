@@ -140,4 +140,6 @@ The ebook should synthesize cutting-edge prompt engineering techniques while mai
 
 - Ngày 28/02/2025: [Open Deep Reasearch](https://github.com/dzhng/deep-research)
 
+- Ngày 03/03/2025: Ra mắt [CapcutGPT](https://chatgpt.com/g/g-Gpu8ZMR52-capcut-videogpt) trên GPT Stores
+
 - 
