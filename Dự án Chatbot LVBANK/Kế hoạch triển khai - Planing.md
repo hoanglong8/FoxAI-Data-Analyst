@@ -217,12 +217,12 @@
 ## Cập nhật thông tin:
 
 ### Giai đoạn 1: Chuẩn bị và thu thập
-✅ Yêu cầu của ngân hàng LVBANK về chatbot: Hỗ trợ cung cấp thông tin về services, customers, policies, FAQ.
+✅ Mục tiêu của sản phẩm chatbot ngân hàng LVBANK: Hỗ trợ cung cấp thông tin về services, customers, policies, FAQ.
 
-✅ Chuẩn bị data câu hỏi chatbot và các ngữ cảnh hội thoại phổ biến: Chia làm 4 nhóm trên => Đã gửi file .csv để KH chuẩn bị.
+✅ Chuẩn bị data câu hỏi chatbot và các ngữ cảnh hội thoại phổ biến: Chia làm 4 nhóm trên => Mr.Long đã gửi file .csv để KH chuẩn bị.
 
-✅ Hệ thống ngân hàng hiện có: 1 website [laovietbank.com.la](https://laovietbank.com.la/la/) => tích hợp nhúng vào website này.
+✅ Hệ thống ngân hàng hiện có: 1 website [laovietbank.com.la](https://laovietbank.com.la/la/) => FoxAI tích hợp nhúng vào website này.
 
-✅ Chuẩn bị 1 website nội bộ để call api, giao diện tham khảo của [BIDV](https://bidv.com.vn/) hoặc [Vietinbank](https://www.vietinbank.vn/).
+✅ Chuẩn bị 1 website nội bộ để call API (Mr.Tấn chuẩn bị), giao diện tham khảo của [BIDV](https://bidv.com.vn/) hoặc [Vietinbank](https://www.vietinbank.vn/).
 
-✅ Engines dự kiến là Chatgpt 4o-mini để đọc được hình ảnh, dễ tinh chỉnh.
+✅ Engines là `ChatGPT 4o-mini` để đọc được hình ảnh, dễ tinh chỉnh. Ngoài dữ liệu được nạp vào, nếu không tìm thấy thì chatbot phải biết search trên internet để tìm câu trả lời (lãi suất, tỷ giá... hiện thời)
