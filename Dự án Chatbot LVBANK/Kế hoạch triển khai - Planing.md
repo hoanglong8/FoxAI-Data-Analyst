@@ -216,13 +216,22 @@
 
 ## Cập nhật thông tin:
 
-### Giai đoạn 1: Chuẩn bị và thu thập
-✅ Mục tiêu của sản phẩm chatbot ngân hàng LVBANK: Hỗ trợ cung cấp thông tin về services, customers, policies, FAQ.
+Mục tiêu của sản phẩm chatbot ngân hàng LVBANK: Hỗ trợ cung cấp thông tin về Services (sản phẩm dịch vụ), Policies (chính sách), Workflow (quy trình thủ tục), FAQ (câu hỏi tình huống).
 
-✅ Chuẩn bị data câu hỏi chatbot và các ngữ cảnh hội thoại phổ biến: Chia làm 4 nhóm trên => Mr.Long đã gửi file .csv để KH chuẩn bị.
+### Giai đoạn 1: Chuẩn bị và thu thập dữ liệu
 
-✅ Hệ thống ngân hàng hiện có: 1 website [laovietbank.com.la](https://laovietbank.com.la/la/) => FoxAI tích hợp nhúng vào website này.
+- [ ] Chuẩn bị data câu hỏi chatbot và các ngữ cảnh hội thoại phổ biến: Chia làm 4 nhóm dịch vụ trên => Mr.Long đã gửi file .xlsx để KH gửi lại, phục vụ cho việc fine-tunning model.
+- [ ] Tài liệu dạng .pdf, .docx, .xlsx... thì sẽ phải convert sang dạng .csv (dạng hội thoại) để nạp vào model => Mr.Long xây dựng tài liệu hướng dẫn cách chuẩn hóa dữ liệu.
 
-✅ Chuẩn bị 1 website nội bộ để call API (Mr.Tấn chuẩn bị), giao diện tham khảo của [BIDV](https://bidv.com.vn/) hoặc [Vietinbank](https://www.vietinbank.vn/).
+### Giai đoạn 2: Thiết kế giao diện và backend
 
-✅ Engines là `ChatGPT 4o-mini` để đọc được hình ảnh, dễ tinh chỉnh. Ngoài dữ liệu được nạp vào, nếu không tìm thấy thì chatbot phải biết search trên internet để tìm câu trả lời (lãi suất, tỷ giá... hiện thời)
+- [ ] Chuẩn bị 1 domain trên server của FoxAI (ví dụ: `fox.ai.vn/chatbot_lvbank` dùng để thực thi lệnh call API ChatGPT từ file api.py), giao diện này có thể tham khảo của [BIDV](https://bidv.com.vn/) hoặc [Vietinbank](https://www.vietinbank.vn/) => Mr.Tấn phụ trách.
+
+Hệ thống ngân hàng hiện có: 1 website [laovietbank.com.la](https://laovietbank.com.la/la/) => chatbot sẽ được nhúng vào website này.
+
+### Giai đoạn 3: Huấn luyện và tinh chỉnh chatbot
+
+- [ ] NLP Engine là `ChatGPT 4o-mini` để đọc được hình ảnh, dễ tinh chỉnh => Mr.Ngọc đang thực hiện trên máy cá nhân.
+- [ ] Ngoài dữ liệu được nạp vào, nếu không tìm thấy thì chatbot phải biết search trên internet để tìm câu trả lời (lãi suất, tỷ giá... hiện thời) => Mr.Ngọc đang thực hiện trên máy cá nhân.
+
+- [ ] Tự động lưu trữ lịch sử chat theo ID của người dùng về server (theo dạng ) để tiếp tục để 
