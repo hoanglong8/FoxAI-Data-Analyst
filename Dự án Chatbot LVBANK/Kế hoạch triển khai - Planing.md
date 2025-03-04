@@ -232,6 +232,6 @@ Hệ thống ngân hàng hiện có: 1 website [laovietbank.com.la](https://laov
 ### Giai đoạn 3: Huấn luyện và tinh chỉnh chatbot
 
 - [ ] NLP Engine là `ChatGPT 4o-mini` để đọc được hình ảnh, dễ tinh chỉnh => Mr.Ngọc đang thực hiện trên máy cá nhân.
-- [ ] Ngoài dữ liệu được nạp vào, nếu không tìm thấy thì chatbot phải biết search trên internet để tìm câu trả lời (lãi suất, tỷ giá... hiện thời) => Mr.Ngọc đang thực hiện trên máy cá nhân.
+- [ ] Ngoài dữ liệu được nạp vào, nếu không tìm thấy thì chatbot phải biết search trên internet để tìm câu trả lời (lãi suất, tỷ giá... hiện thời) => Mr.Ngọc tham khảo [tại đây.](https://chatgpt.com/c/67b5cfd0-b23c-8012-afa8-c08f49a66dfe)
 
-- [ ] Tự động lưu trữ lịch sử chat theo ID của người dùng về server (theo dạng ) để tiếp tục để 
+- [ ] Tự động lưu trữ lịch sử chat theo ID của người dùng về server (theo dạng response .json) để tiếp tục huấn luyện, tăng cá nhân hóa.
