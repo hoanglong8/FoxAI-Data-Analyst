@@ -1,17 +1,68 @@
-# 1.Kế hoạch xây dựng sản phẩm Chatbot FoxAI
-**1.1.Nguyên tắc xây dựng sản phẩm:** Đứng trên vai những người khổng lồ, tức là sử dụng lõi LLMs của các nhà phát triển lớn (OpenAI, Google, Meta, Anthropic...), xây dựng thêm các tính năng vệ tinh trên đó để tạo giá trị gia tăng cho từng nhóm khách hàng cụ thể.
+# 1.Chiến lược xây dựng sản phẩm Chatbot FoxAI
+**1.1.Nguyên tắc xây dựng sản phẩm:** 
 
-**1.2.Mục tiêu:** Vừa đảm bảo hỗ trợ công việc cho các bộ phận trong Doanh nghiệp, vừa đảm bảo phân quyền bảo mật thông tin dữ liệu khách hàng.
+`Đứng trên vai những người khổng lồ`, tức là sử dụng lõi LLMs của các nhà phát triển lớn (OpenAI, Google, Meta, Anthropic...), xây dựng thêm các tính năng vệ tinh trên đó để tạo giá trị gia tăng cho từng nhóm khách hàng cụ thể.
 
-Như vậy để đáp ứng được mục tiêu và nguyên tắc trên, FoxAI đang nghiên cứu xây dựng 2 sản phẩm Chatbot AI là [Public (công khai)](https://github.com/hoanglong8/FoxAI-Data-Analyst/blob/main/docs/Chi%E1%BA%BFn%20l%C6%B0%E1%BB%A3c%20chatbot%20AI.png) và [Private (Bảo mật)](https://github.com/hoanglong8/FoxAI-Data-Analyst/blob/main/Image/Workflow_Chatbot_Private.png), chi tiết xem [tại đây:](https://hoanglong8.github.io/FoxAI-Data-Analyst/Chien_luoc_chatbot_FoxAI.html)
+**1.2.Giá trị mục tiêu của sản phẩm:** 
+
+Vừa đảm bảo `hỗ trợ công việc` cho các bộ phận trong Doanh nghiệp, vừa đảm bảo phân quyền `bảo mật thông tin` dữ liệu khách hàng.
+
+Như vậy để đáp ứng được `mục tiêu` và `nguyên tắc` trên, dựa trên `mức độ chia sẻ thông tin`, FoxAI đang nghiên cứu xây dựng 2 sản phẩm Chatbot AI là [Public (công khai)](https://github.com/hoanglong8/FoxAI-Data-Analyst/blob/main/docs/Chi%E1%BA%BFn%20l%C6%B0%E1%BB%A3c%20chatbot%20AI.png) và [Private (Bảo mật)](https://github.com/hoanglong8/FoxAI-Data-Analyst/blob/main/Image/Workflow_Chatbot_Private.png), chi tiết xem [tại đây:](https://hoanglong8.github.io/FoxAI-Data-Analyst/Chien_luoc_chatbot_FoxAI.html)
+
 ![Hình ảnh:](https://github.com/hoanglong8/FoxAI-Data-Analyst/blob/main/docs/Chi%E1%BA%BFn%20l%C6%B0%E1%BB%A3c%20chatbot%20AI.png)
 
-* **Chatbot Public:** hướng dẫn người dùng các tính năng và cách khắc phục các lỗi phổ biến khi sử dụng SAP và các sản phẩm FoxAI cung cấp, giúp bộ phận bảo trì FoxAI giảm thiểu thời gian, công sức hỗ trợ
-![Hình ảnh](https://github.com/hoanglong8/FoxAI-Data-Analyst/blob/main/Image/Chatbot_Public_GPTStores.png)
+* **Chatbot Public:** Có thể sử dụng cho nhiều người dùng bên ngoài doanh nghiệp, không bị hạn chế truy cập. Với chức năng chính là hướng dẫn người dùng các tính năng và cách khắc phục các lỗi phổ biến khi sử dụng sản phẩm, từ đó giúp bộ phận bảo trì - dịch vụ KH giảm thiểu thời gian, công sức hỗ trợ.
+![Mô hình Public](https://github.com/hoanglong8/FoxAI-Data-Analyst/blob/main/Image/Chatbot_Public_GPTStores.png)
 
-* **Chatbot Private:** hỗ trợ các bộ phận trong doanh nghiệp thực hiện các tác vụ chuyên sâu và có tính bảo mật thông tin cao như doanh thu, chi phí, lãi lỗ, công nợ, tồn kho... (xem chi tiết trong phần 2)
-![Hình ảnh](https://github.com/hoanglong8/FoxAI-Data-Analyst/blob/main/Image/Workflow_Chatbot_Private.png)
+📌 Đặc điểm:
 
+ ✅ Truy cập mở, ai cũng có thể sử dụng
+
+ ✅ Không cần dữ liệu nhạy cảm, chỉ cung cấp thông tin chung
+
+ ✅ Thường triển khai trên Website, app Mobile, Messenger, Zalo, Telegram, WhatsApp...
+
+📌 Ứng dụng:
+* Hỗ trợ khách hàng tự động (FAQ, hướng dẫn sử dụng sản phẩm)
+* Chatbot bán hàng, tư vấn
+* Tư vấn tài chính, giáo dục, y tế...
+
+📌 Một số phương pháp huấn luyện cho Public Chatbot:
+|Phương pháp huấn luyện|	Mô tả	|Khi nào nên dùng|
+|---|---|---|
+|LangChain + GPT-4o (Truy xuất dữ liệu real-time)	|Chatbot có thể tìm kiếm thông tin từ API, website	|Khi cần chatbot cập nhật dữ liệu mới nhất (tỷ giá, giá vàng, sản phẩm mới)|
+|n8n + GPT (No-Code/Low-Code)	|Tạo chatbot dễ dàng mà không cần code|	Khi doanh nghiệp muốn chatbot nhanh chóng tích hợp với CRM, Google Sheets|
+|Fine-tuning ChatGPT	|Tạo chatbot có phong cách phản hồi riêng biệt|	Khi muốn chatbot học theo cách nói và phản hồi riêng của thương hiệu|
+|Chatbot Messenger/Zalo/Telegram|	Tích hợp chatbot vào nền tảng nhắn tin phổ biến|	Khi cần chatbot phục vụ khách hàng 24/7|
+|Tích hợp chatbot vào website (Gradio, Streamlit, FastAPI)	|Tạo chatbot trên website|	Khi muốn chatbot hỗ trợ khách hàng trên trang web|
+|Chatbot với Rasa (NLP nâng cao)|	Chatbot AI có thể hiểu ngữ cảnh, hội thoại|	Khi cần chatbot xử lý nhiều câu hỏi phức tạp hơn FAQ thông thường|
+
+* **Chatbot Private:** Chỉ dùng nội bộ doanh nghiệp, có phân quyền, bảo mật dữ liệu. Với chức năng chính là hỗ trợ các bộ phận trong doanh nghiệp thực hiện các tác vụ chuyên sâu và có tính bảo mật thông tin cao như doanh thu, chi phí, lãi lỗ, công nợ, tồn kho... (xem chi tiết trong phần 2).
+![Mô hình Private](https://github.com/hoanglong8/FoxAI-Data-Analyst/blob/main/Image/Workflow_Chatbot_Private.png)
+
+📌 Đặc điểm:
+
+✅ Chỉ nhân viên có quyền truy cập mới sử dụng
+
+✅ Truy vấn dữ liệu nhạy cảm (hợp đồng, dữ liệu tài chính, thông tin nhân sự, báo cáo kinh doanh...)
+
+✅ Thường triển khai dưới dạng ứng dụng nội bộ (Web App, API, Slack, Microsoft Teams...)
+
+✅ Cần bảo mật cao (có phân quyền truy cập, mã hóa dữ liệu)
+
+📌 Ứng dụng:
+* Chatbot tìm kiếm tài liệu nội bộ (báo cáo doanh thu, hợp đồng, kế hoạch sản xuất)
+* Chatbot hỗ trợ quy trình doanh nghiệp (tạo báo cáo, đặt hàng, quản lý nhân sự)
+* Chatbot hỗ trợ lập trình viên DevOps (tự động hóa quy trình CI/CD)
+
+📌 Một số phương pháp huấn luyện cho Private Chatbot:
+|Phương pháp huấn luyện|	Mô tả|	Khi nào nên dùng|
+|---|---|---|
+|LangChain + GPT-4o + Vector Database (FAISS, Pinecone, ChromaDB)	|Tìm kiếm tài liệu nội bộ bằng AI	|Khi cần chatbot tra cứu tài liệu nội bộ nhanh chóng|
+|Chatbot nội bộ với SQL Database|	Chatbot kết nối trực tiếp với MySQL, PostgreSQL	|Khi nhân viên cần truy vấn dữ liệu kinh doanh (kho hàng, doanh thu, khách hàng)|
+|LLaMA 2 / Mistral (Chạy mô hình AI nội bộ)	|Triển khai chatbot AI mà không gửi dữ liệu ra ngoài|	Khi doanh nghiệp không muốn sử dụng GPT-4 trên cloud vì bảo mật dữ liệu|
+|Tích hợp chatbot vào Slack, Microsoft Teams	|Chatbot dành cho nhân viên công ty	|Khi muốn chatbot hỗ trợ nội bộ (HR, IT, hỗ trợ kỹ thuật)|
+|Rasa (On-Premise NLP)	|Chatbot có thể xử lý hội thoại nội bộ, không gửi dữ liệu ra cloud	|Khi cần bảo mật cao, dữ liệu không được phép ra khỏi hệ thống nội bộ|
 
 # 2.Các tác vụ chuyên sâu Chatbot Private có thể hỗ trợ đối với từng bộ phận trong Doanh Nghiệp
 
@@ -28,10 +79,9 @@ Như vậy để đáp ứng được mục tiêu và nguyên tắc trên, FoxAI
 | **Tài chính - Kế toán**| Kiểm tra công nợ, tạo báo cáo tài chính, theo dõi hóa đơn | SAP Service Layer, SendGrid API                   | 70%                              |
 | **Quản lý tài liệu**   | Tìm kiếm tài liệu nội bộ, hướng dẫn sử dụng hệ thống, đào tạo nhân viên | Google Drive API, SharePoint API, OpenAI API      | 85%                              |
 
-🔹 **Tóm tắt**
-Chatbot Private có thể giúp doanh nghiệp **tự động hóa từ 60% - 90%** công việc, giảm thời gian xử lý thủ công và tăng hiệu suất làm việc.
+Như vậy, Chatbot Private có thể giúp doanh nghiệp **tự động hóa từ 60% - 90%** công việc, giảm thời gian xử lý thủ công và tăng hiệu suất làm việc.
 
-# 3.Dự kiến lộ trình xây dựng sản phẩm Chatbot SAP Assistant FoxAI
+# 3.Lộ trình xây dựng 2 dòng sản phẩm Chatbot FoxAI
 
 **3.1. Đối với sản phẩm Chatbot Public**
 
