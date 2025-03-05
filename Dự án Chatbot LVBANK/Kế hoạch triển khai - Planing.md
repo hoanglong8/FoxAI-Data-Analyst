@@ -225,13 +225,13 @@ Mục tiêu của sản phẩm chatbot ngân hàng LVBANK: Hỗ trợ cung cấp
 
 ### Giai đoạn 2: Thiết kế giao diện và backend
 
-- [ ] Chuẩn bị 1 domain trên server của FoxAI (ví dụ: `fox.ai.vn/chatbot_lvbank` dùng để thực thi lệnh call API ChatGPT từ file api.py), giao diện này có thể tham khảo của [BIDV](https://bidv.com.vn/) hoặc [Vietinbank](https://www.vietinbank.vn/) => Mr.Tấn phụ trách.
+- [ ] Chuẩn bị 1 domain trên server của FoxAI (ví dụ: `fox.ai.vn/chatbot_lvbank` dùng để thực thi lệnh call API ChatGPT từ file api.py), giao diện này có thể tham khảo của [BIDV](https://bidv.com.vn/) hoặc [Vietinbank](https://www.vietinbank.vn/) Người dùng lần đầu truy cập thì cần khai báo `Ten` và `SĐT` lưu trên local storage => Mr.Tấn phụ trách.
 
 Hệ thống ngân hàng hiện có: 1 website [laovietbank.com.la](https://laovietbank.com.la/la/) => chatbot sẽ được nhúng vào website này.
 
 ### Giai đoạn 3: Huấn luyện và tinh chỉnh chatbot
 
-- [ ] NLP Engine là `ChatGPT 4o-mini` để đọc được hình ảnh, dễ tinh chỉnh => Mr.Ngọc đang thực hiện trên máy cá nhân.
+- [ ] NLP Engine là `ChatGPT 4o` để đọc được hình ảnh, dễ tinh chỉnh => Mr.Ngọc đang thực hiện trên máy cá nhân.
 - [ ] Ngoài dữ liệu được nạp vào, nếu không tìm thấy thì chatbot phải biết search trên internet để tìm câu trả lời (lãi suất, tỷ giá... hiện thời) => Mr.Ngọc tham khảo [tại đây.](https://chatgpt.com/c/67b5cfd0-b23c-8012-afa8-c08f49a66dfe)
 
 - [ ] Tự động lưu trữ lịch sử chat theo ID của người dùng về server (theo dạng response .json) để tiếp tục huấn luyện, tăng cá nhân hóa.
