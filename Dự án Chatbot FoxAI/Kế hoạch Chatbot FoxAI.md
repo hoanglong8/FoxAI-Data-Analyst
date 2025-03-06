@@ -141,7 +141,12 @@ Trong ảnh trên:
 * **Tool:** Thiết lập mô hình tìm kiếm thông tin Retrieval Augmented Generation (RAG) trong Documents (tài liệu đã vector hóa), Forum (Diễn đàn kiến thức trên internet), current workflow... để tạo phản hồi.
 
 
-# 4.Cập nhật lộ trình sản phẩm
+# 4.Cập nhật tiến độ sản phẩm
+## Chatbot public
+
+### Fine-tuning (tinh chỉnh) mô hình GPT-4o
+
+![Hình ảnh](https://github.com/hoanglong8/FoxAI-Data-Analyst/blob/main/Image/Fine%20Tuning.png)
 
 **4.1.Giao diện Chatbot trên Website**
 
@@ -152,7 +157,7 @@ Trong ảnh trên:
 
 **4.2.Giao diện Chatbot trên Telegram**
 
-  * Link [Telegram](https://t.me/foxaichatbot) (hiện nay đã có thể nhận diện hình ảnh, bộ nhớ tạm thời của history chat thì phải lưu thủ công trên máy chủ => Nghiên cứu tool tự động lưu trên máy chủ)
+  * Link [Telegram](https://t.me/foxaichatbot) (Chatbot đã có thể nhận diện hình ảnh, máy chủ đã tự động lưu trữ history chat theo từng ID người dùng, nghiên cứu dùng các extension, plugin api để cập nhật `các thông tin realtime`: tỷ giá, lãi suất, giá vàng, giá dầu,thời tiết...)
 ![Hình ảnh](https://github.com/hoanglong8/FoxAI-Data-Analyst/blob/main/Image/Chatbot%20FoxAI%204.png)
 
 **4.3.Giao diện Chatbot trên Zalo**
@@ -169,5 +174,25 @@ Trong ảnh trên:
 **4.5.Giao diện Add-on trên SAP B1**
 
   * ... Đang cập nhật
+
+## Chatbot Private
+
+**4.1.Workflow AI Agent**
+
+```mermaid
+graph TD;
+    User_hỏi --> 1.Truy_vấn_dữ_liệu_SQL --> 2.Truy_vấn_trong_data_vector --> 3.Hỏi_chatbot_public --> Phản_hồi
+
+```
+
+**4.2.Luồng truy vấn dữ liệu SQL**
+
+![Hình ảnh](https://github.com/hoanglong8/FoxAI-Data-Analyst/blob/main/Image/Workflow%20truy%20v%E1%BA%A5n%20SQL.jpg)
+
+**4.3.Luồng truy vấn dữ liệu phi cấu trúc**
+
+
+**4.4.Luồng call API chatbot public**
+
 
 Thông tin các ứng dụng chatbot khác để tham khảo [tại đây](https://github.com/hoanglong8/FoxAI-Data-Analyst/blob/main/D%E1%BB%B1%20%C3%A1n%20Chatbot%20FoxAI/%5BFoxAI%5D%20T%C3%A0i%20li%E1%BB%87u%20tham%20kh%E1%BA%A3o%20v%C3%A0%20tin%20t%E1%BB%A9c%20Chatbot.md)
