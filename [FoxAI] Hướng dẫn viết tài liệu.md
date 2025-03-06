@@ -13,6 +13,7 @@
    * [Markdown](#1-1-Ngôn-ngữ-Markdown)
    * [HTML](#1-2-Ngôn-ngữ-HTML)
    * [StackEdit](https://stackedit.io/app#)
+   * [Glasp](https://github.com/hoanglong8/FoxAI-Data-Analyst/blob/main/Image/Transcript%20and%20Summary.png)
 2. [Công cụ trực quan hóa](#2-CÁC-CÔNG-CỤ-TRỰC-QUAN-HÓA)
    * [Mermaid](#2-1-Công-cụ-Mermaid)
    * [Planttext](https://planttext.com/)
@@ -129,6 +130,14 @@ Xem thêm:
 Kết quả đầu ra:
 
 ![Ảnh](https://github.com/hoanglong8/FoxAI-Data-Analyst/blob/main/Image/Stackedit.png)
+
+### 1-4-Công cụ Glasp - Transcript & Summary
+
+[Glasp](https://chromewebstore.google.com/detail/chatgpt-youtube-summary-b/cdjifpfganmhoojfclednjdnnpooaojb?hl=vi&utm_source=ext_sidebar) là 1 plugin extensions của Chrome giúp trích xuất sub và tổng hợp nội dung của các video trên Youtube. Từ đó giúp bạn nhanh chóng nắm bắt được nội dung, ý tưởng chính của tác giả, giúp nâng cao hiệu suất học tập và làm việc.
+
+Bạn có thể copy transcript vào ChatGPT để tóm tắt nội dung chính, trả về kết quả dưới dạng mã Markdown rồi copy vào công cụ [Markmap](https://markmap.js.org/repl) (ở phần 2) để trực quan hóa thành sơ đồ Mindmap.
+
+![Hình ảnh](https://github.com/hoanglong8/FoxAI-Data-Analyst/blob/main/Image/Transcript%20and%20Summary.png)
 
 ## 2-CÁC CÔNG CỤ TRỰC QUAN HÓA
 [⬆️](#nội-dung)
