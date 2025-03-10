@@ -134,7 +134,7 @@ The ebook should synthesize cutting-edge prompt engineering techniques while mai
 
 - Ngày 22/02/2025: Tự tạo chatbot bằng RAG ([Drop-Rag](https://github.com/bangoc123/drop-rag))
 
-- Ngày 26/02/2025: Trình đọc [OCR](https://github.com/allenai/olmocr) quang học
+- Ngày 26/02/2025: Trình đọc [OCR](https://github.com/allenai/olmocr) nhận diện quang học
 
 - Ngày 27/02/2025: AI Agent tự động viết bài [Omnitool](https://github.com/microsoft/OmniParser/tree/master/omnitool) của Microsoft
 
@@ -142,4 +142,4 @@ The ebook should synthesize cutting-edge prompt engineering techniques while mai
 
 - Ngày 03/03/2025: Ra mắt [CapcutGPT](https://chatgpt.com/g/g-Gpu8ZMR52-capcut-videogpt) trên GPT Stores
 
-- 
+- Ngày 06/03/2025: Đại học Stanford ra mắt [Storm AI](https://storm.genie.stanford.edu/) giúp tạo article có trích dẫn nguồn từ Wikipedia một cách nhanh chóng (hiện tại chỉ đang hỗ trợ prompt tiếng anh).
